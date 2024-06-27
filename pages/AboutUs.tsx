@@ -1,6 +1,7 @@
 import MissionSection from "@/components/MissionSection";
 import Navbar from "@/components/Navbar";
 import StorySection from "@/components/StorySection";
+import Team from "@/components/Team";
 import Image from "next/image";
 import React from "react";
 
@@ -42,14 +43,10 @@ export default function AboutUs() {
       </section>
 
       <section className=" absolute z-10 w-full">
-        <img
-          className="w-screen  z-20 relative"
-          src="/bg.svg"
-          alt=""
-        />
+        <img className="w-screen  z-20 relative" src="/bg.svg" alt="" />
       </section>
 
-      <section className="px-5 pt-20 overflow-hidden bg-desertSand py-16 lg:px-20">
+      <section className="px-5 pt-20 overflow-hidden bg-isabelline py-16 lg:px-20">
         <div className=" py-16 px-8">
           <div className="text-center mb-12">
             <div className="flex  text-4xl uppercase">
@@ -146,7 +143,9 @@ export default function AboutUs() {
                 </p>
               </div>
               <div className="text-center">
-                <h3 className="text-xl mb-4 font-semibold">Cultural Immersion</h3>
+                <h3 className="text-xl mb-4 font-semibold">
+                  Cultural Immersion
+                </h3>
                 <span className="mt-5 flex justify-center">
                   <svg
                     width="153"
@@ -178,6 +177,95 @@ export default function AboutUs() {
           src="/bg.svg"
           alt=""
         />
+      </section>
+
+      <section>
+        <Team />
+      </section>
+
+
+      <section className="bg-isabelline">
+
+      <div className="max-w-7xl py-16 mt-20 mx-auto px-4 bg-isabelline overflow-hidden sm:px-6 lg:px-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className="my-auto">
+            <div className="flex mb-10  text-4xl uppercase">
+              {" "}
+              <h2 className="pt-1 text-oxfordBlue">our</h2>
+              <div className="image-container relative">
+                <img src="/textbg.png" alt="" />
+                <div className="text-overlay absolute top-0  pl-5 pt-1 justify-center ">
+                  <p
+                    style={{ fontFamily: "bagea" }}
+                    className="top-0 pl-2 text-white bottom-5"
+                  >
+                    commitment
+                  </p>
+                </div>
+              </div>
+            </div>
+            <p className="mb-5">
+              Commitment to eco-friendly practices and supporting local
+              communities.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation
+            </p>
+          </div>
+
+          <div >
+            <div className="relative">
+              <img src="/aboutUs/commit.png" alt="" />
+             
+           
+            <div className="absolute top-[100px] left-[-300px] -rotate-[89.5deg]   ">
+              <img className="lg:w-[665px] lg:h-[112px]" src="/aboutUs/c2.png" alt="" />
+            </div>
+            <div className="absolute top-[100px] right-[-300px] lg:w-[665px] lg:h-[112px] overflow-hidden rotate-[89.5deg]   ">
+              <img className="lg:w-[665px] lg:h-[112px]" src="/aboutUs/c2.png" alt="" />
+            </div>
+            <div className="absolute bottom-[-10px] lg:w-[665px] lg:h-[112px] overflow-hidden left-[0px] rotate-[179.5deg]   ">
+              <img className="lg:w-[665px] lg:h-[112px]" src="/aboutUs/c2.png" alt="" />
+            </div>
+            <div className="absolute top-[-50px]">
+              <img className="lg:w-[665px] lg:h-[112px]" src="/aboutUs/c2.png" alt="" />
+            </div>
+            <div className="-rotate-12  top-0 left-0 absolute md:top-[0px] md:left-[300px]  md:w-[207px] md:h-[209px] bg-white shadow-lg">
+            <div className="p-2 overflow-hidden">
+              <img
+                src="/aboutUs/c4.png"
+                alt="Create memories"
+                className="rounded-lg  shadow-lg"
+              />
+            </div>
+            <div className="absolute  bottom-4 left-[30px] bg-white px-4 rounded-lg shadow-md">
+              <p
+                style={{ fontFamily: "bagea" }}
+                className="text-sm  justify-center  "
+              >
+                Create memories
+              </p>
+            </div>
+          </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </section>
+
+
+      <section style={{backgroundImage: 'url("/home6.png")', backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat',}} className=" h-[265px] w-full">
+        <div className="justify-center gap-8 py-24 flex">
+          <label
+            htmlFor="my-modal"
+            className="search-button border-2 border-gray-600 bg-white w-1/2 py-4 px-6 rounded-lg "
+          >
+            <h2 className="text-2xl"> Email</h2>
+          </label>
+          <button className=" border-2 border-gray-600 w-1/4 py-4 px-6 uppercase bg-tropicalRainForest text-white rounded-lg">SUBSCRIBE OUR NEWSLETTER</button>
+        </div>
       </section>
     </div>
   );

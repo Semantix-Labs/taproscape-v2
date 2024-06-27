@@ -98,7 +98,7 @@ export default function Home() {
         <img className="w-screen  z-20 relative" src="/bg.svg" alt="" />
       </section>
 
-      <section className="mt-20 py-20 bg-desertSand">
+      <section className="mt-20 py-20 bg-isabelline">
         <Carousel />
       </section>
 
