@@ -9,7 +9,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-none lg:px-40 fixed z-50 w-full border-gray-200 dark:bg-gray-900 ">
+    <nav className="bg-none lg:px-20 fixed z-50 w-full border-gray-200 dark:bg-gray-900 ">
       <div className="max-w-screen flex flex-wrap items-center justify-between mx-auto p-4">
         <img src="/logo1.png" alt="Logo" />
 

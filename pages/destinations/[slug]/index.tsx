@@ -9,11 +9,13 @@ import React from "react";
 // Define the type for the props passed to the destination detail page
 type DestinationDetailProps = {
   destinationname: string;
-  artiImge: string;
-  artiText: string;
+  artiImge: string[];
+  artiText: string[];
   author: string;
   authorName: string;
-  authorText:string;
+  authorText: string;
+  TourImage: string[];
+  TourText: string[];
 };
 
 const DestinationDetail: NextPage<DestinationDetailProps> = ({
@@ -23,7 +25,8 @@ const DestinationDetail: NextPage<DestinationDetailProps> = ({
   author,
   authorName,
   authorText,
-  
+  TourImage,
+  TourText,
 }) => {
   const router = useRouter();
 
@@ -97,70 +100,59 @@ const DestinationDetail: NextPage<DestinationDetailProps> = ({
           </div>
           <div className="grid col-span-1 md:col-span-5 lg:col-span-4">
             <Card className="p-4 bg-white shadow-xl outline outline-offset-4 outline-gray-200 md:mt-[-200px] z-20 mb-10 text-center">
-                <h1 className="text-oxfordBlue text-xl md:text-5xl md:mt-[-70px] lg:mt-[-40px] ">About author</h1>
-                <img className="w-[231px] flex justify-center mx-auto mb-5" src="/undeline.svg" alt="" />
+              <h1 className="text-oxfordBlue text-xl uppercase md:text-4xl ">
+                About author
+              </h1>
+              <img
+                className="w-[231px] flex justify-center mx-auto mb-5"
+                src="/undeline.svg"
+                alt=""
+              />
               <img
                 src={author}
                 alt="Author"
                 className="w-24 h-24 mx-auto rounded-full mb-4"
               />
               <h2 className="text-2xl font-bold mb-2">{authorName}</h2>
-              <p className="">
-              {authorText}
-              </p>
+              <p className="">{authorText}</p>
             </Card>
             <Card className="p-8 bg-white shadow-xl">
-              <h2 className="text-2xl font-bold mb-4 text-center">
-                Tour Packages
-              </h2>
+              <h1 className="text-oxfordBlue uppercase text-xl md:text-4xl  ">
+                Tour Packeges
+              </h1>
+              <img
+                className="w-[231px] flex justify-center mx-auto mb-5"
+                src="/undeline.svg"
+                alt=""
+              />
               <div className="space-y-4">
-                <div className="flex items-center">
-                  <img
-                    src="/path/to/honeymoon.jpg"
-                    alt="Honeymoon Tours"
-                    className="w-1/3 object-cover"
-                  />
-                  <span className="ml-4">Honeymoon Tours</span>
-                </div>
-                <div className="flex items-center">
-                  <img
-                    src="/path/to/wellness.jpg"
-                    alt="Wellness Tours"
-                    className="w-1/3 object-cover"
-                  />
-                  <span className="ml-4">Wellness Tours</span>
-                </div>
-                <div className="flex items-center">
-                  <img
-                    src="/path/to/family.jpg"
-                    alt="Family Tours"
-                    className="w-1/3 object-cover"
-                  />
-                  <span className="ml-4">Family Tours</span>
-                </div>
-                <div className="flex items-center">
-                  <img
-                    src="/path/to/adventure.jpg"
-                    alt="Adventure Tours"
-                    className="w-1/3 object-cover"
-                  />
-                  <span className="ml-4">Adventure Tours</span>
-                </div>
-                <div className="flex items-center">
-                  <img
-                    src="/path/to/cultural.jpg"
-                    alt="Cultural Tours"
-                    className="w-1/3 object-cover"
-                  />
-                  <span className="ml-4">Cultural Tours</span>
-                </div>
+                {TourImage.map((photo, imgIndex) => (
+                  <div key={imgIndex} className="flex items-center">
+                    <img
+                      src={photo}
+                      alt="Honeymoon Tours"
+                      className="w-1/3 object-cover"
+                    />
+                    <h2 className=" text-xl md:text-2xl ml-4">{TourText[imgIndex]}</h2>
+                  </div>
+                ))}
               </div>
             </Card>
           </div>
         </div>
       </section>
 
-      
+      <section style={{backgroundImage: 'url("/home6.png")', backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat',}} className="mt-20  h-[265px] w-full">
+        <div className="justify-center gap-8 py-24 flex">
+          <label
+            htmlFor="my-modal"
+            className="search-button border-2 border-gray-600 bg-white w-1/2 py-4 px-6 rounded-lg "
+          >
+            <h2 className="text-2xl"> Email</h2>
+          </label>
+          <button className=" border-2 border-gray-600 w-1/4 py-4 px-6 uppercase bg-tropicalRainForest text-white rounded-lg">SUBSCRIBE OUR NEWSLETTER</button>
+        </div>
+      </section>
     </div>
   );
 };
@@ -198,74 +190,96 @@ export const getStaticProps: GetStaticProps = async (context) => {
       artiText: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
         "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem",
-        "quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatu"
-    ],
-     author:"/Destination/author/1.jpeg",
-     authorName:"Author Name",
-     authorText:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatu",
+      ],
+      author: "/Destination/author/1.jpeg",
+      authorName: "Author Name",
+      authorText:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      TourImage: [
+        "/Destination/tour/1.png",
+        "/Destination/tour/2.png",
+        "/Destination/tour/3.png",
+        "/Destination/tour/4.png",
+        "/Destination/tour/5.png",
+      ],
+      TourText: [
+        "Honeymoon Tours",
+        "Wellness Tours",
+        "Family Tours",
+        "Adventure Tours",
+        "Cultural Tours",
+      ],
     },
     destination2: {
-     
       destinationname: "",
-      artiImge: "",
+      artiImge: [" "],
       artiText: ["fff", "ddd"],
-      author:"/Destination/author/1.png",
-      authorName:"Author Name",
-      authorText:"Lorem Ipsum Event 1",
+      author: "/Destination/author/1.png",
+      authorName: "Author Name",
+      authorText: "Lorem Ipsum Event 1",
+      TourImage: [],
+      TourText: []
     },
     destination3: {
-     
       destinationname: "",
-      artiImge: "",
+      artiImge: [],
       artiText: ["fff", "ddd"],
-      author:"/Destination/author/1.png",
-      authorName:"Author Name",
-      authorText:"Lorem Ipsum Event 1",
+      author: "/Destination/author/1.png",
+      authorName: "Author Name",
+      authorText: "Lorem Ipsum Event 1",
+      TourImage: [],
+      TourText: []
     },
     destination4: {
-    
       destinationname: "",
-      artiImge: "",
+      artiImge:[],
       artiText: ["fff", "ddd"],
-      author:"/Destination/author/1.png",
-      authorName:"Author Name",
-      authorText:"Lorem Ipsum Event 1",
+      author: "/Destination/author/1.png",
+      authorName: "Author Name",
+      authorText: "Lorem Ipsum Event 1",
+      TourImage: [],
+      TourText: []
     },
     destination5: {
-      
       destinationname: "",
-      artiImge: "",
-      artiText: "",
-      author:"/Destination/author/1.png",
-      authorName:"Author Name",
-      authorText:"Lorem Ipsum Event 1",
+      artiImge: [],
+      artiText:[],
+      author: "/Destination/author/1.png",
+      authorName: "Author Name",
+      authorText: "Lorem Ipsum Event 1",
+      TourImage: [],
+      TourText: []
     },
     destination6: {
-     
       destinationname: "",
-      artiImge: "",
-      artiText: "",
-      author:"/Destination/author/1.png",
-      authorName:"Author Name",
-      authorText:"Lorem Ipsum Event 1",
+      artiImge: [],
+      artiText: [],
+      author: "/Destination/author/1.png",
+      authorName: "Author Name",
+      authorText: "Lorem Ipsum Event 1",
+      TourImage: [],
+      TourText: []
     },
     destination7: {
-      
       destinationname: "",
-      artiImge: "",
-      artiText: "",
-      author:"/Destination/author/1.png",
-      authorName:"Author Name",
-      authorText:"Lorem Ipsum Event 1",
+      artiImge:[],
+      artiText: [],
+      author: "/Destination/author/1.png",
+      authorName: "Author Name",
+      authorText: "Lorem Ipsum Event 1",
+      TourImage: [],
+      TourText: []
     },
     destination8: {
-     
       destinationname: "",
-      artiImge: "",
-      artiText: "",
-      author:"/Destination/author/1.png",
-      authorName:"Author Name",
-      authorText:"Lorem Ipsum Event 1",
+      artiImge: [],
+      artiText: [],
+      author: "/Destination/author/1.png",
+      authorName: "Author Name",
+      authorText: "Lorem Ipsum Event 1",
+      TourImage: [],
+      TourText: []
     },
   };
 

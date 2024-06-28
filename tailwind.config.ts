@@ -24,6 +24,7 @@ const config: Config = {
         desertSand: '#E6C9A8',
         isabelline: '#F7F3EE',
         sinopia: '#D94C12',
+        cutspink:'#F9E0C5',
       },
     },
   },
