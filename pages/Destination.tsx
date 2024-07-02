@@ -13,7 +13,7 @@ export default function Destination() {
       <section className="flex ">
         <div className="image-container relative">
           <img src="/home.png" className=" w-screen brightness-50" alt="" />
-          <div className="text-overlay absolute md:left-40 bottom-5 md:bottom-20 p-4">
+          <div className="text-overlay absolute lg:left-20 left-5 xl:left-40 bottom-5 md:bottom-20 p-4">
             <h1
               style={{ lineHeight: "68px", fontFamily: "bagea" }}
               className="text-white max-w-2xl font-normal text-3xl md:text-7xl "
@@ -21,13 +21,13 @@ export default function Destination() {
               Destinations
             </h1>
           </div>
-          <div className="text-overlay absolute md:right-96 bottom-5 md:bottom-20 p-4">
+          <div className="text-overlay hidden xl:inline absolute md:right-96 bottom-5 md:bottom-20 p-4">
             <img src="/Destination/h1.png" alt="" />
           </div>
-          <div className="text-overlay absolute md:right-48 bottom-5 md:bottom-20 p-4">
+          <div className="text-overlay absolute hidden lg:inline md:right-48 bottom-5 md:bottom-20 p-4">
             <img src="/Destination/h2.png" alt="" />
           </div>
-          <div className="text-overlay absolute md:right-0 bottom-5 md:bottom-20 p-4">
+          <div className="text-overlay hidden md:inline absolute md:right-0 bottom-5 md:bottom-20 p-4">
             <img src="/Destination/h3.png" alt="" />
           </div>
         </div>
@@ -41,7 +41,7 @@ export default function Destination() {
         />
       </section>
 
-      <section>
+      <section className="px-5 lg:px-20 2xl:px-40 ">
         <Overview />
       </section>
 
@@ -63,17 +63,17 @@ export default function Destination() {
       <section className="py-28">
         <div className="max-w-7xl px-4 sm:px-6 lg:px-8 mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
           <div className="my-auto">
-            <div className="flex py-10 text-4xl uppercase">
+          <div className="flex text-xl md:text-2xl mb-5 lg:text-3xl xl:text-4xl uppercase">
               {" "}
-              <h2 className="pt-1 text-oxfordBlue">Lorem </h2>
+              <h2 className="pt-1 text-oxfordBlue">lorem </h2>
               <div className="image-container relative">
-                <img src="/textbg.png" alt="" className="w-[360px] h-[59px]" />
+                <img className="w-28 lg:w-[305px] h-[50px] md:w-full" src="/textbg.png" alt="" />
                 <div className="text-overlay absolute top-0  pl-5 pt-1 justify-center ">
                   <p
                     style={{ fontFamily: "bagea" }}
-                    className="top-0 pl-2 text-white bottom-5"
+                    className="top-0 pl-2 flex text-white bottom-5"
                   >
-                    Tour Packages
+                   Tour packages
                   </p>
                 </div>
               </div>

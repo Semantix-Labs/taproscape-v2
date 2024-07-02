@@ -22,7 +22,7 @@ const Carousel: React.FC = () => {
       {
         breakpoint: 2560,
         settings: {
-          slidesToShow: 5,
+          slidesToShow: 4,
           slidesToScroll: 1,
         },
       },
@@ -87,39 +87,48 @@ const Carousel: React.FC = () => {
 
   return (
     <div className={styles.carouselContainer}>
-      <div className="flex justify-center text-4xl uppercase">
-        <h2 className="pt-1 text-oxfordBlue">best</h2>
-        <div className="image-container relative">
-          <img src="/textbg.png" alt="" />
-          <div className="text-overlay absolute top-0 pl-5 pt-1 justify-center">
-            <p style={{fontFamily:'bagea'}} className="top-0 pl-2 text-white bottom-5">places</p>
-          </div>
-        </div>
-        <h2 className="pt-1 pl-2 text-oxfordBlue">to Visit</h2>
-      </div>
+    <div className="flex text-xl md:text-2xl lg:text-3xl xl:text-4xl uppercase">
+              {" "}
+              <h2 className="pt-1 text-oxfordBlue">best </h2>
+              <div className="image-container relative">
+                <img className="w-28 md:w-full" src="/textbg.png" alt="" />
+                <div className="text-overlay absolute top-0  pl-5 pt-1 justify-center ">
+                  <p
+                    style={{ fontFamily: "bagea" }}
+                    className="top-0 pl-2 text-white bottom-5"
+                  >
+                   place
+                  </p>
+                </div>
+              </div>
+              <h2 className="pt-1 text-oxfordBlue">to visit </h2>
+            </div>
       {/* Custom Previous Arrow */}
       <SamplePrevArrow onClick={() => sliderRef.current?.slickPrev()} />
       {/* Slider */}
-      <Slider ref={sliderRef} {...settings}>
-        {slidesData.map((slide, index) => (
-          <div key={index} className={styles.slide}>
-            <div className={styles.imageWrapper}>
-              <Image
-                src={slide.img}
-                alt={slide.title}
-                layout="fill"
-                objectFit="cover"
-              />
-               <div className={styles.slideContent}>
-              <h3>{slide.title}</h3>
-              <p>{slide.description}</p>
-              <button className={styles.learnMore}>Learn more</button>
-            </div>
-            </div>
-           
-          </div>
-        ))}
-      </Slider>
+    <Slider ref={sliderRef} {...settings}>
+  {slidesData.map((slide, index) => (
+    <div key={index} className={styles.slide}>
+      <div className={`${styles.imageWrapper} mx-auto flex`}>
+        {/* Main slide */}
+        <Image
+          src={slide.img}
+          alt={slide.title}
+          layout="fill"
+          objectFit="cover"
+          className="z-20"
+        />
+        <div className={styles.slideContent}>
+          <h3>{slide.title}</h3>
+          <p>{slide.description}</p>
+          <button className={styles.learnMore}>Learn more</button>
+        </div>
+      </div>
+     
+    </div>
+  ))}
+</Slider>
+
       {/* Custom Next Arrow */}
       <SampleNextArrow onClick={() => sliderRef.current?.slickNext()} />
     </div>

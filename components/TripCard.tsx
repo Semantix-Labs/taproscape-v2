@@ -24,7 +24,8 @@ const TripCard: React.FC<TripCardProps> = ({
   overlayCompletion,
 }) => {
   return (
-    <div  className="relative p-4 bg-white rounded-lg z-10 shadow-md max-w-sm">
+    <div  className="relative p-4 bg-white rounded-lg z-10  shadow-md max-w-sm">
+      
         
       <div className="overflow-hidden rounded-lg">
         <Image

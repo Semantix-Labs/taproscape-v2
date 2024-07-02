@@ -74,21 +74,21 @@ const ExploreDestinations = () => {
   return (
     <div className="bg-teal-900 py-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex py-10 text-4xl uppercase">
-          {" "}
-          <h2 className="pt-1 text-white">Explore our</h2>
-          <div className="image-container relative">
-            <img src="/textbgwhite.png" alt="" />
-            <div className="text-overlay absolute top-0  pl-5 pt-1 justify-center ">
-              <p
-                style={{ fontFamily: "bagea" }}
-                className="top-0 pl-6 text-oxfordBlue bottom-5"
-              >
-                destination
-              </p>
+      <div className="flex text-xl  md:text-2xl lg:text-3xl xl:text-4xl uppercase">
+              {" "}
+              <h2 className="pt-1 text-white">Explore our </h2>
+              <div className="image-container relative">
+                <img className="w-28 lg:w-[309px] lg:h-[50px] md:w-full" src="/textbg.png" alt="" />
+                <div className="text-overlay absolute top-0  pl-5 pt-1 justify-center ">
+                  <p
+                    style={{ fontFamily: "bagea" }}
+                    className="top-0 pl-2 text-white bottom-5"
+                  >
+                   Destinations
+                  </p>
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {destinations.map((destination, index) => (
             <div

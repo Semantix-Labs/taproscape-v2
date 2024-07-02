@@ -1,82 +1,104 @@
 /* Remove default arrow styles */
 
-  .carouselContainer {
-    width: 80%;
-    margin: auto;
-    text-align: center;
-    background-color: #e9cdad33 !important;
-    
-  }
+.carouselContainer {
+  width: 80%;
+  margin: auto;
+  text-align: center;
   
-  .title {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-  }
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: white !important;
+}
+
+.highlight {
+  background-color: #3aafa9;
+  color: white;
+  padding: 0 0.5rem;
+}
+
+.slide {
+  position: relative;
+  padding: 20px;
+}
+
+.imageWrapper {
+  position: relative;
+  height: 368px;
+  width: 315px;
+  overflow: hidden;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.imageWrapper1 {
   
-  .highlight {
-    background-color: #3aafa9;
-    color: white;
-    padding: 0 0.5rem;
-  }
-  
-  .slide {
-    position: relative;
-    padding: 20px;
-  }
-  
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.slideContent {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  color: white !important;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.learnMore {
+  background-color: #3aafa9;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 3px;
+  margin-top: 10px;
+}
+
+/* Carousel.module.css */
+.carouselContainer {
+  position: relative;
+}
+
+.nextArrow,
+.prevArrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  z-index: 1;
+}
+
+.nextArrow {
+  right: -25px; /* Adjust as necessary */
+}
+
+.prevArrow {
+  left: -25px; /* Adjust as necessary */
+}
+
+.arrowImage {
+  width: 30px; /* Adjust size as necessary */
+  height: 30px; /* Adjust size as necessary */
+}
+
+
+
+@media only screen and (max-width: 768px) {
   .imageWrapper {
     position: relative;
-    height: 400px;
-    border-radius: 15px;
+    height: 200px;
+    width: auto;
     overflow: hidden;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   }
-  
-  .slideContent {
-    position: absolute;
-    bottom: 0px;
-    left: 0px;
-    color: white;
-    background: rgba(0, 0, 0, 0.5);
-    padding: 10px;
-    border-radius: 5px;
-  }
-  
-  .learnMore {
-    background-color: #3aafa9;
-    color: white;
-    border: none;
-    padding: 5px 10px;
-    cursor: pointer;
-    border-radius: 3px;
-    margin-top: 10px;
-  }
-  
- /* Carousel.module.css */
-.carouselContainer {
-    position: relative;
-  }
-  
-  .nextArrow,
-  .prevArrow {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    cursor: pointer;
-    z-index: 1;
-  }
-  
-  .nextArrow {
-    right: -25px; /* Adjust as necessary */
-  }
-  
-  .prevArrow {
-    left: -25px; /* Adjust as necessary */
-  }
-  
-  .arrowImage {
-    width: 30px; /* Adjust size as necessary */
-    height: 30px; /* Adjust size as necessary */
-  }
-  
-  
+}

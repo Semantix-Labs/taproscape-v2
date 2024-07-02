@@ -49,6 +49,28 @@ export default function TourPackages() {
         <TravelPackages/>
       </section>
 
+      <section
+        style={{
+          backgroundImage: 'url("/home6.png")',
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
+        }}
+        className="mt-0  h-[265px] w-full"
+      >
+        <div className="justify-center gap-8 py-24 flex">
+          <label
+            htmlFor="my-modal"
+            className="search-button border-2 border-gray-600 bg-white w-1/2 py-4 px-6 rounded-lg "
+          >
+            <h2 className="text-2xl"> Email</h2>
+          </label>
+          <button className=" border-2 border-gray-600 w-1/4 py-4 px-6 uppercase bg-tropicalRainForest text-white rounded-lg">
+            SUBSCRIBE OUR NEWSLETTER
+          </button>
+        </div>
+      </section>
+
       
     </div>
   )

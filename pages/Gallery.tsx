@@ -71,7 +71,7 @@ export default function Gallery() {
                 />
               </svg>
             </span>{" "}
-            <h2 className="text-sm md:text-xl"> Information</h2>
+            <h2 className="text-sm md:text-xl"> Photos</h2>
           </button>
           <button
             className={`flex justify-center border-b-2  w-1/2 py-2 ${
@@ -121,13 +121,13 @@ export default function Gallery() {
                 </defs>
               </svg>
             </span>{" "}
-            <h2 className="text-sm md:text-xl">Tour Plan</h2>
+            <h2 className="text-sm md:text-xl">Videos</h2>
           </button>
         </nav>
 
         {activeTab === "information" && (
           <div>
-            <div className="mt-16  max-w-7xl mx-auto">
+            <div className="mt-16 px-5 lg:px-20 2xl:px-40 ">
               <div className="mx-auto">
                 <h1 className="text-xl md:text-3xl">Landscapes</h1>
                 <img
@@ -180,45 +180,45 @@ export default function Gallery() {
                 />
               </div>
               <div className="grid  grid-cols-1 mt-12 gap-4 md:grid-cols-12">
-                <div className="h-[215px] col-span-3 rounded-xl overflow-hidden">
+                <div className="h-[215px] md:col-span-3 rounded-xl overflow-hidden">
                   <img
                     className="w-full h-full"
                     src="/GalleryPage/culture/1.png"
                   />
                 </div>
-                <div className="h-[335px] col-span-6 rounded-xl overflow-hidden">
+                <div className="h-[335px] md:col-span-6 rounded-xl overflow-hidden">
                   <img
                     className="w-full h-full"
                     src="/GalleryPage/culture/2.png"
                   />
                 </div>
-                <div className="h-[403px] col-span-3 rounded-xl overflow-hidden">
+                <div className="h-[403px] md:col-span-3 rounded-xl overflow-hidden">
                   <img
                     className="w-full h-full"
                     src="/GalleryPage/culture/3.jpeg"
                   />
                 </div>
 
-                <div className="h-[403px] mt-[-188px] overflow-hidden rounded-xl col-span-3 ">
+                <div className="h-[403px] md:mt-[-188px] overflow-hidden rounded-xl md:col-span-3 ">
                   <img
                     className="w-full h-full"
                     src="/GalleryPage/culture/4.png"
                   />
                 </div>
-                <div className="h-[283px] -mt-[68px] rounded-xl col-span-2 overflow-hidden">
+                <div className="h-[283px] md:-mt-[68px] rounded-xl md:col-span-2 overflow-hidden">
                   <img
                     className="w-full h-full"
                     src="/GalleryPage/culture/5.png"
                   />
                 </div>
-                <div className="h-[283px] -mt-[68px] rounded-xl col-span-4 overflow-hidden">
+                <div className="h-[283px] md:-mt-[68px] rounded-xl md:col-span-4 overflow-hidden">
                   <img
                     className="w-full h-full"
                     src="/GalleryPage/culture/6.png"
                   />
                 </div>
 
-                <div className="h-[215px] rounded-xl col-span-3 overflow-hidden">
+                <div className="h-[215px] rounded-xl md:col-span-3 overflow-hidden">
                   <img
                     className="w-full h-full"
                     src="/GalleryPage/culture/7.jpeg"
@@ -227,7 +227,7 @@ export default function Gallery() {
               </div>
 
               <div className="mx-auto mt-16">
-                <h1 className="text-xl md:text-3xl">wildlife</h1>
+                <h1 className="text-xl text-black md:text-3xl">wildlife</h1>
                 <img
                   className="justify-start flex max-w-[200px] overflow-hidden md:ml-[-8px]"
                   src="/undeline.svg"
@@ -236,66 +236,119 @@ export default function Gallery() {
               </div>
               <div className="grid grid-cols-1 mt-12 gap-4 md:grid-cols-2">
                 <div className="h-[440px] rounded-xl overflow-hidden">
-                  <img className="w-full h-full" src="/GalleryPage/1.png" />
+                  <img
+                    className="w-full h-full"
+                    src="/GalleryPage/wild/1.jpeg"
+                  />
                 </div>
                 <div className="h-[440px] rounded-xl overflow-hidden">
-                  <img className="w-full h-full" src="/GalleryPage/2.png" />
+                  <img
+                    className="w-full h-full"
+                    src="/GalleryPage/wild/2.jpeg"
+                  />
                 </div>
               </div>
               <div className="grid grid-cols-1 mt-4 gap-4 md:grid-cols-12">
                 <div className="h-[215px] rounded-xl col-span-3 overflow-hidden">
-                  <img className="w-full h-full" src="/GalleryPage/3.png" />
+                  <img
+                    className="w-full h-full"
+                    src="/GalleryPage/wild/3.jpeg"
+                  />
                 </div>
                 <div className="h-[215px] rounded-xl col-span-3 overflow-hidden">
-                  <img className="w-full h-full" src="/GalleryPage/4.png" />
+                  <img
+                    className="w-full h-full"
+                    src="/GalleryPage/wild/4.jpeg"
+                  />
                 </div>
                 <div className="h-[215px] rounded-xl col-span-3 overflow-hidden">
-                  <img className="w-full h-full" src="/GalleryPage/5.png" />
+                  <img
+                    className="w-full h-full"
+                    src="/GalleryPage/wild/5.jpeg"
+                  />
                 </div>
 
                 <div className="h-[215px] rounded-xl col-span-3 overflow-hidden">
-                  <img className="w-full h-full" src="/GalleryPage/6.png" />
+                  <img
+                    className="w-full h-full"
+                    src="/GalleryPage/wild/6.jpeg"
+                  />
                 </div>
                 <div className="h-[215px] rounded-xl col-span-3 overflow-hidden">
-                  <img className="w-full h-full" src="/GalleryPage/7.png" />
+                  <img
+                    className="w-full h-full"
+                    src="/GalleryPage/wild/7.jpeg"
+                  />
                 </div>
                 <div className="h-[215px] rounded-xl col-span-3 overflow-hidden">
-                  <img className="w-full h-full" src="/GalleryPage/8.png" />
+                  <img
+                    className="w-full h-full"
+                    src="/GalleryPage/wild/8.jpeg"
+                  />
                 </div>
                 <div className="h-[215px] rounded-xl col-span-3 overflow-hidden">
-                  <img className="w-full h-full" src="/GalleryPage/9.png" />
+                  <img
+                    className="w-full h-full"
+                    src="/GalleryPage/wild/9.jpeg"
+                  />
                 </div>
                 <div className="h-[215px] rounded-xl col-span-3 overflow-hidden">
                   <img className="w-full h-full" src="/GalleryPage/10.png" />
                 </div>
               </div>
             </div>
-            <section
-              style={{
-                backgroundImage: 'url("/home6.png")',
-                backgroundSize: "cover",
-                backgroundPosition: "center",
-                backgroundRepeat: "no-repeat",
-              }}
-              className="mt-20  h-[265px] w-full"
-            >
-              <div className="justify-center gap-8 py-24 flex">
-                <label
-                  htmlFor="my-modal"
-                  className="search-button border-2 border-gray-600 bg-white w-1/2 py-4 px-6 rounded-lg "
-                >
-                  <h2 className="text-2xl"> Email</h2>
-                </label>
-                <button className=" border-2 border-gray-600 w-1/4 py-4 px-6 uppercase bg-tropicalRainForest text-white rounded-lg">
-                  SUBSCRIBE OUR NEWSLETTER
-                </button>
-              </div>
-            </section>
           </div>
         )}
 
-        {activeTab === "tourPlan" && <h1>videoss</h1>}
+        {activeTab === "tourPlan" && (
+          <div className="mt-16  max-w-7xl mx-auto">
+            <div className="mx-auto">
+              <h1 className="text-xl md:text-3xl">Popular 
+                Videos
+              </h1>
+              <img
+                className="justify-start flex max-w-[200px] overflow-hidden md:ml-[-8px]"
+                src="/undeline.svg"
+                alt=""
+              />
+            </div>
+            <div className="grid grid-cols-1 mt-12 gap-4 md:grid-cols-2">
+              <div className="h-[604px] rounded-2xl md:col-span-2 overflow-hidden">
+                <img className="w-full h-full" src="/GalleryPage/video/1.png" />
+              </div>
+              <div className="h-[344px] rounded-xl overflow-hidden">
+                <img className="w-full h-full" src="/GalleryPage/video/2.png" />
+              </div>
+              <div className="h-[344px] rounded-xl overflow-hidden">
+                <img className="w-full h-full" src="/GalleryPage/video/3.png" />
+              </div>
+            </div>
+            <div className="grid grid-cols-1 mt-4 gap-4 md:grid-cols-12">
+              <div className="h-[554px] rounded-xl col-span-4 overflow-hidden">
+                <img className="w-full h-full" src="/GalleryPage/video/4.png" />
+              </div>
+              <div className="h-[554px] rounded-xl col-span-4 overflow-hidden">
+                <img className="w-full h-full" src="/GalleryPage/video/5.png" />
+              </div>
+              <div className="h-[554px] rounded-xl col-span-4 overflow-hidden">
+                <img className="w-full h-full" src="/GalleryPage/video/6.png" />
+              </div>
+             
+            </div>
+          </div>
+        )}
       </div>
+      <section style={{backgroundImage: 'url("/home6.png")', backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat',}} className="  md:h-[265px] overflow-hidden w-full">
+        <div className="justify-center gap-8 py-16 lg:py-28 flex">
+          <label
+            htmlFor="my-modal"
+            className="search-button border-2 border-gray-600 bg-white w-1/2 h-8 md:h-auto py-1 px-2 md:py-4 md:px-6 rounded-lg "
+          >
+            <h2 className=" md:text-2xl"> Email</h2>
+          </label>
+          <button className=" border-2 border-gray-600 w-1/4 py-1 px-2 md:py-4 md:px-6 uppercase bg-tropicalRainForest text-[8px] md:text-sm lg:text-xl text-white rounded-lg">SUBSCRIBE OUR NEWSLETTER</button>
+        </div>
+      </section>
     </div>
   );
 }

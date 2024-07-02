@@ -15,7 +15,7 @@ export default function AboutUs() {
       <section className="flex ">
         <div className="image-container relative">
           <img src="/home.png" className=" w-screen brightness-50" alt="" />
-          <div className="text-overlay absolute md:left-40 bottom-5 md:bottom-20 p-4">
+          <div className="text-overlay absolute md:left-10 xl:left-20 2xl:left-40 bottom-5 md:bottom-20 p-4">
             <h1
               style={{ lineHeight: "68px", fontFamily: "bagea" }}
               className="text-white max-w-2xl font-normal text-3xl md:text-7xl "
@@ -34,11 +34,11 @@ export default function AboutUs() {
         />
       </section>
 
-      <section className="px-5 pt-20 overflow-hidden lg:px-20">
+      <section className="pt-20 overflow-hidden px-5 lg:px-20 2xl:px-40 ">
         <StorySection />
       </section>
 
-      <section className="px-5 pt-20 overflow-hidden lg:px-20">
+      <section className=" pt-20 overflow-hidden px-5 lg:px-20 2xl:px-40 ">
         <MissionSection />
       </section>
 
@@ -48,18 +48,18 @@ export default function AboutUs() {
 
       <section className="px-5 pt-20 overflow-hidden bg-isabelline py-16 lg:px-20">
         <div className=" py-16 px-8">
-          <div className="text-center mb-12">
-            <div className="flex  text-4xl uppercase">
+          <div className="text-center flex 2xl:justify-center mb-12">
+          <div className="flex text-xl md:text-2xl lg:text-3xl xl:text-4xl uppercase">
               {" "}
-              <h2 className="pt-1 text-oxfordBlue">Lorem ipsum</h2>
+              <h2 className="pt-1 text-oxfordBlue">our</h2>
               <div className="image-container relative">
-                <img src="/textbg.png" alt="" />
+                <img className="w-28 md:w-full" src="/textbg.png" alt="" />
                 <div className="text-overlay absolute top-0  pl-5 pt-1 justify-center ">
                   <p
                     style={{ fontFamily: "bagea" }}
                     className="top-0 pl-2 text-white bottom-5"
                   >
-                    INTRO
+                   value
                   </p>
                 </div>
               </div>
@@ -189,17 +189,17 @@ export default function AboutUs() {
       <div className="max-w-7xl py-16 mt-20 mx-auto px-4 bg-isabelline overflow-hidden sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <div className="my-auto">
-            <div className="flex mb-10  text-4xl uppercase">
+          <div className="flex text-xl md:text-2xl lg:text-3xl xl:text-4xl uppercase">
               {" "}
               <h2 className="pt-1 text-oxfordBlue">our</h2>
               <div className="image-container relative">
-                <img src="/textbg.png" alt="" />
+                <img className="w-48 h-12 lg:w-72 lg:h-16 "src="/textbg.png" alt="" />
                 <div className="text-overlay absolute top-0  pl-5 pt-1 justify-center ">
                   <p
                     style={{ fontFamily: "bagea" }}
                     className="top-0 pl-2 text-white bottom-5"
                   >
-                    commitment
+                   commitment
                   </p>
                 </div>
               </div>
@@ -216,11 +216,11 @@ export default function AboutUs() {
           </div>
 
           <div >
-            <div className="relative">
+            <div className="relative mt-16 md:mt-0">
               <img src="/aboutUs/commit.png" alt="" />
              
            
-            <div className="absolute top-[100px] left-[-300px] -rotate-[89.5deg]   ">
+            <div className="absolute hidden md:inline top-[100px] left-[-300px] -rotate-[89.5deg]   ">
               <img className="lg:w-[665px] lg:h-[112px]" src="/aboutUs/c2.png" alt="" />
             </div>
             <div className="absolute top-[100px] right-[-300px] lg:w-[665px] lg:h-[112px] overflow-hidden rotate-[89.5deg]   ">
@@ -232,7 +232,7 @@ export default function AboutUs() {
             <div className="absolute top-[-50px]">
               <img className="lg:w-[665px] lg:h-[112px]" src="/aboutUs/c2.png" alt="" />
             </div>
-            <div className="-rotate-12  top-0 left-0 absolute md:top-[0px] md:left-[300px]  md:w-[207px] md:h-[209px] bg-white shadow-lg">
+            <div className="-rotate-12  top-0 left-0 absolute md:top-[0px] lg:left-[300px]  lg:w-[207px] lg:h-[209px] bg-white shadow-lg">
             <div className="p-2 overflow-hidden">
               <img
                 src="/aboutUs/c4.png"
@@ -256,15 +256,15 @@ export default function AboutUs() {
       </section>
 
 
-      <section style={{backgroundImage: 'url("/home6.png")', backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat',}} className=" h-[265px] w-full">
-        <div className="justify-center gap-8 py-24 flex">
+      <section style={{backgroundImage: 'url("/home6.png")', backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat',}} className="  md:h-[265px] overflow-hidden w-full">
+        <div className="justify-center gap-8 py-16 lg:py-28 flex">
           <label
             htmlFor="my-modal"
-            className="search-button border-2 border-gray-600 bg-white w-1/2 py-4 px-6 rounded-lg "
+            className="search-button border-2 border-gray-600 bg-white w-1/2 h-8 md:h-auto py-1 px-2 md:py-4 md:px-6 rounded-lg "
           >
-            <h2 className="text-2xl"> Email</h2>
+            <h2 className=" md:text-2xl"> Email</h2>
           </label>
-          <button className=" border-2 border-gray-600 w-1/4 py-4 px-6 uppercase bg-tropicalRainForest text-white rounded-lg">SUBSCRIBE OUR NEWSLETTER</button>
+          <button className=" border-2 border-gray-600 w-1/4 py-1 px-2 md:py-4 md:px-6 uppercase bg-tropicalRainForest text-[8px] md:text-sm lg:text-xl text-white rounded-lg">SUBSCRIBE OUR NEWSLETTER</button>
         </div>
       </section>
     </div>

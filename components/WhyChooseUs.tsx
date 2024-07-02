@@ -3,24 +3,24 @@ import React from "react";
 
 const WhyChooseUs = () => {
   return (
-    <section className="bg-white py-12">
-      <div className="container mx-auto flex flex-col md:flex-row items-center">
+    <section className="bg-white px-5 lg:px-20 2xl:px-40  py-12">
+      <div className=" flex flex-col md:flex-row items-center">
         <div className="w-full md:w-1/2 px-4">
-          <div className="flex pb-16 text-4xl uppercase">
-            {" "}
-            <h2 className="pt-1 text-oxfordBlue">why choose </h2>
-            <div className="image-container relative">
-              <img src="/textbg.png" alt="" />
-              <div className="text-overlay absolute top-0  pl-5 pt-1 justify-center ">
-                <p
-                  style={{ fontFamily: "bagea" }}
-                  className="top-0 pl-10 text-white  bottom-5"
-                >
-                  US
-                </p>
+        <div className="flex text-xl md:text-2xl mb-5 lg:text-3xl xl:text-4xl uppercase">
+              {" "}
+              <h2 className="pt-1 text-oxfordBlue">Why choose</h2>
+              <div className="image-container relative">
+                <img className="w-28 md:w-full" src="/textbg.png" alt="" />
+                <div className="text-overlay absolute top-0  pl-5 pt-1 justify-center ">
+                  <p
+                    style={{ fontFamily: "bagea" }}
+                    className="top-0 pl-2 text-white bottom-5"
+                  >
+                    us
+                  </p>
+                </div>
               </div>
             </div>
-          </div>
           <div className="mb-4 flex">
             <div className="mr-5">
               <span>

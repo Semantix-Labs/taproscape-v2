@@ -16,12 +16,12 @@ const overviewItems: OverviewItem[] = [
 const Overview = () => {
   return (
     <div className="py-12 bg-white">
-      <div className="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 items-center gap-8">
+      <div className=" grid grid-cols-1 md:grid-cols-2 items-center gap-8">
         <div className="relative flex ">
           {overviewItems.map((item, index) => (
             <div
               key={item.id}
-              className={`absolute shadow-lg top-[-100px] right-0 rounded-xl overflow-hidden transform transition-transform duration-300 ${index === 0 ? 'z-0 w-[241px] mt-10 h-[272px] top-0' : index === 1 ? 'z-10 w-[277px] mt-5 h-[319px]' : 'z-20  w-[312px] h-[375px] right-0'} ${index === 0 ? 'translate-x-[-350px]' : index === 1 ? 'translate-x-[-200px]' : 'translate-x-0'}`}
+              className={`absolute shadow-lg top-[-100px] right-0 rounded-xl overflow-hidden transform transition-transform duration-300 ${index === 0 ? 'z-0 w-[171px] hidden md:inline mt-10 lg:h-[202px] md:h-[132px] md:w-[101px] xl:h-[241px] xl:w-[272px] top-0' : index === 1 ? 'z-10 lg:w-[207px] mt-5 lg:h-[249px] md:h-[181px] md:w-[137px] xl:h-[319px] xl:w-[277px]' : 'z-20  lg:w-[242px] lg:h-[300px] md:w-[172px] md:h-[230px] xl:h-[375px] xl:w-[312px] right-0'} ${index === 0 ? 'md:translate-x-[-210px] lg:translate-x-[-280px]' : index === 1 ? 'md:translate-x-[-130px] xl:translate-x-[-200px]' : 'translate-x-0'}`}
             >
               <Image
                 src={item.image}
