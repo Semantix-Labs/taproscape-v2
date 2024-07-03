@@ -45,29 +45,19 @@ export default function TourPackages() {
       </section>
 
 
-      <section>
+      <section className=''>
         <TravelPackages/>
       </section>
 
-      <section
-        style={{
-          backgroundImage: 'url("/home6.png")',
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-          backgroundRepeat: "no-repeat",
-        }}
-        className="mt-0  h-[265px] w-full"
-      >
-        <div className="justify-center gap-8 py-24 flex">
+      <section style={{backgroundImage: 'url("/home6.png")', backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat',}} className="  md:h-[265px] overflow-hidden w-full">
+        <div className="justify-center gap-8 py-16 lg:py-28 flex">
           <label
             htmlFor="my-modal"
-            className="search-button border-2 border-gray-600 bg-white w-1/2 py-4 px-6 rounded-lg "
+            className="search-button border-2 border-gray-600 bg-white w-1/2 h-8 md:h-auto py-1 px-2 md:py-4 md:px-6 rounded-lg "
           >
-            <h2 className="text-2xl"> Email</h2>
+            <h2 className=" md:text-2xl"> Email</h2>
           </label>
-          <button className=" border-2 border-gray-600 w-1/4 py-4 px-6 uppercase bg-tropicalRainForest text-white rounded-lg">
-            SUBSCRIBE OUR NEWSLETTER
-          </button>
+          <button className=" border-2 border-gray-600 w-1/4 py-1 px-2 md:py-4 md:px-6 uppercase bg-tropicalRainForest text-[8px] md:text-sm lg:text-xl text-white rounded-lg">SUBSCRIBE OUR NEWSLETTER</button>
         </div>
       </section>
 

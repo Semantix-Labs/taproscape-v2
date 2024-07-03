@@ -1,4 +1,5 @@
 // pages/Gallery.tsx
+import Navbar from "@/components/Navbar";
 import React, { useState } from "react";
 
 export default function Gallery() {
@@ -27,7 +28,32 @@ export default function Gallery() {
   };
 
   return (
-    <div>
+    <div className="min-h-screen">
+    <section>
+      <Navbar />
+    </section>
+
+    <section className="flex ">
+      <div className="image-container relative">
+        <img src="/home.png" className=" w-screen brightness-50" alt="" />
+        <div className="text-overlay absolute md:left-40 bottom-5 md:bottom-20 p-4">
+          <h1
+            style={{ lineHeight: "68px", fontFamily: "bagea" }}
+            className="text-white max-w-2xl font-normal text-3xl md:text-7xl "
+          >
+            Gallery
+          </h1>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <img
+        className="w-screen mt-[-10px] md:mt-[-30px] z-20 relative"
+        src="/home2.png"
+        alt=""
+      />
+    </section>
       <div className="  ">
         <nav className="w-full flex justify-between ">
           <button
@@ -180,45 +206,45 @@ export default function Gallery() {
                 />
               </div>
               <div className="grid  grid-cols-1 mt-12 gap-4 md:grid-cols-12">
-                <div className="h-[215px] md:col-span-3 rounded-xl overflow-hidden">
+                <div className="xl:h-[215px] h-[165px] md:col-span-3 rounded-xl overflow-hidden">
                   <img
                     className="w-full h-full"
-                    src="/GalleryPage/culture/1.png"
+                    src="/GalleryPage/culture/1.jpg"
                   />
                 </div>
-                <div className="h-[335px] md:col-span-6 rounded-xl overflow-hidden">
+                <div className="xl:h-[335px] h-[285px] md:col-span-6 rounded-xl overflow-hidden">
                   <img
                     className="w-full h-full"
-                    src="/GalleryPage/culture/2.png"
+                    src="/GalleryPage/culture/2.jpg"
                   />
                 </div>
-                <div className="h-[403px] md:col-span-3 rounded-xl overflow-hidden">
+                <div className="xl:h-[403px] h-[353px] md:col-span-3 rounded-xl overflow-hidden">
                   <img
                     className="w-full h-full"
-                    src="/GalleryPage/culture/3.jpeg"
+                    src="/GalleryPage/culture/d1.jpg"
                   />
                 </div>
 
-                <div className="h-[403px] md:mt-[-188px] overflow-hidden rounded-xl md:col-span-3 ">
+                <div className="xl:h-[403px] h-[353px] md:mt-[-188px] overflow-hidden rounded-xl md:col-span-3 ">
                   <img
                     className="w-full h-full"
-                    src="/GalleryPage/culture/4.png"
+                    src="/GalleryPage/culture/e2.gif"
                   />
                 </div>
-                <div className="h-[283px] md:-mt-[68px] rounded-xl md:col-span-2 overflow-hidden">
+                <div className="xl:h-[283px] h-[233px] md:-mt-[68px] rounded-xl md:col-span-2 overflow-hidden">
                   <img
                     className="w-full h-full"
-                    src="/GalleryPage/culture/5.png"
+                    src="/GalleryPage/culture/d2.gif"
                   />
                 </div>
-                <div className="h-[283px] md:-mt-[68px] rounded-xl md:col-span-4 overflow-hidden">
+                <div className="xl:h-[283px] h-[233px] md:-mt-[68px] rounded-xl md:col-span-4 overflow-hidden">
                   <img
                     className="w-full h-full"
                     src="/GalleryPage/culture/6.png"
                   />
                 </div>
 
-                <div className="h-[215px] rounded-xl md:col-span-3 overflow-hidden">
+                <div className="xl:h-[215px] h-[165px] rounded-xl md:col-span-3 overflow-hidden">
                   <img
                     className="w-full h-full"
                     src="/GalleryPage/culture/7.jpeg"
@@ -243,8 +269,8 @@ export default function Gallery() {
                 </div>
                 <div className="h-[440px] rounded-xl overflow-hidden">
                   <img
-                    className="w-full h-full"
-                    src="/GalleryPage/wild/2.jpeg"
+                    className="w-full brightness-75 h-full"
+                    src="/GalleryPage/wild/l1.jpg"
                   />
                 </div>
               </div>
@@ -252,7 +278,7 @@ export default function Gallery() {
                 <div className="h-[215px] rounded-xl col-span-3 overflow-hidden">
                   <img
                     className="w-full h-full"
-                    src="/GalleryPage/wild/3.jpeg"
+                    src="/GalleryPage/wild/l2.jpg"
                   />
                 </div>
                 <div className="h-[215px] rounded-xl col-span-3 overflow-hidden">
@@ -338,8 +364,8 @@ export default function Gallery() {
           </div>
         )}
       </div>
-      <section style={{backgroundImage: 'url("/home6.png")', backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat',}} className="  md:h-[265px] overflow-hidden w-full">
-        <div className="justify-center gap-8 py-16 lg:py-28 flex">
+      <section style={{backgroundImage: 'url("/home6.png")', backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat',}} className="  md:h-[265px] mt-16 overflow-hidden w-full">
+        <div className="justify-center  gap-8 py-16 lg:py-28 flex">
           <label
             htmlFor="my-modal"
             className="search-button border-2 border-gray-600 bg-white w-1/2 h-8 md:h-auto py-1 px-2 md:py-4 md:px-6 rounded-lg "

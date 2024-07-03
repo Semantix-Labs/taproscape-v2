@@ -987,9 +987,9 @@ const PackageDetails = () => {
       <section className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-4 lg:gap-8">
           <Card className="shadow-lg   md:col-span-8">
-            <nav className="w-full flex justify-between md:px-20">
+            <nav className="w-full  grid grid-cols-2 md:grid-cols-4 text-[13px] lg:text-[16px] xl:text-[18px] justify-between lg:px-16 xl:px-20">
               <button
-                className={`flex justify-center border-2 rounded-md w-1/4 py-2 ${
+                className={`flex justify-center border-2 h-12 rounded-md py-2 ${
                   activeButton === "information"
                     ? "bg-sinopia text-white"
                     : "bg-white text-black"
@@ -998,7 +998,7 @@ const PackageDetails = () => {
                 onMouseLeave={handleMouseLeave}
                 onClick={() => handleTabClick("information")}
               >
-                <span className="mr-2">
+                <span className="mr-2  ">
                   <svg
                     width="21"
                     height="21"
@@ -1027,7 +1027,7 @@ const PackageDetails = () => {
                 Information
               </button>
               <button
-                className={`flex justify-center border-2 rounded-md w-1/4 py-2 ${
+                className={`flex justify-center border-2   h-12 rounded-md py-2  ${
                   activeButton === "tourPlan"
                     ? "bg-sinopia text-white"
                     : "bg-white text-black"
@@ -1065,7 +1065,7 @@ const PackageDetails = () => {
                 Tour Plan
               </button>
               <button
-                className={`flex justify-center border-2 rounded-md w-1/4 py-2 ${
+                className={`flex justify-center border-2  h-12 rounded-md py-2  ${
                   activeButton === "pricing"
                     ? "bg-sinopia text-white"
                     : "bg-white text-black"
@@ -1105,7 +1105,7 @@ const PackageDetails = () => {
                 Gallery
               </button>
               <button
-                className={`flex justify-center border-2 rounded-md w-1/4 py-2 ${
+                className={`flex justify-center border-2  h-12 rounded-md py-2  ${
                   activeButton === "booking"
                     ? "bg-sinopia text-white"
                     : "bg-white text-black"
@@ -1177,7 +1177,7 @@ const PackageDetails = () => {
             </nav>
 
             {activeTab === "information" && (
-              <div className="container mx-auto  p-8">
+              <div className="container mx-auto  md:p-8">
                 <h1 className="text-2xl font-bold mb-4">
                   {packageDetails.description}
                 </h1>
@@ -1201,135 +1201,137 @@ const PackageDetails = () => {
                       | undefined,
                     index: any
                   ) => (
-                    <p className="mb-6">{text}</p>
+                    <p key={index} className="mb-6">{text}</p>
                   )
                 )}
-
-                <table className="table-auto w-full rounded-lg mb-6 border">
-                  <tbody>
-                    <tr>
-                      <td className="border px-4 py-2 font-semibold">
-                        Destination
-                      </td>
-                      <td className="border px-4 py-2">SriLanka</td>
-                    </tr>
-                    <tr>
-                      <td className="border px-4 py-2 font-semibold">
-                        Departure
-                      </td>
-                      <td className="border px-4 py-2">
-                        {packageDetails.infoDeparture}
-                      </td>
-                    </tr>
-                    <tr>
-                      <td className="border px-4 py-2 font-semibold">
-                        Departure Time
-                      </td>
-                      <td className="border px-4 py-2">
-                        {packageDetails.infoDepartureTime}
-                      </td>
-                    </tr>
-                    <tr>
-                      <td className="border px-4 py-2 font-semibold">
-                        Return Time
-                      </td>
-                      <td className="border px-4 py-2">
-                        {packageDetails.infoReturTime}
-                      </td>
-                    </tr>
-                    <tr>
-                      <td className="border px-4 py-2 font-semibold">
-                        Price Included
-                      </td>
-                      <td className="border px-4 py-2">
-                        <ul className="list-none  ">
-                          {packageDetails.infoPriceIncluded.map(
-                            (included: string, index: any) => (
-                              <li className="flex ">
-                                <span className="my-auto mr-2">
-                                  <svg
-                                    width="16"
-                                    height="13"
-                                    viewBox="0 0 16 13"
-                                    fill="none"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                  >
-                                    <g clip-path="url(#clip0_157_1412)">
-                                      <path
-                                        d="M16 0.239537L6.66206 12.7745C6.46388 13.0265 6.16617 13.0766 5.9178 12.8755C5.86783 12.8254 5.86783 12.8254 5.81764 12.7745L0.0220205 5.02433C-0.0275257 4.97428 0.0220205 4.92422 0.0220205 4.92422C0.0713532 4.87416 0.120899 4.92422 0.120899 4.92422L6.17215 9.39783L15.7521 0.0377872C15.8014 -0.0129213 15.9009 -0.0129213 15.9503 0.0377872C16 0.0876288 16 0.188612 16 0.239537Z"
-                                        fill="#D94C12"
-                                      />
-                                    </g>
-                                    <defs>
-                                      <clipPath id="clip0_157_1412">
-                                        <rect
-                                          width="16"
-                                          height="13"
-                                          fill="white"
+                <div className="overflow-x-auto w-full">
+                  <table className="table-auto w-full   rounded-lg mb-6 border">
+                    <tbody>
+                      <tr>
+                        <td className="border px-4 py-2 font-semibold">
+                          Destination
+                        </td>
+                        <td className="border px-4 py-2">SriLanka</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2 font-semibold">
+                          Departure
+                        </td>
+                        <td className="border px-4 py-2">
+                          {packageDetails.infoDeparture}
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2 font-semibold">
+                          Departure Time
+                        </td>
+                        <td className="border px-4 py-2">
+                          {packageDetails.infoDepartureTime}
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2 font-semibold">
+                          Return Time
+                        </td>
+                        <td className="border px-4 py-2">
+                          {packageDetails.infoReturTime}
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2 font-semibold">
+                          Price Included
+                        </td>
+                        <td className="border px-4 py-2">
+                          <ul className="list-none  ">
+                            {packageDetails.infoPriceIncluded.map(
+                              (included: string, index: any) => (
+                                <li key={index} className="flex ">
+                                  <span className="my-auto mr-2">
+                                    <svg
+                                      width="16"
+                                      height="13"
+                                      viewBox="0 0 16 13"
+                                      fill="none"
+                                      xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                      <g clip-path="url(#clip0_157_1412)">
+                                        <path
+                                          d="M16 0.239537L6.66206 12.7745C6.46388 13.0265 6.16617 13.0766 5.9178 12.8755C5.86783 12.8254 5.86783 12.8254 5.81764 12.7745L0.0220205 5.02433C-0.0275257 4.97428 0.0220205 4.92422 0.0220205 4.92422C0.0713532 4.87416 0.120899 4.92422 0.120899 4.92422L6.17215 9.39783L15.7521 0.0377872C15.8014 -0.0129213 15.9009 -0.0129213 15.9503 0.0377872C16 0.0876288 16 0.188612 16 0.239537Z"
+                                          fill="#D94C12"
                                         />
-                                      </clipPath>
-                                    </defs>
-                                  </svg>
-                                </span>{" "}
-                                {included}
-                              </li>
-                            )
-                          )}
-                        </ul>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td className="border px-4 py-2 font-semibold">
-                        Price Not Included
-                      </td>
-                      <td className="border px-4 py-2">
-                        <ul className="list-none">
-                          {packageDetails.infoNotPriceIncluded.map(
-                            (included: string, index: any) => (
-                              <li className="flex ">
-                                <span className="my-auto mr-2">
-                                  <svg
-                                    width="16"
-                                    height="13"
-                                    viewBox="0 0 16 13"
-                                    fill="none"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                  >
-                                    <g clip-path="url(#clip0_157_1412)">
-                                      <path
-                                        d="M16 0.239537L6.66206 12.7745C6.46388 13.0265 6.16617 13.0766 5.9178 12.8755C5.86783 12.8254 5.86783 12.8254 5.81764 12.7745L0.0220205 5.02433C-0.0275257 4.97428 0.0220205 4.92422 0.0220205 4.92422C0.0713532 4.87416 0.120899 4.92422 0.120899 4.92422L6.17215 9.39783L15.7521 0.0377872C15.8014 -0.0129213 15.9009 -0.0129213 15.9503 0.0377872C16 0.0876288 16 0.188612 16 0.239537Z"
-                                        fill="#D94C12"
-                                      />
-                                    </g>
-                                    <defs>
-                                      <clipPath id="clip0_157_1412">
-                                        <rect
-                                          width="16"
-                                          height="13"
-                                          fill="white"
+                                      </g>
+                                      <defs>
+                                        <clipPath id="clip0_157_1412">
+                                          <rect
+                                            width="16"
+                                            height="13"
+                                            fill="white"
+                                          />
+                                        </clipPath>
+                                      </defs>
+                                    </svg>
+                                  </span>{" "}
+                                  {included}
+                                </li>
+                              )
+                            )}
+                          </ul>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="border px-4 py-2 font-semibold">
+                          Price Not Included
+                        </td>
+                        <td className="border px-4 py-2">
+                          <ul className="list-none">
+                            {packageDetails.infoNotPriceIncluded.map(
+                              (included: string, index: any) => (
+                                <li key={index} className="flex ">
+                                  <span className="my-auto mr-2">
+                                    <svg
+                                      width="16"
+                                      height="13"
+                                      viewBox="0 0 16 13"
+                                      fill="none"
+                                      xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                      <g clip-path="url(#clip0_157_1412)">
+                                        <path
+                                          d="M16 0.239537L6.66206 12.7745C6.46388 13.0265 6.16617 13.0766 5.9178 12.8755C5.86783 12.8254 5.86783 12.8254 5.81764 12.7745L0.0220205 5.02433C-0.0275257 4.97428 0.0220205 4.92422 0.0220205 4.92422C0.0713532 4.87416 0.120899 4.92422 0.120899 4.92422L6.17215 9.39783L15.7521 0.0377872C15.8014 -0.0129213 15.9009 -0.0129213 15.9503 0.0377872C16 0.0876288 16 0.188612 16 0.239537Z"
+                                          fill="#D94C12"
                                         />
-                                      </clipPath>
-                                    </defs>
-                                  </svg>
-                                </span>{" "}
-                                {included}
-                              </li>
-                            )
-                          )}
-                        </ul>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-
+                                      </g>
+                                      <defs>
+                                        <clipPath id="clip0_157_1412">
+                                          <rect
+                                            width="16"
+                                            height="13"
+                                            fill="white"
+                                          />
+                                        </clipPath>
+                                      </defs>
+                                    </svg>
+                                  </span>{" "}
+                                  {included}
+                                </li>
+                              )
+                            )}
+                          </ul>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
                 <div className="grid grid-cols-1 gap-4  md:grid-cols-3">
                   {packageDetails.infoGallery.map(
                     (image: string, index: any) => (
+                      <div key={index}  className=" xl:h-[216px] md:h-[80px] h-full w-full overflow-hidden rounded-lg">
                       <img
                         src={image}
                         alt="Image 1"
-                        className=" h-[216px] overflow-hidden rounded-lg"
+                        className="w-full h-full"
                       />
+                      </div>
                     )
                   )}
                 </div>
@@ -1464,7 +1466,7 @@ const PackageDetails = () => {
 
             {activeTab === "booking" && (
               <div>
-                <div className="p-8">
+                <div className="md:p-8">
                   {/* Reviews Section */}
                   <div className="mb-8">
                     <h2 className="text-3xl font-semibold mb-4">
@@ -1474,9 +1476,9 @@ const PackageDetails = () => {
                     {/* Review Card */}
                     {packageDetails.RewProfile.map(
                       (profile: any, index: any) => (
-                        <div className="mb-8 grid grid-cols-1 md:grid-cols-12 p-4 border rounded-lg shadow-lg">
+                        <div key={index} className="mb-8 grid grid-cols-1 md:grid-cols-12 p-4 border rounded-lg shadow-lg">
                           <div className="flex md:col-span-3 items-start mb-4">
-                            <div className="w-[116px] h-[116px] overflow-hidden">
+                            <div  className="w-[116px] h-[116px] overflow-hidden">
                               <img
                                 src={profile}
                                 alt="Reviewer"
@@ -1499,7 +1501,7 @@ const PackageDetails = () => {
                               et dolore magna aliqua. Ut enim ad minim veniam,
                               quis nostrud exercitation ullamco laboris.
                             </p>
-                            <div className="grid grid-cols-2 gap-2">
+                            <div className="grid  md:grid-cols-2 gap-2">
                               <Rating label="Accommodation" stars={5} />
                               <Rating label="Destination" stars={5} />
                               <Rating label="Meals" stars={5} />
@@ -1521,7 +1523,7 @@ const PackageDetails = () => {
                       Put a Comment
                     </h3>
                     <form>
-                      <div className="grid grid-cols-2 gap-4 mb-4">
+                      <div className="grid md:grid-cols-2 gap-4 mb-4">
                         <RatingInput label="Accommodation" />
                         <RatingInput label="Destination" />
                         <RatingInput label="Meals" />
@@ -1714,15 +1716,15 @@ const PackageDetails = () => {
         </div>
       </section>
 
-      <section style={{backgroundImage: 'url("/home6.png")', backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat',}} className="mt-20  h-[265px] w-full">
-        <div className="justify-center gap-8 py-24 flex">
+      <section style={{backgroundImage: 'url("/home6.png")', backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat',}} className="  md:h-[265px] overflow-hidden w-full">
+        <div className="justify-center gap-8 py-16 lg:py-28 flex">
           <label
             htmlFor="my-modal"
-            className="search-button border-2 border-gray-600 bg-white w-1/2 py-4 px-6 rounded-lg "
+            className="search-button border-2 border-gray-600 bg-white w-1/2 h-8 md:h-auto py-1 px-2 md:py-4 md:px-6 rounded-lg "
           >
-            <h2 className="text-2xl"> Email</h2>
+            <h2 className=" md:text-2xl"> Email</h2>
           </label>
-          <button className=" border-2 border-gray-600 w-1/4 py-4 px-6 uppercase bg-tropicalRainForest text-white rounded-lg">SUBSCRIBE OUR NEWSLETTER</button>
+          <button className=" border-2 border-gray-600 w-1/4 py-1 px-2 md:py-4 md:px-6 uppercase bg-tropicalRainForest text-[8px] md:text-sm lg:text-xl text-white rounded-lg">SUBSCRIBE OUR NEWSLETTER</button>
         </div>
       </section>
 
@@ -1911,7 +1913,7 @@ const Rating: React.FC<{ label: string; stars: number }> = ({
 const RatingInput: React.FC<{ label: string }> = ({ label }) => {
   return (
     <div className="flex items-center">
-      <span className="mr-2 w-1/3">{label}</span>
+      <span className="mr-2 ">{label}</span>
       <div className="flex-1 flex">
         {[...Array(5)].map((_, i) => (
           <span key={i} className="text-orange-500">

@@ -83,7 +83,7 @@ const DestinationDetail: NextPage<DestinationDetailProps> = ({
                 </div>
               </div>
               {artiText.map((photo, index) => (
-                <p className=" mb-4">{photo}</p>
+                <p key={index} className=" mb-4">{photo}</p>
               ))}
 
               <div className="flex mt-4 space-x-4">

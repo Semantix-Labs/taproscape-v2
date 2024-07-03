@@ -161,16 +161,16 @@ const TravelPackages: React.FC = () => {
   ``;
   return (
     <div className="p-6 bg-tropicalRainForest  mt-28 pt-16">
-      <div className="max-w-7xl mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-2 mb-6">
-          <div className="flex space-x-4">
-            <h1 className="text-xl my-auto font-lexendDeca text-white">
+      <div className="px-5 lg:px-20 2xl:px-40 ">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 mb-6">
+          <div className="grid  md:flex md:space-x-4">
+            <p className="text-xl my-auto font-lexendDeca text-[6px] text-white">
               Sort by:{" "}
-            </h1>
+            </p>
             <select
               value={selectedCategory}
               onChange={handleCategoryChange}
-              className="px-4 py-auto my-auto text-[16px] font-lexendDeca rounded-2xl"
+              className="px-4 py-auto my-auto text-8px  md:text-[16px] font-lexendDeca rounded-2xl"
             >
               {categories.map((category, index) => (
                 <option
@@ -184,21 +184,21 @@ const TravelPackages: React.FC = () => {
             </select>
             <button
               onClick={handleReset}
-              className="bg-none text-white font-lexendDeca  border-2 border-white px-8 py-2 rounded-2xl"
+              className="bg-none text-white font-lexendDeca  border-2 border-white xl:px-8 xl:py-2 px-4 py-1 rounded-2xl"
             >
               Reset
             </button>
           </div>
-          <div className="flex space-x-2">
+          <div className="flex right-0  space-x-">
             <div className="relative w-full">
               <input
                 type="text"
                 value={searchTerm}
                 onChange={handleSearch}
                 placeholder="Search by keywords"
-                className="px-4 py-2 rounded-2xl w-10/12 pl-10"
+                className="px-4 py-2 rounded-2xl  lg:w-full pl-10"
               />
-              <div className="absolute inset-y-0 left-0 flex items-center pl-3">
+              <div className="absolute inset-y-0 left-0 flex items-center  pl-3">
                 <svg
                   className="w-5 h-5 text-gray-500 dark:text-gray-400"
                   aria-hidden="true"
@@ -215,7 +215,7 @@ const TravelPackages: React.FC = () => {
             </div>
           </div>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
           {filteredPackages.map((pkg) => (
             <div
               key={pkg.id}
@@ -227,25 +227,25 @@ const TravelPackages: React.FC = () => {
                   alt={pkg.title}
                   className="w-full h-48 object-cover"
                 />
-                <button className="text-xl px-5 py-2 absolute -bottom-5 left-5 bg-cutspink font-bold">
+                <button className="md:text-xl px-5 py-2 absolute -bottom-5 left-5 bg-cutspink font-bold">
                   {pkg.title}
                 </button>
               </div>
               <div className="p-4">
-                <p className=" mt-2">
+                <p className=" text-[10px] md:text-[12px] xl:text-[16px] mt-2">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
-                <div className="mt-4 flex justify-between items-center">
+                <div className="mt-4 flex text-[8px] md:text-[12px] xl:text-[16px] justify-between items-center">
                   <div className="flex space-x-2">
-                    <img src="/Tourpackage/du.png" alt="" />
+                    <img className='w-4 h-4' src="/Tourpackage/du.png" alt="" />
                     <span className="text-gray-900  font-semibold">
                       Duration:
                     </span>{" "}
                     {pkg.duration}
                   </div>
                   <div className="flex space-x-2">
-                    <img src="/Tourpackage/grup1.png" alt="" />
+                    <img className='w-4 h-4' src="/Tourpackage/grup1.png" alt="" />
                     <span className="text-gray-900  font-semibold">
                       Group size:
                     </span>{" "}

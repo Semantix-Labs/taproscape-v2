@@ -73,7 +73,7 @@ const destinations = [
 const ExploreDestinations = () => {
   return (
     <div className="bg-teal-900 py-16">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="px-5 lg:px-20 2xl:px-40m sm:px-6 ">
       <div className="flex text-xl  md:text-2xl lg:text-3xl xl:text-4xl uppercase">
               {" "}
               <h2 className="pt-1 text-white">Explore our </h2>

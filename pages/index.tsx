@@ -7,6 +7,7 @@ import Carousel from "@/components/Carousel";
 import WhyChooseUs from "../components/WhyChooseUs";
 import { FloatingLabel } from "flowbite-react";
 import styles from "../styles/indexstyle.module.css";
+import CoverflowSlider from "@/components/CoverflowSlider";
 
 export default function Home() {
   return (
@@ -112,6 +113,8 @@ export default function Home() {
           alt=""
         />
       </section>
+
+      <CoverflowSlider />
 
       <section>
         <WhyChooseUs />
