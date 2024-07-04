@@ -4,17 +4,21 @@
   width: 100%;
   padding-top: 50px;
   padding-bottom: 50px;
+  justify-content: center;
+  padding-left: 50px;
+  padding-right: 50px;
+ 
 }
 
 .swiper-slide {
   background-position: center;
   background-size: cover;
-  width: 300px;
-  height: 400px; /* Increased height to accommodate text and button */
+  width: 315px ;
+  height: 368px; /* Increased height to accommodate text and button */
   position: relative; /* Added for positioning the text and button */
   display: flex;
   align-items: flex-end; /* Align items to the bottom */
-  padding: 20px; /* Add padding for spacing */
+  padding: 0px; /* Add padding for spacing */
   color: white; /* Set text color to white */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for better visibility */
   border-radius: 10px; /* Rounded corners */
@@ -37,7 +41,11 @@
 .swiper-slide .content {
   position: relative;
   z-index: 2; /* Ensure content is above the image */
-  background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
   padding: 10px;
   border-radius: 10px;
 }
@@ -58,4 +66,47 @@
   font-weight: bold;
   margin-top: 10px;
   display: inline-block;
+}
+
+.swiperButtonNext, .swiperButtonPrev {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50px;
+  height: 50px;
+  
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  z-index: 10;
+  font-size: 18px;
+  border-radius: 50%;
+}
+
+.swiperButtonNext {
+  right: 10px;
+  display: none;
+}
+
+.swiperButtonPrev {
+  left: 10px;
+  display: none;
+}
+
+
+
+/* Remove default arrow styles */
+
+
+
+
+@media only screen and (min-width: 1024px) {
+ .swiperButtonNext{
+  display: inline;
+ }
+ .swiperButtonPrev{
+  display: inline;
+ }
 }

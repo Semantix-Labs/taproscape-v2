@@ -8,6 +8,7 @@ import WhyChooseUs from "../components/WhyChooseUs";
 import { FloatingLabel } from "flowbite-react";
 import styles from "../styles/indexstyle.module.css";
 import CoverflowSlider from "@/components/CoverflowSlider";
+import App from "@/components/App";
 
 export default function Home() {
   return (
@@ -103,7 +104,7 @@ export default function Home() {
       </section>
 
       <section className="mt-20 py-20 bg-isabelline">
-        <Carousel />
+      <CoverflowSlider />
       </section>
 
       <section className=" absolute z-10 w-full">
@@ -114,7 +115,9 @@ export default function Home() {
         />
       </section>
 
-      <CoverflowSlider />
+     
+
+    
 
       <section>
         <WhyChooseUs />
