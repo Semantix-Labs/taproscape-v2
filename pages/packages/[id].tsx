@@ -1,5 +1,6 @@
 // pages/packages/[id].tsx
 import { useRouter } from "next/router";
+
 import {
   AwaitedReactNode,
   JSXElementConstructor,
@@ -15,6 +16,7 @@ import Image from "next/image";
 import { StaticImport } from "next/dist/shared/lib/get-img-props";
 import Navbar from "@/components/Navbar";
 import { Card } from "flowbite-react";
+import CommentForm from "@/components/CommentForm";
 
 // Simulated data for demonstration purposes
 const travelPackages = [
@@ -1476,7 +1478,7 @@ const PackageDetails = () => {
                     {/* Review Card */}
                     {packageDetails.RewProfile.map(
                       (profile: any, index: any) => (
-                        <div key={index} className="mb-8 grid grid-cols-1 md:grid-cols-12 p-4 border rounded-lg shadow-lg">
+                        <div key={index} className="mb-8 grid grid-cols-1 md:grid-cols-12 gap-4 p-4 border rounded-lg shadow-lg">
                           <div className="flex md:col-span-3 items-start mb-4">
                             <div  className="w-[116px] h-[116px] overflow-hidden">
                               <img
@@ -1501,7 +1503,7 @@ const PackageDetails = () => {
                               et dolore magna aliqua. Ut enim ad minim veniam,
                               quis nostrud exercitation ullamco laboris.
                             </p>
-                            <div className="grid  md:grid-cols-2 gap-2">
+                            <div className="grid  lg:grid-cols-2 gap-2">
                               <Rating label="Accommodation" stars={5} />
                               <Rating label="Destination" stars={5} />
                               <Rating label="Meals" stars={5} />
@@ -1518,46 +1520,7 @@ const PackageDetails = () => {
                   </div>
 
                   {/* Comment Form */}
-                  <div className="p-4 border rounded-lg shadow-lg">
-                    <h3 className="text-2xl font-semibold mb-4">
-                      Put a Comment
-                    </h3>
-                    <form>
-                      <div className="grid md:grid-cols-2 gap-4 mb-4">
-                        <RatingInput label="Accommodation" />
-                        <RatingInput label="Destination" />
-                        <RatingInput label="Meals" />
-                        <RatingInput label="Overall" />
-                        <RatingInput label="Transport" />
-                        <RatingInput label="Value for Money" />
-                      </div>
-                      <div className="flex gap-4 mb-4">
-                        <input
-                          type="text"
-                          placeholder="Full Name *"
-                          className="w-1/2 p-2 border rounded-lg"
-                          required
-                        />
-                        <input
-                          type="email"
-                          placeholder="E-mail *"
-                          className="w-1/2 p-2 border rounded-lg"
-                          required
-                        />
-                      </div>
-                      <textarea
-                        placeholder="Your Comment ..."
-                        className="w-full p-2 border rounded-lg mb-4"
-                        rows={4}
-                      ></textarea>
-                      <button
-                        type="submit"
-                        className="px-4 py-2 bg-orange-500 text-white rounded-lg"
-                      >
-                        Submit
-                      </button>
-                    </form>
-                  </div>
+                 <CommentForm/>
                 </div>
               </div>
             )}
@@ -1910,19 +1873,19 @@ const Rating: React.FC<{ label: string; stars: number }> = ({
   );
 };
 
-const RatingInput: React.FC<{ label: string }> = ({ label }) => {
-  return (
-    <div className="flex items-center">
-      <span className="mr-2 ">{label}</span>
-      <div className="flex-1 flex">
-        {[...Array(5)].map((_, i) => (
-          <span key={i} className="text-orange-500">
-            &#9733;
-          </span>
-        ))}
-      </div>
-    </div>
-  );
-};
+// const RatingInput: React.FC<{ label: string }> = ({ label }) => {
+//   return (
+//     <div className="flex items-center">
+//       <span className="mr-2 ">{label}</span>
+//       <div className="flex-1 flex">
+//         {[...Array(5)].map((_, i) => (
+//           <span key={i} className="text-orange-500">
+//             &#9733;
+//           </span>
+//         ))}
+//       </div>
+//     </div>
+//   );
+// };
 
 export default PackageDetails;
