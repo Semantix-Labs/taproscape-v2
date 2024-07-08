@@ -15,7 +15,7 @@ const overviewItems: OverviewItem[] = [
 
 const Overview = () => {
   return (
-    <div className="py-12 bg-white">
+    <div className="py-20 pb-24 bg-white">
       <div className=" grid grid-cols-1 md:grid-cols-2 items-center gap-8">
         <div className="relative flex ">
           {overviewItems.map((item, index) => (
@@ -44,7 +44,7 @@ const Overview = () => {
                 <div className="text-overlay absolute top-0  pl-5 pt-1 justify-center ">
                   <p
                     style={{ fontFamily: "bagea" }}
-                    className="top-0 pl-2 text-white bottom-5"
+                    className="top-0 pl-2 text-white md:text-2xl lg:text-3xl xl:text-4xl bottom-5"
                   >
                    overview
                   </p>

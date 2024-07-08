@@ -174,7 +174,7 @@ const TravelPackages: React.FC = () => {
             >
               {categories.map((category, index) => (
                 <option
-                  className="font-lexendDeca rounded-lg text-[10px]"
+                  className="font-lexendDeca rounded-lg text-[10px] md:text-[16px]"
                   key={index}
                   value={category}
                 >

@@ -12,7 +12,7 @@ export default function Destination() {
 
       <section className="flex ">
         <div className="image-container relative">
-          <img src="/home.png" className=" w-screen brightness-50" alt="" />
+          <img src="/hikkaduwa.jpg" className="h-auto lg:h-[600px] 2xl:h-[700px] w-screen brightness-50" alt="" />
           <div className="text-overlay absolute lg:left-20 left-5 xl:left-40 bottom-5 md:bottom-20 p-4">
             <h1
               style={{ lineHeight: "68px", fontFamily: "bagea" }}
@@ -67,11 +67,11 @@ export default function Destination() {
               {" "}
               <h2 className="pt-1 text-oxfordBlue">lorem </h2>
               <div className="image-container relative">
-                <img className="w-28 md:w-64 lg:w-[305px] h-[50px]" src="/textbg.png" alt="" />
-                <div className="text-overlay absolute top-0  pl-5 pt-1 justify-center ">
+                <img className="w-28 md:w-64 lg:w-[350px] h-[50px]" src="/textbg.png" alt="" />
+                <div className="text-overlay absolute top-0   pt-1 justify-center ">
                   <p
                     style={{ fontFamily: "bagea" }}
-                    className="top-0  pl-2 flex text-white bottom-5"
+                    className="top-0  pl-2 flex text-white md:text-2xl lg:text-3xl xl:text-4xl bottom-5"
                   >
                    Tour packages
                   </p>

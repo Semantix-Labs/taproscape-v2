@@ -2,7 +2,7 @@ import React from "react";
 
 const MissionSection = () => {
   return (
-    <section className="bg-white py-16">
+    <section className="bg-white py-6">
       <div className="container mx-auto flex flex-col h-[700px] md:h-[552px] md:flex-row items-center">
         <div className="w-full md:w-1/2 mt-8 md:mt-0 px-4 flex h-auto  md:h-[552px] justify-center relative">
           <div className="absolute top-0 left-0 w-full h-full ">
@@ -38,7 +38,7 @@ const MissionSection = () => {
                 <div className="text-overlay absolute top-0  pl-5 pt-1 justify-center ">
                   <p
                     style={{ fontFamily: "bagea" }}
-                    className="top-0 pl-2 text-white bottom-5"
+                    className="top-0 pl-2 text-white md:text-2xl lg:text-3xl xl:text-4xl bottom-5"
                   >
                   mission
                   </p>

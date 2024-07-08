@@ -9,11 +9,11 @@ const StorySectionTour = () => {
               {" "}
               <h2 className="pt-1 text-oxfordBlue">types of tours</h2>
               <div className="image-container relative">
-                <img className="w-28 md:w-full" src="/textbg.png" alt="" />
+                <img className="w-28 md:w-[305px] h-[50px]" src="/textbg.png" alt="" />
                 <div className="text-overlay absolute top-0  pl-5 pt-1 justify-center ">
                   <p
                     style={{ fontFamily: "bagea" }}
-                    className="top-0 pl- text-white bottom-5"
+                    className="top-0 pl-2 text-white md:text-2xl lg:text-3xl xl:text-4xl bottom-5"
                   >
                   Overview
                   </p>

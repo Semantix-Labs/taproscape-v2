@@ -9,6 +9,7 @@ const destinations = [
     imageUrl: "/Destination/d1.png",
     slug: 'destination1',
     span: "lg:col-span-2", // First image spans 2 columns in lg and up
+    imageSpan:"lg:h-[333px] 2xl:h-[450px]",
   },
   {
     title: "Lorem Ipsum Event",
@@ -17,6 +18,7 @@ const destinations = [
     imageUrl: "/Destination/d2.jpeg",
     slug: 'destination2',
     span: "lg:col-span-2", // Second image spans 2 columns in lg and up
+    imageSpan:"lg:h-[333px] 2xl:h-[450px]",
   },
   {
     title: "Lorem Ipsum Event",
@@ -25,6 +27,7 @@ const destinations = [
     imageUrl: "/Destination/d3.png",
     slug: 'destination3',
     span: "lg:col-span-1", // Third image spans 1 column
+    imageSpan:"xl:h-[257px]",
   },
   {
     title: "Lorem Ipsum Event",
@@ -33,6 +36,7 @@ const destinations = [
     imageUrl: "/Destination/d4.png",
     slug: 'destination4',
     span: "lg:col-span-1", // Fourth image spans 1 column
+    imageSpan:"xl:h-[257px]",
   },
   {
     title: "Lorem Ipsum Event",
@@ -41,6 +45,7 @@ const destinations = [
     imageUrl: "/Destination/d5.jpeg",
     slug: 'destination5',
     span: "lg:col-span-1", // Fifth image spans 1 column
+    imageSpan:"xl:h-[257px]",
   },
   {
     title: "Lorem Ipsum Event",
@@ -49,6 +54,7 @@ const destinations = [
     imageUrl: "/Destination/d6.png",
     slug: 'destination6',
     span: "lg:col-span-1", // Sixth image spans 1 column
+    imageSpan:"xl:h-[257px]",
   },
   {
     title: "Lorem Ipsum Event",
@@ -58,6 +64,7 @@ const destinations = [
     slug: 'destination7',
     span: "lg:col-span-2", // Seventh image spans 2 columns in lg and up
     span1: "grid grid-cols-2",
+    imageSpan:"xl:h-[257px]",
   },
   {
     title: "Lorem Ipsum Event",
@@ -67,6 +74,7 @@ const destinations = [
     slug: 'destination8',
     span: "lg:col-span-2", // Eighth image spans 2 columns in lg and up
     span1: "grid grid-cols-2",
+    imageSpan:"xl:h-[257px]",
   },
 ];
 
@@ -74,7 +82,7 @@ const ExploreDestinations = () => {
   return (
     <div className="bg-teal-900 py-16">
       <div className="px-5 lg:px-20 2xl:px-40m sm:px-6 ">
-      <div className="flex text-xl  md:text-2xl lg:text-3xl xl:text-4xl uppercase">
+      <div className="flex text-xl  md:text-2xl lg:text-3xl xl:text-4xl mb-10 uppercase">
               {" "}
               <h2 className="pt-1 text-white">Explore our </h2>
               <div className="image-container relative">
@@ -82,7 +90,7 @@ const ExploreDestinations = () => {
                 <div className="text-overlay absolute top-0  pl-5 pt-1 justify-center ">
                   <p
                     style={{ fontFamily: "bagea" }}
-                    className="top-0 pl-2 text-white bottom-5"
+                    className="top-0 pl-2 text-white md:text-2xl lg:text-3xl xl:text-4xl bottom-5"
                   >
                    Destinations
                   </p>
@@ -95,12 +103,14 @@ const ExploreDestinations = () => {
               key={index}
               className={`relative rounded-xl overflow-hidden shadow-xl bg-teal-800 ${destination.span}`}
             >
-              <div className={`${destination.span1} p-5  rounded-lg`}>
+              <div className={`${destination.span1}   rounded-lg`}>
+                <div className={`${destination.imageSpan} p-3 h-48 overflow-hidden rounded-lg`}>
                 <img
                   src={destination.imageUrl}
                   alt={destination.title}
-                  className="w-full h-48  rounded-xl   object-cover"
+                  className="w-full h-full  rounded-xl   object-cover"
                 />
+                </div>
                 <div className="p-4 my-auto">
                   <h3 className="text-xl font-semibold text-white">
                     {destination.title}

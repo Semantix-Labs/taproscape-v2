@@ -2,7 +2,7 @@ import React from "react";
 
 const StorySection = () => {
   return (
-    <section className="bg-white md:py-12">
+    <section className="bg-white md:py-6">
       <div className=" flex flex-col h-[800px] gap-4 md:h-[552px] md:flex-row items-center">
         <div className="w-full md:w-1/2 px-4">
         <div className="flex text-xl md:text-2xl mb-5 lg:text-3xl xl:text-4xl uppercase">
@@ -13,7 +13,7 @@ const StorySection = () => {
                 <div className="text-overlay absolute top-0  pl-5 pt-1 justify-center ">
                   <p
                     style={{ fontFamily: "bagea" }}
-                    className="top-0 pl-2 text-white bottom-5"
+                    className="top-0 pl-2 text-white md:text-2xl lg:text-3xl xl:text-4xl bottom-5"
                   >
                    story
                   </p>

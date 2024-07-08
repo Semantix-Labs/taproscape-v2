@@ -14,7 +14,7 @@ export default function AboutUs() {
 
       <section className="flex ">
         <div className="image-container relative">
-          <img src="/home.png" className=" w-screen brightness-50" alt="" />
+          <img src="/kandybg.jpg" className="h-auto lg:h-[600px] 2xl:h-[700px] w-screen brightness-50" alt="" />
           <div className="text-overlay absolute md:left-10 xl:left-20 2xl:left-40 bottom-5 md:bottom-20 p-4">
             <h1
               style={{ lineHeight: "68px", fontFamily: "bagea" }}
@@ -34,11 +34,11 @@ export default function AboutUs() {
         />
       </section>
 
-      <section className="pt-20 overflow-hidden px-5 lg:px-20 2xl:px-40 ">
+      <section className=" overflow-hidden px-5 lg:px-20 2xl:px-40 ">
         <StorySection />
       </section>
 
-      <section className=" pt-20 overflow-hidden px-5 lg:px-20 2xl:px-40 ">
+      <section className="  overflow-hidden px-5 lg:px-20 2xl:px-40 ">
         <MissionSection />
       </section>
 
@@ -57,7 +57,7 @@ export default function AboutUs() {
                 <div className="text-overlay absolute top-0  pl-5 pt-1 justify-center ">
                   <p
                     style={{ fontFamily: "bagea" }}
-                    className="top-0 pl-2 text-white bottom-5"
+                    className="top-0 pl-2 text-white md:text-2xl lg:text-3xl xl:text-4xl bottom-5"
                   >
                    value
                   </p>
@@ -189,7 +189,7 @@ export default function AboutUs() {
       <div className="max-w-7xl py-16 mt-20 mx-auto px-4 bg-isabelline overflow-hidden sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <div className="my-auto">
-          <div className="flex text-xl md:text-2xl lg:text-3xl xl:text-4xl uppercase">
+          <div className="flex text-xl md:text-2xl lg:text-3xl xl:text-4xl mb-10 uppercase">
               {" "}
               <h2 className="pt-1 text-oxfordBlue">our</h2>
               <div className="image-container relative">
@@ -197,7 +197,7 @@ export default function AboutUs() {
                 <div className="text-overlay absolute top-0  pl-5 pt-1 justify-center ">
                   <p
                     style={{ fontFamily: "bagea" }}
-                    className="top-0 pl-2 text-white bottom-5"
+                    className="top-0 pl-2 text-white md:text-2xl lg:text-3xl xl:text-4xl bottom-10"
                   >
                    commitment
                   </p>

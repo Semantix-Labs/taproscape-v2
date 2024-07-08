@@ -16,16 +16,22 @@ export default function Home() {
       <Navbar />
 
       <section className="flex ">
-        <div className="image-container  relative">
-          <img src="/home.png" className=" w-screen brightness-50" alt="" />
+        <div className="image-container relative">
+          <video
+            src="/slV.mp4"
+            className="h-auto w-screen"
+            autoPlay
+            loop
+            muted
+          />
           <div className="text-overlay absolute px-5 lg:px-20 2xl:px-40 left-4 bottom-4 p-4">
             <h1
-              style={{  fontFamily: "Bagea" }}
-              className={`text-white max-w-2xl font-normal  text-sm  md:text-5xl  ${styles.title}`}
+              style={{ fontFamily: "Bagea" }}
+              className={`text-white max-w-2xl font-normal text-sm md:text-5xl ${styles.title}`}
             >
-              Explore the Essence of Sri Lanka with Taproscapes
+              Explore the Essence of Sri Lanka with Tabroscapes
             </h1>
-            <p className="text-white max-w-xl font-lexendDeca text-[12px] md:text-3xl ">
+            <p className="text-white max-w-xl font-lexendDeca text-[12px] md:text-3xl">
               Luxury · Wellness · Sustainability
             </p>
             <button className="bg-none hover:bg-orange-700 text-[12px] p-1 text-white font-bold md:py-2 md:px-4 rounded-sm md:my-6 border-2">
@@ -54,7 +60,7 @@ export default function Home() {
                 <div className="text-overlay absolute top-0  pl-5 pt-1 justify-center ">
                   <p
                     style={{ fontFamily: "bagea" }}
-                    className="top-0 pl-2 text-white bottom-5"
+                    className="top-0 pl-2 text-white md:text-2xl lg:text-3xl xl:text-4xl bottom-5"
                   >
                     INTRO
                   </p>
@@ -76,7 +82,7 @@ export default function Home() {
             </p>
           </div>
           <div className="grid col-span-1">
-            <div  className="flex relative items-center justify-center  ">
+            <div className="flex relative items-center justify-center  ">
               <TripCard
                 mainImage="/home3.png"
                 mainTitle="Trip To Ella"
@@ -87,13 +93,13 @@ export default function Home() {
                 overlayTitle="Trip to Galle"
                 overlayCompletion={40}
               />
-             <div className="absolute top-0 left-0 w-[370px] h-[382px">
-             <img
-                className="flex justify-center items-center 2xl:ml-72 md:ml-72 2xl:w-[370px] 2xl:h-[382px] md:w-[370px] md:h-[382px]"
-                src="/e.png"
-                alt=""
-              />
-             </div>
+              <div className="absolute top-0 left-0 w-[370px] h-[382px">
+                <img
+                  className="flex justify-center items-center 2xl:ml-72 md:ml-72 2xl:w-[370px] 2xl:h-[382px] md:w-[370px] md:h-[382px]"
+                  src="/e.png"
+                  alt=""
+                />
+              </div>
             </div>
           </div>
         </div>
@@ -104,7 +110,7 @@ export default function Home() {
       </section>
 
       <section className="mt-20 py-20 bg-isabelline">
-      <CoverflowSlider />
+        <CoverflowSlider />
       </section>
 
       <section className=" absolute z-10 w-full">
@@ -115,15 +121,19 @@ export default function Home() {
         />
       </section>
 
-     
-
-    
-
       <section>
         <WhyChooseUs />
       </section>
 
-      <section style={{backgroundImage: 'url("/home6.png")', backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat',}} className="mt-20  h-[265px] w-full">
+      <section
+        style={{
+          backgroundImage: 'url("/home6.png")',
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
+        }}
+        className="mt-20  h-[265px] w-full"
+      >
         <div className="justify-center gap-8 py-24 flex">
           <label
             htmlFor="my-modal"
@@ -131,7 +141,9 @@ export default function Home() {
           >
             <h2 className=" md:text-2xl"> Email</h2>
           </label>
-          <button className=" border-2 border-gray-600 w-1/4 py-1 px-2 md:py-4 md:px-6 uppercase bg-tropicalRainForest text-[8px] md:text-sm lg:text-xl text-white rounded-lg">SUBSCRIBE OUR NEWSLETTER</button>
+          <button className=" border-2 border-gray-600 w-1/4 py-1 px-2 md:py-4 md:px-6 uppercase bg-tropicalRainForest text-[8px] md:text-sm lg:text-xl text-white rounded-lg">
+            SUBSCRIBE OUR NEWSLETTER
+          </button>
         </div>
       </section>
     </div>

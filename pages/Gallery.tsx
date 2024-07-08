@@ -35,7 +35,7 @@ export default function Gallery() {
 
     <section className="flex ">
       <div className="image-container relative">
-        <img src="/home.png" className=" w-screen brightness-50" alt="" />
+        <img src="/home.png" className="h-auto lg:h-[600px] 2xl:h-[700px] w-screen brightness-50" alt="" />
         <div className="text-overlay absolute md:left-40 bottom-5 md:bottom-20 p-4">
           <h1
             style={{ lineHeight: "68px", fontFamily: "bagea" }}

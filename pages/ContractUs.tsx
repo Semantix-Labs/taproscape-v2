@@ -1,13 +1,10 @@
-
 import Navbar from "@/components/Navbar";
 import axios from "axios";
 import React, { useState } from "react";
-import dynamic from 'next/dynamic';
+import dynamic from "next/dynamic";
+import Link from "next/link";
 
-const DynamicMap = dynamic(() => import('../components/Map'), { ssr: false });
-
-
-
+const DynamicMap = dynamic(() => import("../components/Map"), { ssr: false });
 
 export default function ContractUs() {
   const [formData, setFormData] = useState({
@@ -64,7 +61,7 @@ export default function ContractUs() {
 
       <section className="flex ">
         <div className="image-container relative">
-          <img src="/home.png" className=" w-screen brightness-50" alt="" />
+          <img src="/trinco.jpg" className="h-auto lg:h-[600px] 2xl:h-[700px] w-screen brightness-50" alt="" />
           <div className="text-overlay absolute md:left-40 bottom-5 md:bottom-20 p-4">
             <h1
               style={{ lineHeight: "68px", fontFamily: "bagea" }}
@@ -199,7 +196,11 @@ export default function ContractUs() {
                 </div>
                 <div>
                   <h3 className="font-bold">E-Mail</h3>
-                  <p className="text-gray-600">taproscapes@Gmail.Com</p>
+                  <p className="text-gray-600">
+                    <a href="mailto:taproscapes@Gmail.Com">
+                      taproscapes@Gmail.Com
+                    </a>
+                  </p>
                 </div>
               </div>
             </div>
@@ -207,14 +208,19 @@ export default function ContractUs() {
         </div>
       </section>
 
-
-
       <div className="mt-20">
-      <DynamicMap />
-    </div>
+        <DynamicMap />
+      </div>
 
-
-    <section style={{backgroundImage: 'url("/home6.png")', backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat',}} className="  md:h-[265px] overflow-hidden w-full">
+      <section
+        style={{
+          backgroundImage: 'url("/home6.png")',
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
+        }}
+        className="  md:h-[265px] overflow-hidden w-full"
+      >
         <div className="justify-center gap-8 py-16 lg:py-28 flex">
           <label
             htmlFor="my-modal"
@@ -222,14 +228,11 @@ export default function ContractUs() {
           >
             <h2 className=" md:text-2xl"> Email</h2>
           </label>
-          <button className=" border-2 border-gray-600 w-1/4 py-1 px-2 md:py-4 md:px-6 uppercase bg-tropicalRainForest text-[8px] md:text-sm lg:text-xl text-white rounded-lg">SUBSCRIBE OUR NEWSLETTER</button>
+          <button className=" border-2 border-gray-600 w-1/4 py-1 px-2 md:py-4 md:px-6 uppercase bg-tropicalRainForest text-[8px] md:text-sm lg:text-xl text-white rounded-lg">
+            SUBSCRIBE OUR NEWSLETTER
+          </button>
         </div>
       </section>
-
-    
-
-
-     
     </div>
   );
 }

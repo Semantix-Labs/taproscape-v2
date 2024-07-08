@@ -6,7 +6,7 @@ const WhyChooseUs = () => {
     <section className="bg-white px-5 lg:px-20 2xl:px-40  py-12">
       <div className=" flex flex-col md:flex-row items-center">
         <div className="w-full md:w-1/2 px-4">
-        <div className="flex text-xl md:text-2xl mb-5 lg:text-3xl xl:text-4xl uppercase">
+        <div className="flex text-xl md:text-2xl  mb-10 lg:text-3xl xl:text-4xl uppercase">
               {" "}
               <h2 className="pt-1 text-oxfordBlue">Why choose</h2>
               <div className="image-container relative">
@@ -14,7 +14,7 @@ const WhyChooseUs = () => {
                 <div className="text-overlay absolute top-0  pl-5 pt-1 justify-center ">
                   <p
                     style={{ fontFamily: "bagea" }}
-                    className="top-0 pl-2 text-white bottom-5"
+                    className="top-0 pl-2 text-white md:text-2xl lg:text-3xl xl:text-4xl bottom-5"
                   >
                     us
                   </p>
@@ -77,7 +77,7 @@ const WhyChooseUs = () => {
               </span>{" "}
             </div>
             <div className="grid">
-              <h3 className="text-xl flex font-semibold mb-2">
+              <h3 className="text-xl flex font-semibold uppercase mb-2">
                 Personalized Itineraries
               </h3>
               <p className="pr-5">
@@ -120,7 +120,7 @@ const WhyChooseUs = () => {
               </span>{" "}
             </div>
             <div className="grid">
-              <h3 className="text-xl flex font-semibold mb-2">
+              <h3 className="text-xl flex font-semibold uppercase mb-2">
                 sustainable travel
               </h3>
               <p className="pr-5">
@@ -207,7 +207,7 @@ const WhyChooseUs = () => {
               </span>{" "}
             </div>
             <div className="grid">
-              <h3 className="text-xl flex font-semibold mb-2">
+              <h3 className="text-xl flex uppercase font-semibold mb-2">
               exclusive cultural access
               </h3>
               <p className="pr-5">
@@ -218,7 +218,7 @@ const WhyChooseUs = () => {
           </div>
         </div>
         <div
-          style={{ backgroundImage: `url("/bg.png")` }}
+          style={{ backgroundImage: `url("/bg.png")`, backgroundSize: "cover" , backgroundPosition: "center", backgroundRepeat: "no-repeat"}}
           className="w-full md:w-1/2 mt-8 md:mt-0 px-4 flex justify-center"
         >
           <div className="relative">

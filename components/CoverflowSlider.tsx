@@ -80,7 +80,7 @@ const App: React.FC = () => {
         <div className="image-container relative">
           <img className="w-28 md:w-full" src="/textbg.png" alt="" />
           <div className="text-overlay absolute top-0 pl-5 pt-1 justify-center">
-            <p style={{ fontFamily: "bagea" }} className="top-0 pl-2 text-white bottom-5">
+            <p style={{ fontFamily: "bagea" }} className="top-0 pl-2 text-white md:text-2xl lg:text-3xl xl:text-4xl bottom-5">
               place
             </p>
           </div>
