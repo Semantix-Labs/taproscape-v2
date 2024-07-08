@@ -16,7 +16,7 @@ const Navbar = () => {
       
       let scrollThreshold = 0;
       if (windowWidth >= 1140) {
-        scrollThreshold = 677;
+        scrollThreshold = 470;
       } else if (windowWidth >= 1024) {
         scrollThreshold = 417;
       } else {

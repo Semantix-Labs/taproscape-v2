@@ -16,15 +16,15 @@ export default function Home() {
       <Navbar />
 
       <section className="flex ">
-        <div className="image-container relative">
+        <div className=" ">
           <video
             src="/slV.mp4"
-            className="h-auto w-screen"
+            className="h-auto   relative w-screen"
             autoPlay
             loop
             muted
           />
-          <div className="text-overlay absolute px-5 lg:px-20 2xl:px-40 left-4 bottom-4 p-4">
+          <div className="text-overlay absolute px-5 lg:px-20 2xl:px-40 left-4 bottom-0 p-4">
             <h1
               style={{ fontFamily: "Bagea" }}
               className={`text-white max-w-2xl font-normal text-sm md:text-5xl ${styles.title}`}
