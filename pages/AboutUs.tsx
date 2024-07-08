@@ -83,9 +83,9 @@ export default function AboutUs() {
                 <h3 className="text-xl mb-4 font-semibold">Luxury</h3>
                 <span className="mt-5 flex justify-center">
                   <svg
-                    width="100"
-                    height="30"
-                    viewBox="0 0 100 30"
+                    width=""
+                    height="5"
+                    viewBox="0 0 153 5"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
                   >

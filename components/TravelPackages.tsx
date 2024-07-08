@@ -227,7 +227,7 @@ const TravelPackages: React.FC = () => {
                   alt={pkg.title}
                   className="w-full h-48 object-cover"
                 />
-                <button className="md:text-xl px-5 py-2 absolute -bottom-5 left-5 bg-cutspink font-bold">
+                <button onClick={() => handleBookNow(pkg.id)} className="md:text-xl px-5 py-2 absolute -bottom-5 left-5 bg-cutspink font-bold">
                   {pkg.title}
                 </button>
               </div>
@@ -252,8 +252,8 @@ const TravelPackages: React.FC = () => {
                     {pkg.groupSize}
                   </div>
                 </div>
-                <div className="mt-4 flex justify-between items-center">
-                  <span className="text-gray-900 font-bold">{pkg.price}</span>
+                <div className="mt-4 flex justify-end items-center">
+                 
                   <button onClick={() => handleBookNow(pkg.id)} className="bg-orange-500 text-white px-4 py-2 rounded-md">Book Now</button>
                 </div>
               </div>

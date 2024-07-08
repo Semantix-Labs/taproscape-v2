@@ -11,8 +11,8 @@ type TeamMember = {
 const teamMembers: TeamMember[] = [
   { id: 1, name: 'Name Lorem Ipsum', position: 'Chief Financial Officer', image: '/aboutUs/t1.png' },
   { id: 2, name: 'Name Lorem Ipsum', position: 'Chief Financial Officer', image: '/aboutUs/t2.jpeg' },
-  { id: 3, name: 'Name Lorem Ipsum', position: 'Chief Financial Officer', image: '/aboutUs/t3.jpeg' },
-  { id: 4, name: 'Name Lorem Ipsum', position: 'Chief Financial Officer', image: '/aboutUs/t4.jpeg' },
+  // { id: 3, name: 'Name Lorem Ipsum', position: 'Chief Financial Officer', image: '/aboutUs/t3.jpeg' },
+  // { id: 4, name: 'Name Lorem Ipsum', position: 'Chief Financial Officer', image: '/aboutUs/t4.jpeg' },
 ];
 
 const Team = () => {
@@ -40,7 +40,7 @@ const Team = () => {
               <Image
                 src={member.image}
                 alt={member.name}
-                className="w-full h-72 object-cover rounded-lg"
+                className="w-full h-72  object-cover rounded-lg"
                 width={294}
                 height={329}
               />

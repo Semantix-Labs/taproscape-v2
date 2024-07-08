@@ -23,6 +23,7 @@ const travelPackages = [
   {
     id: 1,
     title: "Honeymoon Tours",
+    imageUrlh: "/Tourpackage/1.png",
     description:
       "Enjoy a romantic getaway with our exclusive honeymoon tours. ",
     itinerary:
@@ -104,6 +105,7 @@ const travelPackages = [
   {
     id: 2,
     title: "Luxury Tours",
+    imageUrlh: "/Tourpackage/2.jpeg",
     description:
       "Enjoy a romantic getaway with our exclusive honeymoon tours. ",
     itinerary:
@@ -185,6 +187,7 @@ const travelPackages = [
   {
     id: 3,
     title: "Ramayana Tours",
+    imageUrlh: "/Tourpackage/3.png",
     description:
       "Enjoy a romantic getaway with our exclusive honeymoon tours. ",
     itinerary:
@@ -266,6 +269,7 @@ const travelPackages = [
   {
     id: 4,
     title: "Wellness Tours",
+    imageUrlh: "/Tourpackage/4.jpeg",
     description:
       "Enjoy a romantic getaway with our exclusive honeymoon tours. ",
     itinerary:
@@ -347,6 +351,7 @@ const travelPackages = [
   {
     id: 5,
     title: "Family Tours",
+    imageUrlh: "/Tourpackage/5.jpeg",
     description:
       "Enjoy a romantic getaway with our exclusive honeymoon tours. ",
     itinerary:
@@ -428,6 +433,7 @@ const travelPackages = [
   {
     id: 6,
     title: "Adventure Tours",
+    imageUrlh: "/Tourpackage/6.jpeg",
     description:
       "Enjoy a romantic getaway with our exclusive honeymoon tours. ",
     itinerary:
@@ -509,6 +515,7 @@ const travelPackages = [
   {
     id: 7,
     title: "Cultural Tours",
+    imageUrlh: "/Tourpackage/7.jpeg",
     description:
       "Enjoy a romantic getaway with our exclusive honeymoon tours. ",
     itinerary:
@@ -590,6 +597,7 @@ const travelPackages = [
   {
     id: 8,
     title: "Nature & Wildlife Tours",
+    imageUrlh: "/Tourpackage/8.jpeg",
     description:
       "Enjoy a romantic getaway with our exclusive honeymoon tours. ",
     itinerary:
@@ -671,6 +679,7 @@ const travelPackages = [
   {
     id: 9,
     title: "Beach Tours",
+    imageUrlh: "/Tourpackage/9.jpeg",
     description:
       "Enjoy a romantic getaway with our exclusive honeymoon tours. ",
     itinerary:
@@ -752,6 +761,7 @@ const travelPackages = [
   {
     id: 10,
     title: "Eco & Sustainable Tours",
+    imageUrlh: "/Tourpackage/10.jpeg",
     description:
       "Enjoy a romantic getaway with our exclusive honeymoon tours. ",
     itinerary:
@@ -833,6 +843,7 @@ const travelPackages = [
   {
     id: 11,
     title: "Food & Culinary Tours",
+    imageUrlh: "/Tourpackage/11.jpeg",
     description:
       "Enjoy a romantic getaway with our exclusive honeymoon tours. ",
     itinerary:
@@ -965,8 +976,8 @@ const PackageDetails = () => {
       </section>
 
       <section className="flex ">
-        <div className="image-container relative">
-          <img src="/home.png" className=" w-screen brightness-50" alt="" />
+        <div className="image-container h-auto lg:h-[600px] 2xl:h-[700px] w-screen overflow-hidden relative">
+          <img src={packageDetails.imageUrlh} className=" w-screen brightness-50" alt="" />
           <div className="text-overlay absolute md:left-40 bottom-5 md:bottom-20 p-4">
             <h1
               style={{ lineHeight: "68px", fontFamily: "bagea" }}
