@@ -18,12 +18,12 @@ export default function Home() {
       <section className="flex ">
         <div className=" ">
           <video
-            src="/slV.mp4"
+            src="https://res.cloudinary.com/dbbndti4m/video/upload/v1720450511/go1muurqw08vgya8hmk0.mp4"
             className="h-auto   relative w-screen"
             autoPlay
             loop
             muted
-          />
+          ></video>
           <div className="text-overlay absolute px-5 lg:px-20 2xl:px-40 left-4 bottom-0 p-4">
             <h1
               style={{ fontFamily: "Bagea" }}
