@@ -18,7 +18,7 @@ export default function Home() {
       <section className="flex ">
         <div className=" ">
           <video
-            src="https://res.cloudinary.com/dbbndti4m/video/upload/v1720450511/go1muurqw08vgya8hmk0.mp4"
+            src="https://res.cloudinary.com/dbbndti4m/video/upload/v1720486983/utuejnocun8nnnrtm0oj.mp4"
             className="h-auto   relative w-screen"
             autoPlay
             loop
