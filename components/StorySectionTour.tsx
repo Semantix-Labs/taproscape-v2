@@ -21,7 +21,7 @@ const StorySectionTour = () => {
               </div>
             </div>
           <p className=" mb-4">
-          Explore a variety of curated tours designed to suit every traveler's interests. From luxurious wellness retreats to adventurous wildlife safaris, Taproscapes offers diverse experiences. Discover Sri Lanka's rich culture, stunning landscapes, and vibrant wildlife through our specialized tours. Create unforgettable memories and experience the true essence of Sri Lanka with Taproscapes.
+          Explore a variety of curated tours designed to suit every travelers interests. From luxurious wellness retreats to adventurous wildlife safaris, Taproscapes offers diverse experiences. Discover Sri Lankas rich culture, stunning landscapes, and vibrant wildlife through our specialized tours. Create unforgettable memories and experience the true essence of Sri Lanka with Taproscapes.
 
           </p>
         

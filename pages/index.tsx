@@ -73,7 +73,7 @@ export default function Home() {
 
             </p>
             <p className="mt-5 text-justify md:text-start">
-            At Taproscapes, we specialize in crafting bespoke travel experiences in Sri Lanka. Our focus on wellness itineraries and sustainable travel ensures that each journey is enriching and memorable. Whether you're seeking relaxation, adventure, or cultural exploration, our expertly designed tours cater to your individual preferences and interests.
+            At Taproscapes, we specialize in crafting bespoke travel experiences in Sri Lanka. Our focus on wellness itineraries and sustainable travel ensures that each journey is enriching and memorable. Whether you are seeking relaxation, adventure, or cultural exploration, our expertly designed tours cater to your individual preferences and interests.
 
             </p>
           </div>

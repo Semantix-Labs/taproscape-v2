@@ -178,7 +178,7 @@ export default function ContractUs() {
             <div className="bg-[#F7F3EE] rounded-lg shadow-md p-6 md:p-12 rounded-r-lg flex-1 md:col-span-5">
               <h2 className="text-2xl font-bold mb-4">Get In Touch</h2>
               <p className="text-gray-600 mb-4">
-              We'd love to hear from you! Whether you have questions about our tours, need assistance with planning your trip, or want to share your travel experiences, our team is here to help.
+              We love to hear from you! Whether you have questions about our tours, need assistance with planning your trip, or want to share your travel experiences, our team is here to help.
 
               </p>
               <div className="space-y-4">

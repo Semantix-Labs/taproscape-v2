@@ -162,7 +162,7 @@ export default function AboutUs() {
                 </span>
 
                 <p className="mt-2 ">
-                  Experience Sri Lanka's rich heritage through authentic and
+                  Experience Sri Lankas rich heritage through authentic and
                   immersive cultural experiences.
                 </p>
               </div>

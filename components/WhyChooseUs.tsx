@@ -214,7 +214,7 @@ const WhyChooseUs = () => {
                 exclusive cultural access
               </h3>
               <p className="pr-5">
-                Driven by a passion for Sri Lanka's beauty, we promote wellness,
+                Driven by a passion for Sri Lankas beauty, we promote wellness,
                 sustainability, and cultural understanding. Taproscapes creates
                 memorable experiences that positively impact travelers and local
                 communities.
