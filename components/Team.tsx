@@ -10,8 +10,8 @@ type TeamMember = {
 
 const teamMembers: TeamMember[] = [
  
-  { id: 1, name: 'Name Lorem Ipsum', position: 'Chief Financial Officer', image: '/aboutUs/t1.png' },
-  { id: 2, name: 'Name Lorem Ipsum', position: 'Chief Financial Officer', image: '/aboutUs/t2.jpeg' },
+  { id: 1, name: 'Name Lorem Ipsum', position: 'Chief Financial Officer', image: '/comp.jpg' },
+  { id: 2, name: 'Name Lorem Ipsum', position: 'Chief Financial Officer', image: '/comp2.jpg' },
  
   // { id: 4, name: 'Name Lorem Ipsum', position: 'Chief Financial Officer', image: '/aboutUs/t4.jpeg' },
 ];

@@ -9,6 +9,7 @@ import { FloatingLabel } from "flowbite-react";
 import styles from "../styles/indexstyle.module.css";
 import CoverflowSlider from "@/components/CoverflowSlider";
 import App from "@/components/App";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -77,15 +78,16 @@ export default function Home() {
 
             </p>
           </div>
-          <div className="grid col-span-1">
-            <div className="flex relative items-center justify-center  ">
+          <div className="grid col-span-1 justify-end">
+            <img className="h-[26rem] flex justify-end " src="/ayubowan.png" alt="" />
+            {/* <div className="flex relative items-center justify-center  ">
               <TripCard
-                mainImage="/home3.png"
+                mainImage="/ayubowan.png"
                 mainTitle="Trip To Ella"
                 mainDate="14-29 June"
                 mainAuthor="Robbin Jones"
                 mainPeopleCount={24}
-                overlayImage="/home3.png"
+                overlayImage="/ayubowan.png"
                 overlayTitle="Trip to Galle"
                 overlayCompletion={40}
               />
@@ -96,7 +98,7 @@ export default function Home() {
                   alt=""
                 />
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
@@ -141,6 +143,11 @@ export default function Home() {
             SUBSCRIBE OUR NEWSLETTER
           </button>
         </div>
+      </section>
+
+
+      <section>
+        <Footer/>
       </section>
     </div>
   );
