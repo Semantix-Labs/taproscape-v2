@@ -49,7 +49,7 @@ export default function AboutUs() {
       <section className="px-5 pt-20 overflow-hidden bg-isabelline py-16 lg:px-20">
         <div className=" py-16 px-8">
           <div className="text-center flex 2xl:justify-center mb-12">
-          <div className="flex text-xl md:text-2xl lg:text-3xl xl:text-4xl uppercase">
+            <div className="flex text-xl md:text-2xl lg:text-3xl xl:text-4xl uppercase">
               {" "}
               <h2 className="pt-1 text-oxfordBlue">our</h2>
               <div className="image-container relative">
@@ -59,7 +59,7 @@ export default function AboutUs() {
                     style={{ fontFamily: "bagea" }}
                     className="top-0 pl-2 text-white md:text-2xl lg:text-3xl xl:text-4xl bottom-5"
                   >
-                   value
+                    value
                   </p>
                 </div>
               </div>
@@ -96,8 +96,8 @@ export default function AboutUs() {
                   </svg>
                 </span>
                 <p className="mt-2 ">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor.
+                  Experience the finest in travel with unparalleled comfort and
+                  sophistication.
                 </p>
               </div>
               <div className="text-center">
@@ -117,8 +117,8 @@ export default function AboutUs() {
                   </svg>
                 </span>
                 <p className="mt-2 ">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor.
+                  Rejuvenate your mind, body, and spirit with our
+                  wellness-focused itineraries.
                 </p>
               </div>
               <div className="text-center">
@@ -138,8 +138,8 @@ export default function AboutUs() {
                   </svg>
                 </span>
                 <p className="mt-2 ">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor.
+                  We promote sustainable travel practices supporting the
+                  environment and local communities.
                 </p>
               </div>
               <div className="text-center">
@@ -162,8 +162,8 @@ export default function AboutUs() {
                 </span>
 
                 <p className="mt-2 ">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor.
+                  Experience Sri Lanka's rich heritage through authentic and
+                  immersive cultural experiences.
                 </p>
               </div>
             </div>
@@ -183,80 +183,103 @@ export default function AboutUs() {
         <Team />
       </section>
 
-
       <section className="bg-isabelline">
+        <div className="max-w-7xl py-16 mt-20 mx-auto px-4 bg-isabelline overflow-hidden sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="my-auto">
+              <div className="flex text-xl md:text-2xl lg:text-3xl xl:text-4xl mb-10 uppercase">
+                {" "}
+                <h2 className="pt-1 text-oxfordBlue">our</h2>
+                <div className="image-container relative">
+                  <img
+                    className="w-48 h-12 lg:w-72 lg:h-16 "
+                    src="/textbg.png"
+                    alt=""
+                  />
+                  <div className="text-overlay absolute top-0  pl-5 pt-1 justify-center ">
+                    <p
+                      style={{ fontFamily: "bagea" }}
+                      className="top-0 pl-2 text-white md:text-2xl lg:text-3xl xl:text-4xl bottom-10"
+                    >
+                      commitment
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <p className="mb-5">
+              Commitment to eco-friendly practices and supporting local communities.
 
-      <div className="max-w-7xl py-16 mt-20 mx-auto px-4 bg-isabelline overflow-hidden sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          <div className="my-auto">
-          <div className="flex text-xl md:text-2xl lg:text-3xl xl:text-4xl mb-10 uppercase">
-              {" "}
-              <h2 className="pt-1 text-oxfordBlue">our</h2>
-              <div className="image-container relative">
-                <img className="w-48 h-12 lg:w-72 lg:h-16 "src="/textbg.png" alt="" />
-                <div className="text-overlay absolute top-0  pl-5 pt-1 justify-center ">
-                  <p
-                    style={{ fontFamily: "bagea" }}
-                    className="top-0 pl-2 text-white md:text-2xl lg:text-3xl xl:text-4xl bottom-10"
-                  >
-                   commitment
-                  </p>
+              </p>
+              <p>
+              We strive to minimize our environmental footprint by promoting sustainable travel and using eco-friendly resources. Our efforts include supporting local businesses, preserving natural habitats, and fostering community development. By choosing Taproscapes, you contribute to a positive impact on both the environment and the communities we visit.
+
+              </p>
+            </div>
+
+            <div>
+              <div className="relative mt-16 md:mt-0">
+                <img src="/aboutUs/commit.png" alt="" />
+
+                <div className="absolute hidden md:inline top-[100px] left-[-300px] -rotate-[89.5deg]   ">
+                  <img
+                    className="lg:w-[665px] lg:h-[112px]"
+                    src="/aboutUs/c2.png"
+                    alt=""
+                  />
+                </div>
+                <div className="absolute top-[100px] right-[-300px] lg:w-[665px] lg:h-[112px] overflow-hidden rotate-[89.5deg]   ">
+                  <img
+                    className="lg:w-[665px] lg:h-[112px]"
+                    src="/aboutUs/c2.png"
+                    alt=""
+                  />
+                </div>
+                <div className="absolute bottom-[-10px] lg:w-[665px] lg:h-[112px] overflow-hidden left-[0px] rotate-[179.5deg]   ">
+                  <img
+                    className="lg:w-[665px] lg:h-[112px]"
+                    src="/aboutUs/c2.png"
+                    alt=""
+                  />
+                </div>
+                <div className="absolute top-[-50px]">
+                  <img
+                    className="lg:w-[665px] lg:h-[112px]"
+                    src="/aboutUs/c2.png"
+                    alt=""
+                  />
+                </div>
+                <div className="-rotate-12  top-0 left-0 absolute md:top-[0px] lg:left-[300px]  lg:w-[207px] lg:h-[209px] bg-white shadow-lg">
+                  <div className="p-2 overflow-hidden">
+                    <img
+                      src="/aboutUs/c4.png"
+                      alt="Create memories"
+                      className="rounded-lg  shadow-lg"
+                    />
+                  </div>
+                  <div className="absolute  bottom-4 left-[30px] bg-white px-4 rounded-lg shadow-md">
+                    <p
+                      style={{ fontFamily: "bagea" }}
+                      className="text-sm  justify-center  "
+                    >
+                      Create memories
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
-            <p className="mb-5">
-              Commitment to eco-friendly practices and supporting local
-              communities.
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation
-            </p>
-          </div>
-
-          <div >
-            <div className="relative mt-16 md:mt-0">
-              <img src="/aboutUs/commit.png" alt="" />
-             
-           
-            <div className="absolute hidden md:inline top-[100px] left-[-300px] -rotate-[89.5deg]   ">
-              <img className="lg:w-[665px] lg:h-[112px]" src="/aboutUs/c2.png" alt="" />
-            </div>
-            <div className="absolute top-[100px] right-[-300px] lg:w-[665px] lg:h-[112px] overflow-hidden rotate-[89.5deg]   ">
-              <img className="lg:w-[665px] lg:h-[112px]" src="/aboutUs/c2.png" alt="" />
-            </div>
-            <div className="absolute bottom-[-10px] lg:w-[665px] lg:h-[112px] overflow-hidden left-[0px] rotate-[179.5deg]   ">
-              <img className="lg:w-[665px] lg:h-[112px]" src="/aboutUs/c2.png" alt="" />
-            </div>
-            <div className="absolute top-[-50px]">
-              <img className="lg:w-[665px] lg:h-[112px]" src="/aboutUs/c2.png" alt="" />
-            </div>
-            <div className="-rotate-12  top-0 left-0 absolute md:top-[0px] lg:left-[300px]  lg:w-[207px] lg:h-[209px] bg-white shadow-lg">
-            <div className="p-2 overflow-hidden">
-              <img
-                src="/aboutUs/c4.png"
-                alt="Create memories"
-                className="rounded-lg  shadow-lg"
-              />
-            </div>
-            <div className="absolute  bottom-4 left-[30px] bg-white px-4 rounded-lg shadow-md">
-              <p
-                style={{ fontFamily: "bagea" }}
-                className="text-sm  justify-center  "
-              >
-                Create memories
-              </p>
-            </div>
-          </div>
-            </div>
           </div>
         </div>
-      </div>
       </section>
 
-
-      <section style={{backgroundImage: 'url("/home6.png")', backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat',}} className="  md:h-[265px] overflow-hidden w-full">
+      <section
+        style={{
+          backgroundImage: 'url("/home6.png")',
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
+        }}
+        className="  md:h-[265px] overflow-hidden w-full"
+      >
         <div className="justify-center gap-8 py-16 lg:py-28 flex">
           <label
             htmlFor="my-modal"
@@ -264,7 +287,9 @@ export default function AboutUs() {
           >
             <h2 className=" md:text-2xl"> Email</h2>
           </label>
-          <button className=" border-2 border-gray-600 w-1/4 py-1 px-2 md:py-4 md:px-6 uppercase bg-tropicalRainForest text-[8px] md:text-sm lg:text-xl text-white rounded-lg">SUBSCRIBE OUR NEWSLETTER</button>
+          <button className=" border-2 border-gray-600 w-1/4 py-1 px-2 md:py-4 md:px-6 uppercase bg-tropicalRainForest text-[8px] md:text-sm lg:text-xl text-white rounded-lg">
+            SUBSCRIBE OUR NEWSLETTER
+          </button>
         </div>
       </section>
     </div>

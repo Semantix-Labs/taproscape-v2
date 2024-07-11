@@ -9,7 +9,7 @@ const StorySectionTour = () => {
               {" "}
               <h2 className="pt-1 text-oxfordBlue">types of tours</h2>
               <div className="image-container relative">
-                <img className="w-28 md:w-[305px] h-[50px]" src="/textbg.png" alt="" />
+                <img className="w-28 md:w-48 xl:w-[250px] h-[50px]" src="/textbg.png" alt="" />
                 <div className="text-overlay absolute top-0  pl-5 pt-1 justify-center ">
                   <p
                     style={{ fontFamily: "bagea" }}
@@ -21,12 +21,8 @@ const StorySectionTour = () => {
               </div>
             </div>
           <p className=" mb-4">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur.
+          Explore a variety of curated tours designed to suit every traveler's interests. From luxurious wellness retreats to adventurous wildlife safaris, Taproscapes offers diverse experiences. Discover Sri Lanka's rich culture, stunning landscapes, and vibrant wildlife through our specialized tours. Create unforgettable memories and experience the true essence of Sri Lanka with Taproscapes.
+
           </p>
         
         </div>

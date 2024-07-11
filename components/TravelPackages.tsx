@@ -7,100 +7,111 @@ const travelPackages = [
     id: 1,
     title: "Honeymoon Tours",
     category: "Honeymoon Tours",
-    duration: "7 Days",
+    duration: "6-13 Days",
     groupSize: "2 People",
     imageUrl: "/Tourpackage/1.png",
     price: "Rs: 200000",
+    text:"Celebrate love with our romantic honeymoon tours, offering intimate settings and unforgettable moments in breathtaking locations. "
   },
   {
     id: 2,
     title: "Luxury Tours",
     category: "Luxury Tours",
-    duration: "7 Days",
+    duration: "6-13 Days",
     groupSize: "2 People",
     imageUrl: "/Tourpackage/2.jpeg",
     price: "Rs: 200000",
+     text:"Experience ultimate comfort and sophistication with our luxury tours, featuring exquisite accommodations and exclusive experiences. "
   },
   {
     id: 3,
     title: "Ramayana Tours",
     category: "Ramayana Tours",
-    duration: "7 Days",
+    duration: "6-13 Days",
     groupSize: "2 People",
     imageUrl: "/Tourpackage/3.png",
     price: "Rs: 200000",
+     text:"Experience ultimate comfort and sophistication with our luxury tours, featuring exquisite accommodations and exclusive experiences. "
   },
   {
     id: 4,
     title: "Wellness Tours",
     category: "Wellness Tours",
-    duration: "7 Days",
+    duration: "6-13 Days",
     groupSize: "2 People",
     imageUrl: "/Tourpackage/4.jpeg",
     price: "Rs: 200000",
+     text:" Experience ultimate comfort and sophistication with our luxury tours, featuring exquisite accommodations and exclusive experiences."
   },
   {
     id: 5,
     title: "Family Tours",
     category: "Family Tours",
-    duration: "7 Days",
+    duration: "6-13 Days",
     groupSize: "2 People",
     imageUrl: "/Tourpackage/5.jpeg",
     price: "Rs: 200000",
+     text:"Experience ultimate comfort and sophistication with our luxury tours, featuring exquisite accommodations and exclusive experiences. "
   },
   {
     id: 6,
     title: "Adventure Tours",
     category: "Adventure Tours",
-    duration: "7 Days",
+    duration: "6-13 Days",
     groupSize: "2 People",
     imageUrl: "/Tourpackage/6.jpeg",
     price: "Rs: 200000",
+     text:"Embark on thrilling adventures with our tours, including hiking, rafting, and safaris in Sri Lanka's most stunning landscapes. "
   },
   {
     id: 7,
     title: "Cultural Tours",
     category: "Cultural Tours",
-    duration: "7 Days",
+    duration: "6-13 Days",
     groupSize: "2 People",
     imageUrl: "/Tourpackage/7.jpeg",
     price: "Rs: 200000",
+     text:" Immerse yourself in Sri Lanka's rich heritage with our cultural tours, visiting ancient temples, historic sites, and local festivals."
   },
   {
     id: 8,
     title: "Nature & Wildlife Tours",
     category: "Nature & Wildlife Tours",
-    duration: "7 Days",
+    duration: "6-13 Days",
     groupSize: "2 People",
     imageUrl: "/Tourpackage/8.jpeg",
     price: "Rs: 200000",
+     text:" Discover Sri Lanka's diverse wildlife and lush landscapes with our nature and wildlife tours, including safaris and nature walks."
   },
   {
     id: 9,
     title: "Beach Tours",
     category: "Beach Tours",
-    duration: "7 Days",
+    duration: "6-13 Days",
     groupSize: "2 People",
     imageUrl: "/Tourpackage/9.jpeg",
     price: "Rs: 200000",
+     text:"Relax on pristine beaches and enjoy water activities with our beach tours, visiting Sri Lanka's most beautiful coastal areas. "
   },
   {
     id: 10,
     title: "Eco & Sustainable Tours",
     category: "Eco & Sustainable Tours",
-    duration: "7 Days",
+    duration: "6-13 Days",
     groupSize: "2 People",
     imageUrl: "/Tourpackage/10.jpeg",
     price: "Rs: 200000",
+     text:"Explore eco-friendly travel options with our eco tours, promoting sustainability and supporting local communities and conservation efforts. "
   },
   {
     id: 11,
     title: "Food & Culinary Tours",
     category: "Food & Culinary Tours",
-    duration: "7 Days",
+    duration: "6-13 Days",
     groupSize: "2 People",
     imageUrl: "/Tourpackage/11.jpeg",
     price: "Rs: 200000",
+     text:"Savor the flavors of Sri Lanka with our food and culinary tours, featuring cooking classes, market visits, and traditional meals. "
   },
 ];
 
@@ -233,9 +244,8 @@ const TravelPackages: React.FC = () => {
               </div>
               <div className="p-4">
                 <p className=" text-[10px] md:text-[12px] xl:text-[16px] mt-2">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </p>
+                     {pkg.text}
+                  </p>
                 <div className="mt-4 flex text-[8px] md:text-[12px] xl:text-[16px] justify-between items-center">
                   <div className="flex space-x-2">
                     <img className='w-4 h-4' src="/Tourpackage/du.png" alt="" />
@@ -254,7 +264,7 @@ const TravelPackages: React.FC = () => {
                 </div>
                 <div className="mt-4 flex justify-end items-center">
                  
-                  <button onClick={() => handleBookNow(pkg.id)} className="bg-orange-500 text-white px-4 py-2 rounded-md">Book Now</button>
+                  <button onClick={() => handleBookNow(pkg.id)} className="bg-orange-500 text-white px-4 py-2 rounded-md">Explore more </button>
                 </div>
               </div>
             </div>

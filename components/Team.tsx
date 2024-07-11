@@ -9,9 +9,10 @@ type TeamMember = {
 };
 
 const teamMembers: TeamMember[] = [
+ 
   { id: 1, name: 'Name Lorem Ipsum', position: 'Chief Financial Officer', image: '/aboutUs/t1.png' },
   { id: 2, name: 'Name Lorem Ipsum', position: 'Chief Financial Officer', image: '/aboutUs/t2.jpeg' },
-  // { id: 3, name: 'Name Lorem Ipsum', position: 'Chief Financial Officer', image: '/aboutUs/t3.jpeg' },
+ 
   // { id: 4, name: 'Name Lorem Ipsum', position: 'Chief Financial Officer', image: '/aboutUs/t4.jpeg' },
 ];
 
@@ -34,9 +35,9 @@ const Team = () => {
                 </div>
               </div>
             </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="md:flex justify-center  gap-6">
           {teamMembers.map((member) => (
-            <div key={member.id} className="text-center">
+            <div key={member.id} className="text-center w-1/4">
               <Image
                 src={member.image}
                 alt={member.name}

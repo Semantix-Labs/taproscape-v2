@@ -6,21 +6,21 @@ const WhyChooseUs = () => {
     <section className="bg-white px-5 lg:px-20 2xl:px-40  py-12">
       <div className=" flex flex-col md:flex-row items-center">
         <div className="w-full md:w-1/2 px-4">
-        <div className="flex text-xl md:text-2xl  mb-10 lg:text-3xl xl:text-4xl uppercase">
-              {" "}
-              <h2 className="pt-1 text-oxfordBlue">Why choose</h2>
-              <div className="image-container relative">
-                <img className="w-28 md:w-full" src="/textbg.png" alt="" />
-                <div className="text-overlay absolute top-0  pl-5 pt-1 justify-center ">
-                  <p
-                    style={{ fontFamily: "bagea" }}
-                    className="top-0 pl-2 text-white md:text-2xl lg:text-3xl xl:text-4xl bottom-5"
-                  >
-                    us
-                  </p>
-                </div>
+          <div className="flex text-xl md:text-2xl  mb-10 lg:text-3xl xl:text-4xl uppercase">
+            {" "}
+            <h2 className="pt-1 text-oxfordBlue">Why choose</h2>
+            <div className="image-container relative">
+              <img className="w-28 md:w-full" src="/textbg.png" alt="" />
+              <div className="text-overlay absolute top-0  pl-5 pt-1 justify-center ">
+                <p
+                  style={{ fontFamily: "bagea" }}
+                  className="top-0 pl-2 text-white md:text-2xl lg:text-3xl xl:text-4xl bottom-5"
+                >
+                  us
+                </p>
               </div>
             </div>
+          </div>
           <div className="mb-4 flex">
             <div className="mr-5">
               <span>
@@ -81,8 +81,10 @@ const WhyChooseUs = () => {
                 Personalized Itineraries
               </h3>
               <p className="pr-5">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore.
+                Taproscapes specializes in luxury high-end inbound tourism
+                services in Sri Lanka. We focus on wellness itineraries and
+                sustainable travel trends, offering enriching and memorable
+                experiences.
               </p>
             </div>
           </div>
@@ -124,8 +126,9 @@ const WhyChooseUs = () => {
                 sustainable travel
               </h3>
               <p className="pr-5">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore.
+                We deliver exceptional travel experiences through personalized
+                itineraries and seamless booking. Our extensive local network
+                provides exclusive access to authentic cultural experiences.
               </p>
             </div>
           </div>
@@ -208,17 +211,24 @@ const WhyChooseUs = () => {
             </div>
             <div className="grid">
               <h3 className="text-xl flex uppercase font-semibold mb-2">
-              exclusive cultural access
+                exclusive cultural access
               </h3>
               <p className="pr-5">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore.
+                Driven by a passion for Sri Lanka's beauty, we promote wellness,
+                sustainability, and cultural understanding. Taproscapes creates
+                memorable experiences that positively impact travelers and local
+                communities.
               </p>
             </div>
           </div>
         </div>
         <div
-          style={{ backgroundImage: `url("/bg.png")`, backgroundSize: "cover" , backgroundPosition: "center", backgroundRepeat: "no-repeat"}}
+          style={{
+            backgroundImage: `url("/bg.png")`,
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+            backgroundRepeat: "no-repeat",
+          }}
           className="w-full md:w-1/2 mt-8 md:mt-0 px-4 flex justify-center"
         >
           <div className="relative">
@@ -286,9 +296,7 @@ const WhyChooseUs = () => {
               </p>
             </div>
             <div className="absolute  top-0 p-2 left-0 bg-white  rounded-lg shadow-md">
-              
-                <img src="/train1.png" alt="" />
-             
+              <img src="/train1.png" alt="" />
             </div>
             <div className="absolute top-4 right-4 bg-white p-2 flex rounded-full shadow-md">
               <p className="pr-2">

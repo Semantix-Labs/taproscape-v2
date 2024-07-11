@@ -5,12 +5,13 @@ type OverviewItem = {
   id: number;
   title: string;
   image: string;
+  hiddn:string;
 };
 
 const overviewItems: OverviewItem[] = [
-    { id: 1, title: 'Name of the Image', image: '/Destination/o1.png' },
-    { id: 2, title: 'Name of the Image', image: '/Destination/o2.png' },
-    { id: 3, title: 'Name of the Image', image: '/Destination/o3.png' },
+    { id: 1, title: 'Name of the Image', image: '/Destination/o1.png',hiddn:'' },
+    { id: 2, title: 'Name of the Image', image: '/Destination/o2.png' ,hiddn:"hidden"},
+    { id: 3, title: 'Name of the Image', image: '/Destination/o3.png',hiddn:"hidden" },
   ];
 
 const Overview = () => {
@@ -29,7 +30,7 @@ const Overview = () => {
                 className="object-cover rounded-xl w-full h-full"
                 layout="fill"
               />
-              <div className="absolute bottom-2 left-1 right-1 rounded-lg bg-black bg-opacity-100 text-white p-2 text-center">
+              <div className={`absolute bottom-2 left-1 right-1 rounded-lg bg-gray-700 bg-opacity-100 text-white p-2 text-center ${item.hiddn}`}>
                 {item.title}
               </div>
             </div>

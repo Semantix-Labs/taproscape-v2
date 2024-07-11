@@ -30,28 +30,29 @@ const MissionSection = () => {
           </div>
         </div>
         <div className="w-full md:w-1/2 mt-96 md:mt-0 px-4">
-        <div className="flex text-xl md:text-2xl mb-5 lg:text-3xl xl:text-4xl uppercase">
-              {" "}
-              <h2 className="pt-1 text-oxfordBlue">our</h2>
-              <div className="image-container relative">
-                <img className="w-28 ml-2 md:w-full" src="/textbg.png" alt="" />
-                <div className="text-overlay absolute top-0  pl-5 pt-1 justify-center ">
-                  <p
-                    style={{ fontFamily: "bagea" }}
-                    className="top-0 pl-2 text-white md:text-2xl lg:text-3xl xl:text-4xl bottom-5"
-                  >
+          <div className="flex text-xl md:text-2xl mb-5 lg:text-3xl xl:text-4xl uppercase">
+            {" "}
+            <h2 className="pt-1 text-oxfordBlue">our</h2>
+            <div className="image-container relative">
+              <img className="w-28 ml-2 md:w-full" src="/textbg.png" alt="" />
+              <div className="text-overlay absolute top-0  pl-5 pt-1 justify-center ">
+                <p
+                  style={{ fontFamily: "bagea" }}
+                  className="top-0 pl-2 text-white md:text-2xl lg:text-3xl xl:text-4xl bottom-5"
+                >
                   mission
-                  </p>
-                </div>
+                </p>
               </div>
             </div>
+          </div>
           <p className=" mb-4">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur.
+            At Taproscapes, our mission is to provide luxurious, personalized
+            travel experiences in Sri Lanka, focusing on wellness,
+            sustainability, and cultural immersion. We strive to create
+            unforgettable journeys that showcase the beauty and heritage of Sri
+            Lanka while promoting eco-friendly practices and supporting local
+            communities. Join us in discovering the essence of Sri Lanka, and
+            let us help you create memories that will last a lifetime.
           </p>
         </div>
       </div>

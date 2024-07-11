@@ -54,31 +54,27 @@ export default function Home() {
           <div className="grid col-span-1">
             <div className="flex text-xl md:text-2xl lg:text-3xl xl:text-4xl uppercase">
               {" "}
-              <h2 className="pt-1 text-oxfordBlue">Lorem ipsum</h2>
+              <h2 className="pt-1 text-oxfordBlue">Welcome to</h2>
               <div className="image-container relative">
-                <img className="w-28 md:w-full" src="/textbg.png" alt="" />
+                <img className="w-28 md:h-12 xl:w-80 md:w-48" src="/textbg.png" alt="" />
                 <div className="text-overlay absolute top-0  pl-5 pt-1 justify-center ">
                   <p
                     style={{ fontFamily: "bagea" }}
-                    className="top-0 pl-2 text-white md:text-2xl lg:text-3xl xl:text-4xl bottom-5"
+                    className="top-0 pl-2 xl:pl-4 text-white md:text-2xl lg:text-3xl xl:text-4xl bottom-5"
                   >
-                    INTRO
+                   Taproscapes
+
                   </p>
                 </div>
               </div>
             </div>
             <p className="mt-5">
-              Embark on a journey of luxury, wellness, and cultural immersion
-              with Taproscapes. Discover personalized itineraries and exclusive
-              experiences.
+            Embark on a journey of luxury, wellness, and cultural immersion with Taproscapes. Discover personalized itineraries and exclusive experiences.
+
             </p>
             <p className="mt-5 text-justify md:text-start">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur.
+            At Taproscapes, we specialize in crafting bespoke travel experiences in Sri Lanka. Our focus on wellness itineraries and sustainable travel ensures that each journey is enriching and memorable. Whether you're seeking relaxation, adventure, or cultural exploration, our expertly designed tours cater to your individual preferences and interests.
+
             </p>
           </div>
           <div className="grid col-span-1">
