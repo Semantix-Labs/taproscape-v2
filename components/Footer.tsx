@@ -46,7 +46,7 @@ const Footer: React.FC = () => {
         </div>
       </div>
       <div className="mt-10 border-t border-white pt-6 flex justify-between text-center text-sm">
-        <p className='text-white text-[14px] md:text-[14px] '>&copy; 2023 <span className="text-white  text-[14px] md:text-[14px]">Semantix labs</span> - All Rights Reserved</p>
+        <p className='text-white text-[14px] md:text-[14px] '>&copy; 2024 <span className="text-white  text-[14px] md:text-[14px]">Semantix labs</span> - All Rights Reserved</p>
         <p className="mt-2">
           <a href="#" className="hover:underline  text-[14px] md:text-[14px] text-white">Terms of Use</a> | <a href="#" className="hover:underline  text-[14px] md:text-[14px] text-white ">Privacy Policy</a>
         </p>
