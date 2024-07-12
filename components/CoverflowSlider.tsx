@@ -36,6 +36,11 @@ const App: React.FC = () => {
       title: "Lorem Ipsum Event",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     },
+    {
+      img: "/CarouselHome/1.png",
+      title: "Lorem Ipsum Event",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    },
   ];
 
   // State to store the swiper instance
@@ -88,7 +93,7 @@ const App: React.FC = () => {
         <h2 className="pt-1 text-oxfordBlue">to visit </h2>
       </div>
 
-      <div className="swiper-containe lg:px-16 xl:px-20" style={{ overflow: "hidden", position: "relative" }}>
+      <div className="swiper-containe lg:px-16 xl:px-16" style={{ overflow: "hidden", position: "relative" }}>
         <Swiper
           onSwiper={setSwiperInstance} // Get Swiper instance
           effect={"coverflow"}
@@ -113,9 +118,9 @@ const App: React.FC = () => {
               key={index}
               className={`${styles["swiper-slide"]} bg-gradient-to-t from-transparent to-black`}
             >
-              <div className={styles.image}>
+              <div className={`${styles.image} `}>
                 <img
-                  className="brightness-50"
+                  className="brightness-50 w-full h-full object-cover"
                   src={slide.img}
                   alt={slide.title}
                 />
