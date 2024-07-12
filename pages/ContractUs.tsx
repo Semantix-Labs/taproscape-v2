@@ -214,14 +214,15 @@ export default function ContractUs() {
 
       <section
         style={{
-          backgroundImage: 'url("/home6.png")',
+          backgroundImage: 'url("/train.jpeg")',
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
+          
         }}
-        className="  md:h-[265px] overflow-hidden w-full"
+        className="mt-20  h-[265px] w-full brightness-50"
       >
-        <div className="justify-center gap-8 py-16 lg:py-28 flex">
+        <div className="justify-center gap-8 py-24 flex">
           <label
             htmlFor="my-modal"
             className="search-button border-2 border-gray-600 bg-white w-1/2 h-8 md:h-auto py-1 px-2 md:py-4 md:px-6 rounded-lg "

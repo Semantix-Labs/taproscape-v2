@@ -6,7 +6,7 @@ const WhyChooseUs = () => {
     <section className="bg-white px-5 lg:px-20 2xl:px-40  py-12">
       <div className=" flex flex-col md:flex-row items-center">
         <div className="w-full md:w-1/2 px-4">
-          <div className="flex text-xl md:text-2xl  mb-10 lg:text-3xl xl:text-4xl ">
+          <div className="flex text-2xl md:text-2xl  mb-10 lg:text-3xl xl:text-4xl ">
             {" "}
             <h2 className="pt-1 text-oxfordBlue">Why Choose</h2>
             <div className="image-container relative">
@@ -14,14 +14,14 @@ const WhyChooseUs = () => {
               <div className="text-overlay absolute top-0  pl-5 pt-1 justify-center ">
                 <p
                   style={{ fontFamily: "bagea" }}
-                  className="top-0 pl-2 text-white md:text-2xl lg:text-3xl xl:text-4xl uppercase bottom-5"
+                  className="top-0 pl-2 text-white md:text-2xl text-xl lg:text-3xl xl:text-4xl uppercase bottom-5"
                 >
                   us
                 </p>
               </div>
             </div>
           </div>
-          <div className="mb-4 flex">
+          <div className="mb-4 md:flex">
             <div className="mr-5">
               <span>
                 <svg
@@ -77,7 +77,7 @@ const WhyChooseUs = () => {
               </span>{" "}
             </div>
             <div className="grid">
-              <h3 className="text-xl flex  uppercase mb-2">
+              <h3 className="text-[14px ] md:text-xl flex   uppercase mb-2">
                 Personalized Itineraries
               </h3>
               <p className="pr-5">
@@ -88,7 +88,7 @@ const WhyChooseUs = () => {
               </p>
             </div>
           </div>
-          <div className="mb-4 flex">
+          <div className="mb-4 md:flex">
             <div className="mr-5">
               <span>
                 <svg
@@ -122,7 +122,7 @@ const WhyChooseUs = () => {
               </span>{" "}
             </div>
             <div className="grid">
-              <h3 className="text-xl flex  uppercase mb-2">
+              <h3 className="text-[14px ] md:text-xl flex  uppercase mb-2">
                 sustainable travel
               </h3>
               <p className="pr-5">
@@ -132,7 +132,7 @@ const WhyChooseUs = () => {
               </p>
             </div>
           </div>
-          <div className="mb-4 flex">
+          <div className="mb-4 md:flex">
             <div className="mr-5">
               <span>
                 <svg
@@ -210,7 +210,7 @@ const WhyChooseUs = () => {
               </span>{" "}
             </div>
             <div className="grid">
-              <h3 className="text-xl flex uppercase mb-2">
+              <h3 className="text-[14px ] md:text-xl  flex uppercase mb-2">
                 exclusive cultural access
               </h3>
               <p className="pr-5">
@@ -222,7 +222,11 @@ const WhyChooseUs = () => {
             </div>
           </div>
         </div>
-        <div
+
+        <div className="overflow-hidden object-cover w-full rounded-md md:w-1/2">
+          <img className="w-full h-full" src="/couple.jpg" alt="" />
+        </div>
+        {/* <div
           style={{
             backgroundImage: `url("/bg.png")`,
             backgroundSize: "cover",
@@ -336,7 +340,7 @@ const WhyChooseUs = () => {
               <p className="text-xs pt-[5px] font-semibold">Colombo</p>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

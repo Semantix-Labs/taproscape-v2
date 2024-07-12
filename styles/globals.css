@@ -2,14 +2,36 @@
 @tailwind components;
 @tailwind utilities;
 
+/* styles/globals.css */
+@font-face {
+  font-family: 'Bagea';
+  src: url('/Bagea.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 h1,h2,h3{
-  font-family: Bagea;
+  font-family: 'Bagea';
   color: #082B49;
+ 
 
 }
 
 p{
-  font-family: "Lexend Deca", sans-serif;
+  font-family: "Lexend Deca";
   color: #082B49;
   font-size: 18px;
+  font-weight: 300;
+}
+
+
+@media only screen and (max-width: 600px) {
+  p{
+    font-family: "Lexend Deca";
+    color: #082B49;
+    font-size: 12px;
+    font-weight: 300;
+  }
+  
 }

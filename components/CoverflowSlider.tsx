@@ -12,34 +12,34 @@ import { EffectCoverflow, Pagination, Navigation } from "swiper/modules";
 const App: React.FC = () => {
   const slidesData = [
     {
-      img: "/CarouselHome/1.png",
-      title: "Lorem Ipsum Event",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      img: "/couple.jpg",
+      title: "Sigiriya",
+      description: "Ancient rock fortress with stunning panoramic views.",
     },
     {
-      img: "/CarouselHome/2.png",
-      title: "Lorem Ipsum Event",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      img: "/kandy.jpg",
+      title: "Kandy",
+      description: "Home to the sacred Temple of the Tooth.",
     },
     {
-      img: "/CarouselHome/3.png",
-      title: "Lorem Ipsum Event",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      img: "/ella.jpg",
+      title: "Ella",
+      description: "Charming town with beautiful tea plantations and hikes.",
     },
     {
-      img: "/CarouselHome/4.png",
-      title: "Lorem Ipsum Event",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      img: "/glle.jpg",
+      title: "Galle",
+      description: "Historic coastal city with a Dutch colonial fort.",
     },
     {
-      img: "/CarouselHome/1.png",
-      title: "Lorem Ipsum Event",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      img: "/elephant.jpg",
+      title: "Yala National Park",
+      description: "Renowned for wildlife safaris and leopard sightings.",
     },
     {
-      img: "/CarouselHome/1.png",
-      title: "Lorem Ipsum Event",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      img: "/nuwara.jpg",
+      title: "Nuwara Eliya",
+      description: "Cool climate town surrounded by lush tea estates.",
     },
     {
       img: "/CarouselHome/1.png",
@@ -85,12 +85,12 @@ const App: React.FC = () => {
 
   return (
     <div className="px-5 lg:px-14 2xl:px-40">
-      <div className="flex justify-center text-xl md:text-2xl lg:text-3xl xl:text-4xl ">
+      <div className="flex justify-center text-2xl md:text-2xl lg:text-3xl xl:text-4xl ">
         <h2 className="pt-1 text-oxfordBlue">Best </h2>
         <div className="image-container relative">
           <img className="w-28 md:w-full" src="/textbg.png" alt="" />
           <div className="text-overlay absolute top-0 pl-5 pt-1 justify-center">
-            <p style={{ fontFamily: "bagea" }} className="top-0 pl-2 text-white md:text-2xl uppercase lg:text-3xl xl:text-4xl bottom-5">
+            <p style={{ fontFamily: "bagea" }} className="top-0 pl-2 text-white md:text-2xl text-xl uppercase lg:text-3xl xl:text-4xl bottom-5">
               place
             </p>
           </div>
@@ -98,7 +98,7 @@ const App: React.FC = () => {
         <h2 className="pt-1 text-oxfordBlue">To Visit </h2>
       </div>
 
-      <div className="swiper-containe lg:px-16 xl:px-16 2xl:px-[205px]" style={{ overflow: "hidden", position: "relative" }}>
+      <div className="swiper-containe lg:px-16 xl:px-[108px] 2xl:px-[205px]" style={{ overflow: "hidden", position: "relative" }}>
         <Swiper
           onSwiper={setSwiperInstance} // Get Swiper instance
           effect={"coverflow"}

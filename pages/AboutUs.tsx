@@ -47,10 +47,10 @@ export default function AboutUs() {
         <img className="w-screen  z-20 relative" src="/bg.svg" alt="" />
       </section>
 
-      <section className="px-5 pt-20 overflow-hidden bg-isabelline py-16 lg:px-20">
+      <section className="px-5 md:pt-20 overflow-hidden bg-isabelline  py-5 md:py-16 lg:px-20">
         <div className=" py-16 px-8">
           <div className="text-center flex 2xl:justify-center mb-12">
-            <div className="flex text-xl md:text-2xl lg:text-3xl xl:text-4xl ">
+            <div className="flex text-2xl md:text-2xl lg:text-3xl xl:text-4xl ">
               {" "}
               <h2 className="pt-1 text-oxfordBlue">Our</h2>
               <div className="image-container relative">
@@ -58,7 +58,7 @@ export default function AboutUs() {
                 <div className="text-overlay absolute top-0  pl-5 pt-1 justify-center ">
                   <p
                     style={{ fontFamily: "bagea" }}
-                    className="top-0 pl-2 text-white md:text-2xl lg:text-3xl uppercase xl:text-4xl bottom-5"
+                    className="top-0 pl-2 text-white md:text-2xl text-xl lg:text-3xl uppercase xl:text-4xl bottom-5"
                   >
                     value
                   </p>
@@ -188,19 +188,19 @@ export default function AboutUs() {
         <div className="max-w-7xl py-16 mt-20 mx-auto px-4 bg-isabelline overflow-hidden sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="my-auto">
-              <div className="flex text-xl md:text-2xl lg:text-3xl xl:text-4xl mb-10 ">
+              <div className="flex text-2xl md:text-2xl lg:text-3xl xl:text-4xl mb-10 ">
                 {" "}
                 <h2 className="pt-1 text-oxfordBlue">Our</h2>
                 <div className="image-container relative">
                   <img
-                    className="w-48 h-12 lg:w-72 lg:h-16 "
+                    className="w-48 h-10 lg:w-72 lg:h-16 "
                     src="/textbg.png"
                     alt=""
                   />
                   <div className="text-overlay absolute top-0  pl-5 pt-1 justify-center ">
                     <p
                       style={{ fontFamily: "bagea" }}
-                      className="top-0 pl-2 text-white md:text-2xl lg:text-3xl xl:text-4xl uppercase bottom-10"
+                      className="top-0 pl-2 text-white md:text-2xl lg:text-3xl text-xl xl:text-4xl uppercase bottom-10"
                     >
                       commitment
                     </p>
@@ -274,14 +274,15 @@ export default function AboutUs() {
 
       <section
         style={{
-          backgroundImage: 'url("/home6.png")',
+          backgroundImage: 'url("/train.jpeg")',
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
+          
         }}
-        className="  md:h-[265px] overflow-hidden w-full"
+        className="mt-20  h-[265px] w-full brightness-50"
       >
-        <div className="justify-center gap-8 py-16 lg:py-28 flex">
+        <div className="justify-center gap-8 py-24 flex">
           <label
             htmlFor="my-modal"
             className="search-button border-2 border-gray-600 bg-white w-1/2 h-8 md:h-auto py-1 px-2 md:py-4 md:px-6 rounded-lg "
@@ -293,9 +294,8 @@ export default function AboutUs() {
           </button>
         </div>
       </section>
-      <section>
-        <Footer/>
-      </section>
+
+      <Footer/>
     </div>
   );
 }

@@ -17,7 +17,7 @@ export default function Home() {
       <Navbar />
 
       <section className="flex ">
-        <div className=" ">
+        <div className="relative ">
           <video
             src="https://res.cloudinary.com/dbbndti4m/video/upload/v1720486983/utuejnocun8nnnrtm0oj.mp4"
             className="h-auto   relative w-screen"
@@ -28,7 +28,7 @@ export default function Home() {
           <div className="text-overlay absolute px-5 lg:px-20 2xl:px-40 left-4 bottom-0 p-4">
             <h1
               style={{ fontFamily: "Bagea" }}
-              className={`text-white max-w-2xl font-normal text-sm md:text-5xl ${styles.title}`}
+              className={`text-white max-w-2xl font-normal text-[12px] md:text-5xl ${styles.title}`}
             >
               Explore the Essence of Sri Lanka with Tabroscapes
             </h1>
@@ -53,15 +53,15 @@ export default function Home() {
       <section className=" pt-20  overflow-hidden px-5 lg:px-20 2xl:px-40   ">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div className="grid col-span-1">
-            <div className="flex text-xl md:text-2xl lg:text-3xl xl:text-4xl ">
+            <div className="flex text-2xl md:text-3xl lg:text-3xl xl:text-4xl ">
               {" "}
               <h2 className="pt-1 text-oxfordBlue">Welcome to</h2>
               <div className="image-container relative">
-                <img className="w-28 md:h-12 xl:w-80 md:w-48" src="/textbg.png" alt="" />
+                <img className="w-52 h-12 md:h-12 xl:w-80 md:w-48" src="/textbg.png" alt="" />
                 <div className="text-overlay absolute top-0  pl-5 pt-1 justify-center ">
                   <p
                     style={{ fontFamily: "bagea" }}
-                    className="top-0 pl-2 xl:pl-4 uppercase text-white md:text-2xl lg:text-3xl xl:text-4xl bottom-5"
+                    className="top-0 pl-2 xl:pl-4 uppercase text-white text-xl md:text-3xl lg:text-3xl xl:text-4xl bottom-5"
                   >
                    Taproscapes
 
@@ -125,12 +125,13 @@ export default function Home() {
 
       <section
         style={{
-          backgroundImage: 'url("/home6.png")',
+          backgroundImage: 'url("/train.jpeg")',
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
+          
         }}
-        className="mt-20  h-[265px] w-full"
+        className="mt-20  h-[265px] w-full brightness-50"
       >
         <div className="justify-center gap-8 py-24 flex">
           <label

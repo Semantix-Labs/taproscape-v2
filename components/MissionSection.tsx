@@ -4,8 +4,9 @@ const MissionSection = () => {
   return (
     <section className="bg-white py-6">
       <div className="container mx-auto flex flex-col h-[700px] md:h-[552px] md:flex-row items-center">
-        <div className="w-full md:w-1/2 mt-8 md:mt-0 px-4 flex h-auto  md:h-[552px] justify-center relative">
-          <div className="absolute top-0 left-0 w-full h-full ">
+        <div className="w-full md:w-1/2 mt-8 md:mt-0  px-4 flex justify-center rounded-l-md">
+        <img className="rounded-md" src="/elephant.jpg" alt="" />
+          {/* <div className="absolute top-0 left-0 w-full h-full ">
             <img src="/aboutUs/bga2.png" alt="" />
           </div>
           <div className="absolute  top-0 left-0 z-10 xl:top-[140px] xl:left-[281px] w-full h-full ">
@@ -27,10 +28,10 @@ const MissionSection = () => {
                 Create memories
               </p>
             </div>
-          </div>
+          </div> */}
         </div>
-        <div className="w-full md:w-1/2 mt-96 md:mt-0 px-4">
-          <div className="flex text-xl md:text-2xl mb-5 lg:text-3xl xl:text-4xl ">
+        <div className="w-full md:w-1/2 mt-5 md:mt-0 px-4">
+          <div className="flex text-2xl md:text-2xl mb-5 lg:text-3xl xl:text-4xl ">
             {" "}
             <h2 className="pt-1 text-oxfordBlue">Our</h2>
             <div className="image-container relative">
@@ -38,7 +39,7 @@ const MissionSection = () => {
               <div className="text-overlay absolute top-0  pl-5 pt-1 justify-center ">
                 <p
                   style={{ fontFamily: "bagea" }}
-                  className="top-0 pl-2 text-white md:text-2xl lg:text-3xl uppercase xl:text-4xl bottom-5"
+                  className="top-0 pl-2 text-white md:text-2xl lg:text-3xl text-xl uppercase xl:text-4xl bottom-5"
                 >
                   mission
                 </p>
