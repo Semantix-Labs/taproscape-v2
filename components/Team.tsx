@@ -20,15 +20,15 @@ const Team = () => {
   return (
     <div className="py-12 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div className="flex text-xl md:text-2xl lg:text-3xl  xl:text-4xl mb-10 uppercase">
+      <div className="flex justify-center text-xl md:text-2xl lg:text-3xl  xl:text-4xl mb-10 ">
               {" "}
-              <h2 className="pt-1 text-oxfordBlue">meet the</h2>
+              <h2 className="pt-1 text-oxfordBlue">Meet The</h2>
               <div className="image-container relative">
                 <img className="w-28 md:w-full" src="/textbg.png" alt="" />
                 <div className="text-overlay absolute top-0  pl-5 pt-1 justify-center ">
                   <p
                     style={{ fontFamily: "bagea" }}
-                    className="top-0 pl-2 text-white md:text-2xl lg:text-3xl xl:text-4xl bottom-5"
+                    className="top-0 pl-2 text-white md:text-2xl lg:text-3xl xl:text-4xl uppercase bottom-5"
                   >
                    team
                   </p>

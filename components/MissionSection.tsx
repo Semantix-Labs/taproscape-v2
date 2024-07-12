@@ -30,15 +30,15 @@ const MissionSection = () => {
           </div>
         </div>
         <div className="w-full md:w-1/2 mt-96 md:mt-0 px-4">
-          <div className="flex text-xl md:text-2xl mb-5 lg:text-3xl xl:text-4xl uppercase">
+          <div className="flex text-xl md:text-2xl mb-5 lg:text-3xl xl:text-4xl ">
             {" "}
-            <h2 className="pt-1 text-oxfordBlue">our</h2>
+            <h2 className="pt-1 text-oxfordBlue">Our</h2>
             <div className="image-container relative">
               <img className="w-28 ml-2 md:w-full" src="/textbg.png" alt="" />
               <div className="text-overlay absolute top-0  pl-5 pt-1 justify-center ">
                 <p
                   style={{ fontFamily: "bagea" }}
-                  className="top-0 pl-2 text-white md:text-2xl lg:text-3xl xl:text-4xl bottom-5"
+                  className="top-0 pl-2 text-white md:text-2xl lg:text-3xl uppercase xl:text-4xl bottom-5"
                 >
                   mission
                 </p>

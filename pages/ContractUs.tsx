@@ -3,6 +3,7 @@ import axios from "axios";
 import React, { useState } from "react";
 import dynamic from "next/dynamic";
 import Link from "next/link";
+import Footer from "@/components/Footer";
 
 const DynamicMap = dynamic(() => import("../components/Map"), { ssr: false });
 
@@ -231,6 +232,9 @@ export default function ContractUs() {
             SUBSCRIBE OUR NEWSLETTER
           </button>
         </div>
+      </section>
+      <section>
+        <Footer/>
       </section>
     </div>
   );

@@ -53,7 +53,7 @@ export default function Home() {
       <section className=" pt-20  overflow-hidden px-5 lg:px-20 2xl:px-40   ">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div className="grid col-span-1">
-            <div className="flex text-xl md:text-2xl lg:text-3xl xl:text-4xl uppercase">
+            <div className="flex text-xl md:text-2xl lg:text-3xl xl:text-4xl ">
               {" "}
               <h2 className="pt-1 text-oxfordBlue">Welcome to</h2>
               <div className="image-container relative">
@@ -61,7 +61,7 @@ export default function Home() {
                 <div className="text-overlay absolute top-0  pl-5 pt-1 justify-center ">
                   <p
                     style={{ fontFamily: "bagea" }}
-                    className="top-0 pl-2 xl:pl-4 text-white md:text-2xl lg:text-3xl xl:text-4xl bottom-5"
+                    className="top-0 pl-2 xl:pl-4 uppercase text-white md:text-2xl lg:text-3xl xl:text-4xl bottom-5"
                   >
                    Taproscapes
 

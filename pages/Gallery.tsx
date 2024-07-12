@@ -1,6 +1,8 @@
 // pages/Gallery.tsx
 import Navbar from "@/components/Navbar";
 import React, { useState } from "react";
+import Footer from "@/components/Footer";
+
 
 export default function Gallery() {
   const [activeTab, setActiveTab] = useState("information");
@@ -374,6 +376,10 @@ export default function Gallery() {
           </label>
           <button className=" border-2 border-gray-600 w-1/4 py-1 px-2 md:py-4 md:px-6 uppercase bg-tropicalRainForest text-[8px] md:text-sm lg:text-xl text-white rounded-lg">SUBSCRIBE OUR NEWSLETTER</button>
         </div>
+      </section>
+
+      <section>
+        <Footer/>
       </section>
     </div>
   );

@@ -5,15 +5,15 @@ const StorySection = () => {
     <section className="bg-white md:py-6">
       <div className=" flex flex-col h-[800px] gap-4 md:h-[552px] md:flex-row items-center">
         <div className="w-full md:w-1/2 px-4">
-          <div className="flex text-xl md:text-2xl mb-5 lg:text-3xl xl:text-4xl uppercase">
+          <div className="flex text-xl md:text-2xl mb-5 lg:text-3xl xl:text-4xl ">
             {" "}
-            <h2 className="pt-1 text-oxfordBlue">Get to know our</h2>
+            <h2 className="pt-1 text-oxfordBlue">Get To Know Our</h2>
             <div className="image-container relative">
               <img className="w-28 md:w-full" src="/textbg.png" alt="" />
               <div className="text-overlay absolute top-0  pl-5 pt-1 justify-center ">
                 <p
                   style={{ fontFamily: "bagea" }}
-                  className="top-0 pl-2 text-white md:text-2xl lg:text-3xl xl:text-4xl bottom-5"
+                  className="top-0 pl-2 text-white md:text-2xl lg:text-3xl uppercase xl:text-4xl bottom-5"
                 >
                   story
                 </p>
