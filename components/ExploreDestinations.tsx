@@ -8,17 +8,18 @@ const destinations = [
       "Lorem ipsum dolor sit amet, ipsum rem consectetur adipiscing elit, sed do it.",
     imageUrl: "/Destination/d1.png",
     slug: 'destination1',
-    span: "lg:col-span-2", // First image spans 2 columns in lg and up
-    imageSpan:"lg:h-[333px] 2xl:h-[450px]",
+    span: "md:col-span-8 ", // First image spans 2 columns in lg and up
+    imageSpan:"lg:h-[420px] md:h-[320px] 2xl:h-[470px]",
+    span2:"lg:flex justify-between",
   },
   {
     title: "Lorem Ipsum Event",
     description:
       "Lorem ipsum dolor sit amet, ipsum rem consectetur adipiscing elit, sed do it.",
-    imageUrl: "/Destination/d2.jpeg",
+    imageUrl: "/colombo.jpeg",
     slug: 'destination2',
-    span: "lg:col-span-2", // Second image spans 2 columns in lg and up
-    imageSpan:"lg:h-[333px] 2xl:h-[450px]",
+    span: "md:col-span-4 md:row-span-2", // Second image spans 2 columns in lg and up
+    imageSpan:"lg:h-[900px] md:h-[700px] 2xl:h-[1000px]",
   },
   {
     title: "Lorem Ipsum Event",
@@ -26,8 +27,8 @@ const destinations = [
       "Lorem ipsum dolor sit amet, ipsum rem consectetur adipiscing elit, sed do it.",
     imageUrl: "/Destination/d3.png",
     slug: 'destination3',
-    span: "lg:col-span-1", // Third image spans 1 column
-    imageSpan:"xl:h-[257px]",
+    span: "md:col-span-4", // Third image spans 1 column
+    imageSpan:"lg:h-[456px] md:h-[356px] 2xl:h-[506px]",
   },
   {
     title: "Lorem Ipsum Event",
@@ -35,17 +36,8 @@ const destinations = [
       "Lorem ipsum dolor sit amet, ipsum rem consectetur adipiscing elit, sed do it.",
     imageUrl: "/Destination/d4.png",
     slug: 'destination4',
-    span: "lg:col-span-1", // Fourth image spans 1 column
-    imageSpan:"xl:h-[257px]",
-  },
-  {
-    title: "Lorem Ipsum Event",
-    description:
-      "Lorem ipsum dolor sit amet, ipsum rem consectetur adipiscing elit, sed do it.",
-    imageUrl: "/Destination/d5.jpeg",
-    slug: 'destination5',
-    span: "lg:col-span-1", // Fifth image spans 1 column
-    imageSpan:"xl:h-[257px]",
+    span: "md:col-span-4", // Fourth image spans 1 column
+    imageSpan:"lg:h-[456px] md:h-[356px] 2xl:h-[506px]",
   },
   {
     title: "Lorem Ipsum Event",
@@ -53,18 +45,28 @@ const destinations = [
       "Lorem ipsum dolor sit amet, ipsum rem consectetur adipiscing elit, sed do it.",
     imageUrl: "/Destination/d6.png",
     slug: 'destination6',
-    span: "lg:col-span-1", // Sixth image spans 1 column
-    imageSpan:"xl:h-[257px]",
+    span: "md:col-span-4 lg:row-span-2", // Second image spans 2 columns in lg and up
+    imageSpan:"lg:h-[900px] md:h-[700px] 2xl:h-[1000px]",
   },
+  {
+    title: "Lorem Ipsum Event",
+    description:
+      "Lorem ipsum dolor sit amet, ipsum rem consectetur adipiscing elit, sed do it.",
+    imageUrl: "/Destination/d5.jpeg",
+    slug: 'destination5',
+    span: "md:col-span-8", // First image spans 2 columns in lg and up
+    imageSpan:"lg:h-[420px] md:h-[320px] 2xl:h-[470px]",
+    span2:"lg:flex justify-between",
+  },
+
   {
     title: "Lorem Ipsum Event",
     description:
       "Lorem ipsum dolor sit amet, ipsum rem consectetur adipiscing elit, sed do it.",
     imageUrl: "/Destination/d7.jpeg",
     slug: 'destination7',
-    span: "lg:col-span-2", // Seventh image spans 2 columns in lg and up
-    span1: "grid grid-cols-2",
-    imageSpan:"xl:h-[257px]",
+    span: "md:col-span-4", // Fourth image spans 1 column
+    imageSpan:"lg:h-[456px] md:h-[356px] 2xl:h-[506px]",
   },
   {
     title: "Lorem Ipsum Event",
@@ -72,9 +74,8 @@ const destinations = [
       "Lorem ipsum dolor sit amet, ipsum rem consectetur adipiscing elit, sed do it.",
     imageUrl: "/Destination/d8.jpeg",
     slug: 'destination8',
-    span: "lg:col-span-2", // Eighth image spans 2 columns in lg and up
-    span1: "grid grid-cols-2",
-    imageSpan:"xl:h-[257px]",
+    span: "md:col-span-4", // Fourth image spans 1 column
+    imageSpan:"lg:h-[456px] md:h-[356px] 2xl:h-[506px]",
   },
 ];
 
@@ -97,29 +98,31 @@ const ExploreDestinations = () => {
                 </div>
               </div>
             </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1  md:grid-cols-12 gap-6">
           {destinations.map((destination, index) => (
             <div
               key={index}
-              className={`relative rounded-xl overflow-hidden shadow-xl bg-teal-800 ${destination.span}`}
+              className={`  overflow-hidden  ${destination.span}`}
             >
-              <div className={`${destination.span1}   rounded-lg`}>
-                <div className={`${destination.imageSpan} p-3 h-48 overflow-hidden rounded-lg`}>
+              <div className={`${destination} relative   `}>
+                <div className={`${destination.imageSpan}  h-48 overflow-hidden `}>
                 <img
                   src={destination.imageUrl}
                   alt={destination.title}
-                  className="w-full h-full  rounded-xl   object-cover"
+                  className="w-full h-full   brightness-50  object-cover"
                 />
                 </div>
-                <div className="p-4 my-auto">
-                  <h3 className="text-xl font-semibold text-white">
+                <div className=" absolute bottom-0 left-0 opacity-100 bg-gradient-to-b space-y-1 pb-5 from-transparent to-black w-full  ">
+                  <h3 className="text-xl font-semibold  px-2 lg:px-5 text-white">
                     {destination.title}
                   </h3>
-                  <p className="text-white text-sm mb-4">
+                  <div className={`${destination.span2}`}>
+                  <p className="text-white px-2 lg:px-5  mb-4">
                     {destination.description}
                   </p>
-                  <Link href={`/destinations/${destination.slug}`}>
-                  <span  className="text-white flex hover:text-teal-600">
+                  <p>
+                  <Link href={`/destinations/${destination.slug} `}>
+                  <span  className="w-32 md:w-48 px-2 py-1 flex mx-2 lg:mx-5 bg-[#E6C9A8] text-[#082B49] lg:px-5 hover:text-teal-600">
                     Explore more{" "}
                     <span className="ml-2 my-auto">
                       <svg
@@ -131,19 +134,19 @@ const ExploreDestinations = () => {
                       >
                         <path
                           d="M9.49967 17.9168C13.8719 17.9168 17.4163 14.3724 17.4163 10.0002C17.4163 5.62791 13.8719 2.0835 9.49967 2.0835C5.12742 2.0835 1.58301 5.62791 1.58301 10.0002C1.58301 14.3724 5.12742 17.9168 9.49967 17.9168Z"
-                          stroke="#F7F3EE"
+                          stroke="#082B49"
                           stroke-linecap="round"
                           stroke-linejoin="round"
                         />
                         <path
                           d="M9.5 13.1667L12.6667 10L9.5 6.83337"
-                          stroke="#F7F3EE"
+                          stroke="#082B49"
                           stroke-linecap="round"
                           stroke-linejoin="round"
                         />
                         <path
                           d="M6.33301 10H12.6663"
-                          stroke="#F7F3EE"
+                          stroke="#082B49"
                           stroke-linecap="round"
                           stroke-linejoin="round"
                         />
@@ -151,8 +154,12 @@ const ExploreDestinations = () => {
                     </span>
                   </span>
                   </Link>
+                  </p>
+                  </div>
                 </div>
+               
               </div>
+            
             </div>
           ))}
         </div>

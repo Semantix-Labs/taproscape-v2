@@ -9,9 +9,9 @@ type OverviewItem = {
 };
 
 const overviewItems: OverviewItem[] = [
-    { id: 1, title: 'Name of the Image', image: '/Destination/o1.png',hiddn:'' },
+    { id: 1, title: 'Name of the Image', image: '/Destination/o1.png',hiddn:'hidden' },
     { id: 2, title: 'Name of the Image', image: '/Destination/o2.png' ,hiddn:"hidden"},
-    { id: 3, title: 'Name of the Image', image: '/Destination/o3.png',hiddn:"hidden" },
+    { id: 3, title: 'Name of the Image', image: '/Destination/o3.png',hiddn:"" },
   ];
 
 const Overview = () => {

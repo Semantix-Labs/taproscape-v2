@@ -1,4 +1,5 @@
 // components/Footer.tsx
+import Link from 'next/link';
 import React from 'react';
 
 const Footer: React.FC = () => {
@@ -19,21 +20,21 @@ const Footer: React.FC = () => {
         <div className=''>
           <h2 className="font-bold text-white  text-lg">Page Links</h2>
           <ul className="mt-4 grid grid-cols-3 md:grid-cols-1 space-y-2">
-            <li className='text-white text-[14px] md:text-[14px] mt-2 '><a href="#">About us</a></li>
-            <li className='text-white text-[14px] md:text-[14px] '><a href="#">Destinations</a></li>
-            <li className='text-white text-[14px] md:text-[14px] '><a href="#">Tour Packages</a></li>
-            <li className='text-white text-[14px] md:text-[14px] '><a href="#">Gallery</a></li>
-            <li className='text-white text-[14px] md:text-[14px] '><a href="#">Contact us</a></li>
+            <li className='text-white text-[14px] md:text-[14px] mt-2 '><Link href="/AboutUs">About us</Link></li>
+            <li className='text-white text-[14px] md:text-[14px] '><Link href="/Destination">Destinations</Link></li>
+            <li className='text-white text-[14px] md:text-[14px] '><Link  href="/TourPackages">Tour Packages</Link></li>
+            <li className='text-white text-[14px] md:text-[14px] '><Link   href="/Gallery">Gallery</Link></li>
+            <li className='text-white text-[14px] md:text-[14px] '><Link href="/ContractUs">Contact us</Link></li>
           </ul>
         </div>
         <div>
           <h2 className="font-bold text-white  text-lg">Popular Tour Packages</h2>
           <ul className="mt-2 grid grid-cols-3 md:grid-cols-1 space-y-2">
-            <li className='text-white text-[14px] md:text-[14px] mt-2 '><a href="#">Honeymoon Tours</a></li>
-            <li className='text-white text-[14px] md:text-[14px] '><a href="#">Luxury Tours</a></li>
-            <li className='text-white text-[14px] md:text-[14px] '><a href="#">Wellness Tours</a></li>
-            <li className='text-white text-[14px] md:text-[14px] '><a href="#">Family Tours</a></li>
-            <li className='text-white text-[14px] md:text-[14px] '><a href="#">Nature & Wildlife Tours</a></li>
+            <li className='text-white text-[14px] md:text-[14px] mt-2 '><Link href="/packages/1">Honeymoon Tours</Link></li>
+            <li className='text-white text-[14px] md:text-[14px] '><Link href="/packages/2">Luxury Tours</Link></li>
+            <li className='text-white text-[14px] md:text-[14px] '><Link href="/packages/4">Wellness Tours</Link></li>
+            <li className='text-white text-[14px] md:text-[14px] '><Link href="/packages/5">Family Tours</Link></li>
+            <li className='text-white text-[14px] md:text-[14px] '><Link href="/packages/8">Nature & Wildlife Tours</Link></li>
           </ul>
         </div>
         <div>
