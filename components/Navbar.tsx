@@ -144,7 +144,7 @@ const Navbar = () => {
                   About Us
                 </Link>
               </li>
-              {/* <li>
+              <li>
                 <Link
                   style={{ fontFamily: "bagea", fontSize: "20px" }}
                   href="/Destination"
@@ -153,7 +153,7 @@ const Navbar = () => {
                 >
                   Destinations
                 </Link>
-              </li> */}
+              </li>
               <li>
                 <Link
                   style={{ fontFamily: "bagea", fontSize: "20px" }}
@@ -214,7 +214,7 @@ const Navbar = () => {
                 About Us
               </Link>
             </li>
-            {/* <li>
+            <li>
               <Link
                 style={{ fontFamily: "bagea", fontSize: "20px" }}
                 href="/Destination"
@@ -222,7 +222,7 @@ const Navbar = () => {
               >
                 Destinations
               </Link>
-            </li> */}
+            </li>
             <li>
               <Link
                 style={{ fontFamily: "bagea", fontSize: "20px" }}
