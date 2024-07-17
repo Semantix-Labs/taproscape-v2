@@ -30,7 +30,7 @@ export default function Home() {
               style={{ fontFamily: "Bagea" }}
               className={`text-white max-w-2xl font-normal text-[12px] md:text-5xl ${styles.title}`}
             >
-              Explore the Essence of Sri Lanka with Tabroscapes
+              Explore the Essence of Sri Lanka with Taproscapes
             </h1>
             <p className="text-white max-w-xl font-lexendDeca text-[12px] md:text-3xl">
               Luxury · Wellness · Sustainability
