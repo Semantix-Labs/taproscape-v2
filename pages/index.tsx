@@ -25,7 +25,7 @@ export default function Home() {
             loop
             muted
           ></video>
-          <div className="text-overlay absolute px-5 lg:px-20 2xl:px-40 left-4 bottom-0 p-4">
+          <div className="text-overlay absolute px-5 lg:px-20 2xl:px-40 left-4 bottom-0 ">
             <h1
               style={{ fontFamily: "Bagea" }}
               className={`text-white max-w-2xl font-normal text-[12px] md:text-5xl ${styles.title}`}
