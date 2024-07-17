@@ -21,7 +21,7 @@ const Footer: React.FC = () => {
           <h2 className="font-bold text-white  text-lg">Page Links</h2>
           <ul className="mt-4 grid grid-cols-3 md:grid-cols-1 space-y-2">
             <li className='text-white text-[14px] md:text-[14px] mt-2 '><Link href="/AboutUs">About us</Link></li>
-            <li className='text-white text-[14px] md:text-[14px] '><Link href="/Destination">Destinations</Link></li>
+            {/* <li className='text-white text-[14px] md:text-[14px] '><Link href="/Destination">Destinations</Link></li> */}
             <li className='text-white text-[14px] md:text-[14px] '><Link  href="/TourPackages">Tour Packages</Link></li>
             <li className='text-white text-[14px] md:text-[14px] '><Link   href="/Gallery">Gallery</Link></li>
             <li className='text-white text-[14px] md:text-[14px] '><Link href="/ContractUs">Contact us</Link></li>
