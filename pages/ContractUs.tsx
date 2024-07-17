@@ -179,16 +179,14 @@ export default function ContractUs() {
             <div className="bg-[#F7F3EE] rounded-lg shadow-md p-6 md:p-12 rounded-r-lg flex-1 md:col-span-5">
               <h2 className="text-2xl font-bold mb-4">Get In Touch</h2>
               <p className="text-gray-600 mb-4">
-              We love to hear from you! Whether you have questions about our tours, need assistance with planning your trip, or want to share your travel experiences, our team is here to help.
-
+                We love to hear from you! Whether you have questions about our
+                tours, need assistance with planning your trip, or want to share
+                your travel experiences, our team is here to help.
               </p>
               <div className="space-y-4">
                 <div>
                   <h3 className="font-bold">Address</h3>
-                  <p className="text-gray-600">
-                  Address colombo Sri Lanka
-
-                  </p>
+                  <p className="text-gray-600">Address colombo Sri Lanka</p>
                 </div>
                 <div>
                   <h3 className="font-bold">Phone</h3>
@@ -218,24 +216,28 @@ export default function ContractUs() {
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
-          
         }}
-        className="mt-20  h-[265px] w-full brightness-50"
+        className="mt-20 h-[265px] w-full brightness-75"
       >
-        <div className="justify-center gap-8 py-24 flex">
-          <label
-            htmlFor="my-modal"
-            className="search-button border-2 border-gray-600 bg-white w-1/2 h-8 md:h-auto py-1 px-2 md:py-4 md:px-6 rounded-lg "
-          >
-            <h2 className=" md:text-2xl"> Email</h2>
+        <div className="flex justify-center gap-8 py-24">
+          <label htmlFor="email" className="sr-only">
+            Email
           </label>
-          <button className=" border-2 border-gray-600 w-1/4 py-1 px-2 md:py-4 md:px-6 uppercase bg-tropicalRainForest text-[8px] md:text-sm lg:text-xl text-white rounded-lg">
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Email"
+            className="mt-1 flex w-1/2 search-button cursor-pointer border-2 text-sm md:text-xl  xl:text-2xl border-gray-600 bg-white h-8 md:h-auto py-1 px-2 md:py-5 md:px-6 rounded-lg"
+            required
+          />
+          <button className="border-2 border-gray-600 w-1/4 py-1 px-2 md:py-1 md:px-6 uppercase bg-tropicalRainForest text-[8px] md:text-sm lg:text-xl text-white rounded-lg">
             SUBSCRIBE OUR NEWSLETTER
           </button>
         </div>
       </section>
       <section>
-        <Footer/>
+        <Footer />
       </section>
     </div>
   );

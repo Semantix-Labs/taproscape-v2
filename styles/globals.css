@@ -2,17 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
-/* styles/globals.css */
+/* styles/bagea.css */
+
 @font-face {
-  font-family: 'Bagea';
-  src: url('/Bagea.ttf') format('truetype');
+  font-family: 'bagea'; /* Name of the font */
+  src: url('/fonts/Bagea.ttf') format('truetype');
+  /* Update the path to point to your bagea.ttf font file */
   font-weight: normal;
   font-style: normal;
 }
 
 
+
 h1,h2,h3{
-  font-family: 'Bagea';
+  font-family: 'bagea';
   color: #082B49;
  
 
