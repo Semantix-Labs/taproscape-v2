@@ -3,7 +3,6 @@ import Navbar from "@/components/Navbar";
 import React, { useState } from "react";
 import Footer from "@/components/Footer";
 
-
 export default function Gallery() {
   const [activeTab, setActiveTab] = useState("information");
   const [hoveredButton, setHoveredButton] = useState<string | null>(null);
@@ -31,31 +30,31 @@ export default function Gallery() {
 
   return (
     <div className="min-h-screen">
-    <section>
-      <Navbar />
-    </section>
+      <section>
+        <Navbar />
+      </section>
 
-    <section className="flex ">
-      <div className="image-container h-auto lg:h-[600px] 2xl:h-[700px] w-screen overflow-hidden relative">
-        <img src="/home.png" className="brightness-50" alt="" />
-        <div className="text-overlay absolute md:left-40 bottom-5 md:bottom-20 p-4">
-          <h1
-            style={{ lineHeight: "68px", fontFamily: "bagea" }}
-            className="text-white max-w-2xl font-normal text-3xl md:text-7xl "
-          >
-            Gallery
-          </h1>
+      <section className="flex ">
+        <div className="image-container h-auto lg:h-[600px] 2xl:h-[700px] w-screen overflow-hidden relative">
+          <img src="/home.png" className="brightness-50" alt="" />
+          <div className="text-overlay absolute md:left-40 bottom-5 md:bottom-20 p-4">
+            <h1
+              style={{ lineHeight: "68px", fontFamily: "bagea" }}
+              className="text-white max-w-2xl font-normal text-3xl md:text-7xl "
+            >
+              Gallery
+            </h1>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section>
-      <img
-        className="w-screen mt-[-10px] md:mt-[-30px] z-20 relative"
-        src="/home2.png"
-        alt=""
-      />
-    </section>
+      <section>
+        <img
+          className="w-screen mt-[-10px] md:mt-[-30px] z-20 relative"
+          src="/home2.png"
+          alt=""
+        />
+      </section>
       <div className="  ">
         <nav className="w-full flex justify-between ">
           <button
@@ -331,9 +330,7 @@ export default function Gallery() {
         {activeTab === "tourPlan" && (
           <div className="mt-16  max-w-7xl mx-auto">
             <div className="mx-auto">
-              <h1 className="text-xl md:text-3xl">Popular 
-                Videos
-              </h1>
+              <h1 className="text-xl md:text-3xl">Popular Videos</h1>
               <img
                 className="justify-start flex max-w-[200px] overflow-hidden md:ml-[-8px]"
                 src="/undeline.svg"
@@ -361,7 +358,6 @@ export default function Gallery() {
               <div className="h-[554px] rounded-xl col-span-4 overflow-hidden">
                 <img className="w-full h-full" src="/GalleryPage/video/6.png" />
               </div>
-             
             </div>
           </div>
         )}
@@ -372,24 +368,28 @@ export default function Gallery() {
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
-          
         }}
-        className="mt-20  h-[265px] w-full brightness-50"
+        className="mt-20 h-[265px] w-full brightness-75"
       >
-        <div className="justify-center gap-8 py-24 flex">
-          <label
-            htmlFor="my-modal"
-            className="search-button border-2 border-gray-600 bg-white w-1/2 h-8 md:h-auto py-1 px-2 md:py-4 md:px-6 rounded-lg "
-          >
-            <h2 className=" md:text-2xl"> Email</h2>
+        <div className="flex justify-center gap-8 py-24">
+          <label htmlFor="email" className="sr-only">
+            Email
           </label>
-          <button className=" border-2 border-gray-600 w-1/4 py-1 px-2 md:py-4 md:px-6 uppercase bg-tropicalRainForest text-[8px] md:text-sm lg:text-xl text-white rounded-lg">
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Email"
+            className="mt-1 flex w-1/2 search-button cursor-pointer border-2 text-sm md:text-xl  xl:text-2xl border-gray-600 bg-white h-8 md:h-auto py-1 px-2 md:py-5 md:px-6 rounded-lg"
+            required
+          />
+          <button className="border-2 border-gray-600 w-1/4 py-1 px-2 md:py-1 md:px-6 uppercase bg-tropicalRainForest text-[8px] md:text-sm lg:text-xl text-white rounded-lg">
             SUBSCRIBE OUR NEWSLETTER
           </button>
         </div>
       </section>
       <section>
-        <Footer/>
+        <Footer />
       </section>
     </div>
   );

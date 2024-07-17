@@ -208,12 +208,16 @@ export default function AboutUs() {
                 </div>
               </div>
               <p className="mb-5">
-              Commitment to eco-friendly practices and supporting local communities.
-
+                Commitment to eco-friendly practices and supporting local
+                communities.
               </p>
               <p>
-              We strive to minimize our environmental footprint by promoting sustainable travel and using eco-friendly resources. Our efforts include supporting local businesses, preserving natural habitats, and fostering community development. By choosing Taproscapes, you contribute to a positive impact on both the environment and the communities we visit.
-
+                We strive to minimize our environmental footprint by promoting
+                sustainable travel and using eco-friendly resources. Our efforts
+                include supporting local businesses, preserving natural
+                habitats, and fostering community development. By choosing
+                Taproscapes, you contribute to a positive impact on both the
+                environment and the communities we visit.
               </p>
             </div>
 
@@ -278,24 +282,28 @@ export default function AboutUs() {
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
-          
         }}
-        className="mt-20  h-[265px] w-full brightness-50"
+        className="mt-20 h-[265px] w-full brightness-75"
       >
-        <div className="justify-center gap-8 py-24 flex">
-          <label
-            htmlFor="my-modal"
-            className="search-button border-2 border-gray-600 bg-white w-1/2 h-8 md:h-auto py-1 px-2 md:py-4 md:px-6 rounded-lg "
-          >
-            <h2 className=" md:text-2xl"> Email</h2>
+        <div className="flex justify-center gap-8 py-24">
+          <label htmlFor="email" className="sr-only">
+            Email
           </label>
-          <button className=" border-2 border-gray-600 w-1/4 py-1 px-2 md:py-4 md:px-6 uppercase bg-tropicalRainForest text-[8px] md:text-sm lg:text-xl text-white rounded-lg">
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Email"
+            className="mt-1 flex w-1/2 search-button cursor-pointer border-2 text-sm md:text-xl  xl:text-2xl border-gray-600 bg-white h-8 md:h-auto py-1 px-2 md:py-5 md:px-6 rounded-lg"
+            required
+          />
+          <button className="border-2 border-gray-600 w-1/4 py-1 px-2 md:py-1 md:px-6 uppercase bg-tropicalRainForest text-[8px] md:text-sm lg:text-xl text-white rounded-lg">
             SUBSCRIBE OUR NEWSLETTER
           </button>
         </div>
       </section>
 
-      <Footer/>
+      <Footer />
     </div>
   );
 }

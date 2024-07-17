@@ -57,29 +57,41 @@ export default function Home() {
               {" "}
               <h2 className="pt-1 text-oxfordBlue">Welcome to</h2>
               <div className="image-container relative">
-                <img className="w-52 h-12 md:h-12 xl:w-80 md:w-48" src="/textbg.png" alt="" />
+                <img
+                  className="w-52 h-12 md:h-12 xl:w-80 md:w-48"
+                  src="/textbg.png"
+                  alt=""
+                />
                 <div className="text-overlay absolute top-0  pl-5 pt-1 justify-center ">
                   <p
                     style={{ fontFamily: "bagea" }}
                     className="top-0 pl-2 xl:pl-4 uppercase text-white text-xl md:text-3xl lg:text-3xl xl:text-4xl bottom-5"
                   >
-                   Taproscapes
-
+                    Taproscapes
                   </p>
                 </div>
               </div>
             </div>
             <p className="mt-5">
-            Embark on a journey of luxury, wellness, and cultural immersion with Taproscapes. Discover personalized itineraries and exclusive experiences.
-
+              Embark on a journey of luxury, wellness, and cultural immersion
+              with Taproscapes. Discover personalized itineraries and exclusive
+              experiences.
             </p>
             <p className="mt-5 text-justify md:text-start">
-            At Taproscapes, we specialize in crafting bespoke travel experiences in Sri Lanka. Our focus on wellness itineraries and sustainable travel ensures that each journey is enriching and memorable. Whether you are seeking relaxation, adventure, or cultural exploration, our expertly designed tours cater to your individual preferences and interests.
-
+              At Taproscapes, we specialize in crafting bespoke travel
+              experiences in Sri Lanka. Our focus on wellness itineraries and
+              sustainable travel ensures that each journey is enriching and
+              memorable. Whether you are seeking relaxation, adventure, or
+              cultural exploration, our expertly designed tours cater to your
+              individual preferences and interests.
             </p>
           </div>
           <div className="grid col-span-1 justify-end">
-            <img className="h-[26rem] flex justify-end " src="/ayubowan.png" alt="" />
+            <img
+              className="h-[26rem] flex justify-end "
+              src="/ayubowan.png"
+              alt=""
+            />
             {/* <div className="flex relative items-center justify-center  ">
               <TripCard
                 mainImage="/ayubowan.png"
@@ -129,26 +141,29 @@ export default function Home() {
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
-          
         }}
-        className="mt-20  h-[265px] w-full brightness-50"
+        className="mt-20 h-[265px] w-full brightness-75"
       >
-        <div className="justify-center gap-8 py-24 flex">
-          <label
-            htmlFor="my-modal"
-            className="search-button border-2 border-gray-600 bg-white w-1/2 h-8 md:h-auto py-1 px-2 md:py-4 md:px-6 rounded-lg "
-          >
-            <h2 className=" md:text-2xl"> Email</h2>
+        <div className="flex justify-center gap-8 py-24">
+          <label htmlFor="email" className="sr-only">
+            Email
           </label>
-          <button className=" border-2 border-gray-600 w-1/4 py-1 px-2 md:py-4 md:px-6 uppercase bg-tropicalRainForest text-[8px] md:text-sm lg:text-xl text-white rounded-lg">
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Email"
+            className="mt-1 flex w-1/2 search-button cursor-pointer border-2 text-sm md:text-xl  xl:text-2xl border-gray-600 bg-white h-8 md:h-auto py-1 px-2 md:py-5 md:px-6 rounded-lg"
+            required
+          />
+          <button className="border-2 border-gray-600 w-1/4 py-1 px-2 md:py-1 md:px-6 uppercase bg-tropicalRainForest text-[8px] md:text-sm lg:text-xl text-white rounded-lg">
             SUBSCRIBE OUR NEWSLETTER
           </button>
         </div>
       </section>
 
-
       <section>
-        <Footer/>
+        <Footer />
       </section>
     </div>
   );
