@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: 'bagea'; /* Name of the font */
-  src: url('/fonts/Bagea.ttf') format('truetype');
+  src: url('/fonts/Bagea.otf') format('truetype');
   /* Update the path to point to your bagea.ttf font file */
   font-weight: normal;
   font-style: normal;
