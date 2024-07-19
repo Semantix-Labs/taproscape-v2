@@ -42,10 +42,11 @@ const App: React.FC = () => {
       description: "Cool climate town surrounded by lush tea estates.",
     },
     {
-      img: "/CarouselHome/1.png",
-      title: "Lorem Ipsum Event",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      img: "/kandy.jpg",
+      title: "Kandy",
+      description: "Home to the sacred Temple of the Tooth.",
     },
+  
   ];
 
   // State to store the swiper instance

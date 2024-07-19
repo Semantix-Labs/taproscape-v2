@@ -186,7 +186,7 @@ export default function ContractUs() {
               <div className="space-y-4">
                 <div>
                   <h3 className="font-bold">Address</h3>
-                  <p className="text-gray-600">Address colombo Sri Lanka</p>
+                  <p className="text-gray-600">2nd floor , 275 Nawala Road, Sri Jayawardenapura Kotte,10250</p>
                 </div>
                 <div>
                   <h3 className="font-bold">Phone</h3>
@@ -195,8 +195,8 @@ export default function ContractUs() {
                 <div>
                   <h3 className="font-bold">E-Mail</h3>
                   <p className="text-gray-600">
-                    <a href="mailto:taproscapes@Gmail.Com">
-                      taproscapes@Gmail.Com
+                    <a href="mailto:taproscapes@gmail.Com">
+                      taproscapes@gmail.Com
                     </a>
                   </p>
                 </div>

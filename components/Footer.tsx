@@ -10,7 +10,7 @@ const Footer: React.FC = () => {
            <div>
            <img src="/footerlogo.png" alt="Instagram" />
            </div>
-          <p className="mt-2 text-white text-[14px] md:text-[14px] ">A Short Description about the Villa lorem ipsum Lorem ipsum dolor sit amet, lit sed do consectetur adipiscing</p>
+          <p className="mt-2 text-white text-[14px] md:text-[14px] ">A premier destination for unforgettable tours and adventures in Sri Lanka. </p>
           <div className="flex space-x-4 mt-4">
             <a href="#"><img src="/instagram.png" alt="Instagram" /></a>
             <a href="#"><img src="/Vector.png" alt="Facebook" /></a>
@@ -40,9 +40,9 @@ const Footer: React.FC = () => {
         <div>
           <h2 className="font-bold text-white  text-lg">Information</h2>
           <div className="mt-2  space-y-2">
-            <h5 className='text-white text-[14px] md:text-[14px] '> Lorem Ipsum Dolor Sit Amet, Consectetur Elit,</h5>
+            <h5 className='text-white text-[14px] md:text-[14px] '> Address: 2nd floor , 275 Nawala Road, Sri Jayawardenapura Kotte,10250</h5>
             <h5 className='text-white text-[14px] md:text-[14px] '>Phone: 077721466 / 0777417737</h5>
-            <h5 className='text-white text-[14px] md:text-[14px] '>Email: Taproscapes@Gmail.Com</h5>
+            <h5 className='text-white text-[14px] md:text-[14px] '>Email: Taproscapes@gmail.com</h5>
           </div>
         </div>
       </div>
