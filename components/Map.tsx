@@ -6,10 +6,10 @@ import styles from '../styles/Map.module.css';
 
 // Define the custom icon
 const customIcon = L.icon({
-  iconUrl: '/location.svg', // Replace with the path to your custom icon
-  iconSize: [38, 38], // Adjust the size as needed
-  iconAnchor: [19, 38], // Adjust the anchor point as needed
-  popupAnchor: [0, -38] // Adjust the popup anchor point as needed
+  iconUrl: '/location.svg', 
+  iconSize: [38, 38],
+  iconAnchor: [19, 38], 
+  popupAnchor: [0, -38] 
 });
 
 const Map: React.FC = () => {
