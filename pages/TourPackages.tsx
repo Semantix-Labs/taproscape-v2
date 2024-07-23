@@ -46,7 +46,7 @@ export default function TourPackages() {
       </section>
 
 
-      <section className=''>
+      <section id='tour' className='tour'>
         <TravelPackages/>
       </section>
 
