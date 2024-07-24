@@ -3,46 +3,46 @@ import React from "react";
 
 const destinations = [
   {
-    title: "Lorem Ipsum Event",
-    description:
-      "Lorem ipsum dolor sit amet, ipsum rem consectetur adipiscing elit, sed do it.",
-    imageUrl: "/Destination/d1.png",
+    title: "Kandy: The Cultural Heart of Sri Lanka",
+    description:"Discover the Rich Heritage and Natural Beauty of Kandy",
+      
+    imageUrl: "/kandy.jpg",
     slug: 'destination1',
     span: "md:col-span-8 ", // First image spans 2 columns in lg and up
     imageSpan:"lg:h-[420px] md:h-[320px] 2xl:h-[470px]",
     span2:"lg:flex justify-between",
   },
   {
-    title: "Lorem Ipsum Event",
+    title: "Ella: The Scenic Hill Country Retreat",
     description:
-      "Lorem ipsum dolor sit amet, ipsum rem consectetur adipiscing elit, sed do it.",
-    imageUrl: "/colombo.jpeg",
+      "Experience the Natural Beauty and Adventure of Ella",
+    imageUrl: "/ella.jpg",
     slug: 'destination2',
     span: "md:col-span-4 md:row-span-2", // Second image spans 2 columns in lg and up
     imageSpan:"lg:h-[900px] md:h-[700px] 2xl:h-[1000px]",
   },
   {
-    title: "Lorem Ipsum Event",
+    title: "Nuwara Eliya: The Little England of Sri Lanka",
     description:
-      "Lorem ipsum dolor sit amet, ipsum rem consectetur adipiscing elit, sed do it.",
+      "Discover the Colonial Charm and Natural Splendor of Nuwara Eliya",
     imageUrl: "/Destination/d3.png",
     slug: 'destination3',
     span: "md:col-span-4", // Third image spans 1 column
     imageSpan:"lg:h-[456px] md:h-[356px] 2xl:h-[506px]",
   },
   {
-    title: "Lorem Ipsum Event",
+    title: "Galle: The Historic Coastal Gem",
     description:
-      "Lorem ipsum dolor sit amet, ipsum rem consectetur adipiscing elit, sed do it.",
+      "Explore the Rich History and Coastal Beauty of Galle",
     imageUrl: "/Destination/d4.png",
     slug: 'destination4',
     span: "md:col-span-4", // Fourth image spans 1 column
     imageSpan:"lg:h-[456px] md:h-[356px] 2xl:h-[506px]",
   },
   {
-    title: "Lorem Ipsum Event",
+    title: "Yala National Park: The Wildlife Wonderland",
     description:
-      "Lorem ipsum dolor sit amet, ipsum rem consectetur adipiscing elit, sed do it.",
+      "Experience the Thrilling Wildlife and Natural Beauty of Yala National Park",
     imageUrl: "/Destination/d6.png",
     slug: 'destination6',
     span: "md:col-span-4 lg:row-span-2", // Second image spans 2 columns in lg and up
@@ -53,18 +53,18 @@ const destinations = [
     description:
       "Lorem ipsum dolor sit amet, ipsum rem consectetur adipiscing elit, sed do it.",
     imageUrl: "/Destination/d5.jpeg",
-    slug: 'destination5',
+    slug: 'destination7',
     span: "md:col-span-8", // First image spans 2 columns in lg and up
     imageSpan:"lg:h-[420px] md:h-[320px] 2xl:h-[470px]",
     span2:"lg:flex justify-between",
   },
 
   {
-    title: "Lorem Ipsum Event",
+    title: "Sigiriya: The Majestic Rock Fortress",
     description:
-      "Lorem ipsum dolor sit amet, ipsum rem consectetur adipiscing elit, sed do it.",
+      "Explore the Ancient Marvel and Natural Splendor of Sigiriya",
     imageUrl: "/Destination/d7.jpeg",
-    slug: 'destination7',
+    slug: 'destination5',
     span: "md:col-span-4", // Fourth image spans 1 column
     imageSpan:"lg:h-[456px] md:h-[356px] 2xl:h-[506px]",
   },

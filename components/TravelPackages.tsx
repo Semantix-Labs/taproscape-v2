@@ -31,7 +31,7 @@ const travelPackages = [
     groupSize: "2 People",
     imageUrl: "/Tourpackage/3.png",
     price: "Rs: 200000",
-     text:"Experience ultimate comfort and sophistication with our luxury tours, featuring exquisite accommodations and exclusive experiences. "
+     text:"Unveil the ancient epic with our Ramayana tours, exploring significant sites and reliving the legendary story. "
   },
   {
     id: 4,
@@ -41,7 +41,7 @@ const travelPackages = [
     groupSize: "2 People",
     imageUrl: "/Tourpackage/4.jpeg",
     price: "Rs: 200000",
-     text:" Experience ultimate comfort and sophistication with our luxury tours, featuring exquisite accommodations and exclusive experiences."
+     text:" Rejuvenate your mind and body with our wellness tours, featuring spa treatments, yoga sessions, and serene retreats."
   },
   {
     id: 5,
@@ -51,7 +51,7 @@ const travelPackages = [
     groupSize: "2 People",
     imageUrl: "/Tourpackage/5.jpeg",
     price: "Rs: 200000",
-     text:"Experience ultimate comfort and sophistication with our luxury tours, featuring exquisite accommodations and exclusive experiences. "
+     text:"Create lasting memories with our family tours, offering fun activities and adventures for all ages in Sri Lanka."
   },
   {
     id: 6,
@@ -101,7 +101,7 @@ const travelPackages = [
     groupSize: "2 People",
     imageUrl: "/Tourpackage/10.jpeg",
     price: "Rs: 200000",
-     text:"Explore eco-friendly travel options with our eco tours, promoting sustainability and supporting local communities and conservation efforts. "
+     text:"Experience eco-conscious travel with our sustainable tours, supporting conservation and local communities."
   },
   {
     id: 11,

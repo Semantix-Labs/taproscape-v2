@@ -8,6 +8,7 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import styles from "./App.module.css";
 import { EffectCoverflow, Pagination, Navigation } from "swiper/modules";
+import Link from "next/link";
 
 const App: React.FC = () => {
   const slidesData = [
@@ -15,38 +16,47 @@ const App: React.FC = () => {
       img: "/couple.jpg",
       title: "Sigiriya",
       description: "Ancient rock fortress with stunning panoramic views.",
+      links :"/destinations/destination5"
     },
     {
       img: "/kandy.jpg",
       title: "Kandy",
       description: "Home to the sacred Temple of the Tooth.",
+       links :"/destinations/destination1"
     },
     {
       img: "/ella.jpg",
       title: "Ella",
       description: "Charming town with beautiful tea plantations and hikes.",
+       links :"/destinations/destination2"
     },
     {
       img: "/glle.jpg",
       title: "Galle",
       description: "Historic coastal city with a Dutch colonial fort.",
+       links :"/destinations/destination4"
     },
     {
       img: "/elephant.jpg",
       title: "Yala National Park",
       description: "Renowned for wildlife safaris and leopard sightings.",
+       links :"/destinations/destination6"
     },
     {
       img: "/nuwara.jpg",
       title: "Nuwara Eliya",
       description: "Cool climate town surrounded by lush tea estates.",
+       links :"/destinations/destination3"
     },
     {
-      img: "/CarouselHome/1.png",
-      title: "Lorem Ipsum Event",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      img: "/kandy.jpg",
+      title: "Kandy",
+      description: "Home to the sacred Temple of the Tooth.",
+       links :"/destinations/destination1"
     },
+  
   ];
+  
 
   // State to store the swiper instance
   const [swiperInstance, setSwiperInstance] = useState<SwiperInstance | null>(null);
@@ -133,7 +143,7 @@ const App: React.FC = () => {
               <div className={styles.content}>
                 <h3 className="text-white z-20">{slide.title}</h3>
                 <p className="text-white">{slide.description}</p>
-                <a href="#">Learn more</a>
+                <Link href={slide.links}>Learn more</Link>
               </div>
             </SwiperSlide>
           ))}
