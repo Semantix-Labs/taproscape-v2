@@ -35,9 +35,11 @@ export default function Home() {
             <p className="text-white max-w-xl font-lexendDeca text-[12px] md:text-3xl">
               Luxury · Wellness · Sustainability
             </p>
+            <Link href="/TourPackages#tour">
             <button className="bg-none hover:bg-orange-700 text-[12px] p-1 text-white font-bold md:py-2 md:px-4 rounded-sm md:my-6 border-2">
               Discover Our Tours
             </button>
+            </Link>
           </div>
         </div>
       </section>
