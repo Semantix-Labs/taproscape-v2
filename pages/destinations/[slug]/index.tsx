@@ -1,5 +1,6 @@
 // pages/destinations/[slug]/index.tsx
 
+import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import { Card } from "flowbite-react";
 import { GetStaticPaths, GetStaticProps, NextPage } from "next";
@@ -75,7 +76,7 @@ const DestinationDetail: NextPage<DestinationDetailProps> = ({
         <div className=" mx-auto grid max-w-7xl grid-cols-1 md:grid-cols-12 gap-8">
           <div className="grid col-span-1 md:col-span-7 lg:col-span-8 ">
             <Card className="p-8 bg-white shadow-xl ">
-              <div className="flex  text-4xl uppercase">
+            <div className="flex text-2xl md:text-3xl lg:text-3xl xl:text-4xl ">
                 {" "}
                 <h2 className="pt-1 py-10 text-oxfordBlue">{title[0]}</h2>
                 <div className="image-container relative">
@@ -84,10 +85,10 @@ const DestinationDetail: NextPage<DestinationDetailProps> = ({
                   src="/textbg.png"
                   alt=""
                 />
-                  <div className="text-overlay absolute top-0  pl-5 pt-1 justify-center ">
+                   <div className="text-overlay absolute top-0  pl-5 pt-1 justify-center ">
                     <p
                      style={{ fontFamily: "bagea" }}
-                    className="top-0 pl-2 xl:pl-4 uppercase text-white text-xl md:text-3xl lg:text-3xl xl:text-4xl bottom-5"
+                     className="top-0 pl-2 xl:pl-4 uppercase text-white text-xl md:text-3xl lg:text-3xl xl:text-4xl bottom-5"
                     >
                       {title[1]}
                     </p>
@@ -173,25 +174,33 @@ const DestinationDetail: NextPage<DestinationDetailProps> = ({
 
       <section
         style={{
-          backgroundImage: 'url("/home6.png")',
+          backgroundImage: 'url("/train.jpeg")',
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
         }}
-        className="mt-20  h-[265px] w-full"
+        className="mt-20 h-[265px] w-full brightness-75"
       >
-        <div className="justify-center gap-8 py-24 flex">
-          <label
-            htmlFor="my-modal"
-            className="search-button border-2 border-gray-600 bg-white w-1/2 py-4 px-6 rounded-lg "
-          >
-            <h2 className="text-2xl"> Email</h2>
+        <div className="flex justify-center gap-8 py-24">
+          <label htmlFor="email" className="sr-only">
+            Email
           </label>
-          <button className=" border-2 border-gray-600 w-1/4 py-4 px-6 uppercase bg-tropicalRainForest text-white rounded-lg">
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Email"
+            className="mt-1 flex w-1/2 search-button cursor-pointer border-2 text-sm md:text-xl  xl:text-2xl border-gray-600 bg-white h-8 md:h-auto py-1 px-2 md:py-5 md:px-6 rounded-lg"
+            required
+          />
+          <button className="border-2 border-gray-600 w-1/4 py-1 px-2 md:py-1 md:px-6 uppercase bg-tropicalRainForest text-[8px] md:text-sm lg:text-xl text-white rounded-lg">
             SUBSCRIBE OUR NEWSLETTER
           </button>
         </div>
       </section>
+
+      <Footer/>
+
     </div>
   );
 };
