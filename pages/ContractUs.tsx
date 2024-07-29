@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import dynamic from "next/dynamic";
 import Link from "next/link";
 import Footer from "@/components/Footer";
+import Image from "next/image";
 
 const DynamicMap = dynamic(() => import("../components/Map"), { ssr: false });
 
@@ -62,7 +63,7 @@ export default function ContractUs() {
 
       <section className="flex ">
         <div className="image-container h-auto lg:h-[600px] 2xl:h-[700px] w-screen overflow-hidden relative">
-          <img src="/trinco.jpg" className="  brightness-50" alt="" />
+          <Image objectFit="cover" layout="fill"  src="/trinco.jpg" className="  brightness-50" alt="" />
           <div className="text-overlay absolute md:left-40 bottom-5 md:bottom-20 p-4">
             <h1
               style={{ lineHeight: "68px", fontFamily: "bagea" }}
