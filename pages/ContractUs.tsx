@@ -190,7 +190,7 @@ export default function ContractUs() {
                 </div>
                 <div>
                   <h3 className="font-bold">Phone</h3>
-                  <p className="text-gray-600">0771234567 / 0779456123</p>
+                  <p className="text-gray-600">0768725950 / 0766486968</p>
                 </div>
                 <div>
                   <h3 className="font-bold">E-Mail</h3>
