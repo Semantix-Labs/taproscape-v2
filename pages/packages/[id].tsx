@@ -26,7 +26,7 @@ const travelPackages = [
     imageUrlh: "/Tourpackage/1.png",
     description:
       "Enjoy a romantic getaway with our exclusive honeymoon tours. ",
-    descriptionhid:"inline",  
+    descriptionhid: "inline",
     itinerary: [
       "6-Night Honeymoon Itinerary: Colombo, Kandy, Nuwara Eliya, Bentota",
       "9-Night Honeymoon Itinerary: Colombo, Sigiriya, Kandy, Nuwara Eliya, Bentota",
@@ -48,7 +48,7 @@ const travelPackages = [
     infoDepartureTime: "9:15 AM To 9:30 AM.",
     infoReturTime: "Approximately 10:30 PM",
     infoPriceIncluded: [
-      ["5 Star Accommodation", "All transportation in destination location",],
+      ["5 Star Accommodation", "All transportation in destination location"],
       [
         "5 Star Accommodation",
         "All transportation in destination location",
@@ -251,34 +251,42 @@ const travelPackages = [
     imageUrlh: "/Tourpackage/2.jpeg",
     description:
       "Enjoy a romantic getaway with our exclusive honeymoon tours. ",
-    descriptionhid:"hidden",
+    descriptionhid: "hidden",
     itinerary: [
       "6-Night Luxury Itinerary: Colombo, Kandy, Hatton, Yala, Thalp",
       "9-Night Luxury Itinerary: Colombo, Wilpattu, Anuradhapura, Kandy, Nuwara Eliya, Negombo",
-      "13-Night Luxury Itinerary: Colombo, Wilpattu, Anuradhapura, Kandy, Nuwara Eliya, Bentota" 
+      "13-Night Luxury Itinerary: Colombo, Wilpattu, Anuradhapura, Kandy, Nuwara Eliya, Bentota",
     ],
     infotext: [
       [
         "Experience the epitome of opulence and refinement with our bespoke 6-night luxury tour in Sri Lanka. Immerse yourself in lavish comforts, indulge in gourmet cuisine, and embark on exclusive experiences tailored to your discerning tastes. From private safaris in untamed wilderness to serene spa retreats and cultural immersion in ancient cities, our luxury tour promises a journey of indulgence and sophistication where every detail is meticulously curated to exceed your expectations.",
       ],
       [
-    "Embark on a luxurious journey through Sri Lanka with our 9-night luxury itinerary. This tour combines the rich cultural heritage of ancient cities, the serene beauty of tea plantations, and the tranquility of pristine beaches. Indulge in the finest accommodations, gourmet dining, and exclusive experiences tailored to create unforgettable memories."
+        "Embark on a luxurious journey through Sri Lanka with our 9-night luxury itinerary. This tour combines the rich cultural heritage of ancient cities, the serene beauty of tea plantations, and the tranquility of pristine beaches. Indulge in the finest accommodations, gourmet dining, and exclusive experiences tailored to create unforgettable memories.",
       ],
       [
-     "Immerse yourself in the lavish comforts and exclusive experiences of our 13-night luxury tour in Sri Lanka. From ancient cultural landmarks and lush tea estates to thrilling wildlife safaris and idyllic beach retreats, this tour offers a comprehensive and luxurious exploration of the island’s most captivating destinations. "
+        "Immerse yourself in the lavish comforts and exclusive experiences of our 13-night luxury tour in Sri Lanka. From ancient cultural landmarks and lush tea estates to thrilling wildlife safaris and idyllic beach retreats, this tour offers a comprehensive and luxurious exploration of the island’s most captivating destinations. ",
       ],
     ],
     infoDeparture: " Bandaranaike International Airport ",
     infoDepartureTime: "9:15 AM To 9:30 AM.",
     infoReturTime: "Approximately 10:30 PM",
     infoPriceIncluded: [
-      ["5 Star Accommodation", "All transportation in destination location", " Fine dining and private dinners"],
       [
         "5 Star Accommodation",
         "All transportation in destination location",
-         " Fine dining and private dinners"
+        " Fine dining and private dinners",
       ],
-      ["5 Star Accommodation", "All transportation in destination location"," Fine dining and private dinners"],
+      [
+        "5 Star Accommodation",
+        "All transportation in destination location",
+        " Fine dining and private dinners",
+      ],
+      [
+        "5 Star Accommodation",
+        "All transportation in destination location",
+        " Fine dining and private dinners",
+      ],
     ],
     infoNotPriceIncluded: [
       [
@@ -338,7 +346,6 @@ const travelPackages = [
         " Explore Nuwara Eliya",
         " Nuwara Eliya to Negombo",
         "Negombo to Colombo",
-        
       ],
       [
         "Arrival Colombo",
@@ -349,7 +356,7 @@ const travelPackages = [
         "Anuradhapura to Kandy",
         "Explore Kandy",
         " Kandy to Nuwara Eliya",
-        
+
         "Explore Nuwara Eliya",
         "Nuwara Eliya to Bentota",
         "Leisure Day in Bentota",
@@ -383,73 +390,72 @@ const travelPackages = [
       ],
       [
         [
-     "Arrive at Bandaranaike International Airport and transfer to Colombo. Check-in at a five-star hotel. In the evening, enjoy fine dining at a renowned restaurant."
+          "Arrive at Bandaranaike International Airport and transfer to Colombo. Check-in at a five-star hotel. In the evening, enjoy fine dining at a renowned restaurant.",
         ],
         [
-    "Transfer to Wilpattu and check-in at a luxury safari camp. Enjoy an afternoon safari drive and dinner at the camp."
+          "Transfer to Wilpattu and check-in at a luxury safari camp. Enjoy an afternoon safari drive and dinner at the camp.",
         ],
         [
-   "Spend the day on a full-day safari in Wilpattu National Park. Enjoy a picnic lunch in the park and return to the camp for dinner in the evening."
+          "Spend the day on a full-day safari in Wilpattu National Park. Enjoy a picnic lunch in the park and return to the camp for dinner in the evening.",
         ],
         [
-   "Transfer to Anuradhapura and check-in at a luxury hotel. Explore the ancient city of Anuradhapura in the afternoon and enjoy dinner at the hotel in the evening."
+          "Transfer to Anuradhapura and check-in at a luxury hotel. Explore the ancient city of Anuradhapura in the afternoon and enjoy dinner at the hotel in the evening.",
         ],
         [
-   "Transfer to Kandy and check-in at a luxury hotel. Visit the Temple of the Tooth and explore Kandy city. Enjoy a private dinner overlooking Kandy Lake in the evening."
+          "Transfer to Kandy and check-in at a luxury hotel. Visit the Temple of the Tooth and explore Kandy city. Enjoy a private dinner overlooking Kandy Lake in the evening.",
         ],
         [
-   "Take a scenic train ride or private transfer to Nuwara Eliya. Check-in at a luxury colonial-style hotel. Tour a tea plantation and enjoy a private tea tasting. Relax at the hotel in the evening."
+          "Take a scenic train ride or private transfer to Nuwara Eliya. Check-in at a luxury colonial-style hotel. Tour a tea plantation and enjoy a private tea tasting. Relax at the hotel in the evening.",
         ],
         [
-    "Spend the day exploring Gregory Lake and Hakgala Botanical Gardens. Enjoy a private boat ride on Gregory Lake in the evening."
+          "Spend the day exploring Gregory Lake and Hakgala Botanical Gardens. Enjoy a private boat ride on Gregory Lake in the evening.",
         ],
         [
-    "Transfer to Negombo and check-in at a luxury beach resort. Relax on the beach or enjoy a spa treatment in the afternoon. Indulge in a private beachside dinner in the evening."
+          "Transfer to Negombo and check-in at a luxury beach resort. Relax on the beach or enjoy a spa treatment in the afternoon. Indulge in a private beachside dinner in the evening.",
         ],
         [
-      "Enjoy leisure time at the resort before transferring to Colombo for last-minute shopping or sightseeing. Departure from Bandaranaike International Airport."
+          "Enjoy leisure time at the resort before transferring to Colombo for last-minute shopping or sightseeing. Departure from Bandaranaike International Airport.",
         ],
-       
       ],
       [
         [
-          "Arrive at Bandaranaike International Airport and transfer to Colombo. Check-in at a five-star hotel. In the evening, enjoy fine dining at a renowned restaurant. "
+          "Arrive at Bandaranaike International Airport and transfer to Colombo. Check-in at a five-star hotel. In the evening, enjoy fine dining at a renowned restaurant. ",
         ],
         [
-          "Transfer to Wilpattu and check-in at a luxury safari camp. Enjoy a safari drive and dinner at the camp in the evening "
+          "Transfer to Wilpattu and check-in at a luxury safari camp. Enjoy a safari drive and dinner at the camp in the evening ",
         ],
         [
-          "Spend the day on a full-day safari in Wilpattu National Park. Enjoy a picnic lunch in the park and return to the camp for dinner in the evening. "
+          "Spend the day on a full-day safari in Wilpattu National Park. Enjoy a picnic lunch in the park and return to the camp for dinner in the evening. ",
         ],
         [
-          "Transfer to Anuradhapura and check-in at a luxury hotel. Explore the ancient city of Anuradhapura in the afternoon and enjoy dinner at the hotel in the evening. "
+          "Transfer to Anuradhapura and check-in at a luxury hotel. Explore the ancient city of Anuradhapura in the afternoon and enjoy dinner at the hotel in the evening. ",
         ],
         [
-          "Continue exploring the ancient city of Anuradhapura and its surroundings. Enjoy dinner at the hotel in the evening. "
+          "Continue exploring the ancient city of Anuradhapura and its surroundings. Enjoy dinner at the hotel in the evening. ",
         ],
         [
-          "Transfer to Kandy, visiting the Spice Garden in Matale en route. Check-in at a luxury hotel and enjoy a private dinner overlooking Kandy Lake in the evening. "
+          "Transfer to Kandy, visiting the Spice Garden in Matale en route. Check-in at a luxury hotel and enjoy a private dinner overlooking Kandy Lake in the evening. ",
         ],
         [
-          "Visit the Temple of the Tooth, Peradeniya Botanical Gardens, and enjoy a couple's spa treatment. Attend a cultural show in the evening. "
+          "Visit the Temple of the Tooth, Peradeniya Botanical Gardens, and enjoy a couple's spa treatment. Attend a cultural show in the evening. ",
         ],
         [
-          "Take a scenic train ride or private transfer to Nuwara Eliya. Check-in at a luxury colonial-style hotel. Tour a tea plantation and enjoy a private tea tasting. Relax at the hotel in the evening. "
+          "Take a scenic train ride or private transfer to Nuwara Eliya. Check-in at a luxury colonial-style hotel. Tour a tea plantation and enjoy a private tea tasting. Relax at the hotel in the evening. ",
         ],
         [
-          "Spend the day exploring Gregory Lake and Hakgala Botanical Gardens. Enjoy a private boat ride on Gregory Lake in the evening. "
+          "Spend the day exploring Gregory Lake and Hakgala Botanical Gardens. Enjoy a private boat ride on Gregory Lake in the evening. ",
         ],
         [
-          "Transfer to Bentota and check-in at a luxury beach resort. Relax and enjoy the amenities of the resort in the evening. "
+          "Transfer to Bentota and check-in at a luxury beach resort. Relax and enjoy the amenities of the resort in the evening. ",
         ],
         [
-          "Spend the day enjoying the beach and optional water sports. Indulge in a private beach dinner in the evening. "
+          "Spend the day enjoying the beach and optional water sports. Indulge in a private beach dinner in the evening. ",
         ],
         [
-          "Visit nearby attractions like the Brief Garden and enjoy a sunset cruise. Return to the resort for a relaxing evening. "
+          "Visit nearby attractions like the Brief Garden and enjoy a sunset cruise. Return to the resort for a relaxing evening. ",
         ],
         [
-          "Enjoy leisure time at the resort before transferring to Colombo for last-minute shopping or sightseeing. Departure from Bandaranaike International Airport "
+          "Enjoy leisure time at the resort before transferring to Colombo for last-minute shopping or sightseeing. Departure from Bandaranaike International Airport ",
         ],
       ],
     ],
@@ -470,35 +476,42 @@ const travelPackages = [
     imageUrlh: "/Tourpackage/3.png",
     description:
       "Enjoy a romantic getaway with our exclusive honeymoon tours. ",
-    descriptionhid:"hidden",
-      itinerary: [
+    descriptionhid: "hidden",
+    itinerary: [
       "6-Night Ramayana Tour Itinerary: Colombo, Chilaw, Kandy, Nuwara Eliya, Ella, Kataragama",
       "9-Night Ramayana Tour Itinerary: Colombo, Chilaw, Kandy, Nuwara Eliya, Ella, Kataragama, Yala",
       "13-Night Ramayana Tour Itinerary: Colombo, Chilaw, Kandy, Nuwara Eliya, Ella, Kataragama, Yala, Bentota",
     ],
     infotext: [
       [
-        "Delve into the rich tapestry of Sri Lanka's spiritual heritage with our immersive 6-night Ramayana tour. Follow in the footsteps of ancient legends as you visit sacred temples, mythical caves, and hallowed sites steeped in mythology. Trace the epic saga of Lord Rama and Goddess Sita, exploring ancient kingdoms, revered shrines, and enchanting landscapes that echo with tales of devotion and valor. Let our expert guides unveil the timeless wonders of Ramayana, offering a profound journey of enlightenment and discovery. "
+        "Delve into the rich tapestry of Sri Lanka's spiritual heritage with our immersive 6-night Ramayana tour. Follow in the footsteps of ancient legends as you visit sacred temples, mythical caves, and hallowed sites steeped in mythology. Trace the epic saga of Lord Rama and Goddess Sita, exploring ancient kingdoms, revered shrines, and enchanting landscapes that echo with tales of devotion and valor. Let our expert guides unveil the timeless wonders of Ramayana, offering a profound journey of enlightenment and discovery. ",
       ],
       [
-        "Embark on an enlightening journey through Sri Lanka with our 9-night Ramayana tour. This itinerary takes you to sacred temples, enchanting landscapes, and mythical sites, unraveling the epic tale of Lord Rama and Goddess Sita. Enjoy luxurious accommodations and expert-guided tours, creating a profound and spiritual experience. "
+        "Embark on an enlightening journey through Sri Lanka with our 9-night Ramayana tour. This itinerary takes you to sacred temples, enchanting landscapes, and mythical sites, unraveling the epic tale of Lord Rama and Goddess Sita. Enjoy luxurious accommodations and expert-guided tours, creating a profound and spiritual experience. ",
       ],
       [
-        "Immerse yourself in the spiritual and cultural wonders of Sri Lanka with our 13-night Ramayana tour. This extensive itinerary covers all significant Ramayana sites, providing a comprehensive and enriching experience. Enjoy luxurious accommodations, expert-guided tours, and exclusive experiences, making this journey truly unforgettable. "
+        "Immerse yourself in the spiritual and cultural wonders of Sri Lanka with our 13-night Ramayana tour. This extensive itinerary covers all significant Ramayana sites, providing a comprehensive and enriching experience. Enjoy luxurious accommodations, expert-guided tours, and exclusive experiences, making this journey truly unforgettable. ",
       ],
-    
     ],
     infoDeparture: " Bandaranaike International Airport ",
     infoDepartureTime: "9:15 AM To 9:30 AM.",
     infoReturTime: "Approximately 10:30 PM",
     infoPriceIncluded: [
-      ["5 Star Accommodation", "All transportation in destination location", " Visits to temples and sacred sites, Safari in Yala National Park"],
       [
         "5 Star Accommodation",
         "All transportation in destination location",
-         "Visits to temples and sacred sites, Safari in Yala National Park",
+        " Visits to temples and sacred sites, Safari in Yala National Park",
       ],
-      ["5 Star Accommodation", "All transportation in destination location"," Visits to temples and sacred sites, Safari in Yala National Park"],
+      [
+        "5 Star Accommodation",
+        "All transportation in destination location",
+        "Visits to temples and sacred sites, Safari in Yala National Park",
+      ],
+      [
+        "5 Star Accommodation",
+        "All transportation in destination location",
+        " Visits to temples and sacred sites, Safari in Yala National Park",
+      ],
     ],
     infoNotPriceIncluded: [
       [
@@ -547,7 +560,6 @@ const travelPackages = [
         "Ella to Kataragama",
         "Kataragama to Colombo",
         "Departure from Colombo",
-      
       ],
       [
         "Arrival Colombo",
@@ -560,7 +572,6 @@ const travelPackages = [
         "Safari in Yala ",
         "Yala to Colombo ",
         "Departure from Colombo ",
-        
       ],
       [
         "Arrival Colombo",
@@ -577,111 +588,107 @@ const travelPackages = [
         " Leisure Day in Bentota ",
         "Bentota to Colombo",
         "Departure from Colombo ",
-       
       ],
     ],
     TourText: [
       [
-       [
-        "Arrive at Bandaranaike International Airport and transfer to Colombo. Check-in at a five-star hotel. In the evening, visit Munneswaram Temple and Manavari Temple. "
-      ],
-       [
-        "Visit Munneswaram Temple in the morning, then proceed to Manavari Temple. In the afternoon, transfer to Kandy. Check-in at a luxury hotel and visit the Temple of the Tooth in the evening. "
-      ],
-       [
-        "Visit the Botanical Gardens at Peradeniya in the morning. Take a scenic train ride or private transfer to Nuwara Eliya in the afternoon. Check-in at a colonial-style luxury hotel and visit Sita Amman Temple in the evening "
-      ],
-       [
-        "Visit Divurumpola Temple in the morning. Transfer to Ella in the afternoon and check-in at a boutique hotel. Visit Ravana Ella Falls in the evening. "
-      ],
-       [
-        "isit Ravana Cave in the morning. Transfer to Kataragama in the afternoon and check-in at a luxury hotel. Visit Kataragama Temple in the evening. "
-      ],
-       [
-        "Visit Ussangoda in the morning. Transfer to Colombo in the afternoon and check-in at a five-star hotel. Enjoy last-minute shopping or sightseeing in Colombo in the evening "
-      ],
-       [
-        "Enjoy leisure time at the hotel before transferring to Bandaranaike International Airport for departure. "
-      ],
-      ],
-      [
         [
-          "Arrive at Bandaranaike International Airport and transfer to Colombo. Check-in at a five-star hotel. In the evening, visit Munneswaram Temple and Manavari Temple."
+          "Arrive at Bandaranaike International Airport and transfer to Colombo. Check-in at a five-star hotel. In the evening, visit Munneswaram Temple and Manavari Temple. ",
         ],
         [
-          "Visit Munneswaram Temple in the morning, then proceed to Manavari Temple. Transfer to Kandy in the afternoon, check-in at a luxury hotel, and visit the Temple of the Tooth in the evening."
+          "Visit Munneswaram Temple in the morning, then proceed to Manavari Temple. In the afternoon, transfer to Kandy. Check-in at a luxury hotel and visit the Temple of the Tooth in the evening. ",
         ],
         [
-          "Visit Hanuman Temple at Ramboda in the morning and the Botanical Gardens at Peradeniya in the afternoon. Return to the hotel for a traditional cultural show in the evening."
+          "Visit the Botanical Gardens at Peradeniya in the morning. Take a scenic train ride or private transfer to Nuwara Eliya in the afternoon. Check-in at a colonial-style luxury hotel and visit Sita Amman Temple in the evening ",
         ],
         [
-          "Take a scenic train ride or private transfer to Nuwara Eliya in the morning. Check-in at a colonial-style luxury hotel and visit Sita Amman Temple and Hakgala Botanical Gardens in the afternoon."
+          "Visit Divurumpola Temple in the morning. Transfer to Ella in the afternoon and check-in at a boutique hotel. Visit Ravana Ella Falls in the evening. ",
         ],
         [
-          "Visit Divurumpola Temple in the morning. Transfer to Ella in the afternoon and check-in at a boutique hotel. Visit Ravana Ella Falls in the evening."
+          "isit Ravana Cave in the morning. Transfer to Kataragama in the afternoon and check-in at a luxury hotel. Visit Kataragama Temple in the evening. ",
         ],
         [
-          "Visit Ravana Cave in the morning. Transfer to Kataragama in the afternoon and check-in at a luxury hotel. Visit Kataragama Temple in the evening."
+          "Visit Ussangoda in the morning. Transfer to Colombo in the afternoon and check-in at a five-star hotel. Enjoy last-minute shopping or sightseeing in Colombo in the evening ",
         ],
         [
-          "Visit Ussangoda in the morning. Transfer to Yala in the afternoon and check-in at a luxury safari lodge. Enjoy a sunset safari drive in Yala National Park."
+          "Enjoy leisure time at the hotel before transferring to Bandaranaike International Airport for departure. ",
         ],
-        [
-          "Spend the day on a full-day safari in Yala National Park, spotting leopards, elephants, and other wildlife. Enjoy a picnic lunch in the park and return to the lodge for dinner in the evening."
-        ],
-        [
-          "Transfer to Colombo in the morning and check-in at a five-star hotel. Enjoy last-minute shopping or sightseeing in Colombo in the afternoon. Have a farewell dinner at a renowned restaurant in the evening."
-        ],
-        [
-          "Enjoy leisure time at the hotel before transferring to Bandaranaike International Airport for departure."
-        ],
-    
-       
       ],
       [
         [
-          "Arrive at Bandaranaike International Airport and transfer to Colombo. Check-in at a five-star hotel. In the evening, visit Munneswaram Temple and Manavari Temple."
-       ],
+          "Arrive at Bandaranaike International Airport and transfer to Colombo. Check-in at a five-star hotel. In the evening, visit Munneswaram Temple and Manavari Temple.",
+        ],
         [
-          "Visit Munneswaram Temple in the morning, then proceed to Manavari Temple. Transfer to Kandy in the afternoon, check-in at a luxury hotel, and visit the Temple of the Tooth in the evening."
-       ],
+          "Visit Munneswaram Temple in the morning, then proceed to Manavari Temple. Transfer to Kandy in the afternoon, check-in at a luxury hotel, and visit the Temple of the Tooth in the evening.",
+        ],
         [
-          "Visit Hanuman Temple at Ramboda in the morning and the Botanical Gardens at Peradeniya in the afternoon. Return to the hotel for a traditional cultural show in the evening."
-       ],
+          "Visit Hanuman Temple at Ramboda in the morning and the Botanical Gardens at Peradeniya in the afternoon. Return to the hotel for a traditional cultural show in the evening.",
+        ],
         [
-          "Take a scenic train ride or private transfer to Nuwara Eliya in the morning. Check-in at a colonial-style luxury hotel and visit Sita Amman Temple and Hakgala Botanical Gardens in the afternoon."
-       ],
+          "Take a scenic train ride or private transfer to Nuwara Eliya in the morning. Check-in at a colonial-style luxury hotel and visit Sita Amman Temple and Hakgala Botanical Gardens in the afternoon.",
+        ],
         [
-          "Visit Divurumpola Temple in the morning. Explore the beautiful landscapes of Nuwara Eliya in the afternoon. Return to the hotel for dinner in the evening."
-       ],
+          "Visit Divurumpola Temple in the morning. Transfer to Ella in the afternoon and check-in at a boutique hotel. Visit Ravana Ella Falls in the evening.",
+        ],
         [
-          "Take a scenic train ride to Ella in the morning. Check-in at a boutique hotel. Visit Ravana Ella Falls in the afternoon and relax at the hotel in the evening."
-       ],
+          "Visit Ravana Cave in the morning. Transfer to Kataragama in the afternoon and check-in at a luxury hotel. Visit Kataragama Temple in the evening.",
+        ],
         [
-          "Visit Ravana Cave in the morning. Explore Little Adam's Peak in the afternoon. Return to the hotel for a relaxing evening."
-       ],
+          "Visit Ussangoda in the morning. Transfer to Yala in the afternoon and check-in at a luxury safari lodge. Enjoy a sunset safari drive in Yala National Park.",
+        ],
         [
-          "Transfer to Kataragama in the morning. Check-in at a luxury hotel. Visit Ussangoda in the afternoon and Kataragama Temple in the evening."
-       ],
+          "Spend the day on a full-day safari in Yala National Park, spotting leopards, elephants, and other wildlife. Enjoy a picnic lunch in the park and return to the lodge for dinner in the evening.",
+        ],
         [
-          "Transfer to Yala in the morning. Check-in at a luxury safari lodge. Enjoy a sunset safari drive in Yala National Park in the afternoon."
-       ],
+          "Transfer to Colombo in the morning and check-in at a five-star hotel. Enjoy last-minute shopping or sightseeing in Colombo in the afternoon. Have a farewell dinner at a renowned restaurant in the evening.",
+        ],
         [
-          "Spend the day on a full-day safari in Yala National Park, spotting leopards, elephants, and other wildlife. Enjoy a picnic lunch in the park and return to the lodge for dinner in the evening."
-       ],
+          "Enjoy leisure time at the hotel before transferring to Bandaranaike International Airport for departure.",
+        ],
+      ],
+      [
         [
-          "Transfer to Galle in the morning and visit the historic Galle Fort. Continue to Bentota in the afternoon and check-in at a luxury beach resort. Relax on the beach in the evening."
-       ],
+          "Arrive at Bandaranaike International Airport and transfer to Colombo. Check-in at a five-star hotel. In the evening, visit Munneswaram Temple and Manavari Temple.",
+        ],
         [
-          "Spend the day enjoying water sports or a spa treatment. Visit Brief Garden or take a boat ride on the Madu River in the afternoon. Indulge in a private beachside dinner in the evening."
-       ],
+          "Visit Munneswaram Temple in the morning, then proceed to Manavari Temple. Transfer to Kandy in the afternoon, check-in at a luxury hotel, and visit the Temple of the Tooth in the evening.",
+        ],
         [
-          "Enjoy leisure time at the resort in the morning. Transfer to Colombo for last-minute shopping or sightseeing in the afternoon. Have a farewell dinner at a renowned restaurant in the evening."
-       ],
+          "Visit Hanuman Temple at Ramboda in the morning and the Botanical Gardens at Peradeniya in the afternoon. Return to the hotel for a traditional cultural show in the evening.",
+        ],
         [
-          "Enjoy leisure time at the hotel before transferring to Bandaranaike International Airport for departure."
-       ],
-    
+          "Take a scenic train ride or private transfer to Nuwara Eliya in the morning. Check-in at a colonial-style luxury hotel and visit Sita Amman Temple and Hakgala Botanical Gardens in the afternoon.",
+        ],
+        [
+          "Visit Divurumpola Temple in the morning. Explore the beautiful landscapes of Nuwara Eliya in the afternoon. Return to the hotel for dinner in the evening.",
+        ],
+        [
+          "Take a scenic train ride to Ella in the morning. Check-in at a boutique hotel. Visit Ravana Ella Falls in the afternoon and relax at the hotel in the evening.",
+        ],
+        [
+          "Visit Ravana Cave in the morning. Explore Little Adam's Peak in the afternoon. Return to the hotel for a relaxing evening.",
+        ],
+        [
+          "Transfer to Kataragama in the morning. Check-in at a luxury hotel. Visit Ussangoda in the afternoon and Kataragama Temple in the evening.",
+        ],
+        [
+          "Transfer to Yala in the morning. Check-in at a luxury safari lodge. Enjoy a sunset safari drive in Yala National Park in the afternoon.",
+        ],
+        [
+          "Spend the day on a full-day safari in Yala National Park, spotting leopards, elephants, and other wildlife. Enjoy a picnic lunch in the park and return to the lodge for dinner in the evening.",
+        ],
+        [
+          "Transfer to Galle in the morning and visit the historic Galle Fort. Continue to Bentota in the afternoon and check-in at a luxury beach resort. Relax on the beach in the evening.",
+        ],
+        [
+          "Spend the day enjoying water sports or a spa treatment. Visit Brief Garden or take a boat ride on the Madu River in the afternoon. Indulge in a private beachside dinner in the evening.",
+        ],
+        [
+          "Enjoy leisure time at the resort in the morning. Transfer to Colombo for last-minute shopping or sightseeing in the afternoon. Have a farewell dinner at a renowned restaurant in the evening.",
+        ],
+        [
+          "Enjoy leisure time at the hotel before transferring to Bandaranaike International Airport for departure.",
+        ],
       ],
     ],
     GalleryImages: [
@@ -701,33 +708,50 @@ const travelPackages = [
     imageUrlh: "/Tourpackage/4.jpeg",
     description:
       "Enjoy a romantic getaway with our exclusive honeymoon tours. ",
-      descriptionhid:"hidden",
+    descriptionhid: "hidden",
     itinerary: [
-       "7-Night Wellness Tour Itinerary: Colombo, Negombo, Kandy, Nuwara Eliya ", 
-       "14-Night Wellness Tour Itinerary: Negombo, Kandy, Nuwara Eliya, Ella, Colombo ", 
-       "21-Night Wellness Tour Itinerary: Negombo, Kandy, Nuwara Eliya, Ella, Colombo ", 
+      "7-Night Wellness Tour Itinerary: Colombo, Negombo, Kandy, Nuwara Eliya ",
+      "14-Night Wellness Tour Itinerary: Negombo, Kandy, Nuwara Eliya, Ella, Colombo ",
+      "21-Night Wellness Tour Itinerary: Negombo, Kandy, Nuwara Eliya, Ella, Colombo ",
     ],
     infotext: [
-     [
-       " Embark on a transformative journey of rejuvenation and well-being with our serene 7-night wellness tour in Sri Lanka. Escape the stresses of modern life and reconnect with your inner harmony amidst the tranquil beauty of nature. Immerse yourself in holistic wellness practices, from Ayurvedic treatments and yoga retreats to meditation sessions and organic cuisine. Surrender to the healing rhythms of the island, where ancient traditions and natural therapies converge to revitalize your body, mind, and spirit. Experience a profound sense of renewal and vitality as you embark on a wellness journey like no other."
+      [
+        " Embark on a transformative journey of rejuvenation and well-being with our serene 7-night wellness tour in Sri Lanka. Escape the stresses of modern life and reconnect with your inner harmony amidst the tranquil beauty of nature. Immerse yourself in holistic wellness practices, from Ayurvedic treatments and yoga retreats to meditation sessions and organic cuisine. Surrender to the healing rhythms of the island, where ancient traditions and natural therapies converge to revitalize your body, mind, and spirit. Experience a profound sense of renewal and vitality as you embark on a wellness journey like no other.",
       ],
-     [
-       "Immerse yourself in a comprehensive wellness journey with our 14-night wellness tour in Sri Lanka. This itinerary combines the best of Ayurvedic treatments, yoga sessions, meditation practices, and holistic wellness experiences. From the beaches of Negombo to the lush hills of Kandy and Nuwara Eliya, and the scenic beauty of Ella, this tour offers the perfect setting for rejuvenation and relaxation. "
+      [
+        "Immerse yourself in a comprehensive wellness journey with our 14-night wellness tour in Sri Lanka. This itinerary combines the best of Ayurvedic treatments, yoga sessions, meditation practices, and holistic wellness experiences. From the beaches of Negombo to the lush hills of Kandy and Nuwara Eliya, and the scenic beauty of Ella, this tour offers the perfect setting for rejuvenation and relaxation. ",
       ],
-     [
-       "Embark on an extended wellness journey with our 21-night wellness tour in Sri Lanka. This extensive itinerary offers a deep and transformative experience, combining Ayurvedic treatments, yoga and meditation practices, and holistic wellness activities across the most serene and beautiful locations in Sri Lanka. "
+      [
+        "Embark on an extended wellness journey with our 21-night wellness tour in Sri Lanka. This extensive itinerary offers a deep and transformative experience, combining Ayurvedic treatments, yoga and meditation practices, and holistic wellness activities across the most serene and beautiful locations in Sri Lanka. ",
       ],
     ],
     infoDeparture: " Bandaranaike International Airport ",
     infoDepartureTime: "9:15 AM To 9:30 AM.",
     infoReturTime: "Approximately 10:30 PM",
     infoPriceIncluded: [
-      ["Wellness resort accommodations", "All transportation in destination location", "  Daily Ayurvedic treatments", "Yoga and meditation sessions" , "Ayurvedic consultation and cooking class"],
-     
-      ["Wellness resort accommodations", "All transportation in destination location", "  Daily Ayurvedic treatments", "Yoga and meditation sessions" , "Ayurvedic consultation and cooking class"],
-     
-      ["Wellness resort accommodations", "All transportation in destination location", "  Daily Ayurvedic treatments", "Yoga and meditation sessions" , "Ayurvedic consultation and cooking class"],
-     
+      [
+        "Wellness resort accommodations",
+        "All transportation in destination location",
+        "  Daily Ayurvedic treatments",
+        "Yoga and meditation sessions",
+        "Ayurvedic consultation and cooking class",
+      ],
+
+      [
+        "Wellness resort accommodations",
+        "All transportation in destination location",
+        "  Daily Ayurvedic treatments",
+        "Yoga and meditation sessions",
+        "Ayurvedic consultation and cooking class",
+      ],
+
+      [
+        "Wellness resort accommodations",
+        "All transportation in destination location",
+        "  Daily Ayurvedic treatments",
+        "Yoga and meditation sessions",
+        "Ayurvedic consultation and cooking class",
+      ],
     ],
     infoNotPriceIncluded: [
       [
@@ -769,25 +793,19 @@ const travelPackages = [
     },
     TourPlantext: [
       [
-       " Day 1: Arrival in Colombo",
-       " Day 2-3: Wellness Program in Negombo",
-       " Day 4-5: Wellness Retreat in Kandy",
-       " Day 6: Scenic Drive to Nuwara Eliya ",
-       " Day 7: Final Wellness Activities and Relaxation",
-       
-      
-      
+        " Day 1: Arrival in Colombo",
+        " Day 2-3: Wellness Program in Negombo",
+        " Day 4-5: Wellness Retreat in Kandy",
+        " Day 6: Scenic Drive to Nuwara Eliya ",
+        " Day 7: Final Wellness Activities and Relaxation",
       ],
       [
-
-       " Day 1-7: Wellness Retreat in Negombo ",
-       "Day 8-10: Wellness Experiences in Kandy",
-       "Day 11-14: Serenity in Nuwara Eliya ",
-       "Day 15: Transfer to Ella",
-       " Day 16-17: Wellness Activities in Ella ",
-       "Day 18: Final Wellness Activities in Colombo ",
-      
-        
+        " Day 1-7: Wellness Retreat in Negombo ",
+        "Day 8-10: Wellness Experiences in Kandy",
+        "Day 11-14: Serenity in Nuwara Eliya ",
+        "Day 15: Transfer to Ella",
+        " Day 16-17: Wellness Activities in Ella ",
+        "Day 18: Final Wellness Activities in Colombo ",
       ],
       [
         "Day 1-10: Comprehensive Wellness in Negombo",
@@ -795,71 +813,65 @@ const travelPackages = [
         "Day 15-18: Deep Relaxation in Nuwara Eliya ",
         "Day 19: Tranquility in Ella ",
         "Day 22: Final Wellness Activities in Colombo ",
-        
-       
       ],
     ],
     TourText: [
       [
         [
-          "Arrive at Bandaranaike International Airport and transfer to Negombo. Check-in at a wellness resort and relax and unwind at the resort. Enjoy a welcome Ayurvedic consultation. "
+          "Arrive at Bandaranaike International Airport and transfer to Negombo. Check-in at a wellness resort and relax and unwind at the resort. Enjoy a welcome Ayurvedic consultation. ",
         ],
         [
-          "Begin your wellness program with daily Ayurvedic treatments and therapies. Participate in morning yoga sessions, Ayurvedic massages, and herbal baths. Continue with personalized wellness activities and treatments, including meditation and pranayama sessions, as well as an Ayurvedic cooking class. "
+          "Begin your wellness program with daily Ayurvedic treatments and therapies. Participate in morning yoga sessions, Ayurvedic massages, and herbal baths. Continue with personalized wellness activities and treatments, including meditation and pranayama sessions, as well as an Ayurvedic cooking class. ",
         ],
         [
-          "Transfer to Kandy and check-in at a wellness retreat. Immerse yourself in holistic wellness experiences, including yoga and mindfulness sessions amidst nature, detoxifying spa treatments, and wellness consultations. "
+          "Transfer to Kandy and check-in at a wellness retreat. Immerse yourself in holistic wellness experiences, including yoga and mindfulness sessions amidst nature, detoxifying spa treatments, and wellness consultations. ",
         ],
         [
-          "Enjoy a scenic drive to Nuwara Eliya and check-in at a wellness hotel. Relax with a cup of Ceylon tea and enjoy the serene ambiance of the tea country. "
+          "Enjoy a scenic drive to Nuwara Eliya and check-in at a wellness hotel. Relax with a cup of Ceylon tea and enjoy the serene ambiance of the tea country. ",
         ],
         [
-          "Transfer back to Colombo in the morning. Participate in final wellness activities and relaxation in the afternoon. Departure from Bandaranaike International Airport feeling rejuvenated and refreshed. "
+          "Transfer back to Colombo in the morning. Participate in final wellness activities and relaxation in the afternoon. Departure from Bandaranaike International Airport feeling rejuvenated and refreshed. ",
         ],
-       
       ],
       [
         [
-          "Check-in at a wellness resort in Negombo for the first seven days. Enjoy daily Ayurvedic treatments, including massages, herbal therapies, and detoxification. Participate in yoga and meditation sessions to promote relaxation and inner balance. Receive nutritional counseling and participate in Ayurvedic cooking classes. Leisure time allows you to enjoy the beach and serene surroundings. "
+          "Check-in at a wellness resort in Negombo for the first seven days. Enjoy daily Ayurvedic treatments, including massages, herbal therapies, and detoxification. Participate in yoga and meditation sessions to promote relaxation and inner balance. Receive nutritional counseling and participate in Ayurvedic cooking classes. Leisure time allows you to enjoy the beach and serene surroundings. ",
         ],
         [
-          "Transfer to Kandy and check-in at a wellness retreat. Continue your wellness program with personalized treatments and activities, including yoga and mindfulness sessions, detoxifying spa treatments, and wellness consultations. "
+          "Transfer to Kandy and check-in at a wellness retreat. Continue your wellness program with personalized treatments and activities, including yoga and mindfulness sessions, detoxifying spa treatments, and wellness consultations. ",
         ],
         [
-          "Enjoy a scenic drive to Nuwara Eliya and check-in at a wellness hotel. Embrace the tranquility of the tea country with daily yoga and meditation sessions. Indulge in therapeutic spa treatments amidst the lush greenery. Participate in nature walks and wellness workshops. "
+          "Enjoy a scenic drive to Nuwara Eliya and check-in at a wellness hotel. Embrace the tranquility of the tea country with daily yoga and meditation sessions. Indulge in therapeutic spa treatments amidst the lush greenery. Participate in nature walks and wellness workshops. ",
         ],
         [
-          "Transfer to Ella in the morning and check-in at a wellness resort. Relax and unwind amidst the picturesque landscapes of Ella in the afternoon. "
+          "Transfer to Ella in the morning and check-in at a wellness resort. Relax and unwind amidst the picturesque landscapes of Ella in the afternoon. ",
         ],
         [
-          "Immerse yourself in wellness activities, including yoga sessions overlooking the mountains and nature walks to scenic viewpoints. Enjoy holistic healing therapies and relaxation in the serene surroundings. "
+          "Immerse yourself in wellness activities, including yoga sessions overlooking the mountains and nature walks to scenic viewpoints. Enjoy holistic healing therapies and relaxation in the serene surroundings. ",
         ],
         [
-          "Transfer back to Colombo in the morning. Participate in final wellness rituals and relaxation in the afternoon. Departure from Bandaranaike International Airport feeling revitalized and balanced. "
+          "Transfer back to Colombo in the morning. Participate in final wellness rituals and relaxation in the afternoon. Departure from Bandaranaike International Airport feeling revitalized and balanced. ",
         ],
-        
-       
       ],
       [
         [
-          "Check-in at a wellness resort in Negombo for the first ten days. Receive comprehensive Ayurvedic treatments focusing on rejuvenation and detoxification. Participate in daily yoga, meditation, and pranayama sessions for holistic well-being. Engage in nutritional counseling and cooking workshops to promote healthy eating habits. Enjoy leisure time to explore the beach and engage in recreational activities. "
+          "Check-in at a wellness resort in Negombo for the first ten days. Receive comprehensive Ayurvedic treatments focusing on rejuvenation and detoxification. Participate in daily yoga, meditation, and pranayama sessions for holistic well-being. Engage in nutritional counseling and cooking workshops to promote healthy eating habits. Enjoy leisure time to explore the beach and engage in recreational activities. ",
         ],
         [
-          "Transfer to Kandy and check-in at a wellness retreat. Continue your wellness journey with specialized treatments and therapies, including yoga and mindfulness sessions, detoxifying spa treatments, and wellness consultations. "
+          "Transfer to Kandy and check-in at a wellness retreat. Continue your wellness journey with specialized treatments and therapies, including yoga and mindfulness sessions, detoxifying spa treatments, and wellness consultations. ",
         ],
         [
-          "Enjoy a scenic drive to Nuwara Eliya and check-in at a wellness hotel. Deepen your relaxation with daily yoga, meditation, and nature walks. Indulge in luxurious spa experiences amidst the serene tea plantations. "
+          "Enjoy a scenic drive to Nuwara Eliya and check-in at a wellness hotel. Deepen your relaxation with daily yoga, meditation, and nature walks. Indulge in luxurious spa experiences amidst the serene tea plantations. ",
         ],
         [
-          "Transfer to Ella in the morning and check-in at a wellness resort. Relax and rejuvenate amidst the tranquil surroundings of Ella in the afternoon. "
+          "Transfer to Ella in the morning and check-in at a wellness resort. Relax and rejuvenate amidst the tranquil surroundings of Ella in the afternoon. ",
         ],
         [
-          "Continue your wellness journey in Ella with yoga sessions amidst nature's beauty, wellness workshops, and holistic healing therapies. Participate in nature walks and enjoy the serene landscapes. "
+          "Continue your wellness journey in Ella with yoga sessions amidst nature's beauty, wellness workshops, and holistic healing therapies. Participate in nature walks and enjoy the serene landscapes. ",
         ],
         [
-          "Transfer back to Colombo in the morning. Participate in final wellness activities and relaxation in the afternoon. Departure from Bandaranaike International Airport feeling completely renewed and invigorated. "
+          "Transfer back to Colombo in the morning. Participate in final wellness activities and relaxation in the afternoon. Departure from Bandaranaike International Airport feeling completely renewed and invigorated. ",
         ],
-       
       ],
     ],
     GalleryImages: [
@@ -872,7 +884,7 @@ const travelPackages = [
       "/Tourpackage/Gallery/7.jpeg",
     ],
     RewProfile: ["/Tourpackage/rew/1.jpeg"],
-    hiddenText:"hidden"
+    hiddenText: "hidden",
   },
   {
     id: 5,
@@ -880,33 +892,44 @@ const travelPackages = [
     imageUrlh: "/Tourpackage/5.jpeg",
     description:
       "Enjoy a romantic getaway with our exclusive honeymoon tours. ",
-      descriptionhid:"hidden",
+    descriptionhid: "hidden",
     itinerary: [
-       "6-Night Family Tour Itinerary: Colombo, Pinnawala, Kandy, Nuwara Eliya, Bentota ", 
-       "9-Night Family Tour Itinerary: Colombo, Sigiriya, Kandy, Nuwara Eliya, Yala, Bentota ", 
-       " 13-Night Family Tour Itinerary: Colombo, Sigiriya, Kandy, Nuwara Eliya, Ella, Yala, Bentota", 
+      "6-Night Family Tour Itinerary: Colombo, Pinnawala, Kandy, Nuwara Eliya, Bentota ",
+      "9-Night Family Tour Itinerary: Colombo, Sigiriya, Kandy, Nuwara Eliya, Yala, Bentota ",
+      " 13-Night Family Tour Itinerary: Colombo, Sigiriya, Kandy, Nuwara Eliya, Ella, Yala, Bentota",
     ],
     infotext: [
-     [
-       "Embark on a family-friendly adventure through Sri Lanka with our 6-night family tour. This itinerary is designed to provide a perfect blend of cultural exploration, scenic beauty, and fun activities for all ages. Enjoy quality time with your loved ones while discovering the wonders of Sri Lanka. "
+      [
+        "Embark on a family-friendly adventure through Sri Lanka with our 6-night family tour. This itinerary is designed to provide a perfect blend of cultural exploration, scenic beauty, and fun activities for all ages. Enjoy quality time with your loved ones while discovering the wonders of Sri Lanka. ",
       ],
-     [
-       "Enjoy a memorable family holiday in Sri Lanka with our 9-night family tour. This itinerary is filled with engaging activities and visits to iconic destinations, ensuring a fun and enriching experience for all family members."
+      [
+        "Enjoy a memorable family holiday in Sri Lanka with our 9-night family tour. This itinerary is filled with engaging activities and visits to iconic destinations, ensuring a fun and enriching experience for all family members.",
       ],
-     [
-       "Experience the ultimate family adventure in Sri Lanka with our 13-night family tour. This extensive itinerary covers a wide range of attractions and activities, ensuring a fun-filled and educational journey for all ages. From historical sites and cultural experiences to wildlife safaris and beach relaxation, this tour offers something for every member of the family. "
+      [
+        "Experience the ultimate family adventure in Sri Lanka with our 13-night family tour. This extensive itinerary covers a wide range of attractions and activities, ensuring a fun-filled and educational journey for all ages. From historical sites and cultural experiences to wildlife safaris and beach relaxation, this tour offers something for every member of the family. ",
       ],
     ],
     infoDeparture: " Bandaranaike International Airport ",
     infoDepartureTime: "9:15 AM To 9:30 AM.",
     infoReturTime: "Approximately 10:30 PM",
     infoPriceIncluded: [
-      ["Family-friendly accommodations", "All transportation in destination location", " Activities and excursions as per itinerary "],
-    
-      ["Family-friendly accommodations", "All transportation in destination location", " Activities and excursions as per itinerary "],
-    
-      ["Family-friendly accommodations", "All transportation in destination location", " Activities and excursions as per itinerary "],
-    
+      [
+        "Family-friendly accommodations",
+        "All transportation in destination location",
+        " Activities and excursions as per itinerary ",
+      ],
+
+      [
+        "Family-friendly accommodations",
+        "All transportation in destination location",
+        " Activities and excursions as per itinerary ",
+      ],
+
+      [
+        "Family-friendly accommodations",
+        "All transportation in destination location",
+        " Activities and excursions as per itinerary ",
+      ],
     ],
     infoNotPriceIncluded: [
       [
@@ -955,23 +978,19 @@ const travelPackages = [
         " Explore Nuwara Eliya",
         " Transfer to Bentota ",
         " Departure from Colombo",
-      
-       
       ],
       [
-       "Arrival in Colombo ",
-       
-       " Colombo to Sigiriya ",
-       " Explore Sigiriya and Dambulla ",
-       "Sigiriya to Kandy ",
-       " Explore Kandy",
-       "Scenic Train Ride to Nuwara Eliya",
-       "Nuwara Eliya to Yala ",
-       "Yala to Bentota ",
-       "Leisure Day in Bentota ",
-       "Departure from Colombo ",
-       
-        
+        "Arrival in Colombo ",
+
+        " Colombo to Sigiriya ",
+        " Explore Sigiriya and Dambulla ",
+        "Sigiriya to Kandy ",
+        " Explore Kandy",
+        "Scenic Train Ride to Nuwara Eliya",
+        "Nuwara Eliya to Yala ",
+        "Yala to Bentota ",
+        "Leisure Day in Bentota ",
+        "Departure from Colombo ",
       ],
       [
         "Arrival in Colombo",
@@ -987,112 +1006,107 @@ const travelPackages = [
         " Leisure Day in Bentota ",
         "Explore Bentota ",
         "Departure from Colombo ",
-       
-       ],
+      ],
     ],
     TourText: [
       [
         [
-          "Arrive at Bandaranaike International Airport and transfer to Colombo. Check-in at a family-friendly hotel. Spend the afternoon exploring Colombo's key attractions, including Galle Face Green, and enjoy a family dinner at a local restaurant. "
+          "Arrive at Bandaranaike International Airport and transfer to Colombo. Check-in at a family-friendly hotel. Spend the afternoon exploring Colombo's key attractions, including Galle Face Green, and enjoy a family dinner at a local restaurant. ",
         ],
         [
-          "Travel to Pinnawala to visit the Elephant Orphanage and witness feeding and bathing times. Continue to Kandy and check-in at a family-friendly hotel. Visit the Temple of the Tooth and enjoy an evening cultural show. "
+          "Travel to Pinnawala to visit the Elephant Orphanage and witness feeding and bathing times. Continue to Kandy and check-in at a family-friendly hotel. Visit the Temple of the Tooth and enjoy an evening cultural show. ",
         ],
         [
-          "Explore the Royal Botanical Gardens in the morning, perfect for a family picnic. Visit the Kandy Lake and surrounding areas. Spend the afternoon at leisure exploring local markets and shops. "
+          "Explore the Royal Botanical Gardens in the morning, perfect for a family picnic. Visit the Kandy Lake and surrounding areas. Spend the afternoon at leisure exploring local markets and shops. ",
         ],
         [
-          "Take a scenic train ride to Nuwara Eliya, an enjoyable experience for the whole family. Check-in at a family-friendly hotel. Visit a tea plantation and factory, then explore Victoria Park. "
+          "Take a scenic train ride to Nuwara Eliya, an enjoyable experience for the whole family. Check-in at a family-friendly hotel. Visit a tea plantation and factory, then explore Victoria Park. ",
         ],
         [
-          "Visit Gregory Lake, where you can enjoy boating and other activities. Explore Hakgala Botanical Gardens and take in the beautiful surroundings. Spend the evening at leisure at the hotel. "
+          "Visit Gregory Lake, where you can enjoy boating and other activities. Explore Hakgala Botanical Gardens and take in the beautiful surroundings. Spend the evening at leisure at the hotel. ",
         ],
         [
-          "Travel to Bentota and check-in at a beach resort. Spend the afternoon enjoying water sports or relaxing on the beach. Enjoy a family beachside dinner in the evening. "
+          "Travel to Bentota and check-in at a beach resort. Spend the afternoon enjoying water sports or relaxing on the beach. Enjoy a family beachside dinner in the evening. ",
         ],
         [
-          "Leisure time at the resort before transferring to Colombo for last-minute shopping or sightseeing. Departure from Bandaranaike International Airport."
-
-        ]
+          "Leisure time at the resort before transferring to Colombo for last-minute shopping or sightseeing. Departure from Bandaranaike International Airport.",
+        ],
       ],
       [
         [
-          "Arrive at Bandaranaike International Airport and transfer to Colombo. Check-in at a family-friendly hotel. Explore Colombo's main attractions and enjoy a family dinner at a local restaurant. "
+          "Arrive at Bandaranaike International Airport and transfer to Colombo. Check-in at a family-friendly hotel. Explore Colombo's main attractions and enjoy a family dinner at a local restaurant. ",
         ],
         [
-          "Travel to Sigiriya and check-in at a family-friendly resort. Visit the Sigiriya Rock Fortress and explore the surrounding gardens. Enjoy a family dinner at the resort. "
+          "Travel to Sigiriya and check-in at a family-friendly resort. Visit the Sigiriya Rock Fortress and explore the surrounding gardens. Enjoy a family dinner at the resort. ",
         ],
         [
-          "Visit the Dambulla Cave Temple in the morning, known for its impressive Buddha statues and murals. Spend the afternoon at the Minneriya National Park for a safari, spotting elephants and other wildlife "
+          "Visit the Dambulla Cave Temple in the morning, known for its impressive Buddha statues and murals. Spend the afternoon at the Minneriya National Park for a safari, spotting elephants and other wildlife ",
         ],
         [
-          "Travel to Kandy, stopping at the Spice Garden in Matale. Check-in at a family-friendly hotel. Visit the Temple of the Tooth and enjoy an evening cultural show. "
+          "Travel to Kandy, stopping at the Spice Garden in Matale. Check-in at a family-friendly hotel. Visit the Temple of the Tooth and enjoy an evening cultural show. ",
         ],
         [
-          "Explore the Royal Botanical Gardens and Kandy Lake. Visit local markets and shops. Spend the afternoon at leisure, enjoying the hotel amenities. "
+          "Explore the Royal Botanical Gardens and Kandy Lake. Visit local markets and shops. Spend the afternoon at leisure, enjoying the hotel amenities. ",
         ],
         [
-          "Take a scenic train ride to Nuwara Eliya, an enjoyable experience for the whole family. Check-in at a family-friendly hotel. Visit a tea plantation and factory, then explore Victoria Park. "
+          "Take a scenic train ride to Nuwara Eliya, an enjoyable experience for the whole family. Check-in at a family-friendly hotel. Visit a tea plantation and factory, then explore Victoria Park. ",
         ],
         [
-          "Travel to Yala and check-in at a safari lodge. Enjoy an evening safari in Yala National Park, spotting leopards, elephants, and other wildlife. "
+          "Travel to Yala and check-in at a safari lodge. Enjoy an evening safari in Yala National Park, spotting leopards, elephants, and other wildlife. ",
         ],
         [
-          "Travel to Bentota and check-in at a beach resort. Spend the afternoon enjoying water sports or relaxing on the beach. Enjoy a family beachside dinner in the evening. "
+          "Travel to Bentota and check-in at a beach resort. Spend the afternoon enjoying water sports or relaxing on the beach. Enjoy a family beachside dinner in the evening. ",
         ],
         [
-          "Spend the day at leisure, enjoying beach activities and resort amenities. Take a boat ride on the Madu River or visit the Turtle Hatchery. Enjoy a farewell dinner at the resort. "
+          "Spend the day at leisure, enjoying beach activities and resort amenities. Take a boat ride on the Madu River or visit the Turtle Hatchery. Enjoy a farewell dinner at the resort. ",
         ],
         [
-          "Leisure time at the resort before transferring to Colombo for last-minute shopping or sightseeing. Departure from Bandaranaike International Airport. "
+          "Leisure time at the resort before transferring to Colombo for last-minute shopping or sightseeing. Departure from Bandaranaike International Airport. ",
         ],
-    
-       
       ],
       [
         [
-          "Arrive at Bandaranaike International Airport and transfer to Colombo. Check-in at a family-friendly hotel. Spend the afternoon exploring Colombo's key attractions and enjoy a family dinner at a local restaurant. "
+          "Arrive at Bandaranaike International Airport and transfer to Colombo. Check-in at a family-friendly hotel. Spend the afternoon exploring Colombo's key attractions and enjoy a family dinner at a local restaurant. ",
         ],
         [
-          "Travel to Sigiriya and check-in at a family-friendly resort. Visit the Sigiriya Rock Fortress and explore the surrounding gardens. Enjoy a family dinner at the resort. "
+          "Travel to Sigiriya and check-in at a family-friendly resort. Visit the Sigiriya Rock Fortress and explore the surrounding gardens. Enjoy a family dinner at the resort. ",
         ],
         [
-          "Visit the Dambulla Cave Temple in the morning, known for its impressive Buddha statues and murals. Spend the afternoon at the Minneriya National Park for a safari, spotting elephants and other wildlife. "
+          "Visit the Dambulla Cave Temple in the morning, known for its impressive Buddha statues and murals. Spend the afternoon at the Minneriya National Park for a safari, spotting elephants and other wildlife. ",
         ],
         [
-          "Travel to Kandy, stopping at the Spice Garden in Matale. Check-in at a family-friendly hotel. Visit the Temple of the Tooth and enjoy an evening cultural show. "
+          "Travel to Kandy, stopping at the Spice Garden in Matale. Check-in at a family-friendly hotel. Visit the Temple of the Tooth and enjoy an evening cultural show. ",
         ],
         [
-          "Explore the Royal Botanical Gardens and Kandy Lake. Visit local markets and shops. Spend the afternoon at leisure, enjoying the hotel amenities. "
+          "Explore the Royal Botanical Gardens and Kandy Lake. Visit local markets and shops. Spend the afternoon at leisure, enjoying the hotel amenities. ",
         ],
         [
-          "Take a scenic train ride to Nuwara Eliya, an enjoyable experience for the whole family. Check-in at a family-friendly hotel. Visit a tea plantation and factory, then explore Victoria Park. "
+          "Take a scenic train ride to Nuwara Eliya, an enjoyable experience for the whole family. Check-in at a family-friendly hotel. Visit a tea plantation and factory, then explore Victoria Park. ",
         ],
         [
-          "Visit Gregory Lake, where you can enjoy boating and other activities. Explore Hakgala Botanical Gardens and take in the beautiful surroundings. Spend the evening at leisure at the hotel. "
+          "Visit Gregory Lake, where you can enjoy boating and other activities. Explore Hakgala Botanical Gardens and take in the beautiful surroundings. Spend the evening at leisure at the hotel. ",
         ],
         [
-          "Travel to Ella and check-in at a boutique hotel. Visit Nine Arches Bridge and Little Adam's Peak. Relax at the hotel in the evening. "
+          "Travel to Ella and check-in at a boutique hotel. Visit Nine Arches Bridge and Little Adam's Peak. Relax at the hotel in the evening. ",
         ],
         [
-          "Visit Ravana Falls and Ravana Cave. Enjoy a family hike and explore the scenic beauty of Ella. "
+          "Visit Ravana Falls and Ravana Cave. Enjoy a family hike and explore the scenic beauty of Ella. ",
         ],
         [
-          "Travel to Yala and check-in at a safari lodge. Enjoy an evening safari in Yala National Park, spotting leopards, elephants, and other wildlife. "
+          "Travel to Yala and check-in at a safari lodge. Enjoy an evening safari in Yala National Park, spotting leopards, elephants, and other wildlife. ",
         ],
         [
-          "Travel to Bentota and check-in at a beach resort. Spend the afternoon enjoying water sports or relaxing on the beach. Enjoy a family beachside dinner in the evening. "
+          "Travel to Bentota and check-in at a beach resort. Spend the afternoon enjoying water sports or relaxing on the beach. Enjoy a family beachside dinner in the evening. ",
         ],
         [
-          "Spend the day at leisure, enjoying beach activities and resort amenities. Take a boat ride on the Madu River or visit the Turtle Hatchery. Enjoy a farewell dinner at the resort. "
+          "Spend the day at leisure, enjoying beach activities and resort amenities. Take a boat ride on the Madu River or visit the Turtle Hatchery. Enjoy a farewell dinner at the resort. ",
         ],
         [
-          "Visit nearby attractions like Brief Garden and enjoy a sunset cruise. Return to the resort for a relaxing evening. "
+          "Visit nearby attractions like Brief Garden and enjoy a sunset cruise. Return to the resort for a relaxing evening. ",
         ],
         [
-          "Leisure time at the resort before transferring to Colombo for last-minute shopping or sightseeing. Departure from Bandaranaike International Airport. "
+          "Leisure time at the resort before transferring to Colombo for last-minute shopping or sightseeing. Departure from Bandaranaike International Airport. ",
         ],
-    
       ],
     ],
     GalleryImages: [
@@ -1112,31 +1126,43 @@ const travelPackages = [
     imageUrlh: "/Tourpackage/6.jpeg",
     description:
       "Enjoy a romantic getaway with our exclusive honeymoon tours. ",
-      descriptionhid:"hidden",
+    descriptionhid: "hidden",
     itinerary: [
-       "6-Night Adventure Tour Itinerary: Colombo, Kitulgala, Kandy, Nuwara Eliya, Yala ", 
-       "9-Night Adventure Tour Itinerary: Colombo, Kitulgala, Kandy, Knuckles Range, Ella, Yala ", 
-       "13-Night Adventure Tour Itinerary: Colombo, Kitulgala, Kandy, Knuckles Range, Nuwara Eliya, Ella, Yala, Mirissa ", 
+      "6-Night Adventure Tour Itinerary: Colombo, Kitulgala, Kandy, Nuwara Eliya, Yala ",
+      "9-Night Adventure Tour Itinerary: Colombo, Kitulgala, Kandy, Knuckles Range, Ella, Yala ",
+      "13-Night Adventure Tour Itinerary: Colombo, Kitulgala, Kandy, Knuckles Range, Nuwara Eliya, Ella, Yala, Mirissa ",
     ],
     infotext: [
-     [
-       "Embark on an exhilarating adventure through Sri Lanka with our 6-night adventure tour. This itinerary is designed for thrill-seekers and nature enthusiasts, offering a mix of adrenaline-pumping activities and breathtaking landscapes. From white-water rafting to wildlife safaris, this tour promises an unforgettable adventure experience "
+      [
+        "Embark on an exhilarating adventure through Sri Lanka with our 6-night adventure tour. This itinerary is designed for thrill-seekers and nature enthusiasts, offering a mix of adrenaline-pumping activities and breathtaking landscapes. From white-water rafting to wildlife safaris, this tour promises an unforgettable adventure experience ",
       ],
-     [
-       "Experience the thrill of adventure in Sri Lanka with our 9-night adventure tour. This itinerary combines adrenaline-pumping activities with stunning natural landscapes, offering an unforgettable experience for adventure enthusiasts. "
+      [
+        "Experience the thrill of adventure in Sri Lanka with our 9-night adventure tour. This itinerary combines adrenaline-pumping activities with stunning natural landscapes, offering an unforgettable experience for adventure enthusiasts. ",
       ],
-     [
-       "Embark on the ultimate adventure tour through Sri Lanka with our 13-night itinerary. This comprehensive tour offers a mix of thrilling activities and breathtaking landscapes, providing an unforgettable adventure experience for all ages. "
+      [
+        "Embark on the ultimate adventure tour through Sri Lanka with our 13-night itinerary. This comprehensive tour offers a mix of thrilling activities and breathtaking landscapes, providing an unforgettable adventure experience for all ages. ",
       ],
     ],
     infoDeparture: " Bandaranaike International Airport ",
     infoDepartureTime: "9:15 AM To 9:30 AM.",
     infoReturTime: "Approximately 10:30 PM",
     infoPriceIncluded: [
-      ["Adventure-friendly accommodations", "All transportation in destination location", " White-water rafting, Canyoning, Hiking, Safari "],
-      ["Adventure-friendly accommodations", "All transportation in destination location", " White-water rafting, Canyoning, Hiking, Safari,Safari Trekking in Knuckles Range  "],
-      ["Adventure-friendly accommodations", "All transportation in destination location", " White-water rafting, Canyoning, Hiking, Whale watching ",""],
-     
+      [
+        "Adventure-friendly accommodations",
+        "All transportation in destination location",
+        " White-water rafting, Canyoning, Hiking, Safari ",
+      ],
+      [
+        "Adventure-friendly accommodations",
+        "All transportation in destination location",
+        " White-water rafting, Canyoning, Hiking, Safari,Safari Trekking in Knuckles Range  ",
+      ],
+      [
+        "Adventure-friendly accommodations",
+        "All transportation in destination location",
+        " White-water rafting, Canyoning, Hiking, Whale watching ",
+        "",
+      ],
     ],
     infoNotPriceIncluded: [
       [
@@ -1185,21 +1211,18 @@ const travelPackages = [
         "Kandy to Nuwara Eliya ",
         "Nuwara Eliya to Yala ",
         "Departure from Colombo ",
-       
-         
-       ],
+      ],
       [
-       "Arrival in Colombo ",
-       "Colombo to Kitulgala ",
-       "Kitulgala to Kandy ",
-       "Explore Kandy ",
-       "Kandy to Knuckles Range ",
-       "  Knuckles Range to Ella",
-       "Explore Ella ",
-       "Ella to Yala ",
-       "Yala to Colombo",
-       "Departure from Colombo ",
-        
+        "Arrival in Colombo ",
+        "Colombo to Kitulgala ",
+        "Kitulgala to Kandy ",
+        "Explore Kandy ",
+        "Kandy to Knuckles Range ",
+        "  Knuckles Range to Ella",
+        "Explore Ella ",
+        "Ella to Yala ",
+        "Yala to Colombo",
+        "Departure from Colombo ",
       ],
       [
         "Arrival Colombo",
@@ -1216,112 +1239,107 @@ const travelPackages = [
         "Whale Watching in Mirissa ",
         "Leisure Day in Mirissa ",
         "Departure from Colombo ",
-       
       ],
     ],
     TourText: [
       [
         [
-          "Arrive at Bandaranaike International Airport and transfer to Colombo. Check-in at an adventure-friendly hotel. Spend the afternoon exploring Colombo's key attractions, including Galle Face Green, and enjoy a welcome dinner. "
+          "Arrive at Bandaranaike International Airport and transfer to Colombo. Check-in at an adventure-friendly hotel. Spend the afternoon exploring Colombo's key attractions, including Galle Face Green, and enjoy a welcome dinner. ",
         ],
         [
-          "Travel to Kitulgala, the adventure capital of Sri Lanka. Check-in at an adventure camp. Spend the afternoon white-water rafting on the Kelani River, followed by a nature walk through the surrounding jungle. "
+          "Travel to Kitulgala, the adventure capital of Sri Lanka. Check-in at an adventure camp. Spend the afternoon white-water rafting on the Kelani River, followed by a nature walk through the surrounding jungle. ",
         ],
         [
-          "In the morning, go canyoning and rock sliding in Kitulgala. Transfer to Kandy in the afternoon and check-in at an adventure-friendly hotel. Visit the Temple of the Tooth in the evening. "
+          "In the morning, go canyoning and rock sliding in Kitulgala. Transfer to Kandy in the afternoon and check-in at an adventure-friendly hotel. Visit the Temple of the Tooth in the evening. ",
         ],
         [
-          " Explore the Royal Botanical Gardens and Kandy Lake. In the afternoon, hike up to the Bahirawakanda Temple for panoramic views of Kandy. Spend the evening at leisure, exploring local markets and shops."
+          " Explore the Royal Botanical Gardens and Kandy Lake. In the afternoon, hike up to the Bahirawakanda Temple for panoramic views of Kandy. Spend the evening at leisure, exploring local markets and shops.",
         ],
         [
-          "Take a scenic train ride to Nuwara Eliya, an experience filled with breathtaking views. Check-in at an adventure-friendly hotel. Visit a tea plantation and factory, then explore the town of Nuwara Eliya. "
+          "Take a scenic train ride to Nuwara Eliya, an experience filled with breathtaking views. Check-in at an adventure-friendly hotel. Visit a tea plantation and factory, then explore the town of Nuwara Eliya. ",
         ],
         [
-          "Travel to Yala and check-in at a safari lodge. Enjoy an evening safari in Yala National Park, spotting leopards, elephants, and other wildlife. "
+          "Travel to Yala and check-in at a safari lodge. Enjoy an evening safari in Yala National Park, spotting leopards, elephants, and other wildlife. ",
         ],
         [
-          "Leisure time at the lodge before transferring to Colombo for last-minute shopping or sightseeing. Departure from Bandaranaike International Airport."
-        ]
+          "Leisure time at the lodge before transferring to Colombo for last-minute shopping or sightseeing. Departure from Bandaranaike International Airport.",
+        ],
       ],
       [
         [
-          " Arrive at Bandaranaike International Airport and transfer to Colombo. Check-in at an adventure-friendly hotel. Spend the afternoon exploring Colombo's key attractions and enjoy a welcome dinner."
+          " Arrive at Bandaranaike International Airport and transfer to Colombo. Check-in at an adventure-friendly hotel. Spend the afternoon exploring Colombo's key attractions and enjoy a welcome dinner.",
         ],
         [
-          "Travel to Kitulgala and check-in at an adventure camp. Spend the afternoon white-water rafting on the Kelani River, followed by a nature walk through the jungle. "
+          "Travel to Kitulgala and check-in at an adventure camp. Spend the afternoon white-water rafting on the Kelani River, followed by a nature walk through the jungle. ",
         ],
         [
-          "in the morning, go canyoning and rock sliding in Kitulgala. Transfer to Kandy in the afternoon and check-in at an adventure-friendly hotel. Visit the Temple of the Tooth in the evening. "
+          "in the morning, go canyoning and rock sliding in Kitulgala. Transfer to Kandy in the afternoon and check-in at an adventure-friendly hotel. Visit the Temple of the Tooth in the evening. ",
         ],
         [
-          "Explore the Royal Botanical Gardens and Kandy Lake. In the afternoon, hike up to the Bahirawakanda Temple for panoramic views of Kandy. Spend the evening at leisure, exploring local markets and shops. "
+          "Explore the Royal Botanical Gardens and Kandy Lake. In the afternoon, hike up to the Bahirawakanda Temple for panoramic views of Kandy. Spend the evening at leisure, exploring local markets and shops. ",
         ],
         [
-          "Travel to the Knuckles Mountain Range for a day of trekking. Explore the diverse flora and fauna of this UNESCO World Heritage site. Check-in at an eco-lodge in the Knuckles Range. "
+          "Travel to the Knuckles Mountain Range for a day of trekking. Explore the diverse flora and fauna of this UNESCO World Heritage site. Check-in at an eco-lodge in the Knuckles Range. ",
         ],
         [
-          "Take a scenic drive to Ella, known for its stunning landscapes. Check-in at an adventure-friendly hotel. Visit Nine Arches Bridge and Little Adam's Peak in the afternoon. "
+          "Take a scenic drive to Ella, known for its stunning landscapes. Check-in at an adventure-friendly hotel. Visit Nine Arches Bridge and Little Adam's Peak in the afternoon. ",
         ],
         [
-          "Spend the day exploring Ella, including a hike to Ella Rock and a visit to Ravana Falls. Enjoy the scenic beauty and local attractions. "
+          "Spend the day exploring Ella, including a hike to Ella Rock and a visit to Ravana Falls. Enjoy the scenic beauty and local attractions. ",
         ],
         [
-          "Travel to Yala and check-in at a safari lodge. Enjoy an evening safari in Yala National Park, spotting leopards, elephants, and other wildlife. "
+          "Travel to Yala and check-in at a safari lodge. Enjoy an evening safari in Yala National Park, spotting leopards, elephants, and other wildlife. ",
         ],
         [
-          "Transfer to Colombo in the morning. Check-in at a hotel and spend the afternoon exploring the city. Enjoy a farewell dinner in the evening. "
+          "Transfer to Colombo in the morning. Check-in at a hotel and spend the afternoon exploring the city. Enjoy a farewell dinner in the evening. ",
         ],
         [
-          "Leisure time at the hotel before transferring to Bandaranaike International Airport for departure. "
+          "Leisure time at the hotel before transferring to Bandaranaike International Airport for departure. ",
         ],
-     
-    
-       
       ],
       [
         [
-          "Arrive at Bandaranaike International Airport and transfer to Colombo. Check-in at an adventure-friendly hotel. Spend the afternoon exploring Colombo's key attractions and enjoy a welcome dinner. "
+          "Arrive at Bandaranaike International Airport and transfer to Colombo. Check-in at an adventure-friendly hotel. Spend the afternoon exploring Colombo's key attractions and enjoy a welcome dinner. ",
         ],
         [
-          "Travel to Kitulgala and check-in at an adventure camp. Spend the afternoon white-water rafting on the Kelani River, followed by a nature walk through the jungle. "
+          "Travel to Kitulgala and check-in at an adventure camp. Spend the afternoon white-water rafting on the Kelani River, followed by a nature walk through the jungle. ",
         ],
         [
-          "In the morning, go canyoning and rock sliding in Kitulgala. Transfer to Kandy in the afternoon and check-in at an adventure-friendly hotel. Visit the Temple of the Tooth in the evening. "
+          "In the morning, go canyoning and rock sliding in Kitulgala. Transfer to Kandy in the afternoon and check-in at an adventure-friendly hotel. Visit the Temple of the Tooth in the evening. ",
         ],
         [
-          "Explore the Royal Botanical Gardens and Kandy Lake. In the afternoon, hike up to the Bahirawakanda Temple for panoramic views of Kandy. Spend the evening at leisure, exploring local markets and shops. "
+          "Explore the Royal Botanical Gardens and Kandy Lake. In the afternoon, hike up to the Bahirawakanda Temple for panoramic views of Kandy. Spend the evening at leisure, exploring local markets and shops. ",
         ],
         [
-          "Travel to the Knuckles Mountain Range for a day of trekking. Explore the diverse flora and fauna of this UNESCO World Heritage site. Check-in at an eco-lodge in the Knuckles Range. "
+          "Travel to the Knuckles Mountain Range for a day of trekking. Explore the diverse flora and fauna of this UNESCO World Heritage site. Check-in at an eco-lodge in the Knuckles Range. ",
         ],
         [
-          "Take a scenic drive to Nuwara Eliya and check-in at an adventure-friendly hotel. Visit a tea plantation and factory, then explore the town of Nuwara Eliya. "
+          "Take a scenic drive to Nuwara Eliya and check-in at an adventure-friendly hotel. Visit a tea plantation and factory, then explore the town of Nuwara Eliya. ",
         ],
         [
-          "Spend the day exploring Gregory Lake, where you can enjoy boating and other activities. Visit Hakgala Botanical Gardens and take in the beautiful surroundings. Spend the evening at leisure at the hotel. "
+          "Spend the day exploring Gregory Lake, where you can enjoy boating and other activities. Visit Hakgala Botanical Gardens and take in the beautiful surroundings. Spend the evening at leisure at the hotel. ",
         ],
         [
-          "Travel to Ella and check-in at a boutique hotel. Visit Nine Arches Bridge and Little Adam's Peak. Relax at the hotel in the evening. "
+          "Travel to Ella and check-in at a boutique hotel. Visit Nine Arches Bridge and Little Adam's Peak. Relax at the hotel in the evening. ",
         ],
         [
-          "Visit Ravana Falls and Ravana Cave. Enjoy a family hike and explore the scenic beauty of Ella. "
+          "Visit Ravana Falls and Ravana Cave. Enjoy a family hike and explore the scenic beauty of Ella. ",
         ],
         [
-          "Travel to Yala and check-in at a safari lodge. Enjoy an evening safari in Yala National Park, spotting leopards, elephants, and other wildlife. "
+          "Travel to Yala and check-in at a safari lodge. Enjoy an evening safari in Yala National Park, spotting leopards, elephants, and other wildlife. ",
         ],
         [
-          "Travel to Mirissa and check-in at a beach resort. Spend the afternoon enjoying water sports or relaxing on the beach. Enjoy a family beachside dinner in the evening. "
+          "Travel to Mirissa and check-in at a beach resort. Spend the afternoon enjoying water sports or relaxing on the beach. Enjoy a family beachside dinner in the evening. ",
         ],
         [
-          "Spend the day on a whale-watching tour, a thrilling experience for the entire family. Return to the resort in the afternoon and relax on the beach. "
+          "Spend the day on a whale-watching tour, a thrilling experience for the entire family. Return to the resort in the afternoon and relax on the beach. ",
         ],
         [
-          "Spend the day at leisure, enjoying beach activities and resort amenities. Take a boat ride on the Madu River or visit the Turtle Hatchery. Enjoy a farewell dinner at the resort "
+          "Spend the day at leisure, enjoying beach activities and resort amenities. Take a boat ride on the Madu River or visit the Turtle Hatchery. Enjoy a farewell dinner at the resort ",
         ],
         [
-          "Leisure time at the resort before transferring to Colombo for last-minute shopping or sightseeing. Departure from Bandaranaike International Airport. "
+          "Leisure time at the resort before transferring to Colombo for last-minute shopping or sightseeing. Departure from Bandaranaike International Airport. ",
         ],
-    
       ],
     ],
     GalleryImages: [
@@ -1341,45 +1359,48 @@ const travelPackages = [
     imageUrlh: "/Tourpackage/7.jpeg",
     description:
       "Enjoy a romantic getaway with our exclusive honeymoon tours. ",
-      descriptionhid:"hidden",
+    descriptionhid: "hidden",
     itinerary: [
-       "6-Night Cultural Tour Itinerary: Colombo, Anuradhapura, Polonnaruwa, Sigiriya, Kandy ", 
-       "9-Night Cultural Tour Itinerary: Colombo, Anuradhapura, Polonnaruwa, Sigiriya, Kandy, Dambulla ", 
-       "13-Night Cultural Tour Itinerary: Colombo, Anuradhapura, Polonnaruwa, Sigiriya, Kandy, Nuwara Eliya, Galle ", 
+      "6-Night Cultural Tour Itinerary: Colombo, Anuradhapura, Polonnaruwa, Sigiriya, Kandy ",
+      "9-Night Cultural Tour Itinerary: Colombo, Anuradhapura, Polonnaruwa, Sigiriya, Kandy, Dambulla ",
+      "13-Night Cultural Tour Itinerary: Colombo, Anuradhapura, Polonnaruwa, Sigiriya, Kandy, Nuwara Eliya, Galle ",
     ],
     infotext: [
-     [
-       "Immerse yourself in the rich cultural heritage of Sri Lanka with our 6-night cultural tour. Explore ancient cities, magnificent temples, and historical landmarks that tell the story of the island's fascinating past. This tour is perfect for history enthusiasts and those looking to experience Sri Lanka's vibrant culture. "
+      [
+        "Immerse yourself in the rich cultural heritage of Sri Lanka with our 6-night cultural tour. Explore ancient cities, magnificent temples, and historical landmarks that tell the story of the island's fascinating past. This tour is perfect for history enthusiasts and those looking to experience Sri Lanka's vibrant culture. ",
       ],
-     [
-       "Discover the cultural treasures of Sri Lanka with our 9-night cultural tour. This itinerary takes you to the island's most significant historical sites and offers a deep dive into its rich heritage and traditions. Perfect for history buffs and cultural enthusiasts, this tour combines educational experiences with immersive cultural activities. "
+      [
+        "Discover the cultural treasures of Sri Lanka with our 9-night cultural tour. This itinerary takes you to the island's most significant historical sites and offers a deep dive into its rich heritage and traditions. Perfect for history buffs and cultural enthusiasts, this tour combines educational experiences with immersive cultural activities. ",
       ],
-     [
-       "Experience the full spectrum of Sri Lanka's cultural heritage with our 13-night cultural tour. This extensive itinerary covers the island's most iconic historical and cultural sites, providing a comprehensive and immersive cultural experience. From ancient ruins to colonial architecture, this tour offers a deep dive into Sri Lanka's rich history and diverse traditions. "
+      [
+        "Experience the full spectrum of Sri Lanka's cultural heritage with our 13-night cultural tour. This extensive itinerary covers the island's most iconic historical and cultural sites, providing a comprehensive and immersive cultural experience. From ancient ruins to colonial architecture, this tour offers a deep dive into Sri Lanka's rich history and diverse traditions. ",
       ],
     ],
     infoDeparture: " Bandaranaike International Airport ",
     infoDepartureTime: "9:15 AM To 9:30 AM.",
     infoReturTime: "Approximately 10:30 PM",
     infoPriceIncluded: [
-      ["Hotel accommodations", "All transportation in destination location", " Entrance fees to cultural sites, Guided tours"],
-      ["Hotel accommodations", "All transportation in destination location", " Entrance fees to cultural sites, Guided tours"],
-      ["Hotel accommodations", "All transportation in destination location", " Entrance fees to cultural sites, Guided tours"," Cultural performances"],
-     
+      [
+        "Hotel accommodations",
+        "All transportation in destination location",
+        " Entrance fees to cultural sites, Guided tours",
+      ],
+      [
+        "Hotel accommodations",
+        "All transportation in destination location",
+        " Entrance fees to cultural sites, Guided tours",
+      ],
+      [
+        "Hotel accommodations",
+        "All transportation in destination location",
+        " Entrance fees to cultural sites, Guided tours",
+        " Cultural performances",
+      ],
     ],
     infoNotPriceIncluded: [
-      [
-       
-        "Meals and beverages not specified in the itinerary",
-      ],
-      [
-       
-        "Meals and beverages not specified in the itinerary",
-      ],
-      [
-        
-        "Meals and beverages not specified in the itinerary",
-      ],
+      ["Meals and beverages not specified in the itinerary"],
+      ["Meals and beverages not specified in the itinerary"],
+      ["Meals and beverages not specified in the itinerary"],
     ],
     infoGallery: [
       "/Tourpackage/info/1.png",
@@ -1407,27 +1428,25 @@ const travelPackages = [
     },
     TourPlantext: [
       [
-       "Arrival in Colombo ",
-       "Colombo to Anuradhapura ",
-       " Anuradhapura to Polonnaruwa ",
-       " Polonnaruwa to Sigiriya ",
-       "Sigiriya to Kandy ",
-       " Explore Kandy ",
-       "Departure from Colombo",
-      
+        "Arrival in Colombo ",
+        "Colombo to Anuradhapura ",
+        " Anuradhapura to Polonnaruwa ",
+        " Polonnaruwa to Sigiriya ",
+        "Sigiriya to Kandy ",
+        " Explore Kandy ",
+        "Departure from Colombo",
       ],
       [
-       "Arrival in Colombo ",
-       "Colombo to Anuradhapura ",
-       " Anuradhapura to Polonnaruwa ",
-       "Explore Polonnaruwa ",
-       "Polonnaruwa to Sigiriya ",
-       "Sigiriya to Dambulla ",
-       "Dambulla to Kandy ",
-       "Explore Kandy",
-       "Kandy to Colombo ",
-       " Departure from Colombo ",
-        
+        "Arrival in Colombo ",
+        "Colombo to Anuradhapura ",
+        " Anuradhapura to Polonnaruwa ",
+        "Explore Polonnaruwa ",
+        "Polonnaruwa to Sigiriya ",
+        "Sigiriya to Dambulla ",
+        "Dambulla to Kandy ",
+        "Explore Kandy",
+        "Kandy to Colombo ",
+        " Departure from Colombo ",
       ],
       [
         "Arrival Colombo",
@@ -1444,111 +1463,107 @@ const travelPackages = [
         "Explore Galle ",
         " Galle to Colombo ",
         " Departure from Colombo ",
-       
       ],
     ],
     TourText: [
       [
         [
-          "Arrive at Bandaranaike International Airport and transfer to Colombo. Check-in at a hotel. Spend the afternoon exploring Colombo's cultural landmarks, including the National Museum and Gangaramaya Temple. Enjoy a welcome dinner at a local restaurant. "
+          "Arrive at Bandaranaike International Airport and transfer to Colombo. Check-in at a hotel. Spend the afternoon exploring Colombo's cultural landmarks, including the National Museum and Gangaramaya Temple. Enjoy a welcome dinner at a local restaurant. ",
         ],
         [
-          "Travel to Anuradhapura, an ancient city and UNESCO World Heritage site. Check-in at a hotel. Visit key historical sites such as the sacred Bodhi Tree, Ruwanwelisaya Stupa, and the Twin Ponds. "
+          "Travel to Anuradhapura, an ancient city and UNESCO World Heritage site. Check-in at a hotel. Visit key historical sites such as the sacred Bodhi Tree, Ruwanwelisaya Stupa, and the Twin Ponds. ",
         ],
         [
-          "Transfer to Polonnaruwa and check-in at a hotel. Explore the ancient city of Polonnaruwa, another UNESCO World Heritage site. Visit the Royal Palace, Gal Vihara, and the Lotus Bath. "
+          "Transfer to Polonnaruwa and check-in at a hotel. Explore the ancient city of Polonnaruwa, another UNESCO World Heritage site. Visit the Royal Palace, Gal Vihara, and the Lotus Bath. ",
         ],
         [
-          "Travel to Sigiriya and check-in at a hotel. In the afternoon, visit the Sigiriya Rock Fortress, known for its ancient frescoes and stunning views. Explore the surrounding gardens and water features. "
+          "Travel to Sigiriya and check-in at a hotel. In the afternoon, visit the Sigiriya Rock Fortress, known for its ancient frescoes and stunning views. Explore the surrounding gardens and water features. ",
         ],
         [
-          "Transfer to Kandy, stopping at the Dambulla Cave Temple en route. Check-in at a hotel. Visit the Temple of the Tooth in the evening, followed by a cultural show featuring traditional Kandyan dance. "
+          "Transfer to Kandy, stopping at the Dambulla Cave Temple en route. Check-in at a hotel. Visit the Temple of the Tooth in the evening, followed by a cultural show featuring traditional Kandyan dance. ",
         ],
         [
-          "Explore the Royal Botanical Gardens and Kandy Lake. Visit the Gadaladeniya Temple and Lankatilaka Temple, two important cultural landmarks. Spend the afternoon at leisure, exploring local markets and shops. "
+          "Explore the Royal Botanical Gardens and Kandy Lake. Visit the Gadaladeniya Temple and Lankatilaka Temple, two important cultural landmarks. Spend the afternoon at leisure, exploring local markets and shops. ",
         ],
         [
-          "Leisure time at the hotel before transferring to Colombo for last-minute shopping or sightseeing. Departure from Bandaranaike International Airport."
-        ]
+          "Leisure time at the hotel before transferring to Colombo for last-minute shopping or sightseeing. Departure from Bandaranaike International Airport.",
+        ],
       ],
       [
         [
-          " Arrive at Bandaranaike International Airport and transfer to Colombo. Check-in at a hotel. Spend the afternoon exploring Colombo's cultural landmarks, including the National Museum and Gangaramaya Temple. Enjoy a welcome dinner at a local restaurant."
+          " Arrive at Bandaranaike International Airport and transfer to Colombo. Check-in at a hotel. Spend the afternoon exploring Colombo's cultural landmarks, including the National Museum and Gangaramaya Temple. Enjoy a welcome dinner at a local restaurant.",
         ],
         [
-          "Travel to Anuradhapura, an ancient city and UNESCO World Heritage site. Check-in at a hotel. Visit key historical sites such as the sacred Bodhi Tree, Ruwanwelisaya Stupa, and the Twin Ponds. "
+          "Travel to Anuradhapura, an ancient city and UNESCO World Heritage site. Check-in at a hotel. Visit key historical sites such as the sacred Bodhi Tree, Ruwanwelisaya Stupa, and the Twin Ponds. ",
         ],
         [
-          "Transfer to Polonnaruwa and check-in at a hotel. Explore the ancient city of Polonnaruwa, another UNESCO World Heritage site. Visit the Royal Palace, Gal Vihara, and the Lotus Bath. "
+          "Transfer to Polonnaruwa and check-in at a hotel. Explore the ancient city of Polonnaruwa, another UNESCO World Heritage site. Visit the Royal Palace, Gal Vihara, and the Lotus Bath. ",
         ],
         [
-          "Continue exploring Polonnaruwa with visits to the Parakrama Samudra reservoir and the Shiva Devale temples. Enjoy a local cultural performance in the evening. "
+          "Continue exploring Polonnaruwa with visits to the Parakrama Samudra reservoir and the Shiva Devale temples. Enjoy a local cultural performance in the evening. ",
         ],
         [
-          "Travel to Sigiriya and check-in at a hotel. In the afternoon, visit the Sigiriya Rock Fortress, known for its ancient frescoes and stunning views. Explore the surrounding gardens and water features. "
+          "Travel to Sigiriya and check-in at a hotel. In the afternoon, visit the Sigiriya Rock Fortress, known for its ancient frescoes and stunning views. Explore the surrounding gardens and water features. ",
         ],
         [
-          " Transfer to Dambulla and check-in at a hotel. Visit the Dambulla Cave Temple, a UNESCO World Heritage site known for its impressive cave paintings and statues."
+          " Transfer to Dambulla and check-in at a hotel. Visit the Dambulla Cave Temple, a UNESCO World Heritage site known for its impressive cave paintings and statues.",
         ],
         [
-          " Travel to Kandy, stopping at the Matale Spice Garden en route. Check-in at a hotel. Visit the Temple of the Tooth in the evening, followed by a cultural show featuring traditional Kandyan dance."
+          " Travel to Kandy, stopping at the Matale Spice Garden en route. Check-in at a hotel. Visit the Temple of the Tooth in the evening, followed by a cultural show featuring traditional Kandyan dance.",
         ],
         [
-          "Explore the Royal Botanical Gardens and Kandy Lake. Visit the Gadaladeniya Temple and Lankatilaka Temple, two important cultural landmarks. Spend the afternoon at leisure, exploring local markets and shops. "
+          "Explore the Royal Botanical Gardens and Kandy Lake. Visit the Gadaladeniya Temple and Lankatilaka Temple, two important cultural landmarks. Spend the afternoon at leisure, exploring local markets and shops. ",
         ],
         [
-          "Travel back to Colombo and check-in at a hotel. Spend the afternoon exploring Colombo’s Pettah Market and Dutch Hospital Shopping Precinct. Enjoy a farewell dinner at a renowned restaurant. "
+          "Travel back to Colombo and check-in at a hotel. Spend the afternoon exploring Colombo’s Pettah Market and Dutch Hospital Shopping Precinct. Enjoy a farewell dinner at a renowned restaurant. ",
         ],
         [
-          "Leisure time at the hotel before transferring to Bandaranaike International Airport for departure. "
+          "Leisure time at the hotel before transferring to Bandaranaike International Airport for departure. ",
         ],
-    
-       
       ],
       [
         [
-          "Arrive at Bandaranaike International Airport and transfer to Colombo. Check-in at a hotel. Spend the afternoon exploring Colombo's cultural landmarks, including the National Museum and Gangaramaya Temple. Enjoy a welcome dinner at a local restaurant. "
+          "Arrive at Bandaranaike International Airport and transfer to Colombo. Check-in at a hotel. Spend the afternoon exploring Colombo's cultural landmarks, including the National Museum and Gangaramaya Temple. Enjoy a welcome dinner at a local restaurant. ",
         ],
         [
-          "Travel to Anuradhapura, an ancient city and UNESCO World Heritage site. Check-in at a hotel. Visit key historical sites such as the sacred Bodhi Tree, Ruwanwelisaya Stupa, and the Twin Ponds. "
+          "Travel to Anuradhapura, an ancient city and UNESCO World Heritage site. Check-in at a hotel. Visit key historical sites such as the sacred Bodhi Tree, Ruwanwelisaya Stupa, and the Twin Ponds. ",
         ],
         [
-          "Continue exploring Anuradhapura with visits to Mihintale, the birthplace of Buddhism in Sri Lanka, and the Abhayagiri Monastery. "
+          "Continue exploring Anuradhapura with visits to Mihintale, the birthplace of Buddhism in Sri Lanka, and the Abhayagiri Monastery. ",
         ],
         [
-          "Transfer to Polonnaruwa and check-in at a hotel. Explore the ancient city of Polonnaruwa, another UNESCO World Heritage site. Visit the Royal Palace, Gal Vihara, and the Lotus Bath "
+          "Transfer to Polonnaruwa and check-in at a hotel. Explore the ancient city of Polonnaruwa, another UNESCO World Heritage site. Visit the Royal Palace, Gal Vihara, and the Lotus Bath ",
         ],
         [
-          "Continue exploring Polonnaruwa with visits to the Parakrama Samudra reservoir and the Shiva Devale temples. Enjoy a local cultural performance in the evening. "
+          "Continue exploring Polonnaruwa with visits to the Parakrama Samudra reservoir and the Shiva Devale temples. Enjoy a local cultural performance in the evening. ",
         ],
         [
-          "Travel to Sigiriya and check-in at a hotel. In the afternoon, visit the Sigiriya Rock Fortress, known for its ancient frescoes and stunning views. Explore the surrounding gardens and water features. "
+          "Travel to Sigiriya and check-in at a hotel. In the afternoon, visit the Sigiriya Rock Fortress, known for its ancient frescoes and stunning views. Explore the surrounding gardens and water features. ",
         ],
         [
-          "Transfer to Dambulla and check-in at a hotel. Visit the Dambulla Cave Temple, a UNESCO World Heritage site known for its impressive cave paintings and statues. "
+          "Transfer to Dambulla and check-in at a hotel. Visit the Dambulla Cave Temple, a UNESCO World Heritage site known for its impressive cave paintings and statues. ",
         ],
         [
-          "Travel to Kandy, stopping at the Matale Spice Garden en route. Check-in at a hotel. Visit the Temple of the Tooth in the evening, followed by a cultural show featuring traditional Kandyan dance. "
+          "Travel to Kandy, stopping at the Matale Spice Garden en route. Check-in at a hotel. Visit the Temple of the Tooth in the evening, followed by a cultural show featuring traditional Kandyan dance. ",
         ],
         [
-          "Explore the Royal Botanical Gardens and Kandy Lake. Visit the Gadaladeniya Temple and Lankatilaka Temple, two important cultural landmarks. Spend the afternoon at leisure, exploring local markets and shops. "
+          "Explore the Royal Botanical Gardens and Kandy Lake. Visit the Gadaladeniya Temple and Lankatilaka Temple, two important cultural landmarks. Spend the afternoon at leisure, exploring local markets and shops. ",
         ],
         [
-          "Take a scenic train ride to Nuwara Eliya, known for its colonial architecture and tea plantations. Check-in at a hotel and explore the town, visiting Victoria Park and the Nuwara Eliya Post Office. "
+          "Take a scenic train ride to Nuwara Eliya, known for its colonial architecture and tea plantations. Check-in at a hotel and explore the town, visiting Victoria Park and the Nuwara Eliya Post Office. ",
         ],
         [
-          "Travel to Galle and check-in at a hotel. Explore the Galle Fort, a UNESCO World Heritage site, known for its well-preserved colonial architecture and historical significance. "
+          "Travel to Galle and check-in at a hotel. Explore the Galle Fort, a UNESCO World Heritage site, known for its well-preserved colonial architecture and historical significance. ",
         ],
         [
-          "Continue exploring Galle with visits to the Maritime Museum, Dutch Reformed Church, and the Lighthouse. Spend the afternoon at leisure, enjoying the coastal scenery and local shops. "
+          "Continue exploring Galle with visits to the Maritime Museum, Dutch Reformed Church, and the Lighthouse. Spend the afternoon at leisure, enjoying the coastal scenery and local shops. ",
         ],
         [
-          "Travel back to Colombo and check-in at a hotel. Spend the afternoon exploring Colombo’s Pettah Market and Dutch Hospital Shopping Precinct. Enjoy a farewell dinner at a renowned restaurant. "
+          "Travel back to Colombo and check-in at a hotel. Spend the afternoon exploring Colombo’s Pettah Market and Dutch Hospital Shopping Precinct. Enjoy a farewell dinner at a renowned restaurant. ",
         ],
         [
-          "Leisure time at the hotel before transferring to Bandaranaike International Airport for departure. "
+          "Leisure time at the hotel before transferring to Bandaranaike International Airport for departure. ",
         ],
-    
       ],
     ],
     GalleryImages: [
@@ -1568,31 +1583,49 @@ const travelPackages = [
     imageUrlh: "/Tourpackage/8.jpeg",
     description:
       "Enjoy a romantic getaway with our exclusive honeymoon tours. ",
-      descriptionhid:"hidden",
+    descriptionhid: "hidden",
     itinerary: [
-       "6-Night Nature & Wildlife Tour Itinerary: Colombo, Wilpattu, Sigiriya, Minneriya, Kandy", 
-       "9-Night Nature & Wildlife Tour Itinerary: Colombo, Wilpattu, Sigiriya, Minneriya, Kandy, Yala ", 
-       "13-Night Nature & Wildlife Tour Itinerary: Colombo, Wilpattu, Sigiriya, Minneriya, Kandy, Horton Plains, Yala, Mirissa ", 
+      "6-Night Nature & Wildlife Tour Itinerary: Colombo, Wilpattu, Sigiriya, Minneriya, Kandy",
+      "9-Night Nature & Wildlife Tour Itinerary: Colombo, Wilpattu, Sigiriya, Minneriya, Kandy, Yala ",
+      "13-Night Nature & Wildlife Tour Itinerary: Colombo, Wilpattu, Sigiriya, Minneriya, Kandy, Horton Plains, Yala, Mirissa ",
     ],
     infotext: [
-     [
-       "Immerse yourself in the natural beauty and wildlife of Sri Lanka with our 6-night nature and wildlife tour. This itinerary is perfect for nature lovers and wildlife enthusiasts, offering a blend of safaris, scenic landscapes, and encounters with diverse flora and fauna. "
+      [
+        "Immerse yourself in the natural beauty and wildlife of Sri Lanka with our 6-night nature and wildlife tour. This itinerary is perfect for nature lovers and wildlife enthusiasts, offering a blend of safaris, scenic landscapes, and encounters with diverse flora and fauna. ",
       ],
-     [
-       "Explore the natural wonders and wildlife of Sri Lanka with our 9-night nature and wildlife tour. This itinerary takes you to some of the island's most renowned national parks and scenic landscapes, offering unforgettable wildlife encounters and natural beauty. "
+      [
+        "Explore the natural wonders and wildlife of Sri Lanka with our 9-night nature and wildlife tour. This itinerary takes you to some of the island's most renowned national parks and scenic landscapes, offering unforgettable wildlife encounters and natural beauty. ",
       ],
-     [
-       "Experience the ultimate nature and wildlife adventure in Sri Lanka with our 13-night tour. This extensive itinerary covers the island's most spectacular national parks and scenic landscapes, providing ample opportunities for wildlife spotting and nature exploration. "
+      [
+        "Experience the ultimate nature and wildlife adventure in Sri Lanka with our 13-night tour. This extensive itinerary covers the island's most spectacular national parks and scenic landscapes, providing ample opportunities for wildlife spotting and nature exploration. ",
       ],
     ],
     infoDeparture: " Bandaranaike International Airport ",
     infoDepartureTime: "9:15 AM To 9:30 AM.",
     infoReturTime: "Approximately 10:30 PM",
     infoPriceIncluded: [
-      ["Hotel accommodations", "All transportation in destination location", " Entrance fees to national parks ","Jeep safaris", " Guided tours"],
-      ["Hotel accommodations", "All transportation in destination location", " Entrance fees to national parks ","Jeep safaris", " Guided tours"],
-      ["Hotel accommodations", "All transportation in destination location", " Entrance fees to national parks ","Jeep safaris", " Guided tours","Whale watching"],
-     
+      [
+        "Hotel accommodations",
+        "All transportation in destination location",
+        " Entrance fees to national parks ",
+        "Jeep safaris",
+        " Guided tours",
+      ],
+      [
+        "Hotel accommodations",
+        "All transportation in destination location",
+        " Entrance fees to national parks ",
+        "Jeep safaris",
+        " Guided tours",
+      ],
+      [
+        "Hotel accommodations",
+        "All transportation in destination location",
+        " Entrance fees to national parks ",
+        "Jeep safaris",
+        " Guided tours",
+        "Whale watching",
+      ],
     ],
     infoNotPriceIncluded: [
       [
@@ -1634,28 +1667,25 @@ const travelPackages = [
     },
     TourPlantext: [
       [
-       " Arrival in Colombo ",
-       "Colombo to Wilpattu ",
-       " Wilpattu to Sigiriya ",
-       " Sigiriya to Minneriya ",
-       " Sigiriya to Kandy ",
-       "Explore Kandy ",
-       "Departure from Colombo ",
-      
+        " Arrival in Colombo ",
+        "Colombo to Wilpattu ",
+        " Wilpattu to Sigiriya ",
+        " Sigiriya to Minneriya ",
+        " Sigiriya to Kandy ",
+        "Explore Kandy ",
+        "Departure from Colombo ",
       ],
       [
-       "Arrival in Colombo ",
-       " Colombo to Wilpattu ",
-       " Wilpattu to Sigiriya ",
-       " Sigiriya to Minneriya ",
-       "Sigiriya to Kandy ",
-       "Explore Kandy ",
-       " Kandy to Yala",
-       "Full-Day Safari in Yala ",
-       "Yala to Colombo ",
-       "Departure from Colombo ",
-      
-        
+        "Arrival in Colombo ",
+        " Colombo to Wilpattu ",
+        " Wilpattu to Sigiriya ",
+        " Sigiriya to Minneriya ",
+        "Sigiriya to Kandy ",
+        "Explore Kandy ",
+        " Kandy to Yala",
+        "Full-Day Safari in Yala ",
+        "Yala to Colombo ",
+        "Departure from Colombo ",
       ],
       [
         "Arrival Colombo",
@@ -1672,111 +1702,107 @@ const travelPackages = [
         "Whale Watching in Mirissa ",
         "Leisure Day in Mirissa ",
         "Departure from Colombo ",
-       
       ],
     ],
     TourText: [
       [
         [
-          "Arrive at Bandaranaike International Airport and transfer to Colombo. Check-in at a hotel. Spend the afternoon exploring Colombo's key attractions, including the National Museum and Galle Face Green. Enjoy a welcome dinner at a local restaurant. "
+          "Arrive at Bandaranaike International Airport and transfer to Colombo. Check-in at a hotel. Spend the afternoon exploring Colombo's key attractions, including the National Museum and Galle Face Green. Enjoy a welcome dinner at a local restaurant. ",
         ],
         [
-          "Travel to Wilpattu National Park and check-in at a safari lodge. In the afternoon, enjoy a jeep safari through the park, spotting leopards, elephants, and a variety of bird species. Return to the lodge for dinner. "
+          "Travel to Wilpattu National Park and check-in at a safari lodge. In the afternoon, enjoy a jeep safari through the park, spotting leopards, elephants, and a variety of bird species. Return to the lodge for dinner. ",
         ],
         [
-          "Transfer to Sigiriya and check-in at a hotel. Visit the Sigiriya Rock Fortress in the afternoon, known for its ancient frescoes and stunning views. Explore the surrounding gardens and water features. "
+          "Transfer to Sigiriya and check-in at a hotel. Visit the Sigiriya Rock Fortress in the afternoon, known for its ancient frescoes and stunning views. Explore the surrounding gardens and water features. ",
         ],
         [
-          "Travel to Minneriya National Park for an afternoon safari, famous for its large gatherings of wild elephants. Return to Sigiriya for the evening and enjoy a local dinner. "
+          "Travel to Minneriya National Park for an afternoon safari, famous for its large gatherings of wild elephants. Return to Sigiriya for the evening and enjoy a local dinner. ",
         ],
         [
-          "Travel to Kandy, stopping at the Dambulla Cave Temple en route. Check-in at a hotel. Visit the Royal Botanical Gardens and the Temple of the Tooth in the evening. "
+          "Travel to Kandy, stopping at the Dambulla Cave Temple en route. Check-in at a hotel. Visit the Royal Botanical Gardens and the Temple of the Tooth in the evening. ",
         ],
         [
-          "Spend the day exploring Kandy, including a visit to the Udawattakele Forest Reserve, a sanctuary for birds and other wildlife. Enjoy the scenic beauty and tranquility of the area. Spend the evening at leisure, exploring local markets and shops. "
+          "Spend the day exploring Kandy, including a visit to the Udawattakele Forest Reserve, a sanctuary for birds and other wildlife. Enjoy the scenic beauty and tranquility of the area. Spend the evening at leisure, exploring local markets and shops. ",
         ],
         [
-          "eisure time at the hotel before transferring to Colombo for last-minute shopping or sightseeing. Departure from Bandaranaike International Airport."
-        ]
+          "eisure time at the hotel before transferring to Colombo for last-minute shopping or sightseeing. Departure from Bandaranaike International Airport.",
+        ],
       ],
       [
         [
-          "Arrive at Bandaranaike International Airport and transfer to Colombo. Check-in at a hotel. Spend the afternoon exploring Colombo's key attractions, including the National Museum and Galle Face Green. Enjoy a welcome dinner at a local restaurant. "
+          "Arrive at Bandaranaike International Airport and transfer to Colombo. Check-in at a hotel. Spend the afternoon exploring Colombo's key attractions, including the National Museum and Galle Face Green. Enjoy a welcome dinner at a local restaurant. ",
         ],
         [
-          "Travel to Wilpattu National Park and check-in at a safari lodge. In the afternoon, enjoy a jeep safari through the park, spotting leopards, elephants, and a variety of bird species. Return to the lodge for dinner. "
+          "Travel to Wilpattu National Park and check-in at a safari lodge. In the afternoon, enjoy a jeep safari through the park, spotting leopards, elephants, and a variety of bird species. Return to the lodge for dinner. ",
         ],
         [
-          "Transfer to Sigiriya and check-in at a hotel. Visit the Sigiriya Rock Fortress in the afternoon, known for its ancient frescoes and stunning views. Explore the surrounding gardens and water features. "
+          "Transfer to Sigiriya and check-in at a hotel. Visit the Sigiriya Rock Fortress in the afternoon, known for its ancient frescoes and stunning views. Explore the surrounding gardens and water features. ",
         ],
         [
-          "Travel to Minneriya National Park for an afternoon safari, famous for its large gatherings of wild elephants. Return to Sigiriya for the evening and enjoy a local dinner. "
+          "Travel to Minneriya National Park for an afternoon safari, famous for its large gatherings of wild elephants. Return to Sigiriya for the evening and enjoy a local dinner. ",
         ],
         [
-          "Travel to Kandy, stopping at the Dambulla Cave Temple en route. Check-in at a hotel. Visit the Royal Botanical Gardens and the Temple of the Tooth in the evening. "
+          "Travel to Kandy, stopping at the Dambulla Cave Temple en route. Check-in at a hotel. Visit the Royal Botanical Gardens and the Temple of the Tooth in the evening. ",
         ],
         [
-          "Spend the day exploring Kandy, including a visit to the Udawattakele Forest Reserve, a sanctuary for birds and other wildlife. Enjoy the scenic beauty and tranquility of the area. Spend the evening at leisure, exploring local markets and shops "
+          "Spend the day exploring Kandy, including a visit to the Udawattakele Forest Reserve, a sanctuary for birds and other wildlife. Enjoy the scenic beauty and tranquility of the area. Spend the evening at leisure, exploring local markets and shops ",
         ],
         [
-          " Travel to Yala National Park and check-in at a safari lodge. Enjoy an evening jeep safari in the park, known for its high density of leopards and diverse wildlife."
+          " Travel to Yala National Park and check-in at a safari lodge. Enjoy an evening jeep safari in the park, known for its high density of leopards and diverse wildlife.",
         ],
         [
-          "Spend the day on a full-day safari in Yala National Park, spotting leopards, elephants, crocodiles, and a variety of bird species. Enjoy a picnic lunch in the park and return to the lodge for dinner in the evening. "
+          "Spend the day on a full-day safari in Yala National Park, spotting leopards, elephants, crocodiles, and a variety of bird species. Enjoy a picnic lunch in the park and return to the lodge for dinner in the evening. ",
         ],
         [
-          "Travel back to Colombo and check-in at a hotel. Spend the afternoon exploring Colombo’s Pettah Market and Dutch Hospital Shopping Precinct. Enjoy a farewell dinner at a renowned restaurant. "
+          "Travel back to Colombo and check-in at a hotel. Spend the afternoon exploring Colombo’s Pettah Market and Dutch Hospital Shopping Precinct. Enjoy a farewell dinner at a renowned restaurant. ",
         ],
         [
-          "Leisure time at the hotel before transferring to Bandaranaike International Airport for departure. "
+          "Leisure time at the hotel before transferring to Bandaranaike International Airport for departure. ",
         ],
-    
-       
       ],
       [
         [
-          "Arrive at Bandaranaike International Airport and transfer to Colombo. Check-in at a hotel. Spend the afternoon exploring Colombo's key attractions, including the National Museum and Galle Face Green. Enjoy a welcome dinner at a local restaurant. "
+          "Arrive at Bandaranaike International Airport and transfer to Colombo. Check-in at a hotel. Spend the afternoon exploring Colombo's key attractions, including the National Museum and Galle Face Green. Enjoy a welcome dinner at a local restaurant. ",
         ],
         [
-          "Travel to Wilpattu National Park and check-in at a safari lodge. In the afternoon, enjoy a jeep safari through the park, spotting leopards, elephants, and a variety of bird species. Return to the lodge for dinner. "
+          "Travel to Wilpattu National Park and check-in at a safari lodge. In the afternoon, enjoy a jeep safari through the park, spotting leopards, elephants, and a variety of bird species. Return to the lodge for dinner. ",
         ],
         [
-          "Transfer to Sigiriya and check-in at a hotel. Visit the Sigiriya Rock Fortress in the afternoon, known for its ancient frescoes and stunning views. Explore the surrounding gardens and water features. "
+          "Transfer to Sigiriya and check-in at a hotel. Visit the Sigiriya Rock Fortress in the afternoon, known for its ancient frescoes and stunning views. Explore the surrounding gardens and water features. ",
         ],
         [
-          "Travel to Minneriya National Park for an afternoon safari, famous for its large gatherings of wild elephants. Return to Sigiriya for the evening and enjoy a local dinner. "
+          "Travel to Minneriya National Park for an afternoon safari, famous for its large gatherings of wild elephants. Return to Sigiriya for the evening and enjoy a local dinner. ",
         ],
         [
-          "Travel to Kandy, stopping at the Dambulla Cave Temple en route. Check-in at a hotel. Visit the Royal Botanical Gardens and the Temple of the Tooth in the evening. "
+          "Travel to Kandy, stopping at the Dambulla Cave Temple en route. Check-in at a hotel. Visit the Royal Botanical Gardens and the Temple of the Tooth in the evening. ",
         ],
         [
-          "Spend the day exploring Kandy, including a visit to the Udawattakele Forest Reserve, a sanctuary for birds and other wildlife. Enjoy the scenic beauty and tranquility of the area. Spend the evening at leisure, exploring local markets and shops. "
+          "Spend the day exploring Kandy, including a visit to the Udawattakele Forest Reserve, a sanctuary for birds and other wildlife. Enjoy the scenic beauty and tranquility of the area. Spend the evening at leisure, exploring local markets and shops. ",
         ],
         [
-          "Travel to Horton Plains National Park for a day of trekking and exploring the park's unique landscape, including World's End and Baker's Falls. Check-in at a hotel in Nuwara Eliya. "
+          "Travel to Horton Plains National Park for a day of trekking and exploring the park's unique landscape, including World's End and Baker's Falls. Check-in at a hotel in Nuwara Eliya. ",
         ],
         [
-          "Spend the day exploring Nuwara Eliya, including a visit to Gregory Lake and Hakgala Botanical Gardens. Enjoy the town's colonial charm and tea plantations. "
+          "Spend the day exploring Nuwara Eliya, including a visit to Gregory Lake and Hakgala Botanical Gardens. Enjoy the town's colonial charm and tea plantations. ",
         ],
         [
-          "Travel to Yala National Park and check-in at a safari lodge. Enjoy an evening jeep safari in the park, known for its high density of leopards and diverse wildlife. "
+          "Travel to Yala National Park and check-in at a safari lodge. Enjoy an evening jeep safari in the park, known for its high density of leopards and diverse wildlife. ",
         ],
         [
-          "Spend the day on a full-day safari in Yala National Park, spotting leopards, elephants, crocodiles, and a variety of bird species. Enjoy a picnic lunch in the park and return to the lodge for dinner in the evening. "
+          "Spend the day on a full-day safari in Yala National Park, spotting leopards, elephants, crocodiles, and a variety of bird species. Enjoy a picnic lunch in the park and return to the lodge for dinner in the evening. ",
         ],
         [
-          "Travel to Mirissa and check-in at a beach resort. Spend the afternoon relaxing on the beach or enjoying water sports. Enjoy a seafood dinner in the evening. "
+          "Travel to Mirissa and check-in at a beach resort. Spend the afternoon relaxing on the beach or enjoying water sports. Enjoy a seafood dinner in the evening. ",
         ],
         [
-          "Spend the day on a whale-watching tour, a thrilling experience for the entire family. Return to the resort in the afternoon and relax on the beach. "
+          "Spend the day on a whale-watching tour, a thrilling experience for the entire family. Return to the resort in the afternoon and relax on the beach. ",
         ],
         [
-          " Spend the day at leisure, enjoying beach activities and resort amenities. Visit the Turtle Hatchery or take a boat ride on the Madu River. Enjoy a farewell dinner at the resort"
+          " Spend the day at leisure, enjoying beach activities and resort amenities. Visit the Turtle Hatchery or take a boat ride on the Madu River. Enjoy a farewell dinner at the resort",
         ],
         [
-          "Leisure time at the resort before transferring to Colombo for last-minute shopping or sightseeing. Departure from Bandaranaike International Airport. "
+          "Leisure time at the resort before transferring to Colombo for last-minute shopping or sightseeing. Departure from Bandaranaike International Airport. ",
         ],
-    
       ],
     ],
     GalleryImages: [
@@ -1796,31 +1822,42 @@ const travelPackages = [
     imageUrlh: "/Tourpackage/9.jpeg",
     description:
       "Enjoy a romantic getaway with our exclusive honeymoon tours. ",
-      descriptionhid:"hidden",
+    descriptionhid: "hidden",
     itinerary: [
-       "6-Night Beach Tour Itinerary: Colombo, Bentota, Galle, Mirissa ", 
-       "9-Night Beach Tour Itinerary: Colombo, Negombo, Bentota, Galle, Tangalle ", 
-       "13-Night Beach Tour Itinerary: Colombo, Negombo, Bentota, Galle, Mirissa, Tangalle, Arugam Bay ", 
+      "6-Night Beach Tour Itinerary: Colombo, Bentota, Galle, Mirissa ",
+      "9-Night Beach Tour Itinerary: Colombo, Negombo, Bentota, Galle, Tangalle ",
+      "13-Night Beach Tour Itinerary: Colombo, Negombo, Bentota, Galle, Mirissa, Tangalle, Arugam Bay ",
     ],
     infotext: [
-     [
-       "Relax and unwind with our 6-night beach tour in Sri Lanka. This itinerary offers a perfect escape to the island's most beautiful beaches, allowing you to soak up the sun, enjoy water sports, and explore coastal towns. Ideal for beach lovers and those looking for a serene getaway. "
+      [
+        "Relax and unwind with our 6-night beach tour in Sri Lanka. This itinerary offers a perfect escape to the island's most beautiful beaches, allowing you to soak up the sun, enjoy water sports, and explore coastal towns. Ideal for beach lovers and those looking for a serene getaway. ",
       ],
-     [
-       "Enjoy the ultimate beach vacation with our 9-night beach tour in Sri Lanka. This itinerary covers the island's most stunning coastal destinations, offering a mix of relaxation, water activities, and exploration of charming coastal towns."
+      [
+        "Enjoy the ultimate beach vacation with our 9-night beach tour in Sri Lanka. This itinerary covers the island's most stunning coastal destinations, offering a mix of relaxation, water activities, and exploration of charming coastal towns.",
       ],
-     [
-       "Discover the best of Sri Lanka's beaches with our 13-night beach tour. This extensive itinerary takes you to the island's most beautiful coastal destinations, offering plenty of opportunities for relaxation, water activities, and exploration of charming seaside towns. "
+      [
+        "Discover the best of Sri Lanka's beaches with our 13-night beach tour. This extensive itinerary takes you to the island's most beautiful coastal destinations, offering plenty of opportunities for relaxation, water activities, and exploration of charming seaside towns. ",
       ],
     ],
     infoDeparture: " Bandaranaike International Airport ",
     infoDepartureTime: "9:15 AM To 9:30 AM.",
     infoReturTime: "Approximately 10:30 PM",
     infoPriceIncluded: [
-      ["Beachfront accommodations", "All transportation in destination location", ", Whale watching tour, Water sports "],
-      ["Beachfront accommodations", "All transportation in destination location", ", Whale watching tour, Water sports "],
-      ["Beachfront accommodations", "All transportation in destination location", ", Whale watching tour, Water sports "],
-    
+      [
+        "Beachfront accommodations",
+        "All transportation in destination location",
+        ", Whale watching tour, Water sports ",
+      ],
+      [
+        "Beachfront accommodations",
+        "All transportation in destination location",
+        ", Whale watching tour, Water sports ",
+      ],
+      [
+        "Beachfront accommodations",
+        "All transportation in destination location",
+        ", Whale watching tour, Water sports ",
+      ],
     ],
     infoNotPriceIncluded: [
       [
@@ -1862,29 +1899,25 @@ const travelPackages = [
     },
     TourPlantext: [
       [
-       "Arrival in Colombo ",
-       " Colombo to Bentota ",
-       "  Explore Bentota",
-       "Bentota to Galle ",
-       "Galle to Mirissa ",
-       "  Whale Watching in Mirissa",
-       " Departure from Colombo",
-     
-      
+        "Arrival in Colombo ",
+        " Colombo to Bentota ",
+        "  Explore Bentota",
+        "Bentota to Galle ",
+        "Galle to Mirissa ",
+        "  Whale Watching in Mirissa",
+        " Departure from Colombo",
       ],
       [
-      "Arrival in Colombo ",
-       "Explore Negombo ",
-       "Negombo to Bentota ",
-       "Explore Bentota",
-       "Bentota to Galle ",
-       "Explore Galle ",
-       "Galle to Tangalle",
-       " Explore Tangalle ",
-       " Leisure Day in Tangalle ",
-       "Departure from Colombo ",
-       
-        
+        "Arrival in Colombo ",
+        "Explore Negombo ",
+        "Negombo to Bentota ",
+        "Explore Bentota",
+        "Bentota to Galle ",
+        "Explore Galle ",
+        "Galle to Tangalle",
+        " Explore Tangalle ",
+        " Leisure Day in Tangalle ",
+        "Departure from Colombo ",
       ],
       [
         "Arrival Colombo",
@@ -1901,112 +1934,107 @@ const travelPackages = [
         "Explore Arugam Bay ",
         " Leisure Day in Arugam Bay",
         "Departure from Colombo ",
-       
       ],
     ],
     TourText: [
       [
         [
-          "Arrive at Bandaranaike International Airport and transfer to Colombo. Check-in at a beachside hotel. Spend the afternoon exploring Colombo's coastal attractions and enjoy a welcome dinner by the beach. "
+          "Arrive at Bandaranaike International Airport and transfer to Colombo. Check-in at a beachside hotel. Spend the afternoon exploring Colombo's coastal attractions and enjoy a welcome dinner by the beach. ",
         ],
         [
-          " Travel to Bentota and check-in at a beach resort. Spend the day relaxing on the golden sands of Bentota Beach, swimming in the warm waters, or enjoying water sports like jet skiing and windsurfing. Enjoy a beachside dinner in the evening."
+          " Travel to Bentota and check-in at a beach resort. Spend the day relaxing on the golden sands of Bentota Beach, swimming in the warm waters, or enjoying water sports like jet skiing and windsurfing. Enjoy a beachside dinner in the evening.",
         ],
         [
-          "Visit the Brief Garden, a beautifully landscaped garden by Bevis Bawa. In the afternoon, take a boat ride on the Madu River, exploring its mangrove forests and small islands. Return to the beach for a sunset stroll and dinner. "
+          "Visit the Brief Garden, a beautifully landscaped garden by Bevis Bawa. In the afternoon, take a boat ride on the Madu River, exploring its mangrove forests and small islands. Return to the beach for a sunset stroll and dinner. ",
         ],
         [
-          "Travel to Galle and check-in at a hotel near the beach. Explore the historic Galle Fort, a UNESCO World Heritage site, with its colonial architecture and charming streets. Spend the evening relaxing on Unawatuna Beach. "
+          "Travel to Galle and check-in at a hotel near the beach. Explore the historic Galle Fort, a UNESCO World Heritage site, with its colonial architecture and charming streets. Spend the evening relaxing on Unawatuna Beach. ",
         ],
         [
-          "Travel to Mirissa and check-in at a beachfront hotel. Spend the day relaxing on Mirissa Beach, known for its stunning sunsets and vibrant atmosphere. Enjoy a seafood dinner by the beach. "
+          "Travel to Mirissa and check-in at a beachfront hotel. Spend the day relaxing on Mirissa Beach, known for its stunning sunsets and vibrant atmosphere. Enjoy a seafood dinner by the beach. ",
         ],
         [
-          "Embark on a whale-watching tour in the morning, where you might spot blue whales, dolphins, and other marine life. Spend the afternoon at leisure on the beach or exploring local shops and cafes. "
+          "Embark on a whale-watching tour in the morning, where you might spot blue whales, dolphins, and other marine life. Spend the afternoon at leisure on the beach or exploring local shops and cafes. ",
         ],
         [
-          "Leisure time at the hotel before transferring to Colombo for last-minute shopping or sightseeing. Departure from Bandaranaike International Airport."
-        ]
+          "Leisure time at the hotel before transferring to Colombo for last-minute shopping or sightseeing. Departure from Bandaranaike International Airport.",
+        ],
       ],
       [
         [
-          "Arrive at Bandaranaike International Airport and transfer to Negombo. Check-in at a beachfront hotel. Spend the afternoon relaxing on Negombo Beach and enjoy a welcome dinner by the sea. "
+          "Arrive at Bandaranaike International Airport and transfer to Negombo. Check-in at a beachfront hotel. Spend the afternoon relaxing on Negombo Beach and enjoy a welcome dinner by the sea. ",
         ],
         [
-          " Spend the day exploring Negombo, including a visit to the Negombo Fish Market and the Dutch Canal. Enjoy water sports or relax on the beach. Dine at a beachside restaurant in the evening."
+          " Spend the day exploring Negombo, including a visit to the Negombo Fish Market and the Dutch Canal. Enjoy water sports or relax on the beach. Dine at a beachside restaurant in the evening.",
         ],
         [
-          "Travel to Bentota and check-in at a beach resort. Spend the day relaxing on Bentota Beach, swimming, or enjoying water sports. Take a boat ride on the Madu River in the afternoon. Enjoy a beachside dinner in the evening. "
+          "Travel to Bentota and check-in at a beach resort. Spend the day relaxing on Bentota Beach, swimming, or enjoying water sports. Take a boat ride on the Madu River in the afternoon. Enjoy a beachside dinner in the evening. ",
         ],
         [
-          "Visit the Kosgoda Turtle Hatchery, where you can learn about sea turtle conservation and see baby turtles. Spend the rest of the day at leisure on the beach. "
+          "Visit the Kosgoda Turtle Hatchery, where you can learn about sea turtle conservation and see baby turtles. Spend the rest of the day at leisure on the beach. ",
         ],
         [
-          "Travel to Galle and check-in at a hotel near the beach. Explore the historic Galle Fort, a UNESCO World Heritage site, with its colonial architecture and charming streets. Spend the evening relaxing on Unawatuna Beach. "
+          "Travel to Galle and check-in at a hotel near the beach. Explore the historic Galle Fort, a UNESCO World Heritage site, with its colonial architecture and charming streets. Spend the evening relaxing on Unawatuna Beach. ",
         ],
         [
-          "Spend the day exploring Galle's beaches, such as Jungle Beach and Dalawella Beach. Enjoy snorkeling or simply relax on the sandy shores. Return to the hotel for a beachside dinner. "
+          "Spend the day exploring Galle's beaches, such as Jungle Beach and Dalawella Beach. Enjoy snorkeling or simply relax on the sandy shores. Return to the hotel for a beachside dinner. ",
         ],
         [
-          "Travel to Tangalle and check-in at a beachfront hotel. Spend the day relaxing on Tangalle Beach, known for its tranquil atmosphere and beautiful scenery. "
+          "Travel to Tangalle and check-in at a beachfront hotel. Spend the day relaxing on Tangalle Beach, known for its tranquil atmosphere and beautiful scenery. ",
         ],
         [
-          "Visit the nearby Mulkirigala Rock Temple in the morning. Spend the afternoon at leisure on the beach or exploring the local area. Enjoy a seafood dinner by the beach in the evening. "
+          "Visit the nearby Mulkirigala Rock Temple in the morning. Spend the afternoon at leisure on the beach or exploring the local area. Enjoy a seafood dinner by the beach in the evening. ",
         ],
         [
-          "Spend the day at leisure, enjoying beach activities and resort amenities. Take a boat ride to the Rekawa Lagoon or visit the nearby Turtle Conservation Project. Enjoy a farewell dinner at the resort. "
+          "Spend the day at leisure, enjoying beach activities and resort amenities. Take a boat ride to the Rekawa Lagoon or visit the nearby Turtle Conservation Project. Enjoy a farewell dinner at the resort. ",
         ],
         [
-          " Leisure time at the resort before transferring to Colombo for last-minute shopping or sightseeing. Departure from Bandaranaike International Airport."
+          " Leisure time at the resort before transferring to Colombo for last-minute shopping or sightseeing. Departure from Bandaranaike International Airport.",
         ],
-    
-       
       ],
       [
-        
         [
-          "Arrive at Bandaranaike International Airport and transfer to Negombo. Check-in at a beachfront hotel. Spend the afternoon relaxing on Negombo Beach and enjoy a welcome dinner by the sea. "
+          "Arrive at Bandaranaike International Airport and transfer to Negombo. Check-in at a beachfront hotel. Spend the afternoon relaxing on Negombo Beach and enjoy a welcome dinner by the sea. ",
         ],
         [
-          "Spend the day exploring Negombo, including a visit to the Negombo Fish Market and the Dutch Canal. Enjoy water sports or relax on the beach. Dine at a beachside restaurant in the evening. "
+          "Spend the day exploring Negombo, including a visit to the Negombo Fish Market and the Dutch Canal. Enjoy water sports or relax on the beach. Dine at a beachside restaurant in the evening. ",
         ],
         [
-          "Travel to Bentota and check-in at a beach resort. Spend the day relaxing on Bentota Beach, swimming, or enjoying water sports. Take a boat ride on the Madu River in the afternoon. Enjoy a beachside dinner in the evening. "
+          "Travel to Bentota and check-in at a beach resort. Spend the day relaxing on Bentota Beach, swimming, or enjoying water sports. Take a boat ride on the Madu River in the afternoon. Enjoy a beachside dinner in the evening. ",
         ],
         [
-          "Visit the Kosgoda Turtle Hatchery, where you can learn about sea turtle conservation and see baby turtles. Spend the rest of the day at leisure on the beach. "
+          "Visit the Kosgoda Turtle Hatchery, where you can learn about sea turtle conservation and see baby turtles. Spend the rest of the day at leisure on the beach. ",
         ],
         [
-          "Travel to Galle and check-in at a hotel near the beach. Explore the historic Galle Fort, a UNESCO World Heritage site, with its colonial architecture and charming streets. Spend the evening relaxing on Unawatuna Beach. "
+          "Travel to Galle and check-in at a hotel near the beach. Explore the historic Galle Fort, a UNESCO World Heritage site, with its colonial architecture and charming streets. Spend the evening relaxing on Unawatuna Beach. ",
         ],
         [
-          "Spend the day exploring Galle's beaches, such as Jungle Beach and Dalawella Beach. Enjoy snorkeling or simply relax on the sandy shores. Return to the hotel for a beachside dinner "
+          "Spend the day exploring Galle's beaches, such as Jungle Beach and Dalawella Beach. Enjoy snorkeling or simply relax on the sandy shores. Return to the hotel for a beachside dinner ",
         ],
         [
-          "Travel to Mirissa and check-in at a beachfront hotel. Spend the day relaxing on Mirissa Beach, known for its stunning sunsets and vibrant atmosphere. Enjoy a seafood dinner by the beach. "
+          "Travel to Mirissa and check-in at a beachfront hotel. Spend the day relaxing on Mirissa Beach, known for its stunning sunsets and vibrant atmosphere. Enjoy a seafood dinner by the beach. ",
         ],
         [
-          "Embark on a whale-watching tour in the morning, where you might spot blue whales, dolphins, and other marine life. Spend the afternoon at leisure on the beach or exploring local shops and cafes. "
+          "Embark on a whale-watching tour in the morning, where you might spot blue whales, dolphins, and other marine life. Spend the afternoon at leisure on the beach or exploring local shops and cafes. ",
         ],
         [
-          "Travel to Tangalle and check-in at a beachfront hotel. Spend the day relaxing on Tangalle Beach, known for its tranquil atmosphere and beautiful scenery. "
+          "Travel to Tangalle and check-in at a beachfront hotel. Spend the day relaxing on Tangalle Beach, known for its tranquil atmosphere and beautiful scenery. ",
         ],
         [
-          "Visit the nearby Mulkirigala Rock Temple in the morning. Spend the afternoon at leisure on the beach or exploring the local area. Enjoy a seafood dinner by the beach in the evening. "
+          "Visit the nearby Mulkirigala Rock Temple in the morning. Spend the afternoon at leisure on the beach or exploring the local area. Enjoy a seafood dinner by the beach in the evening. ",
         ],
         [
-          "Travel to Arugam Bay, a popular surf destination, and check-in at a beachfront hotel. Spend the afternoon relaxing on the beach or trying out surfing. Enjoy a beachside dinner in the evening "
+          "Travel to Arugam Bay, a popular surf destination, and check-in at a beachfront hotel. Spend the afternoon relaxing on the beach or trying out surfing. Enjoy a beachside dinner in the evening ",
         ],
         [
-          "Spend the day at leisure on Arugam Bay Beach. Take a surfing lesson, explore the local area, or visit the nearby Kumana National Park for a wildlife safari. Enjoy a farewell dinner at the beach. "
+          "Spend the day at leisure on Arugam Bay Beach. Take a surfing lesson, explore the local area, or visit the nearby Kumana National Park for a wildlife safari. Enjoy a farewell dinner at the beach. ",
         ],
         [
-          "Spend the day at leisure, enjoying beach activities and resort amenities. Relax on the beach or explore the nearby attractions. Enjoy a final dinner by the beach. "
+          "Spend the day at leisure, enjoying beach activities and resort amenities. Relax on the beach or explore the nearby attractions. Enjoy a final dinner by the beach. ",
         ],
         [
-          "Leisure time at the resort before transferring to Colombo for last-minute shopping or sightseeing. Departure from Bandaranaike International Airport."
-        ]
-    
+          "Leisure time at the resort before transferring to Colombo for last-minute shopping or sightseeing. Departure from Bandaranaike International Airport.",
+        ],
       ],
     ],
     GalleryImages: [
@@ -2026,31 +2054,52 @@ const travelPackages = [
     imageUrlh: "/Tourpackage/10.jpeg",
     description:
       "Enjoy a romantic getaway with our exclusive honeymoon tours. ",
-      descriptionhid:"hidden",
+    descriptionhid: "hidden",
     itinerary: [
-       "6-Night Eco Tour Itinerary: Colombo, Sinharaja, Ella, Udawalawe ", 
-       "9-Night Eco Tour Itinerary: Colombo, Kitulgala, Knuckles Range, Ella, Yala ", 
-       "13-Night Eco Tour Itinerary: Colombo, Sinharaja, Kitulgala, Knuckles Range, Ella, Yala, Mirissa ", 
+      "6-Night Eco Tour Itinerary: Colombo, Sinharaja, Ella, Udawalawe ",
+      "9-Night Eco Tour Itinerary: Colombo, Kitulgala, Knuckles Range, Ella, Yala ",
+      "13-Night Eco Tour Itinerary: Colombo, Sinharaja, Kitulgala, Knuckles Range, Ella, Yala, Mirissa ",
     ],
     infotext: [
-     [
-       "Embark on a sustainable journey through Sri Lanka with our 6-night eco tour. This itinerary is designed for eco-conscious travelers who wish to explore the natural beauty and biodiversity of the island while minimizing their environmental impact. Discover lush rainforests, pristine landscapes, and diverse wildlife in an eco-friendly manner."
+      [
+        "Embark on a sustainable journey through Sri Lanka with our 6-night eco tour. This itinerary is designed for eco-conscious travelers who wish to explore the natural beauty and biodiversity of the island while minimizing their environmental impact. Discover lush rainforests, pristine landscapes, and diverse wildlife in an eco-friendly manner.",
       ],
-     [
-       "Experience the natural beauty and biodiversity of Sri Lanka with our 9-night eco tour. This itinerary offers a mix of adventure, conservation, and sustainable travel experiences, perfect for eco-conscious travelers who want to explore the island responsibly. "
+      [
+        "Experience the natural beauty and biodiversity of Sri Lanka with our 9-night eco tour. This itinerary offers a mix of adventure, conservation, and sustainable travel experiences, perfect for eco-conscious travelers who want to explore the island responsibly. ",
       ],
-     [
-       "Discover the pristine natural beauty of Sri Lanka with our 13-night eco tour. This extensive itinerary combines adventure, conservation, and sustainable travel practices, offering a comprehensive and responsible exploration of the island’s diverse ecosystems. "
+      [
+        "Discover the pristine natural beauty of Sri Lanka with our 13-night eco tour. This extensive itinerary combines adventure, conservation, and sustainable travel practices, offering a comprehensive and responsible exploration of the island’s diverse ecosystems. ",
       ],
     ],
     infoDeparture: " Bandaranaike International Airport ",
     infoDepartureTime: "9:15 AM To 9:30 AM.",
     infoReturTime: "Approximately 10:30 PM",
     infoPriceIncluded: [
-      ["Eco-friendly accommodations", "All transportation in destination location", "Guided nature walks and hikes ","Udawalawe safari","Organic meals"],
-      ["Eco-friendly accommodations", "All transportation in destination location", "Guided nature walks and hikes ","safaris","Organic meals","White-water rafting","Organic meals"],
-      ["Eco-friendly accommodations", "All transportation in destination location", "Guided nature walks and hikes ","Udawalawe safari","Organic meals","White-water rafting","Organic meals"],
-     
+      [
+        "Eco-friendly accommodations",
+        "All transportation in destination location",
+        "Guided nature walks and hikes ",
+        "Udawalawe safari",
+        "Organic meals",
+      ],
+      [
+        "Eco-friendly accommodations",
+        "All transportation in destination location",
+        "Guided nature walks and hikes ",
+        "safaris",
+        "Organic meals",
+        "White-water rafting",
+        "Organic meals",
+      ],
+      [
+        "Eco-friendly accommodations",
+        "All transportation in destination location",
+        "Guided nature walks and hikes ",
+        "Udawalawe safari",
+        "Organic meals",
+        "White-water rafting",
+        "Organic meals",
+      ],
     ],
     infoNotPriceIncluded: [
       [
@@ -2092,27 +2141,25 @@ const travelPackages = [
     },
     TourPlantext: [
       [
-       " Arrival in Colombo ",
-       "Colombo to Sinharaja ",
-       "Explore Sinharaja ",
-       "Sinharaja to Ella ",
-       " Ella to Udawalawe ",
-       "Safari in Udawalawe ",
-       "  Departure from Colombo",
-      
+        " Arrival in Colombo ",
+        "Colombo to Sinharaja ",
+        "Explore Sinharaja ",
+        "Sinharaja to Ella ",
+        " Ella to Udawalawe ",
+        "Safari in Udawalawe ",
+        "  Departure from Colombo",
       ],
       [
-       "Arrival in Colombo ",
-       "Colombo to Kitulgala ",
-       " Kitulgala to Knuckles Range",
-       "Explore Knuckles Range ",
-       "Knuckles Range to Ella ",
-       " Explore Ella",
-       "Ella to Yala ",
-       " Safari in Yala ",
-       "Yala to Colombo ",
-       " Departure from Colombo",
-        
+        "Arrival in Colombo ",
+        "Colombo to Kitulgala ",
+        " Kitulgala to Knuckles Range",
+        "Explore Knuckles Range ",
+        "Knuckles Range to Ella ",
+        " Explore Ella",
+        "Ella to Yala ",
+        " Safari in Yala ",
+        "Yala to Colombo ",
+        " Departure from Colombo",
       ],
       [
         "Arrival Colombo",
@@ -2129,111 +2176,107 @@ const travelPackages = [
         "Whale Watching in Mirissa ",
         "Explore Mirissa ",
         " Departure from Colombo",
-       
       ],
     ],
     TourText: [
       [
         [
-          "Arrive at Bandaranaike International Airport and transfer to Colombo. Check-in at an eco-friendly hotel. Spend the afternoon exploring Colombo’s green spaces and sustainable attractions. Enjoy a welcome dinner featuring locally sourced organic cuisine "
+          "Arrive at Bandaranaike International Airport and transfer to Colombo. Check-in at an eco-friendly hotel. Spend the afternoon exploring Colombo’s green spaces and sustainable attractions. Enjoy a welcome dinner featuring locally sourced organic cuisine ",
         ],
         [
-          "Travel to Sinharaja Rainforest, a UNESCO World Heritage site. Check-in at an eco-lodge. In the afternoon, take a guided nature walk through the rainforest, learning about its unique flora and fauna. Enjoy a sustainable dinner at the lodge. "
+          "Travel to Sinharaja Rainforest, a UNESCO World Heritage site. Check-in at an eco-lodge. In the afternoon, take a guided nature walk through the rainforest, learning about its unique flora and fauna. Enjoy a sustainable dinner at the lodge. ",
         ],
         [
-          "Spend the day exploring Sinharaja Rainforest with guided hikes and birdwatching tours. Learn about the conservation efforts to protect this biodiversity hotspot. Enjoy a picnic lunch in the forest and return to the lodge for dinner. "
+          "Spend the day exploring Sinharaja Rainforest with guided hikes and birdwatching tours. Learn about the conservation efforts to protect this biodiversity hotspot. Enjoy a picnic lunch in the forest and return to the lodge for dinner. ",
         ],
         [
-          "Travel to Ella and check-in at an eco-friendly hotel. Spend the afternoon hiking to Little Adam's Peak and exploring the scenic beauty of Ella. Enjoy an evening of local, organic dining. "
+          "Travel to Ella and check-in at an eco-friendly hotel. Spend the afternoon hiking to Little Adam's Peak and exploring the scenic beauty of Ella. Enjoy an evening of local, organic dining. ",
         ],
         [
-          "Travel to Udawalawe and check-in at an eco-lodge near Udawalawe National Park. In the afternoon, visit the Elephant Transit Home, a rehabilitation center for orphaned elephants. Return to the lodge for a sustainable dinner. "
+          "Travel to Udawalawe and check-in at an eco-lodge near Udawalawe National Park. In the afternoon, visit the Elephant Transit Home, a rehabilitation center for orphaned elephants. Return to the lodge for a sustainable dinner. ",
         ],
         [
-          "Embark on an early morning safari in Udawalawe National Park to see elephants, leopards, and other wildlife. Return to the lodge for breakfast and spend the afternoon relaxing or taking part in additional eco-friendly activities. "
+          "Embark on an early morning safari in Udawalawe National Park to see elephants, leopards, and other wildlife. Return to the lodge for breakfast and spend the afternoon relaxing or taking part in additional eco-friendly activities. ",
         ],
         [
-          "Travel back to Colombo for last-minute shopping or sightseeing. Departure from Bandaranaike International Airport."
-        ]
+          "Travel back to Colombo for last-minute shopping or sightseeing. Departure from Bandaranaike International Airport.",
+        ],
       ],
       [
         [
-          "Arrive at Bandaranaike International Airport and transfer to Colombo. Check-in at an eco-friendly hotel. Spend the afternoon exploring Colombo’s green spaces and sustainable attractions. Enjoy a welcome dinner featuring locally sourced organic cuisine. "
+          "Arrive at Bandaranaike International Airport and transfer to Colombo. Check-in at an eco-friendly hotel. Spend the afternoon exploring Colombo’s green spaces and sustainable attractions. Enjoy a welcome dinner featuring locally sourced organic cuisine. ",
         ],
         [
-          "Travel to Kitulgala and check-in at an eco-lodge. Spend the afternoon white-water rafting on the Kelani River, followed by a nature walk through the surrounding jungle. Enjoy a sustainable dinner at the lodge. "
+          "Travel to Kitulgala and check-in at an eco-lodge. Spend the afternoon white-water rafting on the Kelani River, followed by a nature walk through the surrounding jungle. Enjoy a sustainable dinner at the lodge. ",
         ],
         [
-          "Travel to the Knuckles Mountain Range and check-in at an eco-lodge. Spend the afternoon trekking through the range, known for its rich biodiversity and stunning landscapes. Enjoy a picnic lunch and return to the lodge for dinner. "
+          "Travel to the Knuckles Mountain Range and check-in at an eco-lodge. Spend the afternoon trekking through the range, known for its rich biodiversity and stunning landscapes. Enjoy a picnic lunch and return to the lodge for dinner. ",
         ],
         [
-          "Spend the day exploring the Knuckles Range with guided hikes and birdwatching tours. Learn about the conservation efforts to protect this UNESCO World Heritage site. Enjoy a picnic lunch in the forest and return to the lodge for dinner. "
+          "Spend the day exploring the Knuckles Range with guided hikes and birdwatching tours. Learn about the conservation efforts to protect this UNESCO World Heritage site. Enjoy a picnic lunch in the forest and return to the lodge for dinner. ",
         ],
         [
-          "Travel to Ella and check-in at an eco-friendly hotel. Spend the afternoon hiking to Little Adam's Peak and exploring the scenic beauty of Ella. Enjoy an evening of local, organic dining. "
+          "Travel to Ella and check-in at an eco-friendly hotel. Spend the afternoon hiking to Little Adam's Peak and exploring the scenic beauty of Ella. Enjoy an evening of local, organic dining. ",
         ],
         [
-          "Visit Nine Arches Bridge and Ravana Falls in the morning. In the afternoon, explore the tea plantations and learn about sustainable tea farming practices. Return to the hotel for dinner. "
+          "Visit Nine Arches Bridge and Ravana Falls in the morning. In the afternoon, explore the tea plantations and learn about sustainable tea farming practices. Return to the hotel for dinner. ",
         ],
         [
-          "Travel to Yala and check-in at an eco-lodge near Yala National Park. Spend the afternoon at leisure, exploring the lodge's surroundings and enjoying eco-friendly activities. Enjoy a sustainable dinner at the lodge. "
+          "Travel to Yala and check-in at an eco-lodge near Yala National Park. Spend the afternoon at leisure, exploring the lodge's surroundings and enjoying eco-friendly activities. Enjoy a sustainable dinner at the lodge. ",
         ],
         [
-          "Embark on an early morning safari in Yala National Park to see elephants, leopards, and other wildlife. Return to the lodge for breakfast and spend the afternoon relaxing or taking part in additional eco-friendly activities. "
+          "Embark on an early morning safari in Yala National Park to see elephants, leopards, and other wildlife. Return to the lodge for breakfast and spend the afternoon relaxing or taking part in additional eco-friendly activities. ",
         ],
         [
-          " Travel back to Colombo and check-in at an eco-friendly hotel. Spend the afternoon exploring Colombo’s Pettah Market and Dutch Hospital Shopping Precinct. Enjoy a farewell dinner at a renowned organic restaurant."
+          " Travel back to Colombo and check-in at an eco-friendly hotel. Spend the afternoon exploring Colombo’s Pettah Market and Dutch Hospital Shopping Precinct. Enjoy a farewell dinner at a renowned organic restaurant.",
         ],
         [
-          "Leisure time at the hotel before transferring to Bandaranaike International Airport for departure. "
+          "Leisure time at the hotel before transferring to Bandaranaike International Airport for departure. ",
         ],
-    
-       
       ],
       [
         [
-          "Arrive at Bandaranaike International Airport and transfer to Colombo. Check-in at an eco-friendly hotel. Spend the afternoon exploring Colombo’s green spaces and sustainable attractions. Enjoy a welcome dinner featuring locally sourced organic cuisine. "
+          "Arrive at Bandaranaike International Airport and transfer to Colombo. Check-in at an eco-friendly hotel. Spend the afternoon exploring Colombo’s green spaces and sustainable attractions. Enjoy a welcome dinner featuring locally sourced organic cuisine. ",
         ],
         [
-          "Travel to Sinharaja Rainforest, a UNESCO World Heritage site. Check-in at an eco-lodge. In the afternoon, take a guided nature walk through the rainforest, learning about its unique flora and fauna. Enjoy a sustainable dinner at the lodge. "
+          "Travel to Sinharaja Rainforest, a UNESCO World Heritage site. Check-in at an eco-lodge. In the afternoon, take a guided nature walk through the rainforest, learning about its unique flora and fauna. Enjoy a sustainable dinner at the lodge. ",
         ],
         [
-          "Spend the day exploring Sinharaja Rainforest with guided hikes and birdwatching tours. Learn about the conservation efforts to protect this biodiversity hotspot. Enjoy a picnic lunch in the forest and return to the lodge for dinner. "
+          "Spend the day exploring Sinharaja Rainforest with guided hikes and birdwatching tours. Learn about the conservation efforts to protect this biodiversity hotspot. Enjoy a picnic lunch in the forest and return to the lodge for dinner. ",
         ],
         [
-          "Travel to Kitulgala and check-in at an eco-lodge. Spend the afternoon white-water rafting on the Kelani River, followed by a nature walk through the surrounding jungle. Enjoy a sustainable dinner at the lodge. "
+          "Travel to Kitulgala and check-in at an eco-lodge. Spend the afternoon white-water rafting on the Kelani River, followed by a nature walk through the surrounding jungle. Enjoy a sustainable dinner at the lodge. ",
         ],
         [
-          "Travel to the Knuckles Mountain Range and check-in at an eco-lodge. Spend the afternoon trekking through the range, known for its rich biodiversity and stunning landscapes. Enjoy a picnic lunch and return to the lodge for dinner. "
+          "Travel to the Knuckles Mountain Range and check-in at an eco-lodge. Spend the afternoon trekking through the range, known for its rich biodiversity and stunning landscapes. Enjoy a picnic lunch and return to the lodge for dinner. ",
         ],
         [
-          "Spend the day exploring the Knuckles Range with guided hikes and birdwatching tours. Learn about the conservation efforts to protect this UNESCO World Heritage site. Enjoy a picnic lunch in the forest and return to the lodge for dinner. "
+          "Spend the day exploring the Knuckles Range with guided hikes and birdwatching tours. Learn about the conservation efforts to protect this UNESCO World Heritage site. Enjoy a picnic lunch in the forest and return to the lodge for dinner. ",
         ],
         [
-          "Travel to Ella and check-in at an eco-friendly hotel. Spend the afternoon hiking to Little Adam's Peak and exploring the scenic beauty of Ella. Enjoy an evening of local, organic dining. "
+          "Travel to Ella and check-in at an eco-friendly hotel. Spend the afternoon hiking to Little Adam's Peak and exploring the scenic beauty of Ella. Enjoy an evening of local, organic dining. ",
         ],
         [
-          "Visit Nine Arches Bridge and Ravana Falls in the morning. In the afternoon, explore the tea plantations and learn about sustainable tea farming practices. Return to the hotel for dinner. "
+          "Visit Nine Arches Bridge and Ravana Falls in the morning. In the afternoon, explore the tea plantations and learn about sustainable tea farming practices. Return to the hotel for dinner. ",
         ],
         [
-          "Travel to Yala and check-in at an eco-lodge near Yala National Park. Spend the afternoon at leisure, exploring the lodge's surroundings and enjoying eco-friendly activities. Enjoy a sustainable dinner at the lodge. "
+          "Travel to Yala and check-in at an eco-lodge near Yala National Park. Spend the afternoon at leisure, exploring the lodge's surroundings and enjoying eco-friendly activities. Enjoy a sustainable dinner at the lodge. ",
         ],
         [
-          "Embark on an early morning safari in Yala National Park to see elephants, leopards, and other wildlife. Return to the lodge for breakfast and spend the afternoon relaxing or taking part in additional eco-friendly activities. "
+          "Embark on an early morning safari in Yala National Park to see elephants, leopards, and other wildlife. Return to the lodge for breakfast and spend the afternoon relaxing or taking part in additional eco-friendly activities. ",
         ],
         [
-          "Travel to Mirissa and check-in at an eco-friendly beach resort. Spend the afternoon relaxing on the beach or enjoying water sports. Enjoy a sustainable seafood dinner in the evening. "
+          "Travel to Mirissa and check-in at an eco-friendly beach resort. Spend the afternoon relaxing on the beach or enjoying water sports. Enjoy a sustainable seafood dinner in the evening. ",
         ],
         [
-          "Embark on a whale-watching tour in the morning, where you might spot blue whales, dolphins, and other marine life. Spend the afternoon at leisure on the beach or exploring local shops and cafes. "
+          "Embark on a whale-watching tour in the morning, where you might spot blue whales, dolphins, and other marine life. Spend the afternoon at leisure on the beach or exploring local shops and cafes. ",
         ],
         [
-          "Spend the day at leisure, enjoying beach activities and resort amenities. Visit the nearby Turtle Hatchery or take a boat ride on the Madu River. Enjoy a farewell dinner at the resort. "
+          "Spend the day at leisure, enjoying beach activities and resort amenities. Visit the nearby Turtle Hatchery or take a boat ride on the Madu River. Enjoy a farewell dinner at the resort. ",
         ],
         [
-          "Leisure time at the resort before transferring to Colombo for last-minute shopping or sightseeing. Departure from Bandaranaike International Airport. "
+          "Leisure time at the resort before transferring to Colombo for last-minute shopping or sightseeing. Departure from Bandaranaike International Airport. ",
         ],
-    
       ],
     ],
     GalleryImages: [
@@ -2253,31 +2296,51 @@ const travelPackages = [
     imageUrlh: "/Tourpackage/11.jpeg",
     description:
       "Enjoy a romantic getaway with our exclusive honeymoon tours. ",
-      descriptionhid:"hidden",
+    descriptionhid: "hidden",
     itinerary: [
-       "6-Night Food & Culinary Tour Itinerary: Colombo, Negombo, Kandy, Nuwara Eliya", 
-       "9-Night Food & Culinary Tour Itinerary: Colombo, Negombo, Kandy, Nuwara Eliya, Galle", 
-       "13-Night Food & Culinary Tour Itinerary: Colombo, Negombo, Kandy, Nuwara Eliya, Ella, Galle ", 
+      "6-Night Food & Culinary Tour Itinerary: Colombo, Negombo, Kandy, Nuwara Eliya",
+      "9-Night Food & Culinary Tour Itinerary: Colombo, Negombo, Kandy, Nuwara Eliya, Galle",
+      "13-Night Food & Culinary Tour Itinerary: Colombo, Negombo, Kandy, Nuwara Eliya, Ella, Galle ",
     ],
     infotext: [
-     [
-       "Indulge in the rich and diverse flavors of Sri Lanka with our 6-night food and culinary tour. This itinerary is perfect for food enthusiasts looking to explore the island’s culinary heritage through cooking classes, market tours, and traditional dining experiences. "
+      [
+        "Indulge in the rich and diverse flavors of Sri Lanka with our 6-night food and culinary tour. This itinerary is perfect for food enthusiasts looking to explore the island’s culinary heritage through cooking classes, market tours, and traditional dining experiences. ",
       ],
-     [
-       "Delve deeper into Sri Lanka’s culinary heritage with our 9-night food and culinary tour. This extended itinerary offers a comprehensive exploration of the island’s diverse flavors, including hands-on cooking classes, market visits, and dining at top restaurants. "
+      [
+        "Delve deeper into Sri Lanka’s culinary heritage with our 9-night food and culinary tour. This extended itinerary offers a comprehensive exploration of the island’s diverse flavors, including hands-on cooking classes, market visits, and dining at top restaurants. ",
       ],
-     [
-       "Embark on the ultimate culinary journey through Sri Lanka with our 13-night food and culinary tour. This extensive itinerary covers a wide range of culinary experiences, including hands-on cooking classes, market visits, tea tastings, and dining at top restaurants, providing a deep dive into the island’s rich culinary traditions. "
+      [
+        "Embark on the ultimate culinary journey through Sri Lanka with our 13-night food and culinary tour. This extensive itinerary covers a wide range of culinary experiences, including hands-on cooking classes, market visits, tea tastings, and dining at top restaurants, providing a deep dive into the island’s rich culinary traditions. ",
       ],
     ],
     infoDeparture: " Bandaranaike International Airport ",
     infoDepartureTime: "9:15 AM To 9:30 AM.",
     infoReturTime: "Approximately 10:30 PM",
     infoPriceIncluded: [
-      ["Hotel accommodations", "All transportation in destination location", "Cooking classes ",", Market tours", "Tea plantation visit","All meals specified in the itinerary"],
-      ["Hotel accommodations", "All transportation in destination location", "Cooking classes ",", Market tours", "Tea plantation visit","All meals specified in the itinerary"],
-      ["Hotel accommodations", "All transportation in destination location", "Cooking classes ",", Market tours", "Tea plantation visit","All meals specified in the itinerary"],
-      
+      [
+        "Hotel accommodations",
+        "All transportation in destination location",
+        "Cooking classes ",
+        ", Market tours",
+        "Tea plantation visit",
+        "All meals specified in the itinerary",
+      ],
+      [
+        "Hotel accommodations",
+        "All transportation in destination location",
+        "Cooking classes ",
+        ", Market tours",
+        "Tea plantation visit",
+        "All meals specified in the itinerary",
+      ],
+      [
+        "Hotel accommodations",
+        "All transportation in destination location",
+        "Cooking classes ",
+        ", Market tours",
+        "Tea plantation visit",
+        "All meals specified in the itinerary",
+      ],
     ],
     infoNotPriceIncluded: [
       [
@@ -2319,27 +2382,25 @@ const travelPackages = [
     },
     TourPlantext: [
       [
-       " Arrival in Colombo ",
-       " Colombo to Negombo ",
-       "Negombo to Kandy ",
-       "Explore Kandy ",
-       "Kandy to Nuwara Eliya ",
-       " Explore Nuwara Eliya ",
-       "Departure from Colombo ",
-      
+        " Arrival in Colombo ",
+        " Colombo to Negombo ",
+        "Negombo to Kandy ",
+        "Explore Kandy ",
+        "Kandy to Nuwara Eliya ",
+        " Explore Nuwara Eliya ",
+        "Departure from Colombo ",
       ],
       [
-       " Arrival in Colombo ",
-       "Colombo to Negombo ",
-       "Explore Negombo ",
-       "Negombo to Kandy ",
-       " Explore Kandy ",
-       " Kandy to Nuwara Eliya ",
-       "Explore Nuwara Eliya ",
-       "Nuwara Eliya to Galle ",
-       "Explore Galle ",
-       "Departure from Colombo ",
-        
+        " Arrival in Colombo ",
+        "Colombo to Negombo ",
+        "Explore Negombo ",
+        "Negombo to Kandy ",
+        " Explore Kandy ",
+        " Kandy to Nuwara Eliya ",
+        "Explore Nuwara Eliya ",
+        "Nuwara Eliya to Galle ",
+        "Explore Galle ",
+        "Departure from Colombo ",
       ],
       [
         "Arrival Colombo",
@@ -2356,116 +2417,112 @@ const travelPackages = [
         "Leisure Day in Galle ",
         "Galle to Colombo ",
         "Departure from Colombo ",
-       
       ],
     ],
     TourText: [
       [
         [
-          "Arrive at Bandaranaike International Airport and transfer to Colombo. Check-in at a hotel. Spend the afternoon exploring Colombo’s vibrant street food scene, including Galle Face Green and Pettah Market. Enjoy a welcome dinner at a renowned Sri Lankan restaurant. "
+          "Arrive at Bandaranaike International Airport and transfer to Colombo. Check-in at a hotel. Spend the afternoon exploring Colombo’s vibrant street food scene, including Galle Face Green and Pettah Market. Enjoy a welcome dinner at a renowned Sri Lankan restaurant. ",
         ],
-      
+
         [
-          "Travel to Negombo and check-in at a hotel. Visit the Negombo Fish Market in the morning to see the local catch and learn about seafood in Sri Lankan cuisine. In the afternoon, participate in a cooking class focusing on seafood dishes. Enjoy a dinner featuring your creations. "
+          "Travel to Negombo and check-in at a hotel. Visit the Negombo Fish Market in the morning to see the local catch and learn about seafood in Sri Lankan cuisine. In the afternoon, participate in a cooking class focusing on seafood dishes. Enjoy a dinner featuring your creations. ",
         ],
-      
+
         [
-          "Travel to Kandy and check-in at a hotel. Visit the Kandy Market Hall to explore local produce and spices. In the evening, attend a traditional Kandyan cooking demonstration followed by a dinner featuring authentic Sri Lankan dishes. "
+          "Travel to Kandy and check-in at a hotel. Visit the Kandy Market Hall to explore local produce and spices. In the evening, attend a traditional Kandyan cooking demonstration followed by a dinner featuring authentic Sri Lankan dishes. ",
         ],
-      
+
         [
-          "Visit the Royal Botanical Gardens to learn about the spices and herbs used in Sri Lankan cuisine. In the afternoon, participate in a hands-on cooking class at a local home, learning to prepare a traditional Sri Lankan meal. Enjoy the meal with your host family. "
+          "Visit the Royal Botanical Gardens to learn about the spices and herbs used in Sri Lankan cuisine. In the afternoon, participate in a hands-on cooking class at a local home, learning to prepare a traditional Sri Lankan meal. Enjoy the meal with your host family. ",
         ],
-      
+
         [
-          "Travel to Nuwara Eliya and check-in at a hotel. Visit a tea plantation and factory to learn about the tea-making process and enjoy a tea tasting session. In the evening, dine at a colonial-style restaurant, savoring dishes made with fresh, local ingredients. "
+          "Travel to Nuwara Eliya and check-in at a hotel. Visit a tea plantation and factory to learn about the tea-making process and enjoy a tea tasting session. In the evening, dine at a colonial-style restaurant, savoring dishes made with fresh, local ingredients. ",
         ],
-      
+
         [
-          "Spend the day exploring the culinary delights of Nuwara Eliya. Visit local farms and markets to source ingredients for a farm-to-table cooking experience. Enjoy a farewell dinner featuring your farm-to-table creations. "
+          "Spend the day exploring the culinary delights of Nuwara Eliya. Visit local farms and markets to source ingredients for a farm-to-table cooking experience. Enjoy a farewell dinner featuring your farm-to-table creations. ",
         ],
         [
-          "Leisure time at the hotel before transferring to Colombo for last-minute shopping or sightseeing. Departure from Bandaranaike International Airport."
-        ]
+          "Leisure time at the hotel before transferring to Colombo for last-minute shopping or sightseeing. Departure from Bandaranaike International Airport.",
+        ],
       ],
       [
         [
-          "Arrive at Bandaranaike International Airport and transfer to Colombo. Check-in at a hotel. Spend the afternoon exploring Colombo’s vibrant street food scene, including Galle Face Green and Pettah Market. Enjoy a welcome dinner at a renowned Sri Lankan restaurant. "
+          "Arrive at Bandaranaike International Airport and transfer to Colombo. Check-in at a hotel. Spend the afternoon exploring Colombo’s vibrant street food scene, including Galle Face Green and Pettah Market. Enjoy a welcome dinner at a renowned Sri Lankan restaurant. ",
         ],
         [
-          "Travel to Negombo and check-in at a hotel. Visit the Negombo Fish Market in the morning to see the local catch and learn about seafood in Sri Lankan cuisine. In the afternoon, participate in a cooking class focusing on seafood dishes. Enjoy a dinner featuring your creations. "
+          "Travel to Negombo and check-in at a hotel. Visit the Negombo Fish Market in the morning to see the local catch and learn about seafood in Sri Lankan cuisine. In the afternoon, participate in a cooking class focusing on seafood dishes. Enjoy a dinner featuring your creations. ",
         ],
         [
-          "Spend the day visiting local farms and spice gardens to learn about the ingredients used in Sri Lankan cuisine. Participate in a spice-infused cooking class in the afternoon, followed by dinner. "
+          "Spend the day visiting local farms and spice gardens to learn about the ingredients used in Sri Lankan cuisine. Participate in a spice-infused cooking class in the afternoon, followed by dinner. ",
         ],
         [
-          " Travel to Kandy and check-in at a hotel. Visit the Kandy Market Hall to explore local produce and spices. In the evening, attend a traditional Kandyan cooking demonstration followed by a dinner featuring authentic Sri Lankan dishes."
+          " Travel to Kandy and check-in at a hotel. Visit the Kandy Market Hall to explore local produce and spices. In the evening, attend a traditional Kandyan cooking demonstration followed by a dinner featuring authentic Sri Lankan dishes.",
         ],
         [
-          "Visit the Royal Botanical Gardens to learn about the spices and herbs used in Sri Lankan cuisine. In the afternoon, participate in a hands-on cooking class at a local home, learning to prepare a traditional Sri Lankan meal. Enjoy the meal with your host family. "
+          "Visit the Royal Botanical Gardens to learn about the spices and herbs used in Sri Lankan cuisine. In the afternoon, participate in a hands-on cooking class at a local home, learning to prepare a traditional Sri Lankan meal. Enjoy the meal with your host family. ",
         ],
         [
-          "Travel to Nuwara Eliya and check-in at a hotel. Visit a tea plantation and factory to learn about the tea-making process and enjoy a tea tasting session. In the evening, dine at a colonial-style restaurant, savoring dishes made with fresh, local ingredients "
+          "Travel to Nuwara Eliya and check-in at a hotel. Visit a tea plantation and factory to learn about the tea-making process and enjoy a tea tasting session. In the evening, dine at a colonial-style restaurant, savoring dishes made with fresh, local ingredients ",
         ],
         [
-          "Spend the day exploring the culinary delights of Nuwara Eliya. Visit local farms and markets to source ingredients for a farm-to-table cooking experience. Enjoy a farewell dinner featuring your farm-to-table creations "
+          "Spend the day exploring the culinary delights of Nuwara Eliya. Visit local farms and markets to source ingredients for a farm-to-table cooking experience. Enjoy a farewell dinner featuring your farm-to-table creations ",
         ],
         [
-          "Travel to Galle and check-in at a hotel. Explore the Galle Fort area, sampling local street food and visiting spice shops. Enjoy a seafood dinner at a renowned restaurant in the evening. "
+          "Travel to Galle and check-in at a hotel. Explore the Galle Fort area, sampling local street food and visiting spice shops. Enjoy a seafood dinner at a renowned restaurant in the evening. ",
         ],
         [
-          "Visit a local cooking school for a comprehensive cooking class, covering various aspects of Sri Lankan cuisine. Spend the afternoon exploring local markets and shops. Enjoy a farewell dinner featuring traditional Sri Lankan dishes. "
+          "Visit a local cooking school for a comprehensive cooking class, covering various aspects of Sri Lankan cuisine. Spend the afternoon exploring local markets and shops. Enjoy a farewell dinner featuring traditional Sri Lankan dishes. ",
         ],
         [
-          "Leisure time at the hotel before transferring to Colombo for last-minute shopping or sightseeing. Departure from Bandaranaike International Airport. "
+          "Leisure time at the hotel before transferring to Colombo for last-minute shopping or sightseeing. Departure from Bandaranaike International Airport. ",
         ],
-    
-       
       ],
       [
         [
-          "Arrive at Bandaranaike International Airport and transfer to Colombo. Check-in at a hotel. Spend the afternoon exploring Colombo’s vibrant street food scene, including Galle Face Green and Pettah Market. Enjoy a welcome dinner at a renowned Sri Lankan restaurant. "
+          "Arrive at Bandaranaike International Airport and transfer to Colombo. Check-in at a hotel. Spend the afternoon exploring Colombo’s vibrant street food scene, including Galle Face Green and Pettah Market. Enjoy a welcome dinner at a renowned Sri Lankan restaurant. ",
         ],
         [
-          "Travel to Negombo and check-in at a hotel. Visit the Negombo Fish Market in the morning to see the local catch and learn about seafood in Sri Lankan cuisine. In the afternoon, participate in a cooking class focusing on seafood dishes. Enjoy a dinner featuring your creations. "
+          "Travel to Negombo and check-in at a hotel. Visit the Negombo Fish Market in the morning to see the local catch and learn about seafood in Sri Lankan cuisine. In the afternoon, participate in a cooking class focusing on seafood dishes. Enjoy a dinner featuring your creations. ",
         ],
         [
-          "Spend the day visiting local farms and spice gardens to learn about the ingredients used in Sri Lankan cuisine. Participate in a spice-infused cooking class in the afternoon, followed by dinner. "
+          "Spend the day visiting local farms and spice gardens to learn about the ingredients used in Sri Lankan cuisine. Participate in a spice-infused cooking class in the afternoon, followed by dinner. ",
         ],
         [
-          "Travel to Kandy and check-in at a hotel. Visit the Kandy Market Hall to explore local produce and spices. In the evening, attend a traditional Kandyan cooking demonstration followed by a dinner featuring authentic Sri Lankan dishes. "
+          "Travel to Kandy and check-in at a hotel. Visit the Kandy Market Hall to explore local produce and spices. In the evening, attend a traditional Kandyan cooking demonstration followed by a dinner featuring authentic Sri Lankan dishes. ",
         ],
         [
-          "Visit the Royal Botanical Gardens to learn about the spices and herbs used in Sri Lankan cuisine. In the afternoon, participate in a hands-on cooking class at a local home, learning to prepare a traditional Sri Lankan meal. Enjoy the meal with your host family. "
+          "Visit the Royal Botanical Gardens to learn about the spices and herbs used in Sri Lankan cuisine. In the afternoon, participate in a hands-on cooking class at a local home, learning to prepare a traditional Sri Lankan meal. Enjoy the meal with your host family. ",
         ],
         [
-          "Travel to Nuwara Eliya and check-in at a hotel. Visit a tea plantation and factory to learn about the tea-making process and enjoy a tea tasting session. In the evening, dine at a colonial-style restaurant, savoring dishes made with fresh, local ingredients. "
+          "Travel to Nuwara Eliya and check-in at a hotel. Visit a tea plantation and factory to learn about the tea-making process and enjoy a tea tasting session. In the evening, dine at a colonial-style restaurant, savoring dishes made with fresh, local ingredients. ",
         ],
         [
-          "Spend the day exploring the culinary delights of Nuwara Eliya. Visit local farms and markets to source ingredients for a farm-to-table cooking experience. Enjoy a farewell dinner featuring your farm-to-table creations. "
+          "Spend the day exploring the culinary delights of Nuwara Eliya. Visit local farms and markets to source ingredients for a farm-to-table cooking experience. Enjoy a farewell dinner featuring your farm-to-table creations. ",
         ],
         [
-          "Travel to Ella and check-in at a boutique hotel. Spend the afternoon exploring Ella’s scenic beauty and local cafes. Enjoy dinner at a local restaurant featuring organic and locally sourced ingredients. "
+          "Travel to Ella and check-in at a boutique hotel. Spend the afternoon exploring Ella’s scenic beauty and local cafes. Enjoy dinner at a local restaurant featuring organic and locally sourced ingredients. ",
         ],
         [
-          "Take a morning hike to Little Adam’s Peak, followed by a visit to a local tea plantation. Participate in an afternoon cooking class focusing on traditional Sri Lankan dishes. Enjoy dinner with your host family. "
+          "Take a morning hike to Little Adam’s Peak, followed by a visit to a local tea plantation. Participate in an afternoon cooking class focusing on traditional Sri Lankan dishes. Enjoy dinner with your host family. ",
         ],
         [
-          "Travel to Galle and check-in at a hotel. Explore the Galle Fort area, sampling local street food and visiting spice shops. Enjoy a seafood dinner at a renowned restaurant in the evening. "
+          "Travel to Galle and check-in at a hotel. Explore the Galle Fort area, sampling local street food and visiting spice shops. Enjoy a seafood dinner at a renowned restaurant in the evening. ",
         ],
         [
-          "Visit a local cooking school for a comprehensive cooking class, covering various aspects of Sri Lankan cuisine. Spend the afternoon exploring local markets and shops. Enjoy a farewell dinner featuring traditional Sri Lankan dishes. "
+          "Visit a local cooking school for a comprehensive cooking class, covering various aspects of Sri Lankan cuisine. Spend the afternoon exploring local markets and shops. Enjoy a farewell dinner featuring traditional Sri Lankan dishes. ",
         ],
         [
-          "Spend the day at leisure, enjoying the beach or exploring more of Galle’s culinary offerings. Consider a visit to a nearby turtle hatchery or spice garden. Enjoy a relaxed dinner at a local restaurant. "
+          "Spend the day at leisure, enjoying the beach or exploring more of Galle’s culinary offerings. Consider a visit to a nearby turtle hatchery or spice garden. Enjoy a relaxed dinner at a local restaurant. ",
         ],
         [
-          "Travel back to Colombo and check-in at a hotel. Spend the afternoon visiting local food markets and shops for last-minute culinary gifts and souvenirs. Enjoy a final farewell dinner at a top Colombo restaurant."
+          "Travel back to Colombo and check-in at a hotel. Spend the afternoon visiting local food markets and shops for last-minute culinary gifts and souvenirs. Enjoy a final farewell dinner at a top Colombo restaurant.",
         ],
         [
-          "Leisure time at the hotel before transferring to Bandaranaike International Airport for departure."
-        ]
-    
+          "Leisure time at the hotel before transferring to Bandaranaike International Airport for departure.",
+        ],
       ],
     ],
     GalleryImages: [
@@ -2479,10 +2536,6 @@ const travelPackages = [
     ],
     RewProfile: ["/Tourpackage/rew/1.jpeg"],
   },
-
-  
-
-
 
   // Add more packages as needed
 ];
@@ -2576,8 +2629,7 @@ const PackageDetails = () => {
 
       <section className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-4 lg:gap-8">
-    
-          <div className="shadow-lg   md:col-span-8">
+          <div className="shadow-lg p-4 md:p-8  md:col-span-8">
             <nav className="w-full mb-5 md:mb-16  grid grid-cols-2 md:grid-cols-3 text-[13px] lg:text-[16px] xl:text-[18px] justify-between ">
               <button
                 className={`flex justify-center border-2 border-gray-300 h-12  py-2 ${
@@ -2589,7 +2641,6 @@ const PackageDetails = () => {
                 onMouseLeave={handleMouseLeave}
                 onClick={() => handleSubTabClick("package1")}
               >
-                
                 6-Night Itinerary
               </button>
               <button
@@ -2602,7 +2653,6 @@ const PackageDetails = () => {
                 onMouseLeave={handleMouseLeave}
                 onClick={() => handleSubTabClick("package2")}
               >
-                
                 9-Night Itinerary
               </button>
               <button
@@ -2615,8 +2665,7 @@ const PackageDetails = () => {
                 onMouseLeave={handleMouseLeave}
                 onClick={() => handleSubTabClick("package3")}
               >
-             
-             13-Night Itinerary
+                13-Night Itinerary
               </button>
             </nav>
 
@@ -2813,7 +2862,9 @@ const PackageDetails = () => {
 
                 {activeTab === "information" && (
                   <div className="container mx-auto  md:p-8">
-                    <h1 className={`text-2xl font-bold mb-4 ${packageDetails.descriptionhid}`}>
+                    <h1
+                      className={`text-2xl font-bold mb-4 ${packageDetails.descriptionhid}`}
+                    >
                       {packageDetails.description}
                     </h1>
                     <div className="bg-gray-100 p-2 w-2/3 rounded-xl mb-6">
@@ -2967,12 +3018,14 @@ const PackageDetails = () => {
                         (image: string, index: any) => (
                           <div
                             key={index}
-                            className=" xl:h-[216px] md:h-[80px] h-full w-full overflow-hidden rounded-lg"
+                            className=" xl:h-[216px] md:h-[80px] h-full w-full overflow-hidden rounded-lg relative"
                           >
-                            <img
+                            <Image
                               src={image}
                               alt="Image 1"
                               className="w-full h-full"
+                              layout="fill"
+                              objectFit="cover"
                             />
                           </div>
                         )
@@ -3006,11 +3059,11 @@ const PackageDetails = () => {
                             <button className="text-white bg-sinopia px-3 rounded-md py-1">
                               {index + 1}
                             </button>
-                            
+
                             <h1 className={`${packageDetails.hiddenText}`}>
                               Day <span className="mr-1">{index + 1}</span>:
                             </h1>
-                            
+
                             <h1>{planText}</h1>
                           </div>
 
@@ -3080,35 +3133,66 @@ const PackageDetails = () => {
 
                 {activeTab === "pricing" && (
                   <div>
-                    <h2 className="text-xl md:text-3xl">
+                    <h2 className="text-xl my-5 md:my-10 md:text-3xl">
                       Make your own memories
                     </h2>
 
                     <div className="gallery grid grid-cols-1 md:grid-cols-12 gap-4">
-                      <div className="md:col-span-7 rounded-lg h-[220px] w-full overflow-hidden">
-                        <img
-                          className=""
+                      <div className="md:col-span-7 rounded-lg h-[220px] w-full overflow-hidden relative">
+                        <Image
                           src={packageDetails.GalleryImages[0]}
-                          alt=""
+                          alt="Gallery Image 1"
+                          layout="fill"
+                          objectFit="cover"
                         />
                       </div>
-                      <div className="md:col-span-5 rounded-lg h-[220px] overflow-hidden">
-                        <img src={packageDetails.GalleryImages[1]} alt="" />
+                      <div className="md:col-span-5 rounded-lg h-[220px] overflow-hidden relative">
+                        <Image
+                          src={packageDetails.GalleryImages[1]}
+                          alt="Gallery Image 2"
+                          layout="fill"
+                          objectFit="cover"
+                        />
                       </div>
-                      <div className="md:col-span-5 rounded-lg h-[220px] overflow-hidden">
-                        <img src={packageDetails.GalleryImages[2]} alt="" />
+                      <div className="md:col-span-5 rounded-lg h-[220px] overflow-hidden relative">
+                        <Image
+                          src={packageDetails.GalleryImages[2]}
+                          alt="Gallery Image 3"
+                          layout="fill"
+                          objectFit="cover"
+                        />
                       </div>
-                      <div className="md:col-span-7 rounded-lg h-[220px] overflow-hidden">
-                        <img src={packageDetails.GalleryImages[3]} alt="" />
+                      <div className="md:col-span-7 rounded-lg h-[220px] overflow-hidden relative">
+                        <Image
+                          src={packageDetails.GalleryImages[3]}
+                          alt="Gallery Image 4"
+                          layout="fill"
+                          objectFit="cover"
+                        />
                       </div>
-                      <div className="md:col-span-4 rounded-lg h-[220px] overflow-hidden">
-                        <img src={packageDetails.GalleryImages[4]} alt="" />
+                      <div className="md:col-span-4 rounded-lg h-[220px] overflow-hidden relative">
+                        <Image
+                          src={packageDetails.GalleryImages[4]}
+                          alt="Gallery Image 5"
+                          layout="fill"
+                          objectFit="cover"
+                        />
                       </div>
-                      <div className="md:col-span-4 rounded-lg h-[220px] overflow-hidden">
-                        <img src={packageDetails.GalleryImages[5]} alt="" />
+                      <div className="md:col-span-4 rounded-lg h-[220px] overflow-hidden relative">
+                        <Image
+                          src={packageDetails.GalleryImages[5]}
+                          alt="Gallery Image 6"
+                          layout="fill"
+                          objectFit="cover"
+                        />
                       </div>
-                      <div className="md:col-span-4 rounded-lg h-[220px] overflow-hidden">
-                        <img src={packageDetails.GalleryImages[6]} alt="" />
+                      <div className="md:col-span-4 rounded-lg h-[220px] overflow-hidden relative">
+                        <Image
+                          src={packageDetails.GalleryImages[6]}
+                          alt="Gallery Image 7"
+                          layout="fill"
+                          objectFit="cover"
+                        />
                       </div>
                     </div>
                   </div>
@@ -3371,7 +3455,9 @@ const PackageDetails = () => {
 
                 {activeTab === "information" && (
                   <div className="container mx-auto  md:p-8">
-                      <h1 className={`text-2xl font-bold mb-4 ${packageDetails.descriptionhid}`}>
+                    <h1
+                      className={`text-2xl font-bold mb-4 ${packageDetails.descriptionhid}`}
+                    >
                       {packageDetails.description}
                     </h1>
                     <div className="bg-gray-100 p-2 w-2/3 rounded-xl mb-6">
@@ -3525,12 +3611,14 @@ const PackageDetails = () => {
                         (image: string, index: any) => (
                           <div
                             key={index}
-                            className=" xl:h-[216px] md:h-[80px] h-full w-full overflow-hidden rounded-lg"
+                            className=" xl:h-[216px] md:h-[80px] h-full w-full overflow-hidden rounded-lg relative"
                           >
-                            <img
+                            <Image
                               src={image}
                               alt="Image 1"
                               className="w-full h-full"
+                              layout="fill"
+                              objectFit="cover"
                             />
                           </div>
                         )
@@ -3636,35 +3724,65 @@ const PackageDetails = () => {
 
                 {activeTab === "pricing" && (
                   <div>
-                    <h2 className="text-xl md:text-3xl">
+                    <h2 className="text-xl my-5 md:my-10 md:text-3xl">
                       Make your own memories
                     </h2>
-
                     <div className="gallery grid grid-cols-1 md:grid-cols-12 gap-4">
-                      <div className="md:col-span-7 rounded-lg h-[220px] w-full overflow-hidden">
-                        <img
-                          className=""
+                      <div className="md:col-span-7 rounded-lg h-[220px] w-full overflow-hidden relative">
+                        <Image
                           src={packageDetails.GalleryImages[0]}
-                          alt=""
+                          alt="Gallery Image 1"
+                          layout="fill"
+                          objectFit="cover"
                         />
                       </div>
-                      <div className="md:col-span-5 rounded-lg h-[220px] overflow-hidden">
-                        <img src={packageDetails.GalleryImages[1]} alt="" />
+                      <div className="md:col-span-5 rounded-lg h-[220px] overflow-hidden relative">
+                        <Image
+                          src={packageDetails.GalleryImages[1]}
+                          alt="Gallery Image 2"
+                          layout="fill"
+                          objectFit="cover"
+                        />
                       </div>
-                      <div className="md:col-span-5 rounded-lg h-[220px] overflow-hidden">
-                        <img src={packageDetails.GalleryImages[2]} alt="" />
+                      <div className="md:col-span-5 rounded-lg h-[220px] overflow-hidden relative">
+                        <Image
+                          src={packageDetails.GalleryImages[2]}
+                          alt="Gallery Image 3"
+                          layout="fill"
+                          objectFit="cover"
+                        />
                       </div>
-                      <div className="md:col-span-7 rounded-lg h-[220px] overflow-hidden">
-                        <img src={packageDetails.GalleryImages[3]} alt="" />
+                      <div className="md:col-span-7 rounded-lg h-[220px] overflow-hidden relative">
+                        <Image
+                          src={packageDetails.GalleryImages[3]}
+                          alt="Gallery Image 4"
+                          layout="fill"
+                          objectFit="cover"
+                        />
                       </div>
-                      <div className="md:col-span-4 rounded-lg h-[220px] overflow-hidden">
-                        <img src={packageDetails.GalleryImages[4]} alt="" />
+                      <div className="md:col-span-4 rounded-lg h-[220px] overflow-hidden relative">
+                        <Image
+                          src={packageDetails.GalleryImages[4]}
+                          alt="Gallery Image 5"
+                          layout="fill"
+                          objectFit="cover"
+                        />
                       </div>
-                      <div className="md:col-span-4 rounded-lg h-[220px] overflow-hidden">
-                        <img src={packageDetails.GalleryImages[5]} alt="" />
+                      <div className="md:col-span-4 rounded-lg h-[220px] overflow-hidden relative">
+                        <Image
+                          src={packageDetails.GalleryImages[5]}
+                          alt="Gallery Image 6"
+                          layout="fill"
+                          objectFit="cover"
+                        />
                       </div>
-                      <div className="md:col-span-4 rounded-lg h-[220px] overflow-hidden">
-                        <img src={packageDetails.GalleryImages[6]} alt="" />
+                      <div className="md:col-span-4 rounded-lg h-[220px] overflow-hidden relative">
+                        <Image
+                          src={packageDetails.GalleryImages[6]}
+                          alt="Gallery Image 7"
+                          layout="fill"
+                          objectFit="cover"
+                        />
                       </div>
                     </div>
                   </div>
@@ -3927,7 +4045,9 @@ const PackageDetails = () => {
 
                 {activeTab === "information" && (
                   <div className="container mx-auto  md:p-8">
-                      <h1 className={`text-2xl font-bold mb-4 ${packageDetails.descriptionhid}`}>
+                    <h1
+                      className={`text-2xl font-bold mb-4 ${packageDetails.descriptionhid}`}
+                    >
                       {packageDetails.description}
                     </h1>
                     <div className="bg-gray-100 p-2 w-2/3 rounded-xl mb-6">
@@ -4081,12 +4201,14 @@ const PackageDetails = () => {
                         (image: string, index: any) => (
                           <div
                             key={index}
-                            className=" xl:h-[216px] md:h-[80px] h-full w-full overflow-hidden rounded-lg"
+                            className=" xl:h-[216px] md:h-[80px] h-full w-full overflow-hidden rounded-lg relative"
                           >
-                            <img
+                            <Image
                               src={image}
                               alt="Image 1"
                               className="w-full h-full"
+                              layout="fill"
+                              objectFit="cover"
                             />
                           </div>
                         )
@@ -4192,35 +4314,66 @@ const PackageDetails = () => {
 
                 {activeTab === "pricing" && (
                   <div>
-                    <h2 className="text-xl md:text-3xl">
+                    <h2 className="text-xl my-5 md:my-10 md:text-3xl">
                       Make your own memories
                     </h2>
 
                     <div className="gallery grid grid-cols-1 md:grid-cols-12 gap-4">
-                      <div className="md:col-span-7 rounded-lg h-[220px] w-full overflow-hidden">
-                        <img
-                          className=""
+                      <div className="md:col-span-7 rounded-lg h-[220px] w-full overflow-hidden relative">
+                        <Image
                           src={packageDetails.GalleryImages[0]}
-                          alt=""
+                          alt="Gallery Image 1"
+                          layout="fill"
+                          objectFit="cover"
                         />
                       </div>
-                      <div className="md:col-span-5 rounded-lg h-[220px] overflow-hidden">
-                        <img src={packageDetails.GalleryImages[1]} alt="" />
+                      <div className="md:col-span-5 rounded-lg h-[220px] overflow-hidden relative">
+                        <Image
+                          src={packageDetails.GalleryImages[1]}
+                          alt="Gallery Image 2"
+                          layout="fill"
+                          objectFit="cover"
+                        />
                       </div>
-                      <div className="md:col-span-5 rounded-lg h-[220px] overflow-hidden">
-                        <img src={packageDetails.GalleryImages[2]} alt="" />
+                      <div className="md:col-span-5 rounded-lg h-[220px] overflow-hidden relative">
+                        <Image
+                          src={packageDetails.GalleryImages[2]}
+                          alt="Gallery Image 3"
+                          layout="fill"
+                          objectFit="cover"
+                        />
                       </div>
-                      <div className="md:col-span-7 rounded-lg h-[220px] overflow-hidden">
-                        <img src={packageDetails.GalleryImages[3]} alt="" />
+                      <div className="md:col-span-7 rounded-lg h-[220px] overflow-hidden relative">
+                        <Image
+                          src={packageDetails.GalleryImages[3]}
+                          alt="Gallery Image 4"
+                          layout="fill"
+                          objectFit="cover"
+                        />
                       </div>
-                      <div className="md:col-span-4 rounded-lg h-[220px] overflow-hidden">
-                        <img src={packageDetails.GalleryImages[4]} alt="" />
+                      <div className="md:col-span-4 rounded-lg h-[220px] overflow-hidden relative">
+                        <Image
+                          src={packageDetails.GalleryImages[4]}
+                          alt="Gallery Image 5"
+                          layout="fill"
+                          objectFit="cover"
+                        />
                       </div>
-                      <div className="md:col-span-4 rounded-lg h-[220px] overflow-hidden">
-                        <img src={packageDetails.GalleryImages[5]} alt="" />
+                      <div className="md:col-span-4 rounded-lg h-[220px] overflow-hidden relative">
+                        <Image
+                          src={packageDetails.GalleryImages[5]}
+                          alt="Gallery Image 6"
+                          layout="fill"
+                          objectFit="cover"
+                        />
                       </div>
-                      <div className="md:col-span-4 rounded-lg h-[220px] overflow-hidden">
-                        <img src={packageDetails.GalleryImages[6]} alt="" />
+                      <div className="md:col-span-4 rounded-lg h-[220px] overflow-hidden relative">
+                        <Image
+                          src={packageDetails.GalleryImages[6]}
+                          alt="Gallery Image 7"
+                          layout="fill"
+                          objectFit="cover"
+                        />
                       </div>
                     </div>
                   </div>
@@ -4291,7 +4444,7 @@ const PackageDetails = () => {
               </div>
             )}
           </div>
-          
+
           <div className="space-y-8  md:mt-[-200px] z-20  md:col-span-4">
             <Card className="">
               <h2 className="text-center text-xl font-normal text-[#006362]">
