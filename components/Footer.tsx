@@ -96,7 +96,7 @@ const Footer: React.FC = () => {
               Kotte,10250
             </h5>
             <h5 className="text-white text-[14px] md:text-[14px] ">
-              Phone: 077721466 / 0777417737
+              Phone: 0768725950 / 0766486968
             </h5>
             <a href="mailto:taproscapes@gmail.com">
               <h5 className="text-white text-[14px] md:text-[14px] ">

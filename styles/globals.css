@@ -38,3 +38,13 @@ p{
   }
   
 }
+
+.sd{
+  font-size: 10px;
+}
+
+@media screen and (min-width: 600px) {
+  .sd{
+    font-size: 18px;}
+}
+

@@ -73,7 +73,7 @@ const DestinationDetail: NextPage<DestinationDetailProps> = ({
       </section>
 
       <section>
-        <div className=" mx-auto grid max-w-7xl grid-cols-1 md:grid-cols-12 gap-8">
+        <div className="  grid max-w-7xl grid-cols-1 md:grid-cols-12 gap-4 md:gap-8">
           <div className="grid col-span-1 md:col-span-7 lg:col-span-8 ">
             <Card className="p-8 bg-white shadow-xl ">
             <div className="flex text-2xl md:text-3xl lg:text-3xl xl:text-4xl ">
@@ -125,8 +125,8 @@ const DestinationDetail: NextPage<DestinationDetailProps> = ({
             </Card>
           </div>
           <div className="grid col-span-1 md:col-span-5 lg:col-span-4">
-            <div className="bg-white  outline-gray-200 md:mt-[-200px]  z-20 mb-10 text-center"> 
-            <Card className=" bg-white shadow-xl outline outline-offset-4 outline-gray-200 md:mt-[-50px] max-h-[500px] z-20 mb-10 text-center">
+            <div className="bg-white  mt-0 md:outline-gray-200 md:mt-[-200px]  md:z-20 mb-10 text-center"> 
+            <Card className=" bg-white shadow-xl outline md:outline-offset-4 outline-gray-200 md:mt-[-50px] md:max-h-[500px] z-20 mb-10 text-center">
               <h1 className="text-oxfordBlue text-xl uppercase md:text-4xl ">
                 About author
               </h1>
@@ -143,7 +143,7 @@ const DestinationDetail: NextPage<DestinationDetailProps> = ({
               <h2 className="text-2xl font-bold mb-2">{authorName}</h2>
               <p className="">{authorText}</p>
             </Card>
-            <Card className="p-8 bg-white shadow-xl">
+            <Card className="md:p-8 bg-white shadow-xl">
               <h1 className="text-oxfordBlue uppercase text-xl md:text-4xl  ">
                 Tour Packeges
               </h1>
