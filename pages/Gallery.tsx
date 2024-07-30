@@ -2,6 +2,7 @@
 import Navbar from "@/components/Navbar";
 import React, { useState } from "react";
 import Footer from "@/components/Footer";
+import Image from "next/image";
 
 export default function Gallery() {
   const [activeTab, setActiveTab] = useState("information");
@@ -164,163 +165,250 @@ export default function Gallery() {
                 />
               </div>
               <div className="grid grid-cols-1 mt-12 gap-4 md:grid-cols-2">
-                <div className="h-[440px] rounded-xl overflow-hidden">
-                  <img className="w-full h-full" src="/GalleryPage/1.png" />
+                <div className="h-[440px] rounded-xl overflow-hidden relative">
+                  <Image
+                    src="/GalleryPage/1.png"
+                    alt="Gallery Image 1"
+                    layout="fill"
+                    objectFit="cover"
+                  />
                 </div>
-                <div className="h-[440px] rounded-xl overflow-hidden">
-                  <img className="w-full h-full" src="/GalleryPage/2.png" />
+                <div className="h-[440px] rounded-xl overflow-hidden relative">
+                  <Image
+                    src="/GalleryPage/2.png"
+                    alt="Gallery Image 2"
+                    layout="fill"
+                    objectFit="cover"
+                  />
                 </div>
               </div>
               <div className="grid grid-cols-1 mt-4 gap-4 md:grid-cols-12">
-                <div className="h-[215px] rounded-xl col-span-3 overflow-hidden">
-                  <img className="w-full h-full" src="/GalleryPage/3.png" />
+                <div className="h-[215px] rounded-xl col-span-3 overflow-hidden relative">
+                  <Image
+                    src="/GalleryPage/3.png"
+                    alt="Gallery Image 3"
+                    layout="fill"
+                    objectFit="cover"
+                  />
                 </div>
-                <div className="h-[215px] rounded-xl col-span-3 overflow-hidden">
-                  <img className="w-full h-full" src="/GalleryPage/4.png" />
+                <div className="h-[215px] rounded-xl col-span-3 overflow-hidden relative">
+                  <Image
+                    src="/GalleryPage/4.png"
+                    alt="Gallery Image 4"
+                    layout="fill"
+                    objectFit="cover"
+                  />
                 </div>
-                <div className="h-[215px] rounded-xl col-span-3 overflow-hidden">
-                  <img className="w-full h-full" src="/GalleryPage/5.png" />
+                <div className="h-[215px] rounded-xl col-span-3 overflow-hidden relative">
+                  <Image
+                    src="/GalleryPage/5.png"
+                    alt="Gallery Image 5"
+                    layout="fill"
+                    objectFit="cover"
+                  />
                 </div>
-
-                <div className="h-[215px] rounded-xl col-span-3 overflow-hidden">
-                  <img className="w-full h-full" src="/GalleryPage/6.png" />
+                <div className="h-[215px] rounded-xl col-span-3 overflow-hidden relative">
+                  <Image
+                    src="/GalleryPage/6.png"
+                    alt="Gallery Image 6"
+                    layout="fill"
+                    objectFit="cover"
+                  />
                 </div>
-                <div className="h-[215px] rounded-xl col-span-3 overflow-hidden">
-                  <img className="w-full h-full" src="/GalleryPage/7.png" />
+                <div className="h-[215px] rounded-xl col-span-3 overflow-hidden relative">
+                  <Image
+                    src="/GalleryPage/7.png"
+                    alt="Gallery Image 7"
+                    layout="fill"
+                    objectFit="cover"
+                  />
                 </div>
-                <div className="h-[215px] rounded-xl col-span-3 overflow-hidden">
-                  <img className="w-full h-full" src="/GalleryPage/8.png" />
+                <div className="h-[215px] rounded-xl col-span-3 overflow-hidden relative">
+                  <Image
+                    src="/GalleryPage/8.png"
+                    alt="Gallery Image 8"
+                    layout="fill"
+                    objectFit="cover"
+                  />
                 </div>
-                <div className="h-[215px] rounded-xl col-span-3 overflow-hidden">
-                  <img className="w-full h-full" src="/GalleryPage/9.png" />
+                <div className="h-[215px] rounded-xl col-span-3 overflow-hidden relative">
+                  <Image
+                    src="/GalleryPage/9.png"
+                    alt="Gallery Image 9"
+                    layout="fill"
+                    objectFit="cover"
+                  />
                 </div>
-                <div className="h-[215px] rounded-xl col-span-3 overflow-hidden">
-                  <img className="w-full h-full" src="/GalleryPage/10.png" />
+                <div className="h-[215px] rounded-xl col-span-3 overflow-hidden relative">
+                  <Image
+                    src="/GalleryPage/10.png"
+                    alt="Gallery Image 10"
+                    layout="fill"
+                    objectFit="cover"
+                  />
                 </div>
               </div>
               <div className="mx-auto mt-16">
                 <h1 className="text-xl md:text-3xl">Cultural Experiences</h1>
-                <img
-                  className="justify-start flex max-w-[200px] overflow-hidden md:ml-[-8px]"
-                  src="/undeline.svg"
-                  alt=""
-                />
-              </div>
-              <div className="grid  grid-cols-1 mt-12 gap-4 md:grid-cols-12">
-                <div className="xl:h-[215px] h-[165px] md:col-span-3 rounded-xl overflow-hidden">
+                <div className="relative max-w-[200px] overflow-hidden md:ml-[-8px]">
                   <img
-                    className="w-full h-full"
+                    src="/undeline.svg"
+                    alt="Underline"
+                    
+                  />
+                </div>
+              </div>
+              <div className="grid grid-cols-1 mt-12 gap-4 md:grid-cols-12">
+                <div className="xl:h-[215px] h-[165px] md:col-span-3 rounded-xl overflow-hidden relative">
+                  <Image
                     src="/GalleryPage/culture/1.jpg"
+                    alt="Culture Image 1"
+                    layout="fill"
+                    objectFit="cover"
                   />
                 </div>
-                <div className="xl:h-[335px] h-[285px] md:col-span-6 rounded-xl overflow-hidden">
-                  <img
-                    className="w-full h-full"
+                <div className="xl:h-[335px] h-[285px] md:col-span-6 rounded-xl overflow-hidden relative">
+                  <Image
                     src="/GalleryPage/culture/2.jpg"
+                    alt="Culture Image 2"
+                    layout="fill"
+                    objectFit="cover"
                   />
                 </div>
-                <div className="xl:h-[403px] h-[353px] md:col-span-3 rounded-xl overflow-hidden">
-                  <img
-                    className="w-full h-full"
+                <div className="xl:h-[403px] h-[353px] md:col-span-3 rounded-xl overflow-hidden relative">
+                  <Image
                     src="/GalleryPage/culture/d1.jpg"
+                    alt="Culture Image 3"
+                    layout="fill"
+                    objectFit="cover"
                   />
                 </div>
-
-                <div className="xl:h-[403px] h-[353px] md:mt-[-188px] overflow-hidden rounded-xl md:col-span-3 ">
-                  <img
-                    className="w-full h-full"
+                <div className="xl:h-[403px] h-[353px] md:mt-[-188px] overflow-hidden rounded-xl md:col-span-3 relative">
+                  <Image
                     src="/GalleryPage/culture/e2.gif"
+                    alt="Culture Image 4"
+                    layout="fill"
+                    objectFit="cover"
                   />
                 </div>
-                <div className="xl:h-[283px] h-[233px] md:-mt-[68px] rounded-xl md:col-span-2 overflow-hidden">
-                  <img
-                    className="w-full h-full"
+                <div className="xl:h-[283px] h-[233px] md:-mt-[68px] rounded-xl md:col-span-2 overflow-hidden relative">
+                  <Image
                     src="/GalleryPage/culture/d2.gif"
+                    alt="Culture Image 5"
+                    layout="fill"
+                    objectFit="cover"
                   />
                 </div>
-                <div className="xl:h-[283px] h-[233px] md:-mt-[68px] rounded-xl md:col-span-4 overflow-hidden">
-                  <img
-                    className="w-full h-full"
+                <div className="xl:h-[283px] h-[233px] md:-mt-[68px] rounded-xl md:col-span-4 overflow-hidden relative">
+                  <Image
                     src="/GalleryPage/culture/6.png"
+                    alt="Culture Image 6"
+                    layout="fill"
+                    objectFit="cover"
                   />
                 </div>
-
-                <div className="xl:h-[215px] h-[165px] rounded-xl md:col-span-3 overflow-hidden">
-                  <img
-                    className="w-full h-full"
+                <div className="xl:h-[215px] h-[165px] rounded-xl md:col-span-3 overflow-hidden relative">
+                  <Image
                     src="/GalleryPage/culture/7.jpeg"
+                    alt="Culture Image 7"
+                    layout="fill"
+                    objectFit="cover"
                   />
                 </div>
               </div>
-
               <div className="mx-auto mt-16">
                 <h1 className="text-xl text-black md:text-3xl">wildlife</h1>
-                <img
-                  className="justify-start flex max-w-[200px] overflow-hidden md:ml-[-8px]"
-                  src="/undeline.svg"
-                  alt=""
-                />
-              </div>
-              <div className="grid grid-cols-1 mt-12 gap-4 md:grid-cols-2">
-                <div className="h-[440px] rounded-xl overflow-hidden">
-                  <img
-                    className="w-full h-full"
-                    src="/GalleryPage/wild/1.jpeg"
+                <div className="relative max-w-[200px] overflow-hidden md:ml-[-8px]">
+                  <Image
+                    src="/undeline.svg"
+                    alt="Underline"
+                    width={200}
+                    height={10}
                   />
                 </div>
-                <div className="h-[440px] rounded-xl overflow-hidden">
-                  <img
-                    className="w-full brightness-75 h-full"
+              </div>
+              <div className="grid grid-cols-1 mt-12 gap-4 md:grid-cols-2">
+                <div className="h-[440px] rounded-xl overflow-hidden relative">
+                  <Image
+                    src="/GalleryPage/wild/1.jpeg"
+                    alt="Wildlife Image 1"
+                    layout="fill"
+                    objectFit="cover"
+                  />
+                </div>
+                <div className="h-[440px] rounded-xl overflow-hidden relative">
+                  <Image
                     src="/GalleryPage/wild/l1.jpg"
+                    alt="Wildlife Image 2"
+                    layout="fill"
+                    objectFit="cover"
                   />
                 </div>
               </div>
               <div className="grid grid-cols-1 mt-4 gap-4 md:grid-cols-12">
-                <div className="h-[215px] rounded-xl col-span-3 overflow-hidden">
-                  <img
-                    className="w-full h-full"
+                <div className="h-[215px] rounded-xl col-span-3 overflow-hidden relative">
+                  <Image
                     src="/GalleryPage/wild/l2.jpg"
+                    alt="Wildlife Image 3"
+                    layout="fill"
+                    objectFit="cover"
                   />
                 </div>
-                <div className="h-[215px] rounded-xl col-span-3 overflow-hidden">
-                  <img
-                    className="w-full h-full"
+                <div className="h-[215px] rounded-xl col-span-3 overflow-hidden relative">
+                  <Image
                     src="/GalleryPage/wild/4.jpeg"
+                    alt="Wildlife Image 4"
+                    layout="fill"
+                    objectFit="cover"
                   />
                 </div>
-                <div className="h-[215px] rounded-xl col-span-3 overflow-hidden">
-                  <img
-                    className="w-full h-full"
+                <div className="h-[215px] rounded-xl col-span-3 overflow-hidden relative">
+                  <Image
                     src="/GalleryPage/wild/5.jpeg"
+                    alt="Wildlife Image 5"
+                    layout="fill"
+                    objectFit="cover"
                   />
                 </div>
-
-                <div className="h-[215px] rounded-xl col-span-3 overflow-hidden">
-                  <img
-                    className="w-full h-full"
+                <div className="h-[215px] rounded-xl col-span-3 overflow-hidden relative">
+                  <Image
                     src="/GalleryPage/wild/6.jpeg"
+                    alt="Wildlife Image 6"
+                    layout="fill"
+                    objectFit="cover"
                   />
                 </div>
-                <div className="h-[215px] rounded-xl col-span-3 overflow-hidden">
-                  <img
-                    className="w-full h-full"
+                <div className="h-[215px] rounded-xl col-span-3 overflow-hidden relative">
+                  <Image
                     src="/GalleryPage/wild/7.jpeg"
+                    alt="Wildlife Image 7"
+                    layout="fill"
+                    objectFit="cover"
                   />
                 </div>
-                <div className="h-[215px] rounded-xl col-span-3 overflow-hidden">
-                  <img
-                    className="w-full h-full"
+                <div className="h-[215px] rounded-xl col-span-3 overflow-hidden relative">
+                  <Image
                     src="/GalleryPage/wild/8.jpeg"
+                    alt="Wildlife Image 8"
+                    layout="fill"
+                    objectFit="cover"
                   />
                 </div>
-                <div className="h-[215px] rounded-xl col-span-3 overflow-hidden">
-                  <img
-                    className="w-full h-full"
+                <div className="h-[215px] rounded-xl col-span-3 overflow-hidden relative">
+                  <Image
                     src="/GalleryPage/wild/9.jpeg"
+                    alt="Wildlife Image 9"
+                    layout="fill"
+                    objectFit="cover"
                   />
                 </div>
-                <div className="h-[215px] rounded-xl col-span-3 overflow-hidden">
-                  <img className="w-full h-full" src="/GalleryPage/10.png" />
+                <div className="h-[215px] rounded-xl col-span-3 overflow-hidden relative">
+                  <Image
+                    src="/GalleryPage/10.png"
+                    alt="Gallery Image 10"
+                    layout="fill"
+                    objectFit="cover"
+                  />
                 </div>
               </div>
             </div>

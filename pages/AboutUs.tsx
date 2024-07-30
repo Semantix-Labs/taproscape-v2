@@ -15,7 +15,7 @@ export default function AboutUs() {
 
       <section className="flex ">
         <div className="image-container h-auto lg:h-[600px] 2xl:h-[700px] w-screen overflow-hidden relative">
-          <img src="/kandy.jpg" className="brightness-50" alt="" />
+          <Image width={2560} height={1080} objectFit="cover" src="/kandy.jpg" className="brightness-50" alt="" />
           <div className="text-overlay absolute md:left-10 xl:left-20 2xl:left-40 bottom-5 md:bottom-20 p-4">
             <h1
               style={{ lineHeight: "68px", fontFamily: "bagea" }}
@@ -28,10 +28,12 @@ export default function AboutUs() {
       </section>
 
       <section>
-        <img
+        <Image
           className="w-screen mt-[-10px] md:mt-[-30px] z-20 relative"
           src="/home2.png"
           alt=""
+          width={2560}
+          height={1080}
         />
       </section>
 
@@ -192,10 +194,12 @@ export default function AboutUs() {
                 {" "}
                 <h2 className="pt-1 text-oxfordBlue">Our</h2>
                 <div className="image-container relative">
-                  <img
+                  <Image
                     className="w-48 h-10 lg:w-72 lg:h-16 "
                     src="/textbg.png"
                     alt=""
+                    width={200}
+                    height={200}
                   />
                   <div className="text-overlay absolute top-0  pl-5 pt-1 justify-center ">
                     <p

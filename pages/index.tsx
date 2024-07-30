@@ -10,6 +10,7 @@ import styles from "../styles/indexstyle.module.css";
 import CoverflowSlider from "@/components/CoverflowSlider";
 import App from "@/components/App";
 import Footer from "@/components/Footer";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -60,7 +61,7 @@ export default function Home() {
               <h2 className="pt-1 text-oxfordBlue">Welcome to</h2>
               <div className="image-container relative">
                 <img
-                  className="w-52 h-12 md:h-12 xl:w-80 md:w-48"
+                  className="w-52 h-12  md:h-16 xl:mt-[-20px] xl:w-[340px] md:w-48"
                   src="/textbg.png"
                   alt=""
                 />
@@ -89,10 +90,12 @@ export default function Home() {
             </p>
           </div>
           <div className="grid col-span-1 justify-end">
-            <img
+            <Image
               className="h-[26rem] flex justify-end "
               src="/ayubowan.png"
               alt=""
+              width={800}
+              height={600}
             />
             {/* <div className="flex relative items-center justify-center  ">
               <TripCard

@@ -1,4 +1,5 @@
 import { Card } from "flowbite-react";
+import Image from "next/image";
 import React from "react";
 
 const WhyChooseUs = () => {
@@ -224,7 +225,7 @@ const WhyChooseUs = () => {
         </div>
 
         <div className="overflow-hidden object-cover w-full rounded-md md:w-1/2">
-          <img className="w-full h-full" src="/couple.jpg" alt="" />
+          <Image width={500} height={300} className="w-full h-full" src="/couple.jpg" alt="" />
         </div>
         {/* <div
           style={{
