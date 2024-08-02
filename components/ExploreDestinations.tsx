@@ -7,7 +7,7 @@ const destinations = [
     description:"Discover the Rich Heritage and Natural Beauty of Kandy",
       
     imageUrl: "/kandy.jpg",
-    slug: 'destination1',
+    slug: 'kandy',
     span: "md:col-span-8 ", // First image spans 2 columns in lg and up
     imageSpan:"lg:h-[420px] md:h-[320px] 2xl:h-[470px]",
     span2:"lg:flex justify-between",
@@ -17,7 +17,7 @@ const destinations = [
     description:
       "Experience the Natural Beauty and Adventure of Ella",
     imageUrl: "/ella.jpg",
-    slug: 'destination2',
+    slug: 'Ella',
     span: "md:col-span-4 md:row-span-2", // Second image spans 2 columns in lg and up
     imageSpan:"lg:h-[900px] md:h-[700px] 2xl:h-[1000px]",
   },
@@ -26,7 +26,7 @@ const destinations = [
     description:
       "Discover the Colonial Charm and Natural Splendor of Nuwara Eliya",
     imageUrl: "/Destination/d3.png",
-    slug: 'destination3',
+    slug: 'NuwaraEliya',
     span: "md:col-span-4", // Third image spans 1 column
     imageSpan:"lg:h-[456px] md:h-[356px] 2xl:h-[506px]",
   },
@@ -35,7 +35,7 @@ const destinations = [
     description:
       "Explore the Rich History and Coastal Beauty of Galle",
     imageUrl: "/Destination/d4.png",
-    slug: 'destination4',
+    slug: 'Galle',
     span: "md:col-span-4", // Fourth image spans 1 column
     imageSpan:"lg:h-[456px] md:h-[356px] 2xl:h-[506px]",
   },
@@ -44,7 +44,7 @@ const destinations = [
     description:
       "Experience the Thrilling Wildlife and Natural Beauty of Yala National Park",
     imageUrl: "/Destination/d6.png",
-    slug: 'destination6',
+    slug: 'Yala',
     span: "md:col-span-4 lg:row-span-2", // Second image spans 2 columns in lg and up
     imageSpan:"lg:h-[900px] md:h-[700px] 2xl:h-[1000px]",
   },
@@ -64,7 +64,7 @@ const destinations = [
     description:
       "Explore the Ancient Marvel and Natural Splendor of Sigiriya",
     imageUrl: "/Destination/d7.jpeg",
-    slug: 'destination5',
+    slug: 'Sigiriya',
     span: "md:col-span-4", // Fourth image spans 1 column
     imageSpan:"lg:h-[456px] md:h-[356px] 2xl:h-[506px]",
   },
