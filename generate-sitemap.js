@@ -35,14 +35,12 @@ const SITE_URL = 'https://www.taproscapes.com/';
       {slug1: 'packages', slug: '9', changefreq: 'weekly', priority: 0.9 },
       {slug1: 'packages', slug: '10', changefreq: 'weekly', priority: 0.9 },
       {slug1: 'packages', slug: '11', changefreq: 'weekly', priority: 0.9 },
-      {slug1: 'destinations', slug: 'destination1', changefreq: 'weekly', priority: 0.9 },
-      {slug1: 'destinations', slug: 'destination2', changefreq: 'weekly', priority: 0.9 },
-      {slug1: 'destinations', slug: 'destination3', changefreq: 'weekly', priority: 0.9 },
-      {slug1: 'destinations', slug: 'destination4', changefreq: 'weekly', priority: 0.9 },
-      {slug1: 'destinations', slug: 'destination5', changefreq: 'weekly', priority: 0.9 },
-      {slug1: 'destinations', slug: 'destination6', changefreq: 'weekly', priority: 0.9 },
-      {slug1: 'destinations', slug: 'destination7', changefreq: 'weekly', priority: 0.9 },
-      {slug1: 'destinations', slug: 'destination8', changefreq: 'weekly', priority: 0.9 },
+      {slug1: 'destinations', slug: 'Sigiriya', changefreq: 'weekly', priority: 0.9 },
+      {slug1: 'destinations', slug: 'Galle', changefreq: 'weekly', priority: 0.9 },
+      {slug1: 'destinations', slug: 'NuwaraEliya', changefreq: 'weekly', priority: 0.9 },
+      {slug1: 'destinations', slug: 'Ella', changefreq: 'weekly', priority: 0.9 },
+      {slug1: 'destinations', slug: 'Yala', changefreq: 'weekly', priority: 0.9 },
+     
      
     ];
     const destination = [

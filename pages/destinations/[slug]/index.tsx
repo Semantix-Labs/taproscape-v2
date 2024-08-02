@@ -209,12 +209,12 @@ const DestinationDetail: NextPage<DestinationDetailProps> = ({
 export const getStaticPaths: GetStaticPaths = async () => {
   // Sample data; replace with a real API call or data fetching logic
   const paths = [
-    { params: { slug: "destination1" } },
-    { params: { slug: "destination2" } },
-    { params: { slug: "destination3" } },
-    { params: { slug: "destination4" } },
-    { params: { slug: "destination5" } },
-    { params: { slug: "destination6" } },
+    { params: { slug: "kandy" } },
+    { params: { slug: "Ella" } },
+    { params: { slug: "Nuwara Eliya" } },
+    { params: { slug: "Galle" } },
+    { params: { slug: "Sigiriya" } },
+    { params: { slug: "Yala" } },
     { params: { slug: "destination7" } },
     { params: { slug: "destination8" } },
   ];
@@ -228,7 +228,7 @@ export const getStaticProps: GetStaticProps = async (context) => {
 
   // Sample data; replace with a real API call or data fetching logic
   const destinationData: { [key: string]: DestinationDetailProps } = {
-    destination1: {
+    kandy: {
       destinationname: "Kandy",
       artiImge: [
         "/Destination/arti/1.png",
@@ -305,7 +305,7 @@ export const getStaticProps: GetStaticProps = async (context) => {
         "Top Attractions in Kandy"
       ]
     },
-    destination2: {
+    Ella: {
       destinationname: "Ella ",
       artiImge: [
         "/Destination/arti/1.png",
@@ -383,7 +383,7 @@ export const getStaticProps: GetStaticProps = async (context) => {
         "Top Attractions in Kandy"
       ]
     },
-    destination3: {
+    NuwaraEliya: {
       destinationname: "Nuwara Eliya ",
       artiImge: [
         "/Destination/arti/1.png",
@@ -462,7 +462,7 @@ export const getStaticProps: GetStaticProps = async (context) => {
         "Top Attractions in Kandy"
       ]
     },
-    destination4: {
+    Galle: {
       destinationname: "Galle ",
       artiImge: [
         "/Destination/arti/1.png",
@@ -543,7 +543,7 @@ export const getStaticProps: GetStaticProps = async (context) => {
         "Top Attractions in Kandy"
       ]
     },
-    destination5: {
+    Sigiriya: {
       destinationname: " Sigiriya",
       artiImge: [
         "/Destination/arti/1.png",
@@ -621,8 +621,8 @@ export const getStaticProps: GetStaticProps = async (context) => {
         "Top Attractions in Kandy"
       ]
     },
-    destination6: {
-      destinationname: " ",
+    Yala: {
+      destinationname: "Yala National Park",
       artiImge: [
         "/Destination/arti/1.png",
         "/Destination/arti/2.png",
