@@ -1,4 +1,3 @@
-// generate-sitemap.js
 const { SitemapStream, streamToPromise } = require('sitemap');
 const { Readable } = require('stream');
 const fs = require('fs');
@@ -16,7 +15,6 @@ const SITE_URL = 'https://www.taproscapes.com/';
     { url: '/Gallery', changefreq: 'monthly', priority: 0.8 },
     { url: '/Destination', changefreq: 'monthly', priority: 0.8 },
     { url: '/TourPackages', changefreq: 'monthly', priority: 0.8 },
-   
   ];
 
   // Example function to fetch dynamic paths (e.g., blog posts)
@@ -24,27 +22,22 @@ const SITE_URL = 'https://www.taproscapes.com/';
     // Replace this with your actual data-fetching logic
     // Example with mock data:
     const posts = [
-      {slug1: 'packages', slug: '1', changefreq: 'weekly', priority: 0.9 },
-      {slug1: 'packages', slug: '2', changefreq: 'weekly', priority: 0.9 },
-      {slug1: 'packages', slug: '3', changefreq: 'weekly', priority: 0.9 },
-      {slug1: 'packages', slug: '4', changefreq: 'weekly', priority: 0.9 },
-      {slug1: 'packages', slug: '5', changefreq: 'weekly', priority: 0.9 },
-      {slug1: 'packages', slug: '6', changefreq: 'weekly', priority: 0.9 },
-      {slug1: 'packages', slug: '7', changefreq: 'weekly', priority: 0.9 },
-      {slug1: 'packages', slug: '8', changefreq: 'weekly', priority: 0.9 },
-      {slug1: 'packages', slug: '9', changefreq: 'weekly', priority: 0.9 },
-      {slug1: 'packages', slug: '10', changefreq: 'weekly', priority: 0.9 },
-      {slug1: 'packages', slug: '11', changefreq: 'weekly', priority: 0.9 },
-      {slug1: 'destinations', slug: 'Sigiriya', changefreq: 'weekly', priority: 0.9 },
-      {slug1: 'destinations', slug: 'Galle', changefreq: 'weekly', priority: 0.9 },
-      {slug1: 'destinations', slug: 'NuwaraEliya', changefreq: 'weekly', priority: 0.9 },
-      {slug1: 'destinations', slug: 'Ella', changefreq: 'weekly', priority: 0.9 },
-      {slug1: 'destinations', slug: 'Yala', changefreq: 'weekly', priority: 0.9 },
-     
-     
-    ];
-    const destination = [
-      { slug: '/packages/1', changefreq: 'weekly', priority: 0.9 },
+      { slug1: 'packages', slug: '1', changefreq: 'weekly', priority: 0.9 },
+      { slug1: 'packages', slug: '2', changefreq: 'weekly', priority: 0.9 },
+      { slug1: 'packages', slug: '3', changefreq: 'weekly', priority: 0.9 },
+      { slug1: 'packages', slug: '4', changefreq: 'weekly', priority: 0.9 },
+      { slug1: 'packages', slug: '5', changefreq: 'weekly', priority: 0.9 },
+      { slug1: 'packages', slug: '6', changefreq: 'weekly', priority: 0.9 },
+      { slug1: 'packages', slug: '7', changefreq: 'weekly', priority: 0.9 },
+      { slug1: 'packages', slug: '8', changefreq: 'weekly', priority: 0.9 },
+      { slug1: 'packages', slug: '9', changefreq: 'weekly', priority: 0.9 },
+      { slug1: 'packages', slug: '10', changefreq: 'weekly', priority: 0.9 },
+      { slug1: 'packages', slug: '11', changefreq: 'weekly', priority: 0.9 },
+      { slug1: 'destinations', slug: 'Sigiriya', changefreq: 'weekly', priority: 0.9 },
+      { slug1: 'destinations', slug: 'Galle', changefreq: 'weekly', priority: 0.9 },
+      { slug1: 'destinations', slug: 'NuwaraEliya', changefreq: 'weekly', priority: 0.9 },
+      { slug1: 'destinations', slug: 'Ella', changefreq: 'weekly', priority: 0.9 },
+      { slug1: 'destinations', slug: 'Yala', changefreq: 'weekly', priority: 0.9 },
     ];
 
     return posts.map(post => ({
@@ -52,8 +45,6 @@ const SITE_URL = 'https://www.taproscapes.com/';
       changefreq: post.changefreq,
       priority: post.priority,
     }));
-
-  
   };
 
   // Fetch dynamic paths
@@ -71,5 +62,16 @@ const SITE_URL = 'https://www.taproscapes.com/';
   // Save the sitemap to the public directory
   fs.writeFileSync(path.resolve(__dirname, 'public', 'sitemap.xml'), xmlData);
 
-  console.log('Sitemap generated successfully!');
+  // Generate robots.txt content
+  const robotsTxt = `
+    User-agent: *
+    Allow: /
+
+    Sitemap: ${SITE_URL}sitemap.xml
+  `;
+
+  // Save robots.txt to the public directory
+  fs.writeFileSync(path.resolve(__dirname, 'public', 'robots.txt'), robotsTxt.trim());
+
+  console.log('Sitemap and robots.txt generated successfully!');
 })();
