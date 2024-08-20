@@ -4,7 +4,7 @@ const fs = require('fs');
 const path = require('path');
 
 // Define your site's base URL
-const SITE_URL = 'https://www.taproscapes.com/';
+const SITE_URL = 'https://www.taproscapes.com';
 
 (async () => {
   // Static paths
@@ -64,10 +64,14 @@ const SITE_URL = 'https://www.taproscapes.com/';
 
   // Generate robots.txt content
   const robotsTxt = `
+  # *
     User-agent: *
     Allow: /
+  # Host
+   Host: http://www.taproscapes.com
 
-    Sitemap: ${SITE_URL}sitemap.xml
+  # Sitemap
+  Sitemap: ${SITE_URL}/sitemap.xml
   `;
 
   // Save robots.txt to the public directory

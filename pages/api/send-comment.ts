@@ -17,7 +17,7 @@ const sendComment = async (req: NextApiRequest, res: NextApiResponse) => {
     // Create the email options
     const mailOptions = {
       from: process.env.EMAIL_USER,
-      to: 'recipient@example.com', // Replace with your desired recipient
+      to: 'taproscapes@gmail.com', // Replace with your desired recipient
       subject: 'New Comment Submission',
       text: `
         Name: ${name}
