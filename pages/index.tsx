@@ -53,9 +53,9 @@ export default function Home() {
         />
       </section>
 
-      <section className=" pt-20  overflow-hidden px-5 lg:px-20 2xl:px-40   ">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          <div className="grid col-span-1">
+      <section className=" pt-20   px-5 lg:px-20 2xl:px-40   ">
+        <div className="grid grid-cols-1 md:grid-cols-2  gap-8">
+          <div className="grid col-span-1 my-auto">
             <div className="flex text-2xl md:text-3xl lg:text-3xl xl:text-4xl ">
               {" "}
               <h2 className="pt-1 text-oxfordBlue">Welcome to</h2>
@@ -89,33 +89,17 @@ export default function Home() {
               individual preferences and interests.
             </p>
           </div>
-          <div className="grid col-span-1 justify-end">
+          <div className="grid col-span-1  xl:h-[500px] 2xl:h-[700px] justify-end relative">
+            
             <Image
-              className="h-[26rem] flex justify-end "
+              className=" object-center lay justify-end  "
               src="/ayubowan.png"
               alt=""
-              width={800}
-              height={600}
+              objectFit="cover"
+              layout="fill"
+
             />
-            {/* <div className="flex relative items-center justify-center  ">
-              <TripCard
-                mainImage="/ayubowan.png"
-                mainTitle="Trip To Ella"
-                mainDate="14-29 June"
-                mainAuthor="Robbin Jones"
-                mainPeopleCount={24}
-                overlayImage="/ayubowan.png"
-                overlayTitle="Trip to Galle"
-                overlayCompletion={40}
-              />
-              <div className="absolute top-0 left-0 w-[370px] h-[382px">
-                <img
-                  className="flex justify-center items-center 2xl:ml-72 md:ml-72 2xl:w-[370px] 2xl:h-[382px] md:w-[370px] md:h-[382px]"
-                  src="/e.png"
-                  alt=""
-                />
-              </div>
-            </div> */}
+        
           </div>
         </div>
       </section>
