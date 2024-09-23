@@ -46,7 +46,7 @@ const MessengerChat: React.FC = () => {
       initializeFacebookSDK();
     } catch (error) {
       console.error('Error initializing Facebook SDK:', error);
-      setDebug(`Error: ${error.message}`);
+      
     }
 
     return () => {
