@@ -1,5 +1,4 @@
 
-
 import Link from "next/link";
 import Navbar from "@/components/Navbar";
 import TripCard from "../components/TripCard";
@@ -11,6 +10,7 @@ import CoverflowSlider from "@/components/CoverflowSlider";
 import App from "@/components/App";
 import Footer from "@/components/Footer";
 import Image from "next/image";
+import MessengerChat from "@/components/MessengerChat";
 
 export default function Home() {
   return (
@@ -119,6 +119,9 @@ export default function Home() {
           alt=""
         />
       </section>
+
+      
+      <MessengerChat />
 
       <section>
         <WhyChooseUs />
