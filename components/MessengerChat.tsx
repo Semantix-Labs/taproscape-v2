@@ -4,6 +4,7 @@ declare global {
   interface Window {
     fbAsyncInit: () => void;
     FB: any;
+    
   }
 }
 
@@ -67,7 +68,7 @@ const MessengerChat: React.FC = () => {
       <div id="fb-root"></div>
       <div
         className="fb-customerchat"
-        attribution="biz_inbox"
+        
         page_id={process.env.NEXT_PUBLIC_FB_PAGE_ID}
       ></div>
       {debug && <div style={{ position: 'fixed', bottom: 0, right: 0, background: 'white', padding: '10px' }}>{debug}</div>}
