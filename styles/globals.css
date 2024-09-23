@@ -48,3 +48,13 @@ p{
     font-size: 18px;}
 }
 
+
+/* globals.css or bagea.css */
+.custom-facebook-chat {
+  position: fixed;
+  right: 2px;
+  bottom: 2px;
+  z-index: 9999;
+}
+
+
