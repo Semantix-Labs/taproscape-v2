@@ -10,7 +10,7 @@ import CoverflowSlider from "@/components/CoverflowSlider";
 import App from "@/components/App";
 import Footer from "@/components/Footer";
 import Image from "next/image";
-import MessengerChat from "@/components/MessengerChat";
+
 
 export default function Home() {
   return (
@@ -121,7 +121,7 @@ export default function Home() {
       </section>
 
       
-      <MessengerChat />
+     
 
       <section>
         <WhyChooseUs />

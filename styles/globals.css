@@ -49,12 +49,13 @@ p{
 }
 
 
-/* globals.css or bagea.css */
-.custom-facebook-chat {
-  position: fixed;
-  right: 2px;
-  bottom: 2px;
-  z-index: 9999;
+.fb_dialog,
+.fb-customerchat iframe {
+  z-index: 1000000 !important;
+  display: block !important;
+  opacity: 1 !important;
+  visibility: visible !important;
 }
+
 
 
