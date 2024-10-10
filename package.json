@@ -13,6 +13,7 @@
     "facebook-sdk": "^0.3.2",
     "flowbite-react": "^0.10.1",
     "leaflet": "^1.9.4",
+    "lucide-react": "^0.451.0",
     "next": "^14.2.13",
     "nodemailer": "^6.9.14",
     "react": "^18",
