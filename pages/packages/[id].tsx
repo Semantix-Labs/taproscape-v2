@@ -17,6 +17,7 @@ import { StaticImport } from "next/dist/shared/lib/get-img-props";
 import Navbar from "@/components/Navbar";
 import { Card } from "flowbite-react";
 import CommentForm from "@/components/CommentForm";
+import axios from 'axios'; // Import axios
 
 // Simulated data for demonstration purposes
 const travelPackages = [
@@ -2554,6 +2555,34 @@ const PackageDetails = () => {
   const [activeButton, setActiveButton] = useState<string>("information");
   const [activeSubButton, setActiveSubButton] = useState("package1");
   const [activeSubTab, setActiveSubTab] = useState("package1");
+  const [email, setEmail] = useState('');
+  const [status, setStatus] = useState<string | null>(null);
+
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    setStatus(null);
+
+    try {
+      // Use axios to post data
+      const response = await axios.post('/api/subscribe', { email });
+
+      if (response.status === 200) { // Check if the request was successful
+        setStatus('Subscription successful!');
+        setTimeout(() => setStatus(null), 3000);
+        setEmail('');
+      } else {
+        setStatus(response.data.message || 'Failed to subscribe. Try again later.');
+      }
+    } catch (error) {
+      if (axios.isAxiosError(error)) {
+        // Handle error returned from the server
+        setStatus(error.response?.data.message || 'An error occurred. Please try again.');
+      } else {
+        // Handle unexpected errors
+        setStatus('An error occurred. Please try again.');
+      }
+    }
+  };
 
   const handleMouseEnter = (buttonName: string) => {
     setHoveredButton(buttonName);
@@ -4608,17 +4637,35 @@ const PackageDetails = () => {
         }}
         className="  md:h-[265px] overflow-hidden w-full"
       >
-        <div className="justify-center gap-8 py-16 lg:py-28 flex">
-          <label
-            htmlFor="my-modal"
-            className="search-button border-2 border-gray-600 bg-white w-1/2 h-8 md:h-auto py-1 px-2 md:py-4 md:px-6 rounded-lg "
-          >
-            <h2 className=" md:text-2xl"> Email</h2>
-          </label>
-          <button className=" border-2 border-gray-600 w-1/4 py-1 px-2 md:py-4 md:px-6 uppercase bg-tropicalRainForest text-[8px] md:text-sm lg:text-xl text-white rounded-lg">
-            SUBSCRIBE OUR NEWSLETTER
-          </button>
-        </div>
+         <div className=" py-24">
+          <form onSubmit={handleSubmit} className="flex w-full justify-center">
+        <label htmlFor="email" className="sr-only">
+          Email Subscription
+        </label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Email"
+          className="mt-1 flex w-1/2 search-button cursor-pointer border-2 text-sm md:text-xl xl:text-2xl border-gray-600 bg-white h-8 md:h-auto py-1 px-2 md:py-5 md:px-6 rounded-lg"
+          required
+          aria-label="Email for Newsletter Subscription"
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
+        />
+        <button
+          type="submit"
+          className="border-2 border-gray-600 w-1/4 py-1 px-2 md:py-1 md:px-6 uppercase bg-tropicalRainForest text-[8px] md:text-sm lg:text-xl text-white rounded-lg"
+          aria-label="Subscribe to Newsletter"
+        >
+          SUBSCRIBE OUR NEWSLETTER
+        </button>
+      </form>
+      {status && 
+      <div className="flex justify-center "> <p className="mt-4 text-sm text-white flex justify-center bg-tropicalRainForest px-3 py-2 w-48 rounded-tl-lg rounded-b-lg item-center ">{status}</p>
+      </div>
+     }
+          </div>
       </section>
     </div>
   );
